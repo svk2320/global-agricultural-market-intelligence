@@ -1,0 +1,737 @@
+{
+  "table": "raw.employment_indicators_agriculture",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 256389,
+    "column_count": 17
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Sex Code": "BIGINT",
+    "Sex": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 256389,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 19,
+        "null_pct": 0.01
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 79957,
+        "null_pct": 31.19
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 266
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 266
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 266
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 11
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 11
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 32
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 32
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "distinct_count": 3
+    },
+    "Sex": {
+      "column": "Sex",
+      "distinct_count": 3
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 79
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 79
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 69341
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 5
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 430
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 615.5320977109002,
+      "median": 137.0,
+      "stddev": 1523.0078134530165
+    },
+    "Source Code": {
+      "min": 3015,
+      "max": 3047,
+      "mean": 3034.1721485711164,
+      "median": 3043.0,
+      "stddev": 10.487084885660527
+    },
+    "Indicator Code": {
+      "min": 21066,
+      "max": 21169,
+      "mean": 21136.80654786282,
+      "median": 21152.0,
+      "stddev": 31.167212380468012
+    },
+    "Sex Code": {
+      "min": 1,
+      "max": 3,
+      "mean": 1.9991848324226078,
+      "median": 2.0,
+      "stddev": 0.8367654455517162
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 6228,
+      "mean": 6162.776960009985,
+      "median": 6173.0,
+      "stddev": 38.88893013532558
+    },
+    "Year Code": {
+      "min": 1947,
+      "max": 2025,
+      "mean": 2010.3253688730795,
+      "median": 2011.0,
+      "stddev": 9.382753961586968
+    },
+    "Year": {
+      "min": 1947,
+      "max": 2025,
+      "mean": 2010.3253688730795,
+      "median": 2011.0,
+      "stddev": 9.382753961586968
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 1394349.56,
+      "mean": 3543.4545302102474,
+      "median": 42.07,
+      "stddev": 31429.972801797565
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 70.0,
+      "q3": 211.0,
+      "lower_bound": -141.5,
+      "upper_bound": 422.5,
+      "outlier_count": 23789
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3023.0,
+      "q3": 3044.0,
+      "lower_bound": 2991.5,
+      "upper_bound": 3075.5,
+      "outlier_count": 0
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 21107.0,
+      "q3": 21161.0,
+      "lower_bound": 21026.0,
+      "upper_bound": 21242.0,
+      "outlier_count": 0
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6199.0,
+      "lower_bound": 6004.0,
+      "upper_bound": 6316.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2004.0,
+      "q3": 2018.0,
+      "lower_bound": 1983.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 2480
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2004.0,
+      "q3": 2018.0,
+      "lower_bound": 1983.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 2480
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 13.2,
+      "q3": 171.1875,
+      "lower_bound": -223.78125000000003,
+      "upper_bound": 408.16875000000005,
+      "outlier_count": 49712
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'124",
+          "count": 2645
+        },
+        {
+          "value": "'724",
+          "count": 2503
+        },
+        {
+          "value": "'826",
+          "count": 2426
+        },
+        {
+          "value": "'380",
+          "count": 2394
+        },
+        {
+          "value": "'620",
+          "count": 2378
+        },
+        {
+          "value": "'250",
+          "count": 2369
+        },
+        {
+          "value": "'300",
+          "count": 2361
+        },
+        {
+          "value": "'756",
+          "count": 2312
+        },
+        {
+          "value": "'578",
+          "count": 2268
+        },
+        {
+          "value": "'528",
+          "count": 2239
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Canada",
+          "count": 2645
+        },
+        {
+          "value": "Spain",
+          "count": 2503
+        },
+        {
+          "value": "United Kingdom of Great Britain and Northern Ireland",
+          "count": 2426
+        },
+        {
+          "value": "Italy",
+          "count": 2394
+        },
+        {
+          "value": "Portugal",
+          "count": 2378
+        },
+        {
+          "value": "France",
+          "count": 2369
+        },
+        {
+          "value": "Greece",
+          "count": 2361
+        },
+        {
+          "value": "Switzerland",
+          "count": 2312
+        },
+        {
+          "value": "Norway",
+          "count": 2268
+        },
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 2239
+        }
+      ]
+    },
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "ILOSTAT - Labour force survey",
+          "count": 96641
+        },
+        {
+          "value": "FAO Model",
+          "count": 84311
+        },
+        {
+          "value": "ILO - ILO Modelled Estimates",
+          "count": 47376
+        },
+        {
+          "value": "ILOSTAT - Household survey",
+          "count": 9069
+        },
+        {
+          "value": "ILOSTAT - Household income and expenditure survey",
+          "count": 6693
+        },
+        {
+          "value": "ILO - Modelled Estimates; FAOSTAT - Value added (2015 US$)",
+          "count": 6105
+        },
+        {
+          "value": "ILOSTAT - Population census",
+          "count": 2086
+        },
+        {
+          "value": "ILOSTAT - Employment surveys",
+          "count": 1884
+        },
+        {
+          "value": "ILOSTAT - Official estimates",
+          "count": 1266
+        },
+        {
+          "value": "ILOSTAT - Administrative records",
+          "count": 535
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Share of employment in agriculture in total employment - ILO Modelled Estimates",
+          "count": 23688
+        },
+        {
+          "value": "Employment in agriculture - ILO modelled estimates",
+          "count": 23688
+        },
+        {
+          "value": "Total employment in agrifood systems (AFS)",
+          "count": 13283
+        },
+        {
+          "value": "Share of AFS employment in total employment",
+          "count": 13283
+        },
+        {
+          "value": "Share of agricultural employment in total AFS employment",
+          "count": 13196
+        },
+        {
+          "value": "Share of employment in agriculture in total employment",
+          "count": 12555
+        },
+        {
+          "value": "Share of non-agricultural AFS employment in total AFS employment",
+          "count": 12061
+        },
+        {
+          "value": "Total non-agricultural AFS employment",
+          "count": 12061
+        },
+        {
+          "value": "Share of non-agricultural AFS employment in total employment",
+          "count": 12061
+        },
+        {
+          "value": "Share of employees in agriculture in total employees",
+          "count": 10269
+        }
+      ]
+    },
+    "Sex": {
+      "column": "Sex",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 89863
+        },
+        {
+          "value": "Female",
+          "count": 89654
+        },
+        {
+          "value": "Male",
+          "count": 76872
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 256389
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "1000 No",
+          "count": 119487
+        },
+        {
+          "value": "%",
+          "count": 116606
+        },
+        {
+          "value": "No",
+          "count": 14191
+        },
+        {
+          "value": "USD",
+          "count": 6105
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 157785
+        },
+        {
+          "value": "E",
+          "count": 84311
+        },
+        {
+          "value": "B",
+          "count": 9780
+        },
+        {
+          "value": "U",
+          "count": 4494
+        },
+        {
+          "value": "L",
+          "count": 19
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing",
+          "count": 68327
+        },
+        {
+          "value": "Modelled FAO",
+          "count": 46418
+        },
+        {
+          "value": "Modelled using ISIC shares",
+          "count": 9714
+        },
+        {
+          "value": "Break in series: Methodology revised Repository: ILO-STATISTICS - Micro data processing",
+          "count": 7267
+        },
+        {
+          "value": "Adjusted",
+          "count": 5158
+        },
+        {
+          "value": "Job coverage: Main job currently held Repository: ILO-STATISTICS - Micro data processing",
+          "count": 4883
+        },
+        {
+          "value": "Interpolated",
+          "count": 4452
+        },
+        {
+          "value": "Repository: Eurostat special tabulation",
+          "count": 3895
+        },
+        {
+          "value": "Total AFS Employment includes only Agriculture",
+          "count": 3417
+        },
+        {
+          "value": "Unreliable Repository: ILO-STATISTICS - Micro data processing",
+          "count": 2871
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Source Code",
+        "correlation": 0.2913851808923934
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Indicator Code",
+        "correlation": 0.2307117720467505
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Sex Code",
+        "correlation": 0.026481612682613464
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -0.11092249959616755
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.00596498187591186
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.00596498187591186
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.19997907134301737
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Indicator Code",
+        "correlation": 0.6190053534588859
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Sex Code",
+        "correlation": 0.006386155226740044
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Element Code",
+        "correlation": -0.24534660239545267
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Year Code",
+        "correlation": -0.012651174007172859
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Year",
+        "correlation": -0.012651174007172859
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Value",
+        "correlation": 0.08572618331186516
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Sex Code",
+        "correlation": 0.1193922933156957
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": -0.6645655006351402
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year Code",
+        "correlation": -0.07765169134091233
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year",
+        "correlation": -0.077651691340912
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": 0.018889338365713385
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Element Code",
+        "correlation": -0.09891786697122718
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year Code",
+        "correlation": 0.015984049780843237
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year",
+        "correlation": 0.015984049780843168
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Value",
+        "correlation": -0.050035094077510285
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.0736249388755064
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.07362493887550696
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.11138669693591442
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999997
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.0016086839926663437
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.0016086839926663437
+      }
+    ]
+  }
+}

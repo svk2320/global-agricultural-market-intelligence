@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Investment_CountryInvestmentStatisticsProfile_E_All_Data_(Normalized)__Investment_CountryInvestmentStatisticsProfile_E_Flags",
+  "file_path": "FAOSTAT_A-S_E/Investment_CountryInvestmentStatisticsProfile_E_All_Data_(Normalized)/Investment_CountryInvestmentStatisticsProfile_E_Flags.parquet",
+  "file_size_bytes": 1091,
+  "file_size_human": "1.1KB",
+  "last_modified": "2026-07-05T03:52:40.812755+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:14.242584+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 6,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "A",
+        "E",
+        "F"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Description",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Official figure",
+        "Estimated value",
+        "Forecast value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

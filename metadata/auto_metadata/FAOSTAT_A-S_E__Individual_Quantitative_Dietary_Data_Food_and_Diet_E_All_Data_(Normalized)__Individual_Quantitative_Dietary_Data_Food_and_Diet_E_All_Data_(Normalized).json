@@ -1,0 +1,283 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized)__Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized)/Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 3610010,
+  "file_size_human": "3.4MB",
+  "last_modified": "2026-07-05T03:52:39.601394+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:10.578164+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 2191084,
+  "column_count": 18,
+  "columns": [
+    {
+      "name": "Survey Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "076_20082009",
+        "076_2014",
+        "076_20172018"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Survey",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Brazil - 2008-2009",
+        "Brazil - 2014",
+        "Brazil - 2017-2018"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Geographic Level Code",
+      "type": "Int64",
+      "nullable": true,
+      "null_count": 1950294,
+      "null_percent": 89.01,
+      "sample_values": [
+        "10000",
+        "10001",
+        "10002"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Geographic Level",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "National",
+        "Urban",
+        "Rural"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Population Age Group Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "allages",
+        "9t18y",
+        "9t13y"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Population Age Group",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "All",
+        "9-18 years",
+        "9-13 years"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Food Group Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "FGD",
+        "FG0",
+        "FG1"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Food Group",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "All food groups (excluding beverages)",
+        "All food groups",
+        "Cereals and their products"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Indicator Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3320",
+        "3321",
+        "3322"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Indicator",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Food consumption, all subjects",
+        "Food consumption, consumers only",
+        "Percentage of consumers"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "6123",
+        "6121",
+        "6120"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Sex Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sex",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Total",
+        "Male",
+        "Female"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "g/cap/d",
+        "%",
+        ""
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1032.3",
+        "1134.64",
+        "939.09"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "E"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Note",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Brazil-2008-2009",
+        "Brazil-2014",
+        "Brazil-2017-18"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,66 @@
+{
+  "table": "raw.cost_affordability_healthy_diet_coahd_elements",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 4
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 6121,
+      "max": 6226,
+      "mean": 6171.0,
+      "median": 6168.5,
+      "stddev": 52.28766584960536
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 6129.25,
+      "q3": 6210.25,
+      "lower_bound": 6007.75,
+      "upper_bound": 6331.75,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

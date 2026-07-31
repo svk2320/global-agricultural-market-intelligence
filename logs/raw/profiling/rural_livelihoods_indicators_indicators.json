@@ -1,0 +1,102 @@
+{
+  "table": "raw.rural_livelihoods_indicators_indicators",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 143,
+    "column_count": 2
+  },
+  "schema": {
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 143,
+    "columns": {
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 143
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 143
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 24200,
+      "max": 24342,
+      "mean": 24271.0,
+      "median": 24271.0,
+      "stddev": 41.42463035441742
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 24235.5,
+      "q3": 24306.5,
+      "lower_bound": 24129.0,
+      "upper_bound": 24413.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Children employed in agriculture; 15-17 years old (% of total children in employment; aged 15-17)",
+          "count": 1
+        },
+        {
+          "value": "Females to male ratio in member-based organizations/groups (real number)",
+          "count": 1
+        },
+        {
+          "value": "Gini coefficient of cultivated land (real number)",
+          "count": 1
+        },
+        {
+          "value": "Households using chemicals; share of crop farm households (%)",
+          "count": 1
+        },
+        {
+          "value": "Households with emigrants who moved abroad for work-related reasons; share of total households with international emigrants (%)",
+          "count": 1
+        },
+        {
+          "value": "Inputs; technology and credit",
+          "count": 1
+        },
+        {
+          "value": "Land area owned; share of total farm area (%)",
+          "count": 1
+        },
+        {
+          "value": "Livestock farm households; share of total farm households (%)",
+          "count": 1
+        },
+        {
+          "value": "Population that lives more than 5 km from primary school; share of total population (%)",
+          "count": 1
+        },
+        {
+          "value": "Population with access to mobile telephone; share of total population (%)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

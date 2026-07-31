@@ -1,0 +1,102 @@
+{
+  "table": "raw.fertilizers_detailedtradematrix_elements",
+  "generated_at": "2026-07-07T19:15:52",
+  "dataset_summary": {
+    "row_count": 10,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 10,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 10
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 10
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5610,
+      "max": 59104,
+      "mean": 36868.2,
+      "median": 56102.5,
+      "stddev": 26796.701939687362
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 5913.0,
+      "q3": 58352.5,
+      "lower_bound": -72746.25,
+      "upper_bound": 137011.75,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Export quantity",
+          "count": 1
+        },
+        {
+          "value": "Export quantity (tonnes K)",
+          "count": 1
+        },
+        {
+          "value": "Export value",
+          "count": 1
+        },
+        {
+          "value": "Export quantity (tonnes N)",
+          "count": 1
+        },
+        {
+          "value": "Import value",
+          "count": 1
+        },
+        {
+          "value": "Export quantity (tonnes P)",
+          "count": 1
+        },
+        {
+          "value": "Import quantity (tonnes K)",
+          "count": 1
+        },
+        {
+          "value": "Import quantity",
+          "count": 1
+        },
+        {
+          "value": "Import quantity (tonnes N)",
+          "count": 1
+        },
+        {
+          "value": "Import quantity (tonnes P)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

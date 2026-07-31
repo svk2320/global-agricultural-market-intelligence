@@ -1,0 +1,664 @@
+{
+  "table": "raw.prices",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 1319563,
+    "column_count": 15
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item Code (CPC)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Months Code": "BIGINT",
+    "Months": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1319563,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (CPC)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 182
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 182
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 182
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 235
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "distinct_count": 235
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 235
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 35
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 35
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "distinct_count": 13
+    },
+    "Months": {
+      "column": "Months",
+      "distinct_count": 13
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 232339
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 299,
+      "mean": 127.67734469669125,
+      "median": 126.0,
+      "stddev": 74.1502984721397
+    },
+    "Item Code": {
+      "min": 15,
+      "max": 2051,
+      "mean": 587.5886918623817,
+      "median": 486.0,
+      "stddev": 442.4300956300389
+    },
+    "Element Code": {
+      "min": 5530,
+      "max": 5539,
+      "mean": 5533.340143668775,
+      "median": 5531.0,
+      "stddev": 4.011113686882531
+    },
+    "Year Code": {
+      "min": 1991,
+      "max": 2025,
+      "mean": 2010.7941477595234,
+      "median": 2013.0,
+      "stddev": 9.447081025115752
+    },
+    "Year": {
+      "min": 1991,
+      "max": 2025,
+      "mean": 2010.7941477595234,
+      "median": 2013.0,
+      "stddev": 9.447081025115782
+    },
+    "Months Code": {
+      "min": 7001,
+      "max": 7021,
+      "mean": 7016.873973429082,
+      "median": 7021.0,
+      "stddev": 6.7896904655636625
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 11250000000.0,
+      "mean": 1108005.516255772,
+      "median": 746.5,
+      "stddev": 41520518.56340166
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 59.0,
+      "q3": 186.0,
+      "lower_bound": -131.5,
+      "upper_bound": 376.5,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 267.0,
+      "q3": 882.0,
+      "lower_bound": -655.5,
+      "upper_bound": 1804.5,
+      "outlier_count": 15187
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5530.0,
+      "q3": 5539.0,
+      "lower_bound": 5516.5,
+      "upper_bound": 5552.5,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2003.0,
+      "q3": 2019.0,
+      "lower_bound": 1979.0,
+      "upper_bound": 2043.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2003.0,
+      "q3": 2019.0,
+      "lower_bound": 1979.0,
+      "upper_bound": 2043.0,
+      "outlier_count": 0
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "q1": 7011.0,
+      "q3": 7021.0,
+      "lower_bound": 6996.0,
+      "upper_bound": 7036.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 104.3,
+      "q3": 8490.05,
+      "lower_bound": -12474.325,
+      "upper_bound": 21068.675,
+      "outlier_count": 260856
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'792",
+          "count": 26269
+        },
+        {
+          "value": "'604",
+          "count": 25275
+        },
+        {
+          "value": "'724",
+          "count": 24541
+        },
+        {
+          "value": "'710",
+          "count": 20568
+        },
+        {
+          "value": "'608",
+          "count": 20531
+        },
+        {
+          "value": "'348",
+          "count": 19862
+        },
+        {
+          "value": "'156",
+          "count": 19801
+        },
+        {
+          "value": "'840",
+          "count": 19359
+        },
+        {
+          "value": "'376",
+          "count": 19292
+        },
+        {
+          "value": "'484",
+          "count": 17079
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "T\u00fcrkiye",
+          "count": 26269
+        },
+        {
+          "value": "Peru",
+          "count": 25275
+        },
+        {
+          "value": "Spain",
+          "count": 24541
+        },
+        {
+          "value": "South Africa",
+          "count": 20568
+        },
+        {
+          "value": "Philippines",
+          "count": 20531
+        },
+        {
+          "value": "Hungary",
+          "count": 19862
+        },
+        {
+          "value": "China, mainland",
+          "count": 19801
+        },
+        {
+          "value": "United States of America",
+          "count": 19359
+        },
+        {
+          "value": "Israel",
+          "count": 19292
+        },
+        {
+          "value": "Mexico",
+          "count": 17079
+        }
+      ]
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "top_values": [
+        {
+          "value": "'01234",
+          "count": 24946
+        },
+        {
+          "value": "'01510",
+          "count": 24533
+        },
+        {
+          "value": "'02211",
+          "count": 23856
+        },
+        {
+          "value": "'0112",
+          "count": 23675
+        },
+        {
+          "value": "'0231",
+          "count": 23549
+        },
+        {
+          "value": "'01212",
+          "count": 21837
+        },
+        {
+          "value": "'01253.02",
+          "count": 20850
+        },
+        {
+          "value": "'01232",
+          "count": 20643
+        },
+        {
+          "value": "'01251",
+          "count": 20478
+        },
+        {
+          "value": "'21111.01b",
+          "count": 19996
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Tomatoes",
+          "count": 24946
+        },
+        {
+          "value": "Potatoes",
+          "count": 24533
+        },
+        {
+          "value": "Raw milk of cattle",
+          "count": 23856
+        },
+        {
+          "value": "Maize (corn)",
+          "count": 23675
+        },
+        {
+          "value": "Hen eggs in shell, fresh",
+          "count": 23549
+        },
+        {
+          "value": "Cabbages",
+          "count": 21837
+        },
+        {
+          "value": "Onions and shallots, dry (excluding dehydrated)",
+          "count": 20850
+        },
+        {
+          "value": "Cucumbers and gherkins",
+          "count": 20643
+        },
+        {
+          "value": "Carrots and turnips",
+          "count": 20478
+        },
+        {
+          "value": "Meat of cattle with the bone, fresh or chilled (biological)",
+          "count": 19996
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Producer Price (LCU/tonne)",
+          "count": 547350
+        },
+        {
+          "value": "Producer Price Index (2014-2016 = 100)",
+          "count": 433466
+        },
+        {
+          "value": "Producer Price (SLC/tonne)",
+          "count": 171158
+        },
+        {
+          "value": "Producer Price (USD/tonne)",
+          "count": 167589
+        }
+      ]
+    },
+    "Months": {
+      "column": "Months",
+      "top_values": [
+        {
+          "value": "Annual value",
+          "count": 943427
+        },
+        {
+          "value": "January",
+          "count": 33995
+        },
+        {
+          "value": "September",
+          "count": 32988
+        },
+        {
+          "value": "August",
+          "count": 32206
+        },
+        {
+          "value": "October",
+          "count": 32054
+        },
+        {
+          "value": "July",
+          "count": 32012
+        },
+        {
+          "value": "June",
+          "count": 31919
+        },
+        {
+          "value": "November",
+          "count": 31074
+        },
+        {
+          "value": "December",
+          "count": 30770
+        },
+        {
+          "value": "May",
+          "count": 30340
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "LCU",
+          "count": 547350
+        },
+        {
+          "value": "",
+          "count": 433466
+        },
+        {
+          "value": "SLC",
+          "count": 171158
+        },
+        {
+          "value": "USD",
+          "count": 167589
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 881136
+        },
+        {
+          "value": "E",
+          "count": 433451
+        },
+        {
+          "value": "X",
+          "count": 4649
+        },
+        {
+          "value": "B",
+          "count": 180
+        },
+        {
+          "value": "I",
+          "count": 147
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.014594945869668342
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -0.05039511035875989
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.039530182842059676
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.03953018284213877
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Months Code",
+        "correlation": -0.05757935540248707
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.019151573808854346
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.31363065811949736
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.06955985374931181
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.06955985374927622
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Months Code",
+        "correlation": 0.16153399234082366
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.006983902188627214
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.19399061216188268
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.19399061216148566
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Months Code",
+        "correlation": 0.5060373233321244
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.02137358595281774
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Months Code",
+        "correlation": -0.4232347697555381
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.001020392061513212
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Months Code",
+        "correlation": -0.4232347697555584
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.0010203920615192042
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Value",
+        "correlation": 0.0005500221617852593
+      }
+    ]
+  }
+}

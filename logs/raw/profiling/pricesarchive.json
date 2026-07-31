@@ -1,0 +1,520 @@
+{
+  "table": "raw.pricesarchive",
+  "generated_at": "2026-07-07T19:16:07",
+  "dataset_summary": {
+    "row_count": 139713,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item Code (CPC)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 139713,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (CPC)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 97
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 97
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 97
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 187
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "distinct_count": 187
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 187
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 1
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 25
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 25
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 32042
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 4,
+      "max": 351,
+      "mean": 125.99141096390457,
+      "median": 117.0,
+      "stddev": 76.70935309197384
+    },
+    "Item Code": {
+      "min": 15,
+      "max": 1185,
+      "mean": 510.8272243814105,
+      "median": 463.0,
+      "stddev": 330.7424050900411
+    },
+    "Element Code": {
+      "min": 5530,
+      "max": 5530,
+      "mean": 5530.0,
+      "median": 5530.0,
+      "stddev": 0.0
+    },
+    "Year Code": {
+      "min": 1966,
+      "max": 1990,
+      "mean": 1978.3710821469726,
+      "median": 1979.0,
+      "stddev": 7.148969597474748
+    },
+    "Year": {
+      "min": 1966,
+      "max": 1990,
+      "mean": 1978.3710821469726,
+      "median": 1979.0,
+      "stddev": 7.148969597474748
+    },
+    "Value": {
+      "min": 0.01,
+      "max": 142000000.0,
+      "mean": 88594.49712195007,
+      "median": 2400.0,
+      "stddev": 1164075.5183110635
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 59.0,
+      "q3": 183.0,
+      "lower_bound": -127.0,
+      "upper_bound": 369.0,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 242.0,
+      "q3": 723.0,
+      "lower_bound": -479.5,
+      "upper_bound": 1444.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5530.0,
+      "q3": 5530.0,
+      "lower_bound": 5530.0,
+      "upper_bound": 5530.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1972.0,
+      "q3": 1985.0,
+      "lower_bound": 1952.5,
+      "upper_bound": 2004.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1972.0,
+      "q3": 1985.0,
+      "lower_bound": 1952.5,
+      "upper_bound": 2004.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 440.0,
+      "q3": 17000.0,
+      "lower_bound": -24400.0,
+      "upper_bound": 41840.0,
+      "outlier_count": 23792
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'724",
+          "count": 2760
+        },
+        {
+          "value": "'159",
+          "count": 2712
+        },
+        {
+          "value": "'792",
+          "count": 2508
+        },
+        {
+          "value": "'484",
+          "count": 2432
+        },
+        {
+          "value": "'840",
+          "count": 2359
+        },
+        {
+          "value": "'380",
+          "count": 2327
+        },
+        {
+          "value": "'604",
+          "count": 2274
+        },
+        {
+          "value": "'250",
+          "count": 2271
+        },
+        {
+          "value": "'300",
+          "count": 2241
+        },
+        {
+          "value": "'818",
+          "count": 2119
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Spain",
+          "count": 2760
+        },
+        {
+          "value": "China",
+          "count": 2712
+        },
+        {
+          "value": "T\u00fcrkiye",
+          "count": 2508
+        },
+        {
+          "value": "Mexico",
+          "count": 2432
+        },
+        {
+          "value": "United States of America",
+          "count": 2359
+        },
+        {
+          "value": "Italy",
+          "count": 2327
+        },
+        {
+          "value": "Peru",
+          "count": 2274
+        },
+        {
+          "value": "France",
+          "count": 2271
+        },
+        {
+          "value": "Greece",
+          "count": 2241
+        },
+        {
+          "value": "Egypt",
+          "count": 2119
+        }
+      ]
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "top_values": [
+        {
+          "value": "'02211",
+          "count": 2367
+        },
+        {
+          "value": "'0231",
+          "count": 2366
+        },
+        {
+          "value": "'01290.90",
+          "count": 2309
+        },
+        {
+          "value": "'21111.01b",
+          "count": 2207
+        },
+        {
+          "value": "'0112",
+          "count": 2201
+        },
+        {
+          "value": "'21121b",
+          "count": 2178
+        },
+        {
+          "value": "'01234",
+          "count": 2171
+        },
+        {
+          "value": "'21115b",
+          "count": 2136
+        },
+        {
+          "value": "'01510",
+          "count": 2091
+        },
+        {
+          "value": "'21113.01b",
+          "count": 2054
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Raw milk of cattle",
+          "count": 2367
+        },
+        {
+          "value": "Hen eggs in shell, fresh",
+          "count": 2366
+        },
+        {
+          "value": "Other vegetables, fresh n.e.c.",
+          "count": 2309
+        },
+        {
+          "value": "Meat of cattle with the bone, fresh or chilled (biological)",
+          "count": 2207
+        },
+        {
+          "value": "Maize (corn)",
+          "count": 2201
+        },
+        {
+          "value": "Meat of chickens, fresh or chilled (biological)",
+          "count": 2178
+        },
+        {
+          "value": "Tomatoes",
+          "count": 2171
+        },
+        {
+          "value": "Meat of sheep, fresh or chilled (biological)",
+          "count": 2136
+        },
+        {
+          "value": "Potatoes",
+          "count": 2091
+        },
+        {
+          "value": "Meat of pig with the bone, fresh or chilled (biological)",
+          "count": 2054
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Producer Price (LCU/tonne)",
+          "count": 139713
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "LCU",
+          "count": 139713
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 70911
+        },
+        {
+          "value": "E",
+          "count": 68802
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.009244781762255358
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.014836535217252117
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.014836535217252117
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.033396092232170535
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.018590350754134986
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.018590350754134986
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.04362513048088734
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.07457523166426869
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.07457523166426869
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_researchers_archive_itemcodes",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 1
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 23046,
+      "max": 23046,
+      "mean": 23046.0,
+      "median": 23046.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23046.0,
+      "q3": 23046.0,
+      "lower_bound": 23046.0,
+      "upper_bound": 23046.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agricultural researchers (FTE)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

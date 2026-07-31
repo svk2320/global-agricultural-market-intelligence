@@ -1,0 +1,86 @@
+{
+  "table": "raw.inputs_fertilizersproduct_elements",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 6,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 6,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 6
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 6
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5157,
+      "max": 5922,
+      "mean": 5621.833333333333,
+      "median": 5616.0,
+      "stddev": 283.49844208860594
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 5535.0,
+      "q3": 5838.0,
+      "lower_bound": 5080.5,
+      "upper_bound": 6292.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Import value",
+          "count": 1
+        },
+        {
+          "value": "Production",
+          "count": 1
+        },
+        {
+          "value": "Export quantity",
+          "count": 1
+        },
+        {
+          "value": "Export value",
+          "count": 1
+        },
+        {
+          "value": "Agricultural Use",
+          "count": 1
+        },
+        {
+          "value": "Import quantity",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

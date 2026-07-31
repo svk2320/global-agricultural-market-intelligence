@@ -1,0 +1,474 @@
+{
+  "table": "raw.emissions_agriculture_energy",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 120740,
+    "column_count": 12
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 120740,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 223
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 223
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 223
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 7
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 7
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 34
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 34
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 2
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 58035
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 1371.5629948649992,
+      "median": 166.0,
+      "stddev": 2249.644142945929
+    },
+    "Item Code": {
+      "min": 6801,
+      "max": 6813,
+      "mean": 6807.926950472089,
+      "median": 6808.0,
+      "stddev": 4.720645666451614
+    },
+    "Element Code": {
+      "min": 7225,
+      "max": 72184,
+      "mean": 23478.0,
+      "median": 7251.5,
+      "stddev": 28120.54485285111
+    },
+    "Year Code": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2007.0349180056319,
+      "median": 2007.0,
+      "stddev": 9.71512875691414
+    },
+    "Year": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2007.0349180056319,
+      "median": 2007.0,
+      "stddev": 9.71512875691414
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 8603433.4141,
+      "mean": 37072.99580074111,
+      "median": 4.77275,
+      "stddev": 270951.58946962
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 84.0,
+      "q3": 273.0,
+      "lower_bound": -199.5,
+      "upper_bound": 556.5,
+      "outlier_count": 28300
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6802.0,
+      "q3": 6812.0,
+      "lower_bound": 6787.0,
+      "upper_bound": 6827.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7228.75,
+      "q3": 23500.75,
+      "lower_bound": -17179.25,
+      "upper_bound": 47908.75,
+      "outlier_count": 30185
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1999.0,
+      "q3": 2015.0,
+      "lower_bound": 1975.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1999.0,
+      "q3": 2015.0,
+      "lower_bound": 1975.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.0247,
+      "q3": 1170.5765,
+      "lower_bound": -1755.8029999999999,
+      "upper_bound": 2926.4042,
+      "outlier_count": 24812
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'198",
+          "count": 952
+        },
+        {
+          "value": "'001",
+          "count": 952
+        },
+        {
+          "value": "'097",
+          "count": 952
+        },
+        {
+          "value": "'154",
+          "count": 952
+        },
+        {
+          "value": "'208",
+          "count": 952
+        },
+        {
+          "value": "'150",
+          "count": 952
+        },
+        {
+          "value": "'151",
+          "count": 952
+        },
+        {
+          "value": "'616",
+          "count": 952
+        },
+        {
+          "value": "'907",
+          "count": 952
+        },
+        {
+          "value": "'155",
+          "count": 952
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "OECD",
+          "count": 952
+        },
+        {
+          "value": "Annex I countries",
+          "count": 952
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 952
+        },
+        {
+          "value": "Europe",
+          "count": 952
+        },
+        {
+          "value": "European Union (27)",
+          "count": 952
+        },
+        {
+          "value": "Denmark",
+          "count": 952
+        },
+        {
+          "value": "Northern Europe",
+          "count": 952
+        },
+        {
+          "value": "Poland",
+          "count": 952
+        },
+        {
+          "value": "Western Europe",
+          "count": 952
+        },
+        {
+          "value": "Austria",
+          "count": 952
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Total Energy",
+          "count": 27460
+        },
+        {
+          "value": "Total Energy (excl.eletricity & heat)",
+          "count": 25316
+        },
+        {
+          "value": "Petroleum products",
+          "count": 25176
+        },
+        {
+          "value": "Electricity",
+          "count": 21044
+        },
+        {
+          "value": "Natural gas",
+          "count": 9408
+        },
+        {
+          "value": "Coal",
+          "count": 6340
+        },
+        {
+          "value": "Heat",
+          "count": 5996
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Energy use in agriculture",
+          "count": 30185
+        },
+        {
+          "value": "Emissions (CO2)",
+          "count": 30185
+        },
+        {
+          "value": "Emissions (CH4)",
+          "count": 30185
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 30185
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "kt",
+          "count": 90555
+        },
+        {
+          "value": "TJ",
+          "count": 30185
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 110755
+        },
+        {
+          "value": "A",
+          "count": 9631
+        },
+        {
+          "value": "I",
+          "count": 354
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.03838040377074786
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 3.57348671914338e-15
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.012332348202925475
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.012332348202925475
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.18153517595545107
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": -3.597039910071711e-15
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.010876798180914334
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.010876798180914334
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.03670491302412649
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 3.250189212209697e-16
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 3.250189212209697e-16
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.21044749977700386
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.00047897573515328517
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.00047897573515328517
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "table": "raw.holidays",
+  "generated_at": "2026-07-07T18:57:10",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 88537,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 4
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 88537,
+      "columns": {
+        "country_code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "country_name": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "date": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "local_name": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "name": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "fixed": {
+          "null_count": 88537,
+          "null_pct": 100.0
+        },
+        "global": {
+          "null_count": 88537,
+          "null_pct": 100.0
+        },
+        "counties": {
+          "null_count": 88537,
+          "null_pct": 100.0
+        },
+        "launch_year": {
+          "null_count": 88537,
+          "null_pct": 100.0
+        },
+        "types": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 88537,
+      "distinct_rows": 88537,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "country_code": "VARCHAR",
+        "country_name": "VARCHAR",
+        "date": "VARCHAR",
+        "local_name": "VARCHAR",
+        "name": "VARCHAR",
+        "fixed": "INTEGER",
+        "global": "INTEGER",
+        "counties": "INTEGER",
+        "launch_year": "INTEGER",
+        "types": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

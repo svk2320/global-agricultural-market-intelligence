@@ -1,0 +1,520 @@
+{
+  "table": "raw.production_indices",
+  "generated_at": "2026-07-07T19:16:09",
+  "dataset_summary": {
+    "row_count": 1995192,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item Code (CPC)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1995192,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (CPC)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 234
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 234
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 234
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 196
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "distinct_count": 196
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 196
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 64
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 64
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 107050
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 1616.9917642011396,
+      "median": 173.0,
+      "stddev": 2370.683874877571
+    },
+    "Item Code": {
+      "min": 15,
+      "max": 2057,
+      "mean": 717.7365155834626,
+      "median": 534.0,
+      "stddev": 568.6296678634722
+    },
+    "Element Code": {
+      "min": 432,
+      "max": 434,
+      "mean": 433.0,
+      "median": 433.0,
+      "stddev": 1.0000002506025392
+    },
+    "Year Code": {
+      "min": 1961,
+      "max": 2024,
+      "mean": 1994.3151736775208,
+      "median": 1996.0,
+      "stddev": 18.212471244663757
+    },
+    "Year": {
+      "min": 1961,
+      "max": 2024,
+      "mean": 1994.3151736775208,
+      "median": 1996.0,
+      "stddev": 18.212471244664076
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 569259874.94,
+      "mean": 11609.993915527706,
+      "median": 92.61,
+      "stddev": 1521025.8783500874
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 95.0,
+      "q3": 5102.0,
+      "lower_bound": -7415.5,
+      "upper_bound": 12612.5,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 289.0,
+      "q3": 1032.0,
+      "lower_bound": -825.5,
+      "upper_bound": 2146.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 432.0,
+      "q3": 434.0,
+      "lower_bound": 429.0,
+      "upper_bound": 437.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1979.0,
+      "q3": 2010.0,
+      "lower_bound": 1932.5,
+      "upper_bound": 2056.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1979.0,
+      "q3": 2010.0,
+      "lower_bound": 1932.5,
+      "upper_bound": 2056.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 54.33,
+      "q3": 119.45,
+      "lower_bound": -43.35000000000001,
+      "upper_bound": 217.13,
+      "outlier_count": 200312
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'001",
+          "count": 24964
+        },
+        {
+          "value": "'142",
+          "count": 23136
+        },
+        {
+          "value": "'902",
+          "count": 23120
+        },
+        {
+          "value": "'019",
+          "count": 22252
+        },
+        {
+          "value": "'002",
+          "count": 21896
+        },
+        {
+          "value": "'901",
+          "count": 21736
+        },
+        {
+          "value": "'432",
+          "count": 20796
+        },
+        {
+          "value": "'005",
+          "count": 20390
+        },
+        {
+          "value": "'199",
+          "count": 20168
+        },
+        {
+          "value": "'030",
+          "count": 19892
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "World",
+          "count": 24964
+        },
+        {
+          "value": "Asia",
+          "count": 23136
+        },
+        {
+          "value": "Net Food Importing Developing Countries (NFIDCs)",
+          "count": 23120
+        },
+        {
+          "value": "Americas",
+          "count": 22252
+        },
+        {
+          "value": "Africa",
+          "count": 21896
+        },
+        {
+          "value": "Low Income Food Deficit Countries (LIFDCs)",
+          "count": 21736
+        },
+        {
+          "value": "Land Locked Developing Countries (LLDCs)",
+          "count": 20796
+        },
+        {
+          "value": "South America",
+          "count": 20390
+        },
+        {
+          "value": "Least Developed Countries (LDCs)",
+          "count": 20168
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 19892
+        }
+      ]
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "top_values": [
+        {
+          "value": "'F2054",
+          "count": 27540
+        },
+        {
+          "value": "'F2051",
+          "count": 27540
+        },
+        {
+          "value": "'F2041",
+          "count": 27538
+        },
+        {
+          "value": "'F2044",
+          "count": 27462
+        },
+        {
+          "value": "'F1770",
+          "count": 27462
+        },
+        {
+          "value": "'F1739",
+          "count": 27198
+        },
+        {
+          "value": "'F1720",
+          "count": 26970
+        },
+        {
+          "value": "'21121i",
+          "count": 26720
+        },
+        {
+          "value": "'0231",
+          "count": 26526
+        },
+        {
+          "value": "'21111.01i",
+          "count": 26138
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Food",
+          "count": 27540
+        },
+        {
+          "value": "Agriculture",
+          "count": 27540
+        },
+        {
+          "value": "Crops",
+          "count": 27538
+        },
+        {
+          "value": "Livestock",
+          "count": 27462
+        },
+        {
+          "value": "Meat indigenous, total",
+          "count": 27462
+        },
+        {
+          "value": "Vegetables and Fruit Primary",
+          "count": 27198
+        },
+        {
+          "value": "Roots and Tubers, Total",
+          "count": 26970
+        },
+        {
+          "value": "Meat of chickens, fresh or chilled (indigenous)",
+          "count": 26720
+        },
+        {
+          "value": "Hen eggs in shell, fresh",
+          "count": 26526
+        },
+        {
+          "value": "Meat of cattle with the bone, fresh or chilled (indigenous)",
+          "count": 26138
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Gross per capita Production Index Number (2014-2016 = 100)",
+          "count": 997596
+        },
+        {
+          "value": "Gross Production Index Number (2014-2016 = 100)",
+          "count": 997596
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "",
+          "count": 1995192
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 1995192
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.099064080404083
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -2.700898036922399e-13
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.032648607405362275
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.032648607405199974
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": -0.004322059176157412
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": -9.874032144878321e-14
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.020681584323050745
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.02068158432303817
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.00374722939185871
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 1.6623691831009006e-14
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 4.277667125665576e-15
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.0032969115374931034
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000004
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.004085946757049416
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.004085946757044028
+      }
+    ]
+  }
+}

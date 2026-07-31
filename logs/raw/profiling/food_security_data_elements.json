@@ -1,0 +1,74 @@
+{
+  "table": "raw.food_security_data_elements",
+  "generated_at": "2026-07-07T19:15:52",
+  "dataset_summary": {
+    "row_count": 14,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 14,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 14
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 6121,
+      "max": 61322,
+      "mean": 21883.35714285714,
+      "median": 6127.5,
+      "stddev": 25848.364193465353
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6124.25,
+      "q3": 47451.5,
+      "lower_bound": -55866.625,
+      "upper_bound": 109442.375,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 10
+        },
+        {
+          "value": "Confidence interval: Lower bound",
+          "count": 2
+        },
+        {
+          "value": "Confidence interval: Upper bound",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

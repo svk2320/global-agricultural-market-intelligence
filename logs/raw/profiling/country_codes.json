@@ -1,0 +1,188 @@
+{
+  "table": "raw.country_codes",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 245,
+    "column_count": 4
+  },
+  "schema": {
+    "country": "VARCHAR",
+    "latitude": "DOUBLE",
+    "longitude": "DOUBLE",
+    "name": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 245,
+    "columns": {
+      "country": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "latitude": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "longitude": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "name": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "country": {
+      "column": "country",
+      "distinct_count": 245
+    },
+    "latitude": {
+      "column": "latitude",
+      "distinct_count": 245
+    },
+    "longitude": {
+      "column": "longitude",
+      "distinct_count": 245
+    },
+    "name": {
+      "column": "name",
+      "distinct_count": 245
+    }
+  },
+  "statistics": {
+    "latitude": {
+      "min": -75.250973,
+      "max": 77.553604,
+      "mean": 16.30190157142857,
+      "median": 16.995971,
+      "stddev": 26.986566165152386
+    },
+    "longitude": {
+      "min": -177.3735,
+      "max": 179.414413,
+      "mean": 12.516575571428572,
+      "median": 17.873887,
+      "stddev": 74.82296478855753
+    }
+  },
+  "outliers": {
+    "latitude": {
+      "column": "latitude",
+      "q1": -0.228021,
+      "q3": 38.963745,
+      "lower_bound": -59.01567,
+      "upper_bound": 97.751394,
+      "outlier_count": 1
+    },
+    "longitude": {
+      "column": "longitude",
+      "q1": -42.604303,
+      "q3": 48.516388,
+      "lower_bound": -179.28533950000002,
+      "upper_bound": 185.1974245,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "country": {
+      "column": "country",
+      "top_values": [
+        {
+          "value": "AU",
+          "count": 1
+        },
+        {
+          "value": "BF",
+          "count": 1
+        },
+        {
+          "value": "BV",
+          "count": 1
+        },
+        {
+          "value": "BY",
+          "count": 1
+        },
+        {
+          "value": "CA",
+          "count": 1
+        },
+        {
+          "value": "CF",
+          "count": 1
+        },
+        {
+          "value": "CI",
+          "count": 1
+        },
+        {
+          "value": "DK",
+          "count": 1
+        },
+        {
+          "value": "FJ",
+          "count": 1
+        },
+        {
+          "value": "FM",
+          "count": 1
+        }
+      ]
+    },
+    "name": {
+      "column": "name",
+      "top_values": [
+        {
+          "value": "Anguilla",
+          "count": 1
+        },
+        {
+          "value": "Antarctica",
+          "count": 1
+        },
+        {
+          "value": "Cameroon",
+          "count": 1
+        },
+        {
+          "value": "Germany",
+          "count": 1
+        },
+        {
+          "value": "Dominican Republic",
+          "count": 1
+        },
+        {
+          "value": "Eritrea",
+          "count": 1
+        },
+        {
+          "value": "Gabon",
+          "count": 1
+        },
+        {
+          "value": "French Guiana",
+          "count": 1
+        },
+        {
+          "value": "Guinea",
+          "count": 1
+        },
+        {
+          "value": "Isle of Man",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "latitude",
+        "column_b": "longitude",
+        "correlation": 0.04664383840361618
+      }
+    ]
+  }
+}

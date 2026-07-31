@@ -1,0 +1,102 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet_elements",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 12,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "VARCHAR",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 12,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 12
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Element Code": {
+      "column": "Element Code",
+      "top_values": [
+        {
+          "value": "62062",
+          "count": 1
+        },
+        {
+          "value": "6123A",
+          "count": 1
+        },
+        {
+          "value": "6209A",
+          "count": 1
+        },
+        {
+          "value": "62061",
+          "count": 1
+        },
+        {
+          "value": "61281",
+          "count": 1
+        },
+        {
+          "value": "62092",
+          "count": 1
+        },
+        {
+          "value": "6206A",
+          "count": 1
+        },
+        {
+          "value": "61282",
+          "count": 1
+        },
+        {
+          "value": "61232",
+          "count": 1
+        },
+        {
+          "value": "6128A",
+          "count": 1
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Confidence interval: Lower bound",
+          "count": 4
+        },
+        {
+          "value": "Average",
+          "count": 4
+        },
+        {
+          "value": "Confidence interval: Upper bound",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

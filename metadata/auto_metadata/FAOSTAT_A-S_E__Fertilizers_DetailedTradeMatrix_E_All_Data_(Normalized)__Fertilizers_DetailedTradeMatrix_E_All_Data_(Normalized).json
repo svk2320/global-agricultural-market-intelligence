@@ -1,0 +1,256 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Fertilizers_DetailedTradeMatrix_E_All_Data_(Normalized)__Fertilizers_DetailedTradeMatrix_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/Fertilizers_DetailedTradeMatrix_E_All_Data_(Normalized)/Fertilizers_DetailedTradeMatrix_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 21271569,
+  "file_size_human": "20.3MB",
+  "last_modified": "2026-07-05T03:52:19.685990+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:01.309078+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 5300910,
+  "column_count": 16,
+  "columns": [
+    {
+      "name": "Reporter Country Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2",
+        "3",
+        "4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Reporter Country Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'004",
+        "'008",
+        "'012"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Reporter Countries",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Afghanistan",
+        "Albania",
+        "Algeria"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Partner Country Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "7",
+        "10",
+        "11"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Partner Country Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'024",
+        "'036",
+        "'040"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Partner Countries",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Angola",
+        "Australia",
+        "Austria"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3104",
+        "4017",
+        "3102"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item Code (CPC)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'F3104",
+        "'34632",
+        "'F3102"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Nutrient potash K2O (total)",
+        "Potassium sulphate (sulphate of potash) (SOP)",
+        "Nutrient nitrogen N (total)"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5910",
+        "59104",
+        "5922"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Export quantity",
+        "Export quantity (tonnes K)",
+        "Export value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Year Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2012",
+        "2007",
+        "1990"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2012",
+        "2007",
+        "1990"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "t",
+        "1000 USD"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "4.82",
+        "9.64",
+        "19.64"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "I",
+        "E",
+        "X"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

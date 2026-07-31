@@ -1,0 +1,48 @@
+{
+  "table": "raw.forestry_trade_flows_areacodes",
+  "generated_at": "2026-07-07T18:57:10",
+  "status": "FAIL",
+  "failure_reasons": [
+    {
+      "reason": "duplicate_rows",
+      "detail": "207 full-row duplicates found (423 total -> 216 distinct)."
+    }
+  ],
+  "summary": {
+    "total_rows": 423,
+    "duplicate_rows": 207,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 423,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "M49 Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 423,
+      "distinct_rows": 216,
+      "duplicate_rows": 207
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "M49 Code": "VARCHAR",
+        "Area": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

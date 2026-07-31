@@ -1,0 +1,98 @@
+{
+  "table": "raw.consumerpriceindices_itemcodes",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 9,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 9,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 9
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 9
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 23012,
+      "max": 230142,
+      "mean": 161092.0,
+      "median": 230122.0,
+      "stddev": 103559.25024352001
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23014.0,
+      "q3": 230132.0,
+      "lower_bound": -287663.0,
+      "upper_bound": 540809.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Consumer Prices; General Indices (2015 = 100); median",
+          "count": 1
+        },
+        {
+          "value": "Consumer Prices; Food Indices (2015 = 100); weighted average",
+          "count": 1
+        },
+        {
+          "value": "Food price inflation; median",
+          "count": 1
+        },
+        {
+          "value": "Consumer Prices; Food Indices (2015 = 100)",
+          "count": 1
+        },
+        {
+          "value": "Consumer Prices; General Indices (2015 = 100); weighted average",
+          "count": 1
+        },
+        {
+          "value": "Consumer Prices; Food Indices (2015 = 100); median",
+          "count": 1
+        },
+        {
+          "value": "Consumer Prices; General Indices (2015 = 100)",
+          "count": 1
+        },
+        {
+          "value": "Food price inflation",
+          "count": 1
+        },
+        {
+          "value": "Food price inflation; weighted average",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

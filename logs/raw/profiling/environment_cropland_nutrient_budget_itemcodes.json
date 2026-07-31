@@ -1,0 +1,115 @@
+{
+  "table": "raw.environment_cropland_nutrient_budget_itemcodes",
+  "generated_at": "2026-07-07T19:15:46",
+  "dataset_summary": {
+    "row_count": 12,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 12,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 12,
+        "null_pct": 100.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 12
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 0
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 12
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 5076,
+      "max": 5089,
+      "mean": 5082.166666666667,
+      "median": 5081.5,
+      "stddev": 4.448356863818172
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 5078.75,
+      "q3": 5086.25,
+      "lower_bound": 5067.5,
+      "upper_bound": 5097.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": []
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Outputs",
+          "count": 1
+        },
+        {
+          "value": "Leaching",
+          "count": 1
+        },
+        {
+          "value": "Mineral fertilizers",
+          "count": 1
+        },
+        {
+          "value": "Atmospheric deposition",
+          "count": 1
+        },
+        {
+          "value": "Crop harvest removal",
+          "count": 1
+        },
+        {
+          "value": "Manure applied",
+          "count": 1
+        },
+        {
+          "value": "Nutrient balance",
+          "count": 1
+        },
+        {
+          "value": "Input",
+          "count": 1
+        },
+        {
+          "value": "Volatilisation",
+          "count": 1
+        },
+        {
+          "value": "Biological fixation",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

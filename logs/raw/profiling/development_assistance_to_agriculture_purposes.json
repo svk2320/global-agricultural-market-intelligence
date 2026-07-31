@@ -1,0 +1,102 @@
+{
+  "table": "raw.development_assistance_to_agriculture_purposes",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 58,
+    "column_count": 2
+  },
+  "schema": {
+    " Purpose Code": "BIGINT",
+    " Purpose": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 58,
+    "columns": {
+      " Purpose Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Purpose": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Purpose Code": {
+      "column": " Purpose Code",
+      "distinct_count": 58
+    },
+    " Purpose": {
+      "column": " Purpose",
+      "distinct_count": 57
+    }
+  },
+  "statistics": {
+    " Purpose Code": {
+      "min": 307,
+      "max": 43040,
+      "mean": 28082.879310344826,
+      "median": 31194.5,
+      "stddev": 12094.41549261416
+    }
+  },
+  "outliers": {
+    " Purpose Code": {
+      "column": " Purpose Code",
+      "q1": 31132.5,
+      "q3": 31952.75,
+      "lower_bound": 29902.125,
+      "upper_bound": 33183.125,
+      "outlier_count": 17
+    }
+  },
+  "categorical": {
+    " Purpose": {
+      "column": " Purpose",
+      "top_values": [
+        {
+          "value": "Other Agriculture; Forestry and Fishing",
+          "count": 2
+        },
+        {
+          "value": "Agriculture; forestry; fishing",
+          "count": 1
+        },
+        {
+          "value": "Agricultural research",
+          "count": 1
+        },
+        {
+          "value": "Agricultural land resources",
+          "count": 1
+        },
+        {
+          "value": "Fishery services",
+          "count": 1
+        },
+        {
+          "value": "Rural development",
+          "count": 1
+        },
+        {
+          "value": "Agricultural education/training",
+          "count": 1
+        },
+        {
+          "value": "Fishery development",
+          "count": 1
+        },
+        {
+          "value": "Agricultural services",
+          "count": 1
+        },
+        {
+          "value": "Environmental policy and administrative management",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

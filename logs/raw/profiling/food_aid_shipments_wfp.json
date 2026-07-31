@@ -1,0 +1,488 @@
+{
+  "table": "raw.food_aid_shipments_wfp",
+  "generated_at": "2026-07-07T19:15:52",
+  "dataset_summary": {
+    "row_count": 31114,
+    "column_count": 13
+  },
+  "schema": {
+    "Recipient Country Code": "BIGINT",
+    "Recipient Country Code (M49)": "VARCHAR",
+    "Recipient Country": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 31114,
+    "columns": {
+      "Recipient Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Recipient Country Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Recipient Country": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 9811,
+        "null_pct": 31.53
+      }
+    }
+  },
+  "unique_counts": {
+    "Recipient Country Code": {
+      "column": "Recipient Country Code",
+      "distinct_count": 179
+    },
+    "Recipient Country Code (M49)": {
+      "column": "Recipient Country Code (M49)",
+      "distinct_count": 179
+    },
+    "Recipient Country": {
+      "column": "Recipient Country",
+      "distinct_count": 179
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 18
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 18
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 1
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 29
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 29
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 15130
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Recipient Country Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 1773.4737417239828,
+      "median": 178.0,
+      "stddev": 2437.5935989208774
+    },
+    "Item Code": {
+      "min": 10021,
+      "max": 12062,
+      "mean": 11593.965996014656,
+      "median": 11839.0,
+      "stddev": 689.6977391781825
+    },
+    "Element Code": {
+      "min": 500,
+      "max": 500,
+      "mean": 500.0,
+      "median": 500.0,
+      "stddev": 0.0
+    },
+    "Year Code": {
+      "min": 1988,
+      "max": 2016,
+      "mean": 2000.1898180883204,
+      "median": 2000.0,
+      "stddev": 7.934366071655212
+    },
+    "Year": {
+      "min": 1988,
+      "max": 2016,
+      "mean": 2000.1898180883204,
+      "median": 2000.0,
+      "stddev": 7.934366071655212
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 14741808.0,
+      "mean": 85568.63447322749,
+      "median": 2868.0,
+      "stddev": 450157.97482644935
+    }
+  },
+  "outliers": {
+    "Recipient Country Code": {
+      "column": "Recipient Country Code",
+      "q1": 93.0,
+      "q3": 5103.0,
+      "lower_bound": -7422.0,
+      "upper_bound": 12618.0,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 11726.0,
+      "q3": 11988.0,
+      "lower_bound": 11333.0,
+      "upper_bound": 12381.0,
+      "outlier_count": 5102
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 500.0,
+      "q3": 500.0,
+      "lower_bound": 500.0,
+      "upper_bound": 500.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1993.0,
+      "q3": 2007.0,
+      "lower_bound": 1972.0,
+      "upper_bound": 2028.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1993.0,
+      "q3": 2007.0,
+      "lower_bound": 1972.0,
+      "upper_bound": 2028.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 400.0,
+      "q3": 20910.5,
+      "lower_bound": -30365.75,
+      "upper_bound": 51676.25,
+      "outlier_count": 4994
+    }
+  },
+  "categorical": {
+    "Recipient Country Code (M49)": {
+      "column": "Recipient Country Code (M49)",
+      "top_values": [
+        {
+          "value": "'001",
+          "count": 497
+        },
+        {
+          "value": "'902",
+          "count": 485
+        },
+        {
+          "value": "'901",
+          "count": 479
+        },
+        {
+          "value": "'142",
+          "count": 478
+        },
+        {
+          "value": "'002",
+          "count": 478
+        },
+        {
+          "value": "'199",
+          "count": 472
+        },
+        {
+          "value": "'432",
+          "count": 465
+        },
+        {
+          "value": "'011",
+          "count": 440
+        },
+        {
+          "value": "'019",
+          "count": 435
+        },
+        {
+          "value": "'014",
+          "count": 435
+        }
+      ]
+    },
+    "Recipient Country": {
+      "column": "Recipient Country",
+      "top_values": [
+        {
+          "value": "World",
+          "count": 497
+        },
+        {
+          "value": "Net Food Importing Developing Countries",
+          "count": 485
+        },
+        {
+          "value": "Low Income Food Deficit Countries",
+          "count": 479
+        },
+        {
+          "value": "Africa",
+          "count": 478
+        },
+        {
+          "value": "Asia",
+          "count": 478
+        },
+        {
+          "value": "Least Developed Countries",
+          "count": 472
+        },
+        {
+          "value": "Land Locked Developing Countries",
+          "count": 465
+        },
+        {
+          "value": "Western Africa",
+          "count": 440
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 435
+        },
+        {
+          "value": "Americas",
+          "count": 435
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Non-Cereals",
+          "count": 3254
+        },
+        {
+          "value": "Cereals",
+          "count": 3178
+        },
+        {
+          "value": "Vegetable Oils",
+          "count": 2813
+        },
+        {
+          "value": "Pulses, Total",
+          "count": 2525
+        },
+        {
+          "value": "Rice Total",
+          "count": 2440
+        },
+        {
+          "value": "Wheat & Wheat Flour",
+          "count": 2325
+        },
+        {
+          "value": "Milk, Total",
+          "count": 2004
+        },
+        {
+          "value": "Blended And Mix",
+          "count": 1915
+        },
+        {
+          "value": "Sugar Total",
+          "count": 1905
+        },
+        {
+          "value": "Other Non-Cereals",
+          "count": 1702
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Food aid received",
+          "count": 31114
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "t",
+          "count": 31114
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 21303
+        },
+        {
+          "value": "E",
+          "count": 9811
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Data provided by WFP",
+          "count": 19828
+        },
+        {
+          "value": "Provisional data provided by WFP",
+          "count": 1475
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Item Code",
+        "correlation": -0.030475660787562326
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Year Code",
+        "correlation": 0.04496522502274235
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Year",
+        "correlation": 0.04496522502274235
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Value",
+        "correlation": 0.21399813373267118
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.06798167672647971
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.06798167672647971
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.07042520971595172
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.045986599673353015
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.045986599673353015
+      }
+    ]
+  }
+}

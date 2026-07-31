@@ -1,0 +1,156 @@
+{
+  "table": "raw.commoditybalances_non_food_2010_itemcodes",
+  "generated_at": "2026-07-07T19:15:30",
+  "dataset_summary": {
+    "row_count": 13,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 13,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 13
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 13
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 13
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 767,
+      "max": 1187,
+      "mean": 930.4615384615385,
+      "median": 836.0,
+      "stddev": 158.9384657577765
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 828.0,
+      "q3": 988.0,
+      "lower_bound": 588.0,
+      "upper_bound": 1228.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'02944",
+          "count": 1
+        },
+        {
+          "value": "'01921.02",
+          "count": 1
+        },
+        {
+          "value": "'25090",
+          "count": 1
+        },
+        {
+          "value": "'26110",
+          "count": 1
+        },
+        {
+          "value": "'39211",
+          "count": 1
+        },
+        {
+          "value": "'01970",
+          "count": 1
+        },
+        {
+          "value": "'25020.01",
+          "count": 1
+        },
+        {
+          "value": "'01950.01",
+          "count": 1
+        },
+        {
+          "value": "'26130",
+          "count": 1
+        },
+        {
+          "value": "'01929.07",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Cigarettes",
+          "count": 1
+        },
+        {
+          "value": "Unmanufactured tobacco",
+          "count": 1
+        },
+        {
+          "value": "Abaca; manila hemp; raw",
+          "count": 1
+        },
+        {
+          "value": "Silk waste",
+          "count": 1
+        },
+        {
+          "value": "Silk-worm cocoons suitable for reeling",
+          "count": 1
+        },
+        {
+          "value": "Cotton lint; ginned",
+          "count": 1
+        },
+        {
+          "value": "Natural rubber in other forms",
+          "count": 1
+        },
+        {
+          "value": "Raw silk (not thrown)",
+          "count": 1
+        },
+        {
+          "value": "Wool; degreased or carbonized; not carded or combed",
+          "count": 1
+        },
+        {
+          "value": "Cigars and cheroots",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

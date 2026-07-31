@@ -1,0 +1,93 @@
+{
+  "table": "raw.minimum_dietary_diversity_for_women_mdd_w_food_and_diet",
+  "generated_at": "2026-07-07T18:57:12",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 1223,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 1223,
+      "columns": {
+        "Survey Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Survey": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Food Group Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Food Group": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 1223,
+      "distinct_rows": 1223,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Survey Code": "VARCHAR",
+        "Survey": "VARCHAR",
+        "Food Group Code": "VARCHAR",
+        "Food Group": "VARCHAR",
+        "Indicator Code": "BIGINT",
+        "Indicator": "VARCHAR",
+        "Geographic Level Code": "BIGINT",
+        "Geographic Level": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

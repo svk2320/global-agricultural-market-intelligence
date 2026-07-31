@@ -1,0 +1,82 @@
+{
+  "table": "raw.emissions_land_use_fires_elements",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 5,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 5,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 5
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 7225,
+      "max": 7273,
+      "mean": 7243.8,
+      "median": 7245.0,
+      "stddev": 18.726985876002587
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 7230.0,
+      "q3": 7246.0,
+      "lower_bound": 7206.0,
+      "upper_bound": 7270.0,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Emissions (CO2)",
+          "count": 1
+        },
+        {
+          "value": "Burning crop residues (Biomass burned; dry matter)",
+          "count": 1
+        },
+        {
+          "value": "Burned Area",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CH4)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

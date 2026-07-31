@@ -1,0 +1,108 @@
+{
+  "table": "raw.forestry_trade_flows",
+  "generated_at": "2026-07-07T18:57:10",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 2829802,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 1
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 2829802,
+      "columns": {
+        "Reporter Country Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Reporter Country Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Reporter Countries": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Country Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Country Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Countries": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Note": {
+          "null_count": 2426777,
+          "null_pct": 85.76
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 2829802,
+      "distinct_rows": 2829802,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Reporter Country Code": "BIGINT",
+        "Reporter Country Code (M49)": "VARCHAR",
+        "Reporter Countries": "VARCHAR",
+        "Partner Country Code": "BIGINT",
+        "Partner Country Code (M49)": "VARCHAR",
+        "Partner Countries": "VARCHAR",
+        "Item Code": "BIGINT",
+        "Item": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Year Code": "BIGINT",
+        "Year": "BIGINT",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR",
+        "Note": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

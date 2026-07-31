@@ -1,0 +1,559 @@
+{
+  "table": "raw.exchange_rate",
+  "generated_at": "2026-07-07T19:15:49",
+  "dataset_summary": {
+    "row_count": 145821,
+    "column_count": 14
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Element Code": "VARCHAR",
+    "Element": "VARCHAR",
+    "ISO Currency Code": "VARCHAR",
+    "Currency": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Months Code": "BIGINT",
+    "Months": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 145821,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "ISO Currency Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Currency": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 17,
+        "null_pct": 0.01
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 230
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 230
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 230
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "ISO Currency Code": {
+      "column": "ISO Currency Code",
+      "distinct_count": 277
+    },
+    "Currency": {
+      "column": "Currency",
+      "distinct_count": 255
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 57
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 57
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "distinct_count": 13
+    },
+    "Months": {
+      "column": "Months",
+      "distinct_count": 13
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 71491
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 299,
+      "mean": 129.8385966356012,
+      "median": 130.0,
+      "stddev": 75.9477650592175
+    },
+    "Year Code": {
+      "min": 1970,
+      "max": 2026,
+      "mean": 1999.0199422579738,
+      "median": 2000.0,
+      "stddev": 16.229316517767813
+    },
+    "Year": {
+      "min": 1970,
+      "max": 2026,
+      "mean": 1999.0199422579738,
+      "median": 2000.0,
+      "stddev": 16.229316517767813
+    },
+    "Months Code": {
+      "min": 7001,
+      "max": 7021,
+      "mean": 7008.8856474719005,
+      "median": 7008.0,
+      "stddev": 6.257781424830389
+    },
+    "Value": {
+      "min": 4.3e-14,
+      "max": 69078379717.0,
+      "mean": 667704.3007989409,
+      "median": 4.0836999995,
+      "stddev": 185782856.4685527
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 67.0,
+      "q3": 193.0,
+      "lower_bound": -122.0,
+      "upper_bound": 382.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1985.0,
+      "q3": 2013.0,
+      "lower_bound": 1943.0,
+      "upper_bound": 2055.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1985.0,
+      "q3": 2013.0,
+      "lower_bound": 1943.0,
+      "upper_bound": 2055.0,
+      "outlier_count": 0
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "q1": 7004.0,
+      "q3": 7011.0,
+      "lower_bound": 6993.5,
+      "upper_bound": 7021.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 1.0,
+      "q3": 49.2511494325,
+      "lower_bound": -71.37672414875,
+      "upper_bound": 121.62787358125,
+      "outlier_count": 25873
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'276",
+          "count": 808
+        },
+        {
+          "value": "'694",
+          "count": 802
+        },
+        {
+          "value": "'470",
+          "count": 799
+        },
+        {
+          "value": "'232",
+          "count": 796
+        },
+        {
+          "value": "'858",
+          "count": 788
+        },
+        {
+          "value": "'380",
+          "count": 787
+        },
+        {
+          "value": "'180",
+          "count": 787
+        },
+        {
+          "value": "'392",
+          "count": 787
+        },
+        {
+          "value": "'660",
+          "count": 787
+        },
+        {
+          "value": "'710",
+          "count": 787
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Germany",
+          "count": 808
+        },
+        {
+          "value": "Sierra Leone",
+          "count": 802
+        },
+        {
+          "value": "Malta",
+          "count": 799
+        },
+        {
+          "value": "Eritrea",
+          "count": 796
+        },
+        {
+          "value": "Uruguay",
+          "count": 788
+        },
+        {
+          "value": "New Zealand",
+          "count": 787
+        },
+        {
+          "value": "Nicaragua",
+          "count": 787
+        },
+        {
+          "value": "Hungary",
+          "count": 787
+        },
+        {
+          "value": "Guernsey",
+          "count": 787
+        },
+        {
+          "value": "Jersey",
+          "count": 787
+        }
+      ]
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "top_values": [
+        {
+          "value": "LCU",
+          "count": 133681
+        },
+        {
+          "value": "SLC",
+          "count": 12140
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Local currency units per USD",
+          "count": 133681
+        },
+        {
+          "value": "Standard local currency units per USD",
+          "count": 12140
+        }
+      ]
+    },
+    "ISO Currency Code": {
+      "column": "ISO Currency Code",
+      "top_values": [
+        {
+          "value": "EUR",
+          "count": 11673
+        },
+        {
+          "value": "XCD",
+          "count": 6338
+        },
+        {
+          "value": "XOF",
+          "count": 4257
+        },
+        {
+          "value": "USD",
+          "count": 3554
+        },
+        {
+          "value": "GBP",
+          "count": 3079
+        },
+        {
+          "value": "AUD",
+          "count": 2632
+        },
+        {
+          "value": "DKK",
+          "count": 2257
+        },
+        {
+          "value": "XAF",
+          "count": 2154
+        },
+        {
+          "value": "FRF",
+          "count": 1650
+        },
+        {
+          "value": "ZAR",
+          "count": 1275
+        }
+      ]
+    },
+    "Currency": {
+      "column": "Currency",
+      "top_values": [
+        {
+          "value": "Euro",
+          "count": 11946
+        },
+        {
+          "value": "East Caribbean Dollar",
+          "count": 6338
+        },
+        {
+          "value": "CFA Franc BCEAO",
+          "count": 4257
+        },
+        {
+          "value": "US Dollar",
+          "count": 3554
+        },
+        {
+          "value": "Pound Sterling",
+          "count": 3079
+        },
+        {
+          "value": "Australian Dollar",
+          "count": 2632
+        },
+        {
+          "value": "Danish Krone",
+          "count": 2257
+        },
+        {
+          "value": "CFA Franc BEAC",
+          "count": 2154
+        },
+        {
+          "value": "French Franc",
+          "count": 1650
+        },
+        {
+          "value": "Rand",
+          "count": 1275
+        }
+      ]
+    },
+    "Months": {
+      "column": "Months",
+      "top_values": [
+        {
+          "value": "Annual value",
+          "count": 24184
+        },
+        {
+          "value": "January",
+          "count": 10298
+        },
+        {
+          "value": "March",
+          "count": 10293
+        },
+        {
+          "value": "February",
+          "count": 10292
+        },
+        {
+          "value": "December",
+          "count": 10097
+        },
+        {
+          "value": "June",
+          "count": 10085
+        },
+        {
+          "value": "July",
+          "count": 10083
+        },
+        {
+          "value": "September",
+          "count": 10083
+        },
+        {
+          "value": "May",
+          "count": 10082
+        },
+        {
+          "value": "August",
+          "count": 10082
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "",
+          "count": 145821
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 145796
+        },
+        {
+          "value": "L",
+          "count": 17
+        },
+        {
+          "value": "A",
+          "count": 4
+        },
+        {
+          "value": "I",
+          "count": 4
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.014501323407663224
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.014501323407663224
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Months Code",
+        "correlation": 0.009554173951649198
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.0024189187351762575
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Months Code",
+        "correlation": -0.02190792845851663
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.001967606115751747
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Months Code",
+        "correlation": -0.02190792845851663
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.001967606115751747
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Value",
+        "correlation": 0.00021701313322856994
+      }
+    ]
+  }
+}

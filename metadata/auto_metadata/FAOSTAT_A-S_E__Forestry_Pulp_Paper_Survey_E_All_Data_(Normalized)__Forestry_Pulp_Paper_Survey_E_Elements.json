@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Forestry_Pulp_Paper_Survey_E_All_Data_(Normalized)__Forestry_Pulp_Paper_Survey_E_Elements",
+  "file_path": "FAOSTAT_A-S_E/Forestry_Pulp_Paper_Survey_E_All_Data_(Normalized)/Forestry_Pulp_Paper_Survey_E_Elements.parquet",
+  "file_size_bytes": 1003,
+  "file_size_human": "1003.0B",
+  "last_modified": "2026-07-05T03:52:33.605937+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:09.276634+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 5,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": " Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5326",
+        "5034",
+        "5800"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": " Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Capacity",
+        "Consumption",
+        "Market pulp Capacity"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

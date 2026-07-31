@@ -1,0 +1,196 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Inputs_Pesticides_Trade_E_All_Data_(Normalized)__Inputs_Pesticides_Trade_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/Inputs_Pesticides_Trade_E_All_Data_(Normalized)/Inputs_Pesticides_Trade_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 1008600,
+  "file_size_human": "985.0KB",
+  "last_modified": "2026-07-05T03:52:40.475707+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:13.392897+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 190740,
+  "column_count": 12,
+  "columns": [
+    {
+      "name": "Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3",
+        "4",
+        "6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Area Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'008",
+        "'012",
+        "'020"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Albania",
+        "Algeria",
+        "Andorra"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1357",
+        "1416",
+        "1417"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Pesticides (total)",
+        "Insecticides",
+        "Fungicides"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5610",
+        "5622",
+        "5910"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Import quantity",
+        "Import value",
+        "Export quantity"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Year Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1990",
+        "1991",
+        "1992"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1990",
+        "1991",
+        "1992"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "t",
+        "1000 USD"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1975.862",
+        "86.566",
+        "213.701"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "I",
+        "B",
+        "A"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

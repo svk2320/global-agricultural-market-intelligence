@@ -1,0 +1,102 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet_indicators",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 19,
+    "column_count": 2
+  },
+  "schema": {
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 19,
+    "columns": {
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 19
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 19
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 3300,
+      "max": 3319,
+      "mean": 3309.9473684210525,
+      "median": 3310.0,
+      "stddev": 5.720078517434447
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 3305.5,
+      "q3": 3314.5,
+      "lower_bound": 3292.0,
+      "upper_bound": 3328.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Fat apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Potassium apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Magnesium apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Vitamin A apparent intake (retinol activity equivalents)",
+          "count": 1
+        },
+        {
+          "value": "Calcium apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Iron apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Carbohydrate (available) apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Energy apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Zinc apparent intake",
+          "count": 1
+        },
+        {
+          "value": "Riboflavin apparent intake",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

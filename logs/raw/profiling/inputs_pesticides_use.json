@@ -1,0 +1,552 @@
+{
+  "table": "raw.inputs_pesticides_use",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 103622,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 103622,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 254
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 254
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 254
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 36
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 36
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 34
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 34
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 14188
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 4
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 17
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 695.3064117658412,
+      "median": 144.0,
+      "stddev": 1630.7885670681885
+    },
+    "Item Code": {
+      "min": 1308,
+      "max": 1357,
+      "mean": 1337.8651058655498,
+      "median": 1341.0,
+      "stddev": 17.215236023244824
+    },
+    "Element Code": {
+      "min": 5157,
+      "max": 5173,
+      "mean": 5159.467120881666,
+      "median": 5157.0,
+      "stddev": 5.487025082143987
+    },
+    "Year Code": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2006.8491536546294,
+      "median": 2007.0,
+      "stddev": 9.731738803884546
+    },
+    "Year": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2006.8491536546294,
+      "median": 2007.0,
+      "stddev": 9.731738803884546
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 3802160.0,
+      "mean": 7861.041175908616,
+      "median": 17.0,
+      "stddev": 73182.82344115162
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 73.0,
+      "q3": 213.0,
+      "lower_bound": -137.0,
+      "upper_bound": 423.0,
+      "outlier_count": 11200
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 1322.0,
+      "q3": 1357.0,
+      "lower_bound": 1269.5,
+      "upper_bound": 1409.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5157.0,
+      "q3": 5157.0,
+      "lower_bound": 5157.0,
+      "upper_bound": 5157.0,
+      "outlier_count": 23313
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1998.0,
+      "q3": 2015.0,
+      "lower_bound": 1972.5,
+      "upper_bound": 2040.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1998.0,
+      "q3": 2015.0,
+      "lower_bound": 1972.5,
+      "upper_bound": 2040.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.89,
+      "q3": 398.0,
+      "lower_bound": -594.775,
+      "upper_bound": 993.665,
+      "outlier_count": 19055
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'276",
+          "count": 1092
+        },
+        {
+          "value": "'826",
+          "count": 1027
+        },
+        {
+          "value": "'756",
+          "count": 1020
+        },
+        {
+          "value": "'246",
+          "count": 925
+        },
+        {
+          "value": "'203",
+          "count": 918
+        },
+        {
+          "value": "'380",
+          "count": 915
+        },
+        {
+          "value": "'703",
+          "count": 905
+        },
+        {
+          "value": "'372",
+          "count": 892
+        },
+        {
+          "value": "'528",
+          "count": 872
+        },
+        {
+          "value": "'620",
+          "count": 841
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Germany",
+          "count": 1092
+        },
+        {
+          "value": "United Kingdom of Great Britain and Northern Ireland",
+          "count": 1027
+        },
+        {
+          "value": "Switzerland",
+          "count": 1020
+        },
+        {
+          "value": "Finland",
+          "count": 925
+        },
+        {
+          "value": "Czechia",
+          "count": 918
+        },
+        {
+          "value": "Italy",
+          "count": 915
+        },
+        {
+          "value": "Slovakia",
+          "count": 905
+        },
+        {
+          "value": "Ireland",
+          "count": 892
+        },
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 872
+        },
+        {
+          "value": "Portugal",
+          "count": 841
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Pesticides (total)",
+          "count": 31539
+        },
+        {
+          "value": "Insecticides",
+          "count": 8226
+        },
+        {
+          "value": "Fungicides and Bactericides",
+          "count": 8158
+        },
+        {
+          "value": "Herbicides",
+          "count": 7991
+        },
+        {
+          "value": "Rodenticides",
+          "count": 7151
+        },
+        {
+          "value": "Other Pesticides nes",
+          "count": 6544
+        },
+        {
+          "value": "Plant Growth Regulators",
+          "count": 6519
+        },
+        {
+          "value": "Insecticides \u2013 Pyrethroids",
+          "count": 1596
+        },
+        {
+          "value": "Insecticides \u2013 Organo-phosphates",
+          "count": 1537
+        },
+        {
+          "value": "Insecticides - nes",
+          "count": 1524
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Agricultural Use",
+          "count": 80309
+        },
+        {
+          "value": "Use per capita",
+          "count": 8090
+        },
+        {
+          "value": "Use per area of cropland",
+          "count": 7805
+        },
+        {
+          "value": "Use per value of agricultural production",
+          "count": 7418
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "t",
+          "count": 80309
+        },
+        {
+          "value": "kg/cap",
+          "count": 8090
+        },
+        {
+          "value": "kg/ha",
+          "count": 7805
+        },
+        {
+          "value": "g/Int$",
+          "count": 7418
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 52403
+        },
+        {
+          "value": "A",
+          "count": 31984
+        },
+        {
+          "value": "I",
+          "count": 11966
+        },
+        {
+          "value": "X",
+          "count": 7269
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Estimated Value",
+          "count": 36449
+        },
+        {
+          "value": "Official figure",
+          "count": 31801
+        },
+        {
+          "value": "Estimated using regional or country shares of pesticides",
+          "count": 13418
+        },
+        {
+          "value": "Imputed value",
+          "count": 11888
+        },
+        {
+          "value": "Figure from international organizations",
+          "count": 6983
+        },
+        {
+          "value": "Estimated using net trade",
+          "count": 2468
+        },
+        {
+          "value": "Taken from Eurostat sales database",
+          "count": 349
+        },
+        {
+          "value": "Imputed",
+          "count": 75
+        },
+        {
+          "value": "Estimated using pesticides per value of agricultural production",
+          "count": 68
+        },
+        {
+          "value": "Data provided by Country via FAO Questionnaire in active ingredients using Imports as proxy for agricultural use.",
+          "count": 40
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": 0.10165444427498493
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.05281596434402452
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.010207756178373778
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.010207756178373778
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.2080301197060349
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.49977066105869117
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.009918545043087255
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.009918545043087255
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.009668220077290226
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.007817456982296751
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.007817456982296751
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.048290936546714444
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.0215427231905583
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.0215427231905583
+      }
+    ]
+  }
+}

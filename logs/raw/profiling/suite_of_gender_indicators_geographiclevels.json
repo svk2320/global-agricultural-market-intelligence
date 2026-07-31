@@ -1,0 +1,78 @@
+{
+  "table": "raw.suite_of_gender_indicators_geographiclevels",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    "Geographic Level Code": "BIGINT",
+    "Geographic Level": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      "Geographic Level Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 4
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    "Geographic Level Code": {
+      "min": 10000,
+      "max": 100000,
+      "mean": 32500.75,
+      "median": 10001.5,
+      "stddev": 44999.500007407485
+    }
+  },
+  "outliers": {
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "q1": 10000.75,
+      "q3": 32501.5,
+      "lower_bound": -23750.375,
+      "upper_bound": 66252.625,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "All geographic levels",
+          "count": 1
+        },
+        {
+          "value": "National",
+          "count": 1
+        },
+        {
+          "value": "Urban",
+          "count": 1
+        },
+        {
+          "value": "Rural",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

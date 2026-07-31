@@ -1,0 +1,43 @@
+{
+  "table": "raw.environment_food_waste_disposal_areacodes",
+  "generated_at": "2026-07-07T18:57:04",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 271,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 271,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "M49 Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 271,
+      "distinct_rows": 271,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "M49 Code": "VARCHAR",
+        "Area": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

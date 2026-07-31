@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_researchers_sexes",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Sex Code": "BIGINT",
+    "Sex": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Sex Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Sex Code": {
+      "column": "Sex Code",
+      "distinct_count": 1
+    },
+    "Sex": {
+      "column": "Sex",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Sex Code": {
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "median": 1.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Sex Code": {
+      "column": "Sex Code",
+      "q1": 1.0,
+      "q3": 1.0,
+      "lower_bound": 1.0,
+      "upper_bound": 1.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Sex": {
+      "column": "Sex",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

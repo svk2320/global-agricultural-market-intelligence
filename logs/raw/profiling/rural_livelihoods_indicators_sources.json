@@ -1,0 +1,82 @@
+{
+  "table": "raw.rural_livelihoods_indicators_sources",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 5,
+    "column_count": 2
+  },
+  "schema": {
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 5,
+    "columns": {
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 5
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    "Source Code": {
+      "min": 3010,
+      "max": 3055,
+      "mean": 3044.8,
+      "median": 3053.0,
+      "stddev": 19.485892332659496
+    }
+  },
+  "outliers": {
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3052.0,
+      "q3": 3054.0,
+      "lower_bound": 3049.0,
+      "upper_bound": 3057.0,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "Household level",
+          "count": 1
+        },
+        {
+          "value": "All sources",
+          "count": 1
+        },
+        {
+          "value": "External",
+          "count": 1
+        },
+        {
+          "value": "Individual level",
+          "count": 1
+        },
+        {
+          "value": "Community level",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,78 @@
+{
+  "table": "raw.emissions_drained_organic_soils_elements",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 4
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5026,
+      "max": 7273,
+      "mean": 6686.25,
+      "median": 7223.0,
+      "stddev": 1107.099024477937
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 6668.5,
+      "q3": 7240.75,
+      "lower_bound": 5810.125,
+      "upper_bound": 8099.125,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Emissions (CO2)",
+          "count": 1
+        },
+        {
+          "value": "Area",
+          "count": 1
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 1
+        },
+        {
+          "value": "Net stock change (C)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

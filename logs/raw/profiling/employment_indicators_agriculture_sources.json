@@ -1,0 +1,102 @@
+{
+  "table": "raw.employment_indicators_agriculture_sources",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 15,
+    "column_count": 2
+  },
+  "schema": {
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 15,
+    "columns": {
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 15
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 15
+    }
+  },
+  "statistics": {
+    "Source Code": {
+      "min": 3012,
+      "max": 3047,
+      "mean": 3029.133333333333,
+      "median": 3023.0,
+      "stddev": 13.15222233620424
+    }
+  },
+  "outliers": {
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3018.5,
+      "q3": 3043.5,
+      "lower_bound": 2981.0,
+      "upper_bound": 3081.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "ILOSTAT - Administrative population register",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - Population census",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - SNA - National Accounts",
+          "count": 1
+        },
+        {
+          "value": "ILO - ILO Modelled Estimates",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - Employment surveys",
+          "count": 1
+        },
+        {
+          "value": "FAO Model",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - Administrative records",
+          "count": 1
+        },
+        {
+          "value": "ILO - Modelled Estimates; FAOSTAT - Value added (2015 US$)",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - Household survey",
+          "count": 1
+        },
+        {
+          "value": "ILOSTAT - Labour force survey",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

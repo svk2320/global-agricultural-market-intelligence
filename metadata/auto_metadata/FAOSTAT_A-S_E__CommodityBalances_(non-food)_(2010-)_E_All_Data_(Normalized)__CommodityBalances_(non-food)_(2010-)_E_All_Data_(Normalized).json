@@ -1,0 +1,224 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__CommodityBalances_(non-food)_(2010-)_E_All_Data_(Normalized)__CommodityBalances_(non-food)_(2010-)_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/CommodityBalances_(non-food)_(2010-)_E_All_Data_(Normalized)/CommodityBalances_(non-food)_(2010-)_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 409115,
+  "file_size_human": "399.5KB",
+  "last_modified": "2026-07-05T03:52:03.341956+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:41.047768+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 127558,
+  "column_count": 14,
+  "columns": [
+    {
+      "name": "Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2",
+        "3",
+        "4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Area Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'004",
+        "'008",
+        "'012"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Afghanistan",
+        "Albania",
+        "Algeria"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "828",
+        "829",
+        "767"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item Code (CPC)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'25020.01",
+        "'25020.02",
+        "'01921.02"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Cigarettes",
+        "Cigars and cheroots",
+        "Cotton lint, ginned"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5610",
+        "5071",
+        "5910"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Import quantity",
+        "Stock Variation",
+        "Export quantity"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Year Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2010",
+        "2011",
+        "2012"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2010",
+        "2011",
+        "2012"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "t"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 1260,
+      "null_percent": 0.99,
+      "sample_values": [
+        "5729.0",
+        "12754.0",
+        "6977.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "A",
+        "X",
+        "I"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Note",
+      "type": "String",
+      "nullable": true,
+      "null_count": 120914,
+      "null_percent": 94.79,
+      "sample_values": [
+        "Estimated data using trading partners database",
+        "Unofficial figure"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

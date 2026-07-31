@@ -1,0 +1,108 @@
+{
+  "table": "raw.fertilizers_detailedtradematrix",
+  "generated_at": "2026-07-07T18:57:06",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 5300910,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 5300910,
+      "columns": {
+        "Reporter Country Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Reporter Country Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Reporter Countries": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Country Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Country Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Countries": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code (CPC)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 5300910,
+      "distinct_rows": 5300910,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Reporter Country Code": "BIGINT",
+        "Reporter Country Code (M49)": "VARCHAR",
+        "Reporter Countries": "VARCHAR",
+        "Partner Country Code": "BIGINT",
+        "Partner Country Code (M49)": "VARCHAR",
+        "Partner Countries": "VARCHAR",
+        "Item Code": "BIGINT",
+        "Item Code (CPC)": "VARCHAR",
+        "Item": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Year Code": "BIGINT",
+        "Year": "BIGINT",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

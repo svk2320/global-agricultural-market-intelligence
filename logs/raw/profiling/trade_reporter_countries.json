@@ -1,0 +1,156 @@
+{
+  "table": "raw.trade_reporter_countries",
+  "generated_at": "2026-07-07T19:16:39",
+  "dataset_summary": {
+    "row_count": 232,
+    "column_count": 3
+  },
+  "schema": {
+    "Reporter Country Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Reporter Countries": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 232,
+    "columns": {
+      "Reporter Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Reporter Countries": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Reporter Country Code": {
+      "column": "Reporter Country Code",
+      "distinct_count": 232
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 232
+    },
+    "Reporter Countries": {
+      "column": "Reporter Countries",
+      "distinct_count": 232
+    }
+  },
+  "statistics": {
+    "Reporter Country Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 897.198275862069,
+      "median": 148.0,
+      "stddev": 1862.6237102693667
+    }
+  },
+  "outliers": {
+    "Reporter Country Code": {
+      "column": "Reporter Country Code",
+      "q1": 73.75,
+      "q3": 223.5,
+      "lower_bound": -150.875,
+      "upper_bound": 448.125,
+      "outlier_count": 34
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'008",
+          "count": 1
+        },
+        {
+          "value": "'051",
+          "count": 1
+        },
+        {
+          "value": "'036",
+          "count": 1
+        },
+        {
+          "value": "'180",
+          "count": 1
+        },
+        {
+          "value": "'014",
+          "count": 1
+        },
+        {
+          "value": "'242",
+          "count": 1
+        },
+        {
+          "value": "'266",
+          "count": 1
+        },
+        {
+          "value": "'352",
+          "count": 1
+        },
+        {
+          "value": "'380",
+          "count": 1
+        },
+        {
+          "value": "'392",
+          "count": 1
+        }
+      ]
+    },
+    "Reporter Countries": {
+      "column": "Reporter Countries",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 1
+        },
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        },
+        {
+          "value": "Hungary",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

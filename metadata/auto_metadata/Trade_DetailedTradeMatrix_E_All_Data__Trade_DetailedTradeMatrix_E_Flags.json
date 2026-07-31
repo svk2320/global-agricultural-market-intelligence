@@ -1,0 +1,47 @@
+{
+  "dataset_name": "Trade_DetailedTradeMatrix_E_All_Data__Trade_DetailedTradeMatrix_E_Flags",
+  "file_path": "Trade_DetailedTradeMatrix_E_All_Data/Trade_DetailedTradeMatrix_E_Flags.parquet",
+  "file_size_bytes": 1059,
+  "file_size_human": "1.0KB",
+  "last_modified": "2026-07-05T12:54:42.833649+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T12:54:42.833649+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 4,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "A",
+        "E",
+        "I"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Description",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Official figure",
+        "Estimated value",
+        "Value imputed by a receiving agency"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

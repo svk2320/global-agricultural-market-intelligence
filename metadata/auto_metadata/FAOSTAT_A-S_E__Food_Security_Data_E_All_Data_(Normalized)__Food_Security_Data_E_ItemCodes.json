@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Food_Security_Data_E_All_Data_(Normalized)__Food_Security_Data_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/Food_Security_Data_E_All_Data_(Normalized)/Food_Security_Data_E_ItemCodes.parquet",
+  "file_size_bytes": 2681,
+  "file_size_human": "2.6KB",
+  "last_modified": "2026-07-05T03:52:21.376587+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:04.510348+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 75,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "21051",
+        "21050",
+        "21057"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Access",
+        "Availability",
+        "Average dietary energy requirement (kcal/cap/day)"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

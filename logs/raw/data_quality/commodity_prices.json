@@ -1,0 +1,388 @@
+{
+  "table": "raw.commodity_prices",
+  "generated_at": "2026-07-07T18:56:58",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 798,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 26
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 798,
+      "columns": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Crude oil, average ($/bbl)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Crude oil, Brent ($/bbl)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Crude oil, Dubai ($/bbl)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Crude oil, WTI ($/bbl)": {
+          "null_count": 264,
+          "null_pct": 33.08
+        },
+        "Coal, Australian ($/mt)": {
+          "null_count": 120,
+          "null_pct": 15.04
+        },
+        "Coal, South African ** ($/mt)": {
+          "null_count": 288,
+          "null_pct": 36.09
+        },
+        "Natural gas, US ($/mmbtu)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Natural gas, Europe ($/mmbtu)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Liquefied natural gas, Japan ($/mmbtu)": {
+          "null_count": 204,
+          "null_pct": 25.56
+        },
+        "Natural gas index (2010=100)": {
+          "null_count": 204,
+          "null_pct": 25.56
+        },
+        "Cocoa ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Coffee, Arabica ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Coffee, Robusta ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tea, avg 3 auctions ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tea, Colombo ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tea, Kolkata ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tea, Mombasa ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Coconut oil ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Groundnuts ($/mt)": {
+          "null_count": 240,
+          "null_pct": 30.08
+        },
+        "Fish meal ($/mt)": {
+          "null_count": 228,
+          "null_pct": 28.57
+        },
+        "Groundnut oil ** ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Palm oil ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Palm kernel oil ($/mt)": {
+          "null_count": 432,
+          "null_pct": 54.14
+        },
+        "Soybeans ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Soybean oil ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Soybean meal ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Rapeseed oil ($/mt)": {
+          "null_count": 505,
+          "null_pct": 63.28
+        },
+        "Sunflower oil ($/mt)": {
+          "null_count": 510,
+          "null_pct": 63.91
+        },
+        "Barley ($/mt)": {
+          "null_count": 70,
+          "null_pct": 8.77
+        },
+        "Maize ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sorghum ($/mt)": {
+          "null_count": 70,
+          "null_pct": 8.77
+        },
+        "Rice, Thai 5% ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Rice, Thai 25% ($/mt)": {
+          "null_count": 320,
+          "null_pct": 40.1
+        },
+        "Rice, Thai A.1 ($/mt)": {
+          "null_count": 312,
+          "null_pct": 39.1
+        },
+        "Rice, Viet Namese 5% ($/mt)": {
+          "null_count": 538,
+          "null_pct": 67.42
+        },
+        "Wheat, US SRW ($/mt)": {
+          "null_count": 235,
+          "null_pct": 29.45
+        },
+        "Wheat, US HRW ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Banana, Europe ($/kg)": {
+          "null_count": 444,
+          "null_pct": 55.64
+        },
+        "Banana, US ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Orange ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Beef ** ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Chicken ** ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Lamb ** ($/kg)": {
+          "null_count": 132,
+          "null_pct": 16.54
+        },
+        "Shrimps, Mexican ($/kg)": {
+          "null_count": 32,
+          "null_pct": 4.01
+        },
+        "Sugar, EU ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sugar, US ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sugar, world ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tobacco, US import u.v. ($/mt)": {
+          "null_count": 2,
+          "null_pct": 0.25
+        },
+        "Logs, Cameroon ($/cubic meter)": {
+          "null_count": 120,
+          "null_pct": 15.04
+        },
+        "Logs, Malaysian ($/cubic meter)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sawnwood, Cameroon ($/cubic meter)": {
+          "null_count": 372,
+          "null_pct": 46.62
+        },
+        "Sawnwood, Malaysian ($/cubic meter)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Plywood (cents/sheet)": {
+          "null_count": 228,
+          "null_pct": 28.57
+        },
+        "Cotton, A Index ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Rubber, TSR20 ** ($/kg)": {
+          "null_count": 468,
+          "null_pct": 58.65
+        },
+        "Rubber, RSS3 ($/kg)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Phosphate rock ($/mt)": {
+          "null_count": 1,
+          "null_pct": 0.13
+        },
+        "DAP ($/mt)": {
+          "null_count": 84,
+          "null_pct": 10.53
+        },
+        "TSP ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Urea ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Potassium chloride ** ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Aluminum ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Iron ore, cfr spot ($/dmtu)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Copper ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Lead ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Tin ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Nickel ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Zinc ($/mt)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Gold ($/troy oz)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Platinum ($/troy oz)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Silver ($/troy oz)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 798,
+      "distinct_rows": 798,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Date": "VARCHAR",
+        "Crude oil, average ($/bbl)": "DOUBLE",
+        "Crude oil, Brent ($/bbl)": "DOUBLE",
+        "Crude oil, Dubai ($/bbl)": "DOUBLE",
+        "Crude oil, WTI ($/bbl)": "DOUBLE",
+        "Coal, Australian ($/mt)": "DOUBLE",
+        "Coal, South African ** ($/mt)": "DOUBLE",
+        "Natural gas, US ($/mmbtu)": "DOUBLE",
+        "Natural gas, Europe ($/mmbtu)": "DOUBLE",
+        "Liquefied natural gas, Japan ($/mmbtu)": "DOUBLE",
+        "Natural gas index (2010=100)": "DOUBLE",
+        "Cocoa ($/kg)": "DOUBLE",
+        "Coffee, Arabica ($/kg)": "DOUBLE",
+        "Coffee, Robusta ($/kg)": "DOUBLE",
+        "Tea, avg 3 auctions ($/kg)": "DOUBLE",
+        "Tea, Colombo ($/kg)": "DOUBLE",
+        "Tea, Kolkata ($/kg)": "DOUBLE",
+        "Tea, Mombasa ($/kg)": "DOUBLE",
+        "Coconut oil ($/mt)": "BIGINT",
+        "Groundnuts ($/mt)": "DOUBLE",
+        "Fish meal ($/mt)": "DOUBLE",
+        "Groundnut oil ** ($/mt)": "BIGINT",
+        "Palm oil ($/mt)": "BIGINT",
+        "Palm kernel oil ($/mt)": "DOUBLE",
+        "Soybeans ($/mt)": "BIGINT",
+        "Soybean oil ($/mt)": "BIGINT",
+        "Soybean meal ($/mt)": "BIGINT",
+        "Rapeseed oil ($/mt)": "DOUBLE",
+        "Sunflower oil ($/mt)": "DOUBLE",
+        "Barley ($/mt)": "DOUBLE",
+        "Maize ($/mt)": "DOUBLE",
+        "Sorghum ($/mt)": "DOUBLE",
+        "Rice, Thai 5% ($/mt)": "DOUBLE",
+        "Rice, Thai 25% ($/mt)": "DOUBLE",
+        "Rice, Thai A.1 ($/mt)": "DOUBLE",
+        "Rice, Viet Namese 5% ($/mt)": "DOUBLE",
+        "Wheat, US SRW ($/mt)": "DOUBLE",
+        "Wheat, US HRW ($/mt)": "DOUBLE",
+        "Banana, Europe ($/kg)": "DOUBLE",
+        "Banana, US ($/kg)": "DOUBLE",
+        "Orange ($/kg)": "DOUBLE",
+        "Beef ** ($/kg)": "DOUBLE",
+        "Chicken ** ($/kg)": "DOUBLE",
+        "Lamb ** ($/kg)": "DOUBLE",
+        "Shrimps, Mexican ($/kg)": "DOUBLE",
+        "Sugar, EU ($/kg)": "DOUBLE",
+        "Sugar, US ($/kg)": "DOUBLE",
+        "Sugar, world ($/kg)": "DOUBLE",
+        "Tobacco, US import u.v. ($/mt)": "DOUBLE",
+        "Logs, Cameroon ($/cubic meter)": "DOUBLE",
+        "Logs, Malaysian ($/cubic meter)": "DOUBLE",
+        "Sawnwood, Cameroon ($/cubic meter)": "DOUBLE",
+        "Sawnwood, Malaysian ($/cubic meter)": "DOUBLE",
+        "Plywood (cents/sheet)": "DOUBLE",
+        "Cotton, A Index ($/kg)": "DOUBLE",
+        "Rubber, TSR20 ** ($/kg)": "DOUBLE",
+        "Rubber, RSS3 ($/kg)": "DOUBLE",
+        "Phosphate rock ($/mt)": "DOUBLE",
+        "DAP ($/mt)": "DOUBLE",
+        "TSP ($/mt)": "DOUBLE",
+        "Urea ($/mt)": "DOUBLE",
+        "Potassium chloride ** ($/mt)": "DOUBLE",
+        "Aluminum ($/mt)": "BIGINT",
+        "Iron ore, cfr spot ($/dmtu)": "DOUBLE",
+        "Copper ($/mt)": "BIGINT",
+        "Lead ($/mt)": "BIGINT",
+        "Tin ($/mt)": "BIGINT",
+        "Nickel ($/mt)": "BIGINT",
+        "Zinc ($/mt)": "BIGINT",
+        "Gold ($/troy oz)": "BIGINT",
+        "Platinum ($/troy oz)": "BIGINT",
+        "Silver ($/troy oz)": "DOUBLE"
+      },
+      "mismatches": {}
+    }
+  }
+}

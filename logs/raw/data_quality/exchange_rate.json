@@ -1,0 +1,98 @@
+{
+  "table": "raw.exchange_rate",
+  "generated_at": "2026-07-07T18:57:05",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 145821,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 1
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 145821,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "ISO Currency Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Currency": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Months Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Months": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 17,
+          "null_pct": 0.01
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 145821,
+      "distinct_rows": 145821,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "Area Code (M49)": "VARCHAR",
+        "Area": "VARCHAR",
+        "Element Code": "VARCHAR",
+        "Element": "VARCHAR",
+        "ISO Currency Code": "VARCHAR",
+        "Currency": "VARCHAR",
+        "Year Code": "BIGINT",
+        "Year": "BIGINT",
+        "Months Code": "BIGINT",
+        "Months": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

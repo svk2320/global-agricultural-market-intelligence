@@ -1,0 +1,70 @@
+{
+  "table": "raw.emissions_drained_organic_soils_sources",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 2,
+    "column_count": 2
+  },
+  "schema": {
+    " Source Code": "BIGINT",
+    " Source": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2,
+    "columns": {
+      " Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Source Code": {
+      "column": " Source Code",
+      "distinct_count": 2
+    },
+    " Source": {
+      "column": " Source",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    " Source Code": {
+      "min": 3050,
+      "max": 3051,
+      "mean": 3050.5,
+      "median": 3050.5,
+      "stddev": 0.7071067811865476
+    }
+  },
+  "outliers": {
+    " Source Code": {
+      "column": " Source Code",
+      "q1": 3050.25,
+      "q3": 3050.75,
+      "lower_bound": 3049.5,
+      "upper_bound": 3051.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Source": {
+      "column": " Source",
+      "top_values": [
+        {
+          "value": "FAO TIER 1",
+          "count": 1
+        },
+        {
+          "value": "UNFCCC",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

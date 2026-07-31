@@ -1,0 +1,74 @@
+# Example manual metadata file.
+#
+# Save one of these per dataset in manual_metadata/, using the SAME base
+# filename as the auto-generated JSON and the final markdown, e.g.:
+#
+#   auto_metadata/forestry_pulp_paper.json
+#   manual_metadata/forestry_pulp_paper.yaml   <-- this file
+#   data_dictionary/forestry_pulp_paper.md
+#
+# Every field below is OPTIONAL. Only fill in what you know — anything you
+# omit is simply left out of the final markdown (no blank/placeholder rows).
+# You can start with just a "description" and nothing else, and add more
+# later; the data dictionary will pick up whatever exists at merge time.
+#
+# This file holds BUSINESS metadata only — what the dataset and its columns
+# mean, not facts that automation already covers or that belong elsewhere:
+#   - Schema, row count, file size, null counts -> auto metadata (JSON)
+#   - Profiling (top values, distributions, outliers) -> preview reports
+#   - Data quality checks -> data quality reports
+#   - update_frequency -> belongs at the source / ingestion pipeline level,
+#     since it can vary per source and differ from other datasets sharing
+#     the same source
+#   - source_url -> belongs in your dataset catalog / ingestion metadata,
+#     rather than repeated across hundreds of per-dataset files
+#   - allowed_values -> hard to keep accurate by hand; better derived from
+#     a lookup table or validated during data quality checks
+# 
+# Under "columns:", replace "Element Code" and "Element" with the actual
+# column names from your dataset.
+#
+# Example:
+#
+# Dataset columns:
+#   country_code
+#   country_name
+#   date
+#
+# Then write:
+#
+# columns:
+#   country_code:
+#     description: ...
+#
+#   country_name:
+#     description: ...
+#
+#   date:
+#     description: ...
+
+dataset:
+  title: Forestry Pulp Paper Survey Elements
+  description: Lookup table containing forestry element definitions.
+  business_purpose: Used to translate FAOSTAT element codes into readable labels for reporting.
+  owner: FAOSTAT
+  tags:
+    - forestry
+    - lookup-table
+
+columns:
+  Element Code:
+    description: Unique FAOSTAT element identifier.
+    unit: null
+    primary_key: true
+    foreign_key: null
+    business_rules: Must be unique and non-null.
+    notes: Used as the join key from the main production table.
+
+  Element:
+    description: Human-readable element name.
+    unit: null
+    primary_key: false
+    foreign_key: null
+    business_rules: null
+    notes: null

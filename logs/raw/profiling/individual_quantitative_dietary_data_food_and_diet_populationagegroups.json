@@ -1,0 +1,130 @@
+{
+  "table": "raw.individual_quantitative_dietary_data_food_and_diet_populationagegroups",
+  "generated_at": "2026-07-07T19:16:03",
+  "dataset_summary": {
+    "row_count": 11,
+    "column_count": 2
+  },
+  "schema": {
+    " Population Age Group": "VARCHAR",
+    " Population Age Group_duplicated_0": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 11,
+    "columns": {
+      " Population Age Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Population Age Group_duplicated_0": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Population Age Group": {
+      "column": " Population Age Group",
+      "distinct_count": 11
+    },
+    " Population Age Group_duplicated_0": {
+      "column": " Population Age Group_duplicated_0",
+      "distinct_count": 11
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    " Population Age Group": {
+      "column": " Population Age Group",
+      "top_values": [
+        {
+          "value": "14t18y",
+          "count": 1
+        },
+        {
+          "value": "19t50y",
+          "count": 1
+        },
+        {
+          "value": "1t8y",
+          "count": 1
+        },
+        {
+          "value": "19ya",
+          "count": 1
+        },
+        {
+          "value": "51ya",
+          "count": 1
+        },
+        {
+          "value": "12mb",
+          "count": 1
+        },
+        {
+          "value": "9t13y",
+          "count": 1
+        },
+        {
+          "value": "allages",
+          "count": 1
+        },
+        {
+          "value": "1t3y",
+          "count": 1
+        },
+        {
+          "value": "4t8y",
+          "count": 1
+        }
+      ]
+    },
+    " Population Age Group_duplicated_0": {
+      "column": " Population Age Group_duplicated_0",
+      "top_values": [
+        {
+          "value": "< 12 months",
+          "count": 1
+        },
+        {
+          "value": "19 years +",
+          "count": 1
+        },
+        {
+          "value": "51 years +",
+          "count": 1
+        },
+        {
+          "value": "9-13 years",
+          "count": 1
+        },
+        {
+          "value": "1-3 years",
+          "count": 1
+        },
+        {
+          "value": "4-8 years",
+          "count": 1
+        },
+        {
+          "value": "1-8 years",
+          "count": 1
+        },
+        {
+          "value": "19-50 years",
+          "count": 1
+        },
+        {
+          "value": "14-18 years",
+          "count": 1
+        },
+        {
+          "value": "All",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,717 @@
+{
+  "dataset_name": "public_emdat_incl_hist_2026-06-29__EM-DAT_Data",
+  "file_path": "public_emdat_incl_hist_2026-06-29/EM-DAT_Data.parquet",
+  "file_size_bytes": 4498393,
+  "file_size_human": "4.3MB",
+  "last_modified": "2026-07-05T13:24:22.468935+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T13:24:22.372851+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 27681,
+  "column_count": 47,
+  "columns": [
+    {
+      "name": "DisNo.",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1987-0326-JAM",
+        "1987-0590-FSM",
+        "1988-0312-PHL"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Historic",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Yes",
+        "No"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Classification Key",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "nat-hyd-flo-riv",
+        "nat-met-sto-tro",
+        "nat-geo-ear-gro"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Disaster Group",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Natural",
+        "Technological"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Disaster Subgroup",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Hydrological",
+        "Meteorological",
+        "Geophysical"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Disaster Type",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Flood",
+        "Storm",
+        "Earthquake"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Disaster Subtype",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Riverine flood",
+        "Tropical cyclone",
+        "Ground movement"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "External IDs",
+      "type": "String",
+      "nullable": true,
+      "null_count": 22981,
+      "null_percent": 83.02,
+      "sample_values": [
+        "GLIDE:EQ-2025-000153",
+        "GLIDE:EP-2025-000013",
+        "GLIDE:EP-2025-000030|GLIDE:EP-2025-000105"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Event Name",
+      "type": "String",
+      "nullable": true,
+      "null_count": 18840,
+      "null_percent": 68.06,
+      "sample_values": [
+        "Typhoon 'Nina' (Sisang)",
+        "Typhoon 'Warren' (Huaning)",
+        "Hurricane 'Gilbert'"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "ISO",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "JAM",
+        "FSM",
+        "PHL"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Country",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Jamaica",
+        "Micronesia (Federated States of)",
+        "Philippines"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Subregion",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Latin America and the Caribbean",
+        "Micronesia",
+        "South-eastern Asia"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Region",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Americas",
+        "Oceania",
+        "Asia"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Location",
+      "type": "String",
+      "nullable": true,
+      "null_count": 2484,
+      "null_percent": 8.97,
+      "sample_values": [
+        "Northern Luzon",
+        "Texas, Louisiana, Mississippi",
+        "Esmeraldas, Eloy Alfaro, Atacames, Muisne, Quinind\u00e9, Rioverde, and San Lorenz..."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Origin",
+      "type": "String",
+      "nullable": true,
+      "null_count": 22763,
+      "null_percent": 82.23,
+      "sample_values": [
+        "Tropical Depression Fourteen",
+        "Heavy rain",
+        "Intense rain"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Associated Types",
+      "type": "String",
+      "nullable": true,
+      "null_count": 23229,
+      "null_percent": 83.92,
+      "sample_values": [
+        "Slide (land, mud, snow, rock)",
+        "Flood",
+        "Lightening"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "OFDA/BHA Response",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "No",
+        "Yes"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Appeal",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "No",
+        "Yes"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Declaration",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "No",
+        "Yes"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "AID Contribution ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 26894,
+      "null_percent": 97.16,
+      "sample_values": [
+        "773.0",
+        "721.0",
+        "30.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Magnitude",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 22210,
+      "null_percent": 80.24,
+      "sample_values": [
+        "148.0",
+        "215.0",
+        "185.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Magnitude Scale",
+      "type": "String",
+      "nullable": true,
+      "null_count": 10295,
+      "null_percent": 37.19,
+      "sample_values": [
+        "Km2",
+        "Kph",
+        "Moment Magnitude"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Latitude",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 24846,
+      "null_percent": 89.76,
+      "sample_values": [
+        "1.084",
+        "34.519",
+        "30.89"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Longitude",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 24846,
+      "null_percent": 89.76,
+      "sample_values": [
+        "-79.532",
+        "70.734",
+        "50.194"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "River Basin",
+      "type": "String",
+      "nullable": true,
+      "null_count": 26048,
+      "null_percent": 94.1,
+      "sample_values": [
+        "Kosi river",
+        "Huailhe and Yangtze",
+        "Banjir Kanal Barat river"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Start Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1987",
+        "1988",
+        "1989"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Start Month",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 481,
+      "null_percent": 1.74,
+      "sample_values": [
+        "10.0",
+        "11.0",
+        "7.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Start Day",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 3930,
+      "null_percent": 14.2,
+      "sample_values": [
+        "31.0",
+        "21.0",
+        "16.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "End Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1987",
+        "1988",
+        "1989"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "End Month",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 775,
+      "null_percent": 2.8,
+      "sample_values": [
+        "11.0",
+        "7.0",
+        "8.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "End Day",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 3821,
+      "null_percent": 13.8,
+      "sample_values": [
+        "4.0",
+        "21.0",
+        "16.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Total Deaths",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 5563,
+      "null_percent": 20.1,
+      "sample_values": [
+        "9.0",
+        "5.0",
+        "6.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "No. Injured",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 18444,
+      "null_percent": 66.63,
+      "sample_values": [
+        "3.0",
+        "49.0",
+        "79.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "No. Affected",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 16023,
+      "null_percent": 57.88,
+      "sample_values": [
+        "26000.0",
+        "96120.0",
+        "8241.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "No. Homeless",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 24917,
+      "null_percent": 90.01,
+      "sample_values": [
+        "200.0",
+        "21235.0",
+        "222.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Total Affected",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 8966,
+      "null_percent": 32.39,
+      "sample_values": [
+        "26000.0",
+        "203.0",
+        "117355.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Reconstruction Costs ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 27637,
+      "null_percent": 99.84,
+      "sample_values": [
+        "1000.0",
+        "150000.0",
+        "1600000.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Reconstruction Costs, Adjusted ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 27637,
+      "null_percent": 99.84,
+      "sample_values": [
+        "2464.0",
+        "300850.0",
+        "2051354.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Insured Damage ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 26530,
+      "null_percent": 95.84,
+      "sample_values": [
+        "45000.0",
+        "92000.0",
+        "68000.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Insured Damage, Adjusted ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 26530,
+      "null_percent": 95.84,
+      "sample_values": [
+        "116866.0",
+        "238925.0",
+        "176597.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Total Damage ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 21640,
+      "null_percent": 78.18,
+      "sample_values": [
+        "31000.0",
+        "6000.0",
+        "11516.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Total Damage, Adjusted ('000 US$)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 21654,
+      "null_percent": 78.23,
+      "sample_values": [
+        "87835.0",
+        "17000.0",
+        "31351.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "CPI",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 161,
+      "null_percent": 0.58,
+      "sample_values": [
+        "35.29351844458779",
+        "36.73269471079365",
+        "38.505785490798694"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Admin Units",
+      "type": "String",
+      "nullable": true,
+      "null_count": 19274,
+      "null_percent": 69.63,
+      "sample_values": [
+        "[{\"adm1_code\":1444,\"adm1_name\":\"Budapest\"}]",
+        "[{\"adm1_code\":40703,\"adm1_name\":\"Kankan\"}]",
+        "[{\"adm1_code\":607,\"adm1_name\":\"Stann Creek\"},{\"adm1_code\":608,\"adm1_name\":\"To..."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "GADM Admin Units",
+      "type": "String",
+      "nullable": true,
+      "null_count": 19839,
+      "null_percent": 71.67,
+      "sample_values": [
+        "[{\"gid_1\":\"GIN.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard...",
+        "[{\"gid_1\":\"BLZ.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard...",
+        "[{\"gid_2\":\"NAM.13.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jacc..."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Entry Date",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2003-07-01",
+        "2026-05-12",
+        "2008-04-04"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Last Update",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2026-05-12",
+        "2026-05-15",
+        "2026-05-11"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

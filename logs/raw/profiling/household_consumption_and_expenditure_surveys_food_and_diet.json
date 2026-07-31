@@ -1,0 +1,640 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 1166330,
+    "column_count": 14
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR",
+    "Geographic Level Code": "VARCHAR",
+    "Geographic Level": "VARCHAR",
+    "Food Group Code": "VARCHAR",
+    "Food Group": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Element Code": "VARCHAR",
+    "Element": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1166330,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 21121,
+        "null_pct": 1.81
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 59
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 59
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 771
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 615
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "distinct_count": 21
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "distinct_count": 21
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 19
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 19
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 12
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 3
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 10322
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 53
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 3300,
+      "max": 3319,
+      "mean": 3309.5513842565997,
+      "median": 3309.0,
+      "stddev": 5.476381537498932
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 10033.6,
+      "mean": 69.33221705690798,
+      "median": 1.5,
+      "stddev": 279.3101101896481
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 3305.0,
+      "q3": 3314.0,
+      "lower_bound": 3291.5,
+      "upper_bound": 3327.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.04,
+      "q3": 21.0,
+      "lower_bound": -31.400000000000002,
+      "upper_bound": 52.44,
+      "outlier_count": 187395
+    }
+  },
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "050_2016",
+          "count": 63611
+        },
+        {
+          "value": "404_2016",
+          "count": 48191
+        },
+        {
+          "value": "566_2019",
+          "count": 46033
+        },
+        {
+          "value": "454_2020",
+          "count": 43253
+        },
+        {
+          "value": "484_2020",
+          "count": 42324
+        },
+        {
+          "value": "484_2022",
+          "count": 42248
+        },
+        {
+          "value": "484_2018",
+          "count": 42210
+        },
+        {
+          "value": "356_2012",
+          "count": 37075
+        },
+        {
+          "value": "384_2019",
+          "count": 37023
+        },
+        {
+          "value": "834_2018",
+          "count": 34370
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Bangladesh - 2016",
+          "count": 63611
+        },
+        {
+          "value": "Kenya - 2016",
+          "count": 48191
+        },
+        {
+          "value": "Nigeria - 2019",
+          "count": 46033
+        },
+        {
+          "value": "Malawi - 2020",
+          "count": 43253
+        },
+        {
+          "value": "Mexico - 2020",
+          "count": 42324
+        },
+        {
+          "value": "Mexico - 2022",
+          "count": 42248
+        },
+        {
+          "value": "Mexico - 2018",
+          "count": 42210
+        },
+        {
+          "value": "India - 2012",
+          "count": 37075
+        },
+        {
+          "value": "C\u00f4te d'Ivoire - 2019",
+          "count": 37023
+        },
+        {
+          "value": "United Republic of Tanzania - 2018",
+          "count": 34370
+        }
+      ]
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "top_values": [
+        {
+          "value": "10000",
+          "count": 55016
+        },
+        {
+          "value": "10001",
+          "count": 51959
+        },
+        {
+          "value": "10002",
+          "count": 50988
+        },
+        {
+          "value": "484_90004",
+          "count": 5395
+        },
+        {
+          "value": "484_90003",
+          "count": 5395
+        },
+        {
+          "value": "484_90001",
+          "count": 5395
+        },
+        {
+          "value": "484_90002",
+          "count": 5357
+        },
+        {
+          "value": "484_90005",
+          "count": 5357
+        },
+        {
+          "value": "398_43",
+          "count": 4220
+        },
+        {
+          "value": "398_35",
+          "count": 4220
+        }
+      ]
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "National",
+          "count": 55016
+        },
+        {
+          "value": "Urban",
+          "count": 51959
+        },
+        {
+          "value": "Rural",
+          "count": 50988
+        },
+        {
+          "value": "Highest income quintile",
+          "count": 50117
+        },
+        {
+          "value": "Income quintile 4",
+          "count": 50005
+        },
+        {
+          "value": "Income quintile 3",
+          "count": 49899
+        },
+        {
+          "value": "Income quintile 2",
+          "count": 49833
+        },
+        {
+          "value": "Lowest income quintile",
+          "count": 49621
+        },
+        {
+          "value": "\u041a\u0430\u0440\u0430\u0433\u0430\u043d\u0434\u0438\u043d\u0441\u043a\u0430\u044f (Karaganda)",
+          "count": 4220
+        },
+        {
+          "value": "\u0410\u043b\u043c\u0430\u0442\u0438\u043d\u0441\u043a\u0430\u044f (Almaty)",
+          "count": 4220
+        }
+      ]
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "top_values": [
+        {
+          "value": "FG1",
+          "count": 67075
+        },
+        {
+          "value": "FG14",
+          "count": 66967
+        },
+        {
+          "value": "FG13",
+          "count": 66859
+        },
+        {
+          "value": "FG7",
+          "count": 66191
+        },
+        {
+          "value": "FG4",
+          "count": 66085
+        },
+        {
+          "value": "FG9",
+          "count": 66011
+        },
+        {
+          "value": "FG12",
+          "count": 65971
+        },
+        {
+          "value": "FG10",
+          "count": 65499
+        },
+        {
+          "value": "FG2",
+          "count": 65425
+        },
+        {
+          "value": "FG3",
+          "count": 65353
+        }
+      ]
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "top_values": [
+        {
+          "value": "Cereals and their products",
+          "count": 67075
+        },
+        {
+          "value": "Beverages",
+          "count": 66967
+        },
+        {
+          "value": "Spices and condiments",
+          "count": 66859
+        },
+        {
+          "value": "Meat and meat products",
+          "count": 66191
+        },
+        {
+          "value": "Milk and milk products",
+          "count": 66085
+        },
+        {
+          "value": "Vegetables and their products",
+          "count": 66011
+        },
+        {
+          "value": "Sweets and sugars",
+          "count": 65971
+        },
+        {
+          "value": "Fruits and their products",
+          "count": 65499
+        },
+        {
+          "value": "Roots, tubers, plantains and their products",
+          "count": 65425
+        },
+        {
+          "value": "Pulses, seeds and nuts and their products",
+          "count": 65353
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Energy apparent intake",
+          "count": 68166
+        },
+        {
+          "value": "Calcium apparent intake",
+          "count": 68072
+        },
+        {
+          "value": "Iron apparent intake",
+          "count": 68022
+        },
+        {
+          "value": "Fat apparent intake",
+          "count": 68018
+        },
+        {
+          "value": "Protein apparent intake",
+          "count": 67866
+        },
+        {
+          "value": "Carbohydrate (available) apparent intake",
+          "count": 67732
+        },
+        {
+          "value": "Riboflavin apparent intake",
+          "count": 67724
+        },
+        {
+          "value": "Thiamin apparent intake",
+          "count": 67386
+        },
+        {
+          "value": "Phosphorus apparent intake",
+          "count": 64818
+        },
+        {
+          "value": "Zinc apparent intake",
+          "count": 63716
+        }
+      ]
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "top_values": [
+        {
+          "value": "6209A",
+          "count": 217333
+        },
+        {
+          "value": "62092",
+          "count": 197676
+        },
+        {
+          "value": "62091",
+          "count": 197676
+        },
+        {
+          "value": "6123A",
+          "count": 115316
+        },
+        {
+          "value": "61232",
+          "count": 103428
+        },
+        {
+          "value": "61231",
+          "count": 103428
+        },
+        {
+          "value": "6206A",
+          "count": 60831
+        },
+        {
+          "value": "62061",
+          "count": 51238
+        },
+        {
+          "value": "62062",
+          "count": 51238
+        },
+        {
+          "value": "6128A",
+          "count": 23824
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Average",
+          "count": 417304
+        },
+        {
+          "value": "Confidence interval: Lower bound",
+          "count": 374513
+        },
+        {
+          "value": "Confidence interval: Upper bound",
+          "count": 374513
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "mg/cap/d",
+          "count": 612685
+        },
+        {
+          "value": "g/cap/d",
+          "count": 322172
+        },
+        {
+          "value": "\u03bcg/cap/d",
+          "count": 163307
+        },
+        {
+          "value": "kcal/cap/d",
+          "count": 68166
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 1166330
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Enqu\u00eate Harmonisee Sur Les Conditions De Vie Des Menages, September 2018 - July 2019.",
+          "count": 74432
+        },
+        {
+          "value": "Household Income and Expenditure Survey, April 2016 - March 2017.",
+          "count": 62411
+        },
+        {
+          "value": "Integrated Household Budget Survey, September 2015 - August 2016.",
+          "count": 47256
+        },
+        {
+          "value": "Living Standards Survey, September 2018 - September 2019.",
+          "count": 45166
+        },
+        {
+          "value": "Fifth Integrated Household Survey, April 2019 - April 2020.",
+          "count": 42522
+        },
+        {
+          "value": "Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH), August 2020 - November 2020. Nueva Serie.",
+          "count": 41604
+        },
+        {
+          "value": "Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH), August 2022 - November 2022. Nueva Serie.",
+          "count": 41528
+        },
+        {
+          "value": "Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH), August 2018 - November 2018. Nueva Serie.",
+          "count": 41490
+        },
+        {
+          "value": "Socio Economic Survey, Sixty-Eighth Round, July 2011 - June 2012.",
+          "count": 36387
+        },
+        {
+          "value": "Household Budget Survey - Tanzania Mainland. December 2017 - November 2018.",
+          "count": 33792
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.055673747296134696
+      }
+    ]
+  }
+}

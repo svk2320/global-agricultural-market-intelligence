@@ -1,0 +1,98 @@
+{
+  "table": "raw.rural_livelihoods_indicators",
+  "generated_at": "2026-07-07T18:57:13",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 38918,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 38918,
+      "columns": {
+        "Survey Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Survey": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Qualifier Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Qualifier": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Source Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Source": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Note": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 38918,
+      "distinct_rows": 38918,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Survey Code": "VARCHAR",
+        "Survey": "VARCHAR",
+        "Indicator Code": "BIGINT",
+        "Indicator": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Qualifier Code": "VARCHAR",
+        "Qualifier": "VARCHAR",
+        "Source Code": "BIGINT",
+        "Source": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR",
+        "Note": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

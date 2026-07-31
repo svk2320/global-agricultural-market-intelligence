@@ -1,0 +1,43 @@
+{
+  "table": "raw.trade_partner_countries",
+  "generated_at": "2026-07-07T18:57:25",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 255,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 255,
+      "columns": {
+        "Partner Country Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "M49 Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Partner Countries": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 255,
+      "distinct_rows": 255,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Partner Country Code": "BIGINT",
+        "M49 Code": "VARCHAR",
+        "Partner Countries": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

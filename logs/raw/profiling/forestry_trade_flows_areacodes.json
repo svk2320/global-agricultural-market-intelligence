@@ -1,0 +1,156 @@
+{
+  "table": "raw.forestry_trade_flows_areacodes",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 423,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 423,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 216
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 216
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 216
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 982.6099290780141,
+      "median": 151.0,
+      "stddev": 1942.3021803536112
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 75.0,
+      "q3": 225.5,
+      "lower_bound": -150.75,
+      "upper_bound": 451.25,
+      "outlier_count": 69
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'008",
+          "count": 2
+        },
+        {
+          "value": "'051",
+          "count": 2
+        },
+        {
+          "value": "'036",
+          "count": 2
+        },
+        {
+          "value": "'180",
+          "count": 2
+        },
+        {
+          "value": "'014",
+          "count": 2
+        },
+        {
+          "value": "'242",
+          "count": 2
+        },
+        {
+          "value": "'266",
+          "count": 2
+        },
+        {
+          "value": "'352",
+          "count": 2
+        },
+        {
+          "value": "'380",
+          "count": 2
+        },
+        {
+          "value": "'392",
+          "count": 2
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Australia and New Zealand",
+          "count": 2
+        },
+        {
+          "value": "Africa",
+          "count": 2
+        },
+        {
+          "value": "Eritrea",
+          "count": 2
+        },
+        {
+          "value": "Asia",
+          "count": 2
+        },
+        {
+          "value": "Dominican Republic",
+          "count": 2
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 2
+        },
+        {
+          "value": "Germany",
+          "count": 2
+        },
+        {
+          "value": "Cameroon",
+          "count": 2
+        },
+        {
+          "value": "Gabon",
+          "count": 2
+        },
+        {
+          "value": "Guinea",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

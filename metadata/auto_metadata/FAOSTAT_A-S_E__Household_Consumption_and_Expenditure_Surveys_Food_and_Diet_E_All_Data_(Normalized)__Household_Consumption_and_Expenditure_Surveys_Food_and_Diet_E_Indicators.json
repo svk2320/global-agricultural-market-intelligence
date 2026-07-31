@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Household_Consumption_and_Expenditure_Surveys_Food_and_Diet_E_All_Data_(Normalized)__Household_Consumption_and_Expenditure_Surveys_Food_and_Diet_E_Indicators",
+  "file_path": "FAOSTAT_A-S_E/Household_Consumption_and_Expenditure_Surveys_Food_and_Diet_E_All_Data_(Normalized)/Household_Consumption_and_Expenditure_Surveys_Food_and_Diet_E_Indicators.parquet",
+  "file_size_bytes": 1361,
+  "file_size_human": "1.3KB",
+  "last_modified": "2026-07-05T03:52:38.162781+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:10.271245+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 19,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Indicator Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3307",
+        "3305",
+        "3306"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Indicator",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Calcium apparent intake",
+        "Carbohydrate (available) apparent intake",
+        "Dietary Fibre apparent intake"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

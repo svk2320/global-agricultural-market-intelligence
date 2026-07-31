@@ -1,0 +1,156 @@
+{
+  "table": "raw.emissions_crops_itemcodes",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 14,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 14,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 14
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 14
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 14
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 15,
+      "max": 3102,
+      "mean": 424.85714285714283,
+      "median": 81.0,
+      "stddev": 884.9417066540734
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 59.75,
+      "q3": 171.0,
+      "lower_bound": -107.125,
+      "upper_bound": 337.875,
+      "outlier_count": 2
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'0115",
+          "count": 1
+        },
+        {
+          "value": "'01510",
+          "count": 1
+        },
+        {
+          "value": "'0111",
+          "count": 1
+        },
+        {
+          "value": "'0112",
+          "count": 1
+        },
+        {
+          "value": "'F3102",
+          "count": 1
+        },
+        {
+          "value": "'F1712",
+          "count": 1
+        },
+        {
+          "value": "'0116",
+          "count": 1
+        },
+        {
+          "value": "'0114",
+          "count": 1
+        },
+        {
+          "value": "'0113",
+          "count": 1
+        },
+        {
+          "value": "'0141",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Rye",
+          "count": 1
+        },
+        {
+          "value": "Oats",
+          "count": 1
+        },
+        {
+          "value": "Beans; dry",
+          "count": 1
+        },
+        {
+          "value": "Sorghum",
+          "count": 1
+        },
+        {
+          "value": "Barley",
+          "count": 1
+        },
+        {
+          "value": "Maize (corn)",
+          "count": 1
+        },
+        {
+          "value": "Potatoes",
+          "count": 1
+        },
+        {
+          "value": "Wheat",
+          "count": 1
+        },
+        {
+          "value": "All Crops",
+          "count": 1
+        },
+        {
+          "value": "Soya beans",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

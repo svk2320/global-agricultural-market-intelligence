@@ -1,0 +1,1097 @@
+{
+  "dataset_name": "CMO-Historical-Data-Monthly__Monthly_Prices",
+  "file_path": "CMO-Historical-Data-Monthly/Monthly_Prices.parquet",
+  "file_size_bytes": 215298,
+  "file_size_human": "210.3KB",
+  "last_modified": "2026-07-06T02:41:00.501092+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-06T02:41:00.494206+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 798,
+  "column_count": 72,
+  "columns": [
+    {
+      "name": "Date",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1960M01",
+        "1960M02",
+        "1960M03"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Crude oil, average ($/bbl)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.6",
+        "1.5",
+        "1.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Crude oil, Brent ($/bbl)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.6",
+        "1.5",
+        "1.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Crude oil, Dubai ($/bbl)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.6",
+        "1.5",
+        "1.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Crude oil, WTI ($/bbl)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 264,
+      "null_percent": 33.08,
+      "sample_values": [
+        "35.3",
+        "34.8",
+        "32.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Coal, Australian ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 120,
+      "null_percent": 15.04,
+      "sample_values": [
+        "7.8",
+        "8.7",
+        "9.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Coal, South African ** ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 288,
+      "null_percent": 36.09,
+      "sample_values": [
+        "29.3",
+        "34.3",
+        "35.8"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Natural gas, US ($/mmbtu)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.1",
+        "0.2",
+        "0.3"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Natural gas, Europe ($/mmbtu)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.4",
+        "0.5",
+        "0.7"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Liquefied natural gas, Japan ($/mmbtu)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 204,
+      "null_percent": 25.56,
+      "sample_values": [
+        "2.8",
+        "3.0",
+        "3.7"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Natural gas index (2010=100)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 204,
+      "null_percent": 25.56,
+      "sample_values": [
+        "18.5",
+        "19.0",
+        "19.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Cocoa ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.63",
+        "0.61",
+        "0.58"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Coffee, Arabica ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.94",
+        "0.95",
+        "0.93"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Coffee, Robusta ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.7",
+        "0.69",
+        "0.68"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tea, avg 3 auctions ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.03",
+        "0.95",
+        "0.97"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tea, Colombo ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.93",
+        "0.89",
+        "0.86"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tea, Kolkata ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.12",
+        "0.98",
+        "1.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tea, Mombasa ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.04",
+        "0.98",
+        "0.95"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Coconut oil ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "390",
+        "379",
+        "361"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Groundnuts ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 240,
+      "null_percent": 30.08,
+      "sample_values": [
+        "869.0",
+        "887.0",
+        "895.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Fish meal ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 228,
+      "null_percent": 28.57,
+      "sample_values": [
+        "381.0",
+        "382.0",
+        "366.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Groundnut oil ** ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "334",
+        "341",
+        "338"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Palm oil ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "233",
+        "229",
+        "225"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Palm kernel oil ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 432,
+      "null_percent": 54.14,
+      "sample_values": [
+        "686.0",
+        "716.0",
+        "715.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Soybeans ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "94",
+        "91",
+        "92"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Soybean oil ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "204",
+        "201",
+        "207"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Soybean meal ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "92",
+        "87",
+        "84"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rapeseed oil ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 505,
+      "null_percent": 63.28,
+      "sample_values": [
+        "423.0",
+        "416.0",
+        "411.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sunflower oil ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 510,
+      "null_percent": 63.91,
+      "sample_values": [
+        "578.0",
+        "557.0",
+        "552.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Barley ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 70,
+      "null_percent": 8.77,
+      "sample_values": [
+        "20.4",
+        "20.7",
+        "20.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Maize ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "45.0",
+        "44.0",
+        "48.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sorghum ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 70,
+      "null_percent": 8.77,
+      "sample_values": [
+        "39.0",
+        "35.0",
+        "36.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rice, Thai 5% ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "104.5",
+        "103.5",
+        "103.8"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rice, Thai 25% ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 320,
+      "null_percent": 40.1,
+      "sample_values": [
+        "83.3",
+        "115.1",
+        "101.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rice, Thai A.1 ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 312,
+      "null_percent": 39.1,
+      "sample_values": [
+        "98.0",
+        "97.0",
+        "100.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rice, Viet Namese 5% ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 538,
+      "null_percent": 67.42,
+      "sample_values": [
+        "197.0",
+        "198.8",
+        "204.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Wheat, US SRW ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 235,
+      "null_percent": 29.45,
+      "sample_values": [
+        "140.4",
+        "144.8",
+        "144.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Wheat, US HRW ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "59.9",
+        "61.0",
+        "61.7"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Banana, Europe ($/kg)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 444,
+      "null_percent": 55.64,
+      "sample_values": [
+        "0.94",
+        "0.97",
+        "1.11"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Banana, US ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.14",
+        "0.15",
+        "0.13"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Orange ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.12",
+        "0.11",
+        "0.13"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Beef ** ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.71",
+        "0.77",
+        "0.84"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Chicken ** ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.3",
+        "0.31",
+        "0.32"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Lamb ** ($/kg)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 132,
+      "null_percent": 16.54,
+      "sample_values": [
+        "0.8",
+        "0.79",
+        "0.78"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Shrimps, Mexican ($/kg)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 32,
+      "null_percent": 4.01,
+      "sample_values": [
+        "1.43",
+        "1.5",
+        "1.68"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sugar, EU ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.12",
+        "0.13",
+        "0.11"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sugar, US ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.12",
+        "0.13",
+        "0.14"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sugar, world ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.07",
+        "0.05",
+        "0.06"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tobacco, US import u.v. ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 2,
+      "null_percent": 0.25,
+      "sample_values": [
+        "1737.0",
+        "1563.0",
+        "1405.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Logs, Cameroon ($/cubic meter)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 120,
+      "null_percent": 15.04,
+      "sample_values": [
+        "43.0",
+        "44.4",
+        "52.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Logs, Malaysian ($/cubic meter)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "31.9",
+        "33.1",
+        "36.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sawnwood, Cameroon ($/cubic meter)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 372,
+      "null_percent": 46.62,
+      "sample_values": [
+        "175.0",
+        "396.0",
+        "307.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Sawnwood, Malaysian ($/cubic meter)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "149.2",
+        "152.0",
+        "160.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Plywood (cents/sheet)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 228,
+      "null_percent": 28.57,
+      "sample_values": [
+        "270.0",
+        "238.0",
+        "206.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Cotton, A Index ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.65",
+        "0.64",
+        "0.66"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rubber, TSR20 ** ($/kg)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 468,
+      "null_percent": 58.65,
+      "sample_values": [
+        "0.6",
+        "0.56",
+        "0.52"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Rubber, RSS3 ($/kg)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.82",
+        "0.83",
+        "0.86"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Phosphate rock ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 1,
+      "null_percent": 0.13,
+      "sample_values": [
+        "13.0",
+        "11.5",
+        "12.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "DAP ($/mt)",
+      "type": "Float64",
+      "nullable": true,
+      "null_count": 84,
+      "null_percent": 10.53,
+      "sample_values": [
+        "68.5",
+        "60.5",
+        "58.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "TSP ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "53.0",
+        "52.0",
+        "51.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Urea ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "42.3",
+        "60.5",
+        "65.8"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Potassium chloride ** ($/mt)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "28.5",
+        "30.0",
+        "32.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Aluminum ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "511",
+        "505",
+        "496"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Iron ore, cfr spot ($/dmtu)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "11.4",
+        "11.0",
+        "10.2"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Copper ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "715",
+        "728",
+        "685"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Lead ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "206",
+        "204",
+        "210"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Tin ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2180",
+        "2174",
+        "2178"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Nickel ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1631",
+        "1711",
+        "1761"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Zinc ($/mt)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "261",
+        "245",
+        "249"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Gold ($/troy oz)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "35",
+        "36",
+        "37"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Platinum ($/troy oz)",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "84",
+        "79",
+        "81"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Silver ($/troy oz)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.9",
+        "1.0",
+        "1.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    }
+  ],
+  "error": null
+}

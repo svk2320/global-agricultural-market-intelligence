@@ -1,0 +1,102 @@
+{
+  "table": "raw.sua_crops_livestock_elements",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 21,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 21,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 21
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 21
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 261,
+      "max": 5910,
+      "mean": 3473.5714285714284,
+      "median": 5071.0,
+      "stddev": 2401.808767812887
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 665.0,
+      "q3": 5166.0,
+      "lower_bound": -6086.5,
+      "upper_bound": 11917.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Food supply (kcal/capita/day)",
+          "count": 1
+        },
+        {
+          "value": "Other uses (non-food)",
+          "count": 1
+        },
+        {
+          "value": "Stock Variation",
+          "count": 1
+        },
+        {
+          "value": "Processed",
+          "count": 1
+        },
+        {
+          "value": "Export quantity",
+          "count": 1
+        },
+        {
+          "value": "Food supply quantity (tonnes)",
+          "count": 1
+        },
+        {
+          "value": "Residuals",
+          "count": 1
+        },
+        {
+          "value": "Total Population - Both sexes",
+          "count": 1
+        },
+        {
+          "value": "Feed",
+          "count": 1
+        },
+        {
+          "value": "Protein supply quantity (g/capita/day)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

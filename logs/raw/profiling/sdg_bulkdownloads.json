@@ -1,0 +1,657 @@
+{
+  "table": "raw.sdg_bulkdownloads",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 464787,
+    "column_count": 14
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "VARCHAR",
+    "Item Code (SDG)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "VARCHAR",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 464787,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (SDG)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 169806,
+        "null_pct": 36.53
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 305
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 305
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 305
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 234
+    },
+    "Item Code (SDG)": {
+      "column": "Item Code (SDG)",
+      "distinct_count": 228
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 234
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 15
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 53
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 53
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 11
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 52721
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 7
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 1497
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 99032,
+      "mean": 905.0382110515139,
+      "median": 154.0,
+      "stddev": 2814.9102968785846
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 61992,
+      "mean": 12896.541572806469,
+      "median": 6173.0,
+      "stddev": 18098.527708757796
+    },
+    "Year Code": {
+      "min": 1974,
+      "max": 2026,
+      "mean": 2013.9368700071216,
+      "median": 2015.0,
+      "stddev": 7.3502950541245555
+    },
+    "Year": {
+      "min": 1974,
+      "max": 2026,
+      "mean": 2013.9368700071216,
+      "median": 2015.0,
+      "stddev": 7.3502950541245555
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 80.0,
+      "q3": 229.0,
+      "lower_bound": -143.5,
+      "upper_bound": 452.5,
+      "outlier_count": 64607
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6241.0,
+      "lower_bound": 5941.0,
+      "upper_bound": 6421.0,
+      "outlier_count": 56456
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2009.0,
+      "q3": 2020.0,
+      "lower_bound": 1992.5,
+      "upper_bound": 2036.5,
+      "outlier_count": 1824
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2009.0,
+      "q3": 2020.0,
+      "lower_bound": 1992.5,
+      "upper_bound": 2036.5,
+      "outlier_count": 1824
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'001",
+          "count": 2305
+        },
+        {
+          "value": "'053",
+          "count": 2255
+        },
+        {
+          "value": "'009",
+          "count": 2255
+        },
+        {
+          "value": "'432",
+          "count": 2255
+        },
+        {
+          "value": "'145",
+          "count": 2255
+        },
+        {
+          "value": "'150",
+          "count": 2255
+        },
+        {
+          "value": "'753",
+          "count": 2255
+        },
+        {
+          "value": "'202",
+          "count": 2255
+        },
+        {
+          "value": "'030",
+          "count": 2255
+        },
+        {
+          "value": "'035",
+          "count": 2255
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "World",
+          "count": 2305
+        },
+        {
+          "value": "Australia and New Zealand",
+          "count": 2255
+        },
+        {
+          "value": "Latin America and the Caribbean",
+          "count": 2255
+        },
+        {
+          "value": "Least Developed Countries (LDCs)",
+          "count": 2255
+        },
+        {
+          "value": "Northern America and Europe",
+          "count": 2255
+        },
+        {
+          "value": "Small Island Developing States (SIDS)",
+          "count": 2255
+        },
+        {
+          "value": "Europe",
+          "count": 2255
+        },
+        {
+          "value": "Sub-Saharan Africa",
+          "count": 2255
+        },
+        {
+          "value": "Oceania excluding Australia and New Zealand",
+          "count": 2255
+        },
+        {
+          "value": "Southern Asia",
+          "count": 2255
+        }
+      ]
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "24005-_T-_T",
+          "count": 6498
+        },
+        {
+          "value": "24002-TTT",
+          "count": 6498
+        },
+        {
+          "value": "24005-F-Y_GE15",
+          "count": 6468
+        },
+        {
+          "value": "24002-FYGE15T",
+          "count": 6468
+        },
+        {
+          "value": "24002-MYGE15T",
+          "count": 6468
+        },
+        {
+          "value": "24003-TTT",
+          "count": 6468
+        },
+        {
+          "value": "24005-M-Y_GE15",
+          "count": 6468
+        },
+        {
+          "value": "24004-_T-_T",
+          "count": 6468
+        },
+        {
+          "value": "24004-F-Y_GE15",
+          "count": 6438
+        },
+        {
+          "value": "24004-M-Y_GE15",
+          "count": 6438
+        }
+      ]
+    },
+    "Item Code (SDG)": {
+      "column": "Item Code (SDG)",
+      "top_values": [
+        {
+          "value": "AG_PRD_FIESMS-_T-_T-_T",
+          "count": 6498
+        },
+        {
+          "value": "AG_PRD_FIESMSN-_T-_T",
+          "count": 6498
+        },
+        {
+          "value": "AG_PRD_FIESMS-F-Y_GE15-_T",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESS-_T-_T-_T",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESSN-_T-_T",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESMSN-M-Y_GE15",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESMSN-F-Y_GE15",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESMS-M-Y_GE15-_T",
+          "count": 6468
+        },
+        {
+          "value": "AG_PRD_FIESSN-M-Y_GE15",
+          "count": 6438
+        },
+        {
+          "value": "AG_PRD_FIESSN-F-Y_GE15",
+          "count": 6438
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "2.1.2 Prevalence of moderate or severe food insecurity (both sexes or no breakdown by sex) (all age ranges or no breakdown by age) (no breakdown by urbanisation)",
+          "count": 6498
+        },
+        {
+          "value": "2.1.2 Number of moderately or severely food insecure people (both sexes or no breakdown by sex) (all age ranges or no breakdown by age)",
+          "count": 6498
+        },
+        {
+          "value": "2.1.2 Number of moderately or severely food insecure people (female) (15 years old and over)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Prevalence of moderate or severe food insecurity (male) (15 years old and over) (no breakdown by urbanisation)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Number of moderately or severely food insecure people (male) (15 years old and over)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Prevalence of moderate or severe food insecurity (female) (15 years old and over) (no breakdown by urbanisation)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Number of severely food insecure people (both sexes or no breakdown by sex) (all age ranges or no breakdown by age)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Prevalence of severe food insecurity (both sexes or no breakdown by sex) (all age ranges or no breakdown by age) (no breakdown by urbanisation)",
+          "count": 6468
+        },
+        {
+          "value": "2.1.2 Prevalence of severe food insecurity (male) (15 years old and over) (no breakdown by urbanisation)",
+          "count": 6438
+        },
+        {
+          "value": "2.1.2 Prevalence of severe food insecurity (female) (15 years old and over) (no breakdown by urbanisation)",
+          "count": 6438
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 396532
+        },
+        {
+          "value": "Confidence interval: Upper bound",
+          "count": 28228
+        },
+        {
+          "value": "Confidence interval: Lower bound",
+          "count": 28228
+        },
+        {
+          "value": "Value (2017 constant prices)",
+          "count": 11799
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 204003
+        },
+        {
+          "value": "km2",
+          "count": 99396
+        },
+        {
+          "value": "No",
+          "count": 59574
+        },
+        {
+          "value": "1000 No",
+          "count": 38778
+        },
+        {
+          "value": "USD/m3",
+          "count": 19656
+        },
+        {
+          "value": "",
+          "count": 12211
+        },
+        {
+          "value": "USD_PPP/cap",
+          "count": 11799
+        },
+        {
+          "value": "1000 ha",
+          "count": 7306
+        },
+        {
+          "value": "Score",
+          "count": 5535
+        },
+        {
+          "value": "million No",
+          "count": 5005
+        }
+      ]
+    },
+    "Value": {
+      "column": "Value",
+      "top_values": [
+        {
+          "value": "0",
+          "count": 30692
+        },
+        {
+          "value": "1",
+          "count": 5918
+        },
+        {
+          "value": "3",
+          "count": 2574
+        },
+        {
+          "value": "2",
+          "count": 2428
+        },
+        {
+          "value": "4",
+          "count": 2168
+        },
+        {
+          "value": "5",
+          "count": 2127
+        },
+        {
+          "value": "0.1",
+          "count": 1660
+        },
+        {
+          "value": "0.01",
+          "count": 1541
+        },
+        {
+          "value": "<100",
+          "count": 1538
+        },
+        {
+          "value": "6",
+          "count": 1451
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 237058
+        },
+        {
+          "value": "M",
+          "count": 93523
+        },
+        {
+          "value": "O",
+          "count": 60260
+        },
+        {
+          "value": "A",
+          "count": 55846
+        },
+        {
+          "value": "Q",
+          "count": 12189
+        },
+        {
+          "value": "I",
+          "count": 5855
+        },
+        {
+          "value": "U",
+          "count": 56
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Non-relevant | NaN = Not relevant",
+          "count": 87768
+        },
+        {
+          "value": "Estimated | Food and Agriculture Organization of the United Nations (FAO) | FAO estimate",
+          "count": 78336
+        },
+        {
+          "value": "Not Available | NA | NaN = A figure was not provided",
+          "count": 34803
+        },
+        {
+          "value": "Estimated | Food and Agriculture Organisation of United Nations (FAO)",
+          "count": 27015
+        },
+        {
+          "value": "Non-relevant | Food and Agriculture Organization of the United Nations (FAO) | Annual value.",
+          "count": 15657
+        },
+        {
+          "value": "Not Available | NaN = A figure was not provided",
+          "count": 15175
+        },
+        {
+          "value": "Non-relevant | Food and Agriculture Organization of the United Nations (FAO) | FAO estimate",
+          "count": 14256
+        },
+        {
+          "value": "Not Available | Food and Agriculture Organization of the United Nations (FAO) | Missing value G\u00c7\u00f4 suppressed",
+          "count": 12144
+        },
+        {
+          "value": "Not Available | NA | NaN = A figure was not provided | Base Period: 2017",
+          "count": 9976
+        },
+        {
+          "value": "Non-relevant | DAD-IS 31.12.2025 http://www.fao.org/dad-is/",
+          "count": 7470
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.0661087036100185
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.03999578305635499
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.03999578305635617
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.2749319565938928
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.2749319565938928
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      }
+    ]
+  }
+}

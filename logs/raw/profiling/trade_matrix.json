@@ -1,0 +1,5202 @@
+{
+  "table": "raw.trade_matrix",
+  "generated_at": "2026-07-07T19:16:16",
+  "dataset_summary": {
+    "row_count": 6640547,
+    "column_count": 90
+  },
+  "schema": {
+    "Reporter Country Code": "BIGINT",
+    "Reporter Country Code (M49)": "VARCHAR",
+    "Reporter Countries": "VARCHAR",
+    "Partner Country Code": "BIGINT",
+    "Partner Country Code (M49)": "VARCHAR",
+    "Partner Countries": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item Code (CPC)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Y1986": "VARCHAR",
+    "Y1986F": "VARCHAR",
+    "Y1987": "VARCHAR",
+    "Y1987F": "VARCHAR",
+    "Y1988": "VARCHAR",
+    "Y1988F": "VARCHAR",
+    "Y1989": "VARCHAR",
+    "Y1989F": "VARCHAR",
+    "Y1990": "VARCHAR",
+    "Y1990F": "VARCHAR",
+    "Y1991": "VARCHAR",
+    "Y1991F": "VARCHAR",
+    "Y1992": "VARCHAR",
+    "Y1992F": "VARCHAR",
+    "Y1993": "VARCHAR",
+    "Y1993F": "VARCHAR",
+    "Y1994": "VARCHAR",
+    "Y1994F": "VARCHAR",
+    "Y1995": "VARCHAR",
+    "Y1995F": "VARCHAR",
+    "Y1996": "DOUBLE",
+    "Y1996F": "VARCHAR",
+    "Y1997": "DOUBLE",
+    "Y1997F": "VARCHAR",
+    "Y1998": "VARCHAR",
+    "Y1998F": "VARCHAR",
+    "Y1999": "DOUBLE",
+    "Y1999F": "VARCHAR",
+    "Y2000": "DOUBLE",
+    "Y2000F": "VARCHAR",
+    "Y2001": "DOUBLE",
+    "Y2001F": "VARCHAR",
+    "Y2002": "DOUBLE",
+    "Y2002F": "VARCHAR",
+    "Y2003": "DOUBLE",
+    "Y2003F": "VARCHAR",
+    "Y2004": "DOUBLE",
+    "Y2004F": "VARCHAR",
+    "Y2005": "DOUBLE",
+    "Y2005F": "VARCHAR",
+    "Y2006": "DOUBLE",
+    "Y2006F": "VARCHAR",
+    "Y2007": "DOUBLE",
+    "Y2007F": "VARCHAR",
+    "Y2008": "DOUBLE",
+    "Y2008F": "VARCHAR",
+    "Y2009": "DOUBLE",
+    "Y2009F": "VARCHAR",
+    "Y2010": "DOUBLE",
+    "Y2010F": "VARCHAR",
+    "Y2011": "DOUBLE",
+    "Y2011F": "VARCHAR",
+    "Y2012": "DOUBLE",
+    "Y2012F": "VARCHAR",
+    "Y2013": "DOUBLE",
+    "Y2013F": "VARCHAR",
+    "Y2014": "DOUBLE",
+    "Y2014F": "VARCHAR",
+    "Y2015": "DOUBLE",
+    "Y2015F": "VARCHAR",
+    "Y2016": "DOUBLE",
+    "Y2016F": "VARCHAR",
+    "Y2017": "DOUBLE",
+    "Y2017F": "VARCHAR",
+    "Y2018": "DOUBLE",
+    "Y2018F": "VARCHAR",
+    "Y2019": "DOUBLE",
+    "Y2019F": "VARCHAR",
+    "Y2020": "DOUBLE",
+    "Y2020F": "VARCHAR",
+    "Y2021": "DOUBLE",
+    "Y2021F": "VARCHAR",
+    "Y2022": "VARCHAR",
+    "Y2022F": "VARCHAR",
+    "Y2023": "DOUBLE",
+    "Y2023F": "VARCHAR",
+    "Y2024": "DOUBLE",
+    "Y2024F": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 6640547,
+    "columns": {
+      "Reporter Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Reporter Country Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Reporter Countries": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Partner Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Partner Country Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Partner Countries": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (CPC)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Y1986": {
+        "null_count": 6215777,
+        "null_pct": 93.6
+      },
+      "Y1986F": {
+        "null_count": 6215777,
+        "null_pct": 93.6
+      },
+      "Y1987": {
+        "null_count": 6205386,
+        "null_pct": 93.45
+      },
+      "Y1987F": {
+        "null_count": 6205386,
+        "null_pct": 93.45
+      },
+      "Y1988": {
+        "null_count": 6162037,
+        "null_pct": 92.79
+      },
+      "Y1988F": {
+        "null_count": 6162037,
+        "null_pct": 92.79
+      },
+      "Y1989": {
+        "null_count": 6139941,
+        "null_pct": 92.46
+      },
+      "Y1989F": {
+        "null_count": 6139941,
+        "null_pct": 92.46
+      },
+      "Y1990": {
+        "null_count": 6137606,
+        "null_pct": 92.43
+      },
+      "Y1990F": {
+        "null_count": 6137606,
+        "null_pct": 92.43
+      },
+      "Y1991": {
+        "null_count": 6066214,
+        "null_pct": 91.35
+      },
+      "Y1991F": {
+        "null_count": 6066214,
+        "null_pct": 91.35
+      },
+      "Y1992": {
+        "null_count": 6003653,
+        "null_pct": 90.41
+      },
+      "Y1992F": {
+        "null_count": 6003653,
+        "null_pct": 90.41
+      },
+      "Y1993": {
+        "null_count": 5947222,
+        "null_pct": 89.56
+      },
+      "Y1993F": {
+        "null_count": 5947222,
+        "null_pct": 89.56
+      },
+      "Y1994": {
+        "null_count": 5858419,
+        "null_pct": 88.22
+      },
+      "Y1994F": {
+        "null_count": 5858419,
+        "null_pct": 88.22
+      },
+      "Y1995": {
+        "null_count": 5803181,
+        "null_pct": 87.39
+      },
+      "Y1995F": {
+        "null_count": 5803181,
+        "null_pct": 87.39
+      },
+      "Y1996": {
+        "null_count": 5784128,
+        "null_pct": 87.1
+      },
+      "Y1996F": {
+        "null_count": 5784128,
+        "null_pct": 87.1
+      },
+      "Y1997": {
+        "null_count": 5738152,
+        "null_pct": 86.41
+      },
+      "Y1997F": {
+        "null_count": 5738152,
+        "null_pct": 86.41
+      },
+      "Y1998": {
+        "null_count": 5669278,
+        "null_pct": 85.37
+      },
+      "Y1998F": {
+        "null_count": 5669278,
+        "null_pct": 85.37
+      },
+      "Y1999": {
+        "null_count": 5629645,
+        "null_pct": 84.78
+      },
+      "Y1999F": {
+        "null_count": 5629645,
+        "null_pct": 84.78
+      },
+      "Y2000": {
+        "null_count": 5515499,
+        "null_pct": 83.06
+      },
+      "Y2000F": {
+        "null_count": 5515499,
+        "null_pct": 83.06
+      },
+      "Y2001": {
+        "null_count": 5418273,
+        "null_pct": 81.59
+      },
+      "Y2001F": {
+        "null_count": 5418273,
+        "null_pct": 81.59
+      },
+      "Y2002": {
+        "null_count": 5361982,
+        "null_pct": 80.75
+      },
+      "Y2002F": {
+        "null_count": 5361982,
+        "null_pct": 80.75
+      },
+      "Y2003": {
+        "null_count": 5332151,
+        "null_pct": 80.3
+      },
+      "Y2003F": {
+        "null_count": 5332151,
+        "null_pct": 80.3
+      },
+      "Y2004": {
+        "null_count": 5283025,
+        "null_pct": 79.56
+      },
+      "Y2004F": {
+        "null_count": 5283025,
+        "null_pct": 79.56
+      },
+      "Y2005": {
+        "null_count": 5232553,
+        "null_pct": 78.8
+      },
+      "Y2005F": {
+        "null_count": 5232553,
+        "null_pct": 78.8
+      },
+      "Y2006": {
+        "null_count": 5240427,
+        "null_pct": 78.92
+      },
+      "Y2006F": {
+        "null_count": 5240427,
+        "null_pct": 78.92
+      },
+      "Y2007": {
+        "null_count": 5164370,
+        "null_pct": 77.77
+      },
+      "Y2007F": {
+        "null_count": 5164370,
+        "null_pct": 77.77
+      },
+      "Y2008": {
+        "null_count": 5171579,
+        "null_pct": 77.88
+      },
+      "Y2008F": {
+        "null_count": 5171579,
+        "null_pct": 77.88
+      },
+      "Y2009": {
+        "null_count": 5156053,
+        "null_pct": 77.65
+      },
+      "Y2009F": {
+        "null_count": 5156053,
+        "null_pct": 77.65
+      },
+      "Y2010": {
+        "null_count": 5116749,
+        "null_pct": 77.05
+      },
+      "Y2010F": {
+        "null_count": 5116749,
+        "null_pct": 77.05
+      },
+      "Y2011": {
+        "null_count": 5083406,
+        "null_pct": 76.55
+      },
+      "Y2011F": {
+        "null_count": 5083406,
+        "null_pct": 76.55
+      },
+      "Y2012": {
+        "null_count": 4960274,
+        "null_pct": 74.7
+      },
+      "Y2012F": {
+        "null_count": 4960274,
+        "null_pct": 74.7
+      },
+      "Y2013": {
+        "null_count": 4903491,
+        "null_pct": 73.84
+      },
+      "Y2013F": {
+        "null_count": 4903491,
+        "null_pct": 73.84
+      },
+      "Y2014": {
+        "null_count": 4800669,
+        "null_pct": 72.29
+      },
+      "Y2014F": {
+        "null_count": 4800669,
+        "null_pct": 72.29
+      },
+      "Y2015": {
+        "null_count": 4761156,
+        "null_pct": 71.7
+      },
+      "Y2015F": {
+        "null_count": 4761156,
+        "null_pct": 71.7
+      },
+      "Y2016": {
+        "null_count": 4671410,
+        "null_pct": 70.35
+      },
+      "Y2016F": {
+        "null_count": 4671410,
+        "null_pct": 70.35
+      },
+      "Y2017": {
+        "null_count": 4573976,
+        "null_pct": 68.88
+      },
+      "Y2017F": {
+        "null_count": 4573976,
+        "null_pct": 68.88
+      },
+      "Y2018": {
+        "null_count": 4554509,
+        "null_pct": 68.59
+      },
+      "Y2018F": {
+        "null_count": 4554509,
+        "null_pct": 68.59
+      },
+      "Y2019": {
+        "null_count": 4508750,
+        "null_pct": 67.9
+      },
+      "Y2019F": {
+        "null_count": 4508750,
+        "null_pct": 67.9
+      },
+      "Y2020": {
+        "null_count": 4500460,
+        "null_pct": 67.77
+      },
+      "Y2020F": {
+        "null_count": 4500460,
+        "null_pct": 67.77
+      },
+      "Y2021": {
+        "null_count": 4391599,
+        "null_pct": 66.13
+      },
+      "Y2021F": {
+        "null_count": 4391599,
+        "null_pct": 66.13
+      },
+      "Y2022": {
+        "null_count": 4410397,
+        "null_pct": 66.42
+      },
+      "Y2022F": {
+        "null_count": 4410397,
+        "null_pct": 66.42
+      },
+      "Y2023": {
+        "null_count": 4437715,
+        "null_pct": 66.83
+      },
+      "Y2023F": {
+        "null_count": 4437715,
+        "null_pct": 66.83
+      },
+      "Y2024": {
+        "null_count": 4659591,
+        "null_pct": 70.17
+      },
+      "Y2024F": {
+        "null_count": 4659591,
+        "null_pct": 70.17
+      }
+    }
+  },
+  "unique_counts": {
+    "Reporter Country Code": {
+      "column": "Reporter Country Code",
+      "distinct_count": 195
+    },
+    "Reporter Country Code (M49)": {
+      "column": "Reporter Country Code (M49)",
+      "distinct_count": 195
+    },
+    "Reporter Countries": {
+      "column": "Reporter Countries",
+      "distinct_count": 195
+    },
+    "Partner Country Code": {
+      "column": "Partner Country Code",
+      "distinct_count": 220
+    },
+    "Partner Country Code (M49)": {
+      "column": "Partner Country Code (M49)",
+      "distinct_count": 220
+    },
+    "Partner Countries": {
+      "column": "Partner Countries",
+      "distinct_count": 220
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 558
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "distinct_count": 558
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 558
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 10
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 5
+    },
+    "Y1986": {
+      "column": "Y1986",
+      "distinct_count": 20735
+    },
+    "Y1986F": {
+      "column": "Y1986F",
+      "distinct_count": 2
+    },
+    "Y1987": {
+      "column": "Y1987",
+      "distinct_count": 22066
+    },
+    "Y1987F": {
+      "column": "Y1987F",
+      "distinct_count": 2
+    },
+    "Y1988": {
+      "column": "Y1988",
+      "distinct_count": 22699
+    },
+    "Y1988F": {
+      "column": "Y1988F",
+      "distinct_count": 2
+    },
+    "Y1989": {
+      "column": "Y1989",
+      "distinct_count": 23105
+    },
+    "Y1989F": {
+      "column": "Y1989F",
+      "distinct_count": 2
+    },
+    "Y1990": {
+      "column": "Y1990",
+      "distinct_count": 23283
+    },
+    "Y1990F": {
+      "column": "Y1990F",
+      "distinct_count": 2
+    },
+    "Y1991": {
+      "column": "Y1991",
+      "distinct_count": 26429
+    },
+    "Y1991F": {
+      "column": "Y1991F",
+      "distinct_count": 2
+    },
+    "Y1992": {
+      "column": "Y1992",
+      "distinct_count": 27431
+    },
+    "Y1992F": {
+      "column": "Y1992F",
+      "distinct_count": 3
+    },
+    "Y1993": {
+      "column": "Y1993",
+      "distinct_count": 27496
+    },
+    "Y1993F": {
+      "column": "Y1993F",
+      "distinct_count": 3
+    },
+    "Y1994": {
+      "column": "Y1994",
+      "distinct_count": 29364
+    },
+    "Y1994F": {
+      "column": "Y1994F",
+      "distinct_count": 3
+    },
+    "Y1995": {
+      "column": "Y1995",
+      "distinct_count": 30265
+    },
+    "Y1995F": {
+      "column": "Y1995F",
+      "distinct_count": 3
+    },
+    "Y1996": {
+      "column": "Y1996",
+      "distinct_count": 30845
+    },
+    "Y1996F": {
+      "column": "Y1996F",
+      "distinct_count": 3
+    },
+    "Y1997": {
+      "column": "Y1997",
+      "distinct_count": 30798
+    },
+    "Y1997F": {
+      "column": "Y1997F",
+      "distinct_count": 3
+    },
+    "Y1998": {
+      "column": "Y1998",
+      "distinct_count": 32114
+    },
+    "Y1998F": {
+      "column": "Y1998F",
+      "distinct_count": 3
+    },
+    "Y1999": {
+      "column": "Y1999",
+      "distinct_count": 31933
+    },
+    "Y1999F": {
+      "column": "Y1999F",
+      "distinct_count": 3
+    },
+    "Y2000": {
+      "column": "Y2000",
+      "distinct_count": 32619
+    },
+    "Y2000F": {
+      "column": "Y2000F",
+      "distinct_count": 3
+    },
+    "Y2001": {
+      "column": "Y2001",
+      "distinct_count": 32956
+    },
+    "Y2001F": {
+      "column": "Y2001F",
+      "distinct_count": 3
+    },
+    "Y2002": {
+      "column": "Y2002",
+      "distinct_count": 34402
+    },
+    "Y2002F": {
+      "column": "Y2002F",
+      "distinct_count": 3
+    },
+    "Y2003": {
+      "column": "Y2003",
+      "distinct_count": 36029
+    },
+    "Y2003F": {
+      "column": "Y2003F",
+      "distinct_count": 4
+    },
+    "Y2004": {
+      "column": "Y2004",
+      "distinct_count": 37910
+    },
+    "Y2004F": {
+      "column": "Y2004F",
+      "distinct_count": 4
+    },
+    "Y2005": {
+      "column": "Y2005",
+      "distinct_count": 39100
+    },
+    "Y2005F": {
+      "column": "Y2005F",
+      "distinct_count": 4
+    },
+    "Y2006": {
+      "column": "Y2006",
+      "distinct_count": 40238
+    },
+    "Y2006F": {
+      "column": "Y2006F",
+      "distinct_count": 4
+    },
+    "Y2007": {
+      "column": "Y2007",
+      "distinct_count": 43221
+    },
+    "Y2007F": {
+      "column": "Y2007F",
+      "distinct_count": 4
+    },
+    "Y2008": {
+      "column": "Y2008",
+      "distinct_count": 45231
+    },
+    "Y2008F": {
+      "column": "Y2008F",
+      "distinct_count": 3
+    },
+    "Y2009": {
+      "column": "Y2009",
+      "distinct_count": 44148
+    },
+    "Y2009F": {
+      "column": "Y2009F",
+      "distinct_count": 3
+    },
+    "Y2010": {
+      "column": "Y2010",
+      "distinct_count": 45762
+    },
+    "Y2010F": {
+      "column": "Y2010F",
+      "distinct_count": 4
+    },
+    "Y2011": {
+      "column": "Y2011",
+      "distinct_count": 48759
+    },
+    "Y2011F": {
+      "column": "Y2011F",
+      "distinct_count": 4
+    },
+    "Y2012": {
+      "column": "Y2012",
+      "distinct_count": 49491
+    },
+    "Y2012F": {
+      "column": "Y2012F",
+      "distinct_count": 4
+    },
+    "Y2013": {
+      "column": "Y2013",
+      "distinct_count": 50819
+    },
+    "Y2013F": {
+      "column": "Y2013F",
+      "distinct_count": 4
+    },
+    "Y2014": {
+      "column": "Y2014",
+      "distinct_count": 179969
+    },
+    "Y2014F": {
+      "column": "Y2014F",
+      "distinct_count": 4
+    },
+    "Y2015": {
+      "column": "Y2015",
+      "distinct_count": 178605
+    },
+    "Y2015F": {
+      "column": "Y2015F",
+      "distinct_count": 4
+    },
+    "Y2016": {
+      "column": "Y2016",
+      "distinct_count": 200317
+    },
+    "Y2016F": {
+      "column": "Y2016F",
+      "distinct_count": 4
+    },
+    "Y2017": {
+      "column": "Y2017",
+      "distinct_count": 209279
+    },
+    "Y2017F": {
+      "column": "Y2017F",
+      "distinct_count": 4
+    },
+    "Y2018": {
+      "column": "Y2018",
+      "distinct_count": 210860
+    },
+    "Y2018F": {
+      "column": "Y2018F",
+      "distinct_count": 4
+    },
+    "Y2019": {
+      "column": "Y2019",
+      "distinct_count": 213563
+    },
+    "Y2019F": {
+      "column": "Y2019F",
+      "distinct_count": 4
+    },
+    "Y2020": {
+      "column": "Y2020",
+      "distinct_count": 213722
+    },
+    "Y2020F": {
+      "column": "Y2020F",
+      "distinct_count": 4
+    },
+    "Y2021": {
+      "column": "Y2021",
+      "distinct_count": 219412
+    },
+    "Y2021F": {
+      "column": "Y2021F",
+      "distinct_count": 4
+    },
+    "Y2022": {
+      "column": "Y2022",
+      "distinct_count": 219336
+    },
+    "Y2022F": {
+      "column": "Y2022F",
+      "distinct_count": 4
+    },
+    "Y2023": {
+      "column": "Y2023",
+      "distinct_count": 217767
+    },
+    "Y2023F": {
+      "column": "Y2023F",
+      "distinct_count": 4
+    },
+    "Y2024": {
+      "column": "Y2024",
+      "distinct_count": 209996
+    },
+    "Y2024F": {
+      "column": "Y2024F",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    "Reporter Country Code": {
+      "min": 1,
+      "max": 299,
+      "mean": 132.71634249407467,
+      "median": 131.0,
+      "stddev": 73.71411381891522
+    },
+    "Partner Country Code": {
+      "min": 1,
+      "max": 299,
+      "mean": 131.9938325863818,
+      "median": 126.0,
+      "stddev": 73.71094305488309
+    },
+    "Item Code": {
+      "min": 15,
+      "max": 1296,
+      "mean": 555.0018131036494,
+      "median": 537.0,
+      "stddev": 351.82251977098025
+    },
+    "Element Code": {
+      "min": 5607,
+      "max": 5922,
+      "mean": 5758.546793057861,
+      "median": 5622.0,
+      "stddev": 149.9330647212949
+    },
+    "Y1996": {
+      "min": 0.0,
+      "max": 15241330.0,
+      "mean": 2463.1978843883667,
+      "median": 27.0,
+      "stddev": 43509.88535268371
+    },
+    "Y1997": {
+      "min": 0.0,
+      "max": 16649607.0,
+      "mean": 2349.653525728756,
+      "median": 24.0,
+      "stddev": 45029.8984897155
+    },
+    "Y1999": {
+      "min": 0.0,
+      "max": 15891833.0,
+      "mean": 2232.79786056413,
+      "median": 22.0,
+      "stddev": 41978.460651385685
+    },
+    "Y2000": {
+      "min": 0.0,
+      "max": 38340270.0,
+      "mean": 2269.276549045019,
+      "median": 20.0,
+      "stddev": 65777.57050599076
+    },
+    "Y2001": {
+      "min": 0.0,
+      "max": 37814648.0,
+      "mean": 2156.2890655041347,
+      "median": 17.0,
+      "stddev": 67778.94178409636
+    },
+    "Y2002": {
+      "min": 0.0,
+      "max": 38194400.0,
+      "mean": 2150.6450217705,
+      "median": 17.0,
+      "stddev": 60769.4657028576
+    },
+    "Y2003": {
+      "min": 0.0,
+      "max": 35572770.0,
+      "mean": 2301.4550035310413,
+      "median": 18.0,
+      "stddev": 62893.50094163598
+    },
+    "Y2004": {
+      "min": 0.0,
+      "max": 2579549000.0,
+      "mean": 5169.631370312968,
+      "median": 19.0,
+      "stddev": 2238579.779183113
+    },
+    "Y2005": {
+      "min": 0.0,
+      "max": 515500400.0,
+      "mean": 3496.1707247687127,
+      "median": 19.0,
+      "stddev": 508030.4523514369
+    },
+    "Y2006": {
+      "min": 0.0,
+      "max": 571007000.0,
+      "mean": 3897.5301522012396,
+      "median": 21.0,
+      "stddev": 615313.7255170231
+    },
+    "Y2007": {
+      "min": 0.0,
+      "max": 720116100.0,
+      "mean": 4901.495015292884,
+      "median": 23.0,
+      "stddev": 962548.5847544131
+    },
+    "Y2008": {
+      "min": 0.0,
+      "max": 305988400.0,
+      "mean": 3593.276778861077,
+      "median": 24.0,
+      "stddev": 335932.8024474813
+    },
+    "Y2009": {
+      "min": 0.0,
+      "max": 534611300.0,
+      "mean": 4624.959368296538,
+      "median": 22.0,
+      "stddev": 685794.5285723085
+    },
+    "Y2010": {
+      "min": 0.0,
+      "max": 670767200.0,
+      "mean": 4247.537730919713,
+      "median": 22.0,
+      "stddev": 731218.7521316654
+    },
+    "Y2011": {
+      "min": 0.0,
+      "max": 871686800.0,
+      "mean": 4799.0411124683,
+      "median": 24.0,
+      "stddev": 950915.0727827857
+    },
+    "Y2012": {
+      "min": 0.0,
+      "max": 301859200.0,
+      "mean": 3686.4501378942573,
+      "median": 21.0,
+      "stddev": 284742.218235793
+    },
+    "Y2013": {
+      "min": 0.0,
+      "max": 171380100.0,
+      "mean": 3511.8214105302295,
+      "median": 21.0,
+      "stddev": 195058.61188808078
+    },
+    "Y2014": {
+      "min": 0.0,
+      "max": 196483761.0,
+      "mean": 3160.443462300036,
+      "median": 20.77,
+      "stddev": 160151.61658844934
+    },
+    "Y2015": {
+      "min": 0.0,
+      "max": 187654538.0,
+      "mean": 3015.515224346463,
+      "median": 19.0,
+      "stddev": 156769.17489236925
+    },
+    "Y2016": {
+      "min": 0.0,
+      "max": 145755000.0,
+      "mean": 3071.4856186894344,
+      "median": 18.0,
+      "stddev": 155447.82448478244
+    },
+    "Y2017": {
+      "min": 0.0,
+      "max": 63378153.0,
+      "mean": 2990.2544215656085,
+      "median": 18.0,
+      "stddev": 94301.35444460575
+    },
+    "Y2018": {
+      "min": 0.0,
+      "max": 82387973.0,
+      "mean": 2994.386122040567,
+      "median": 18.0,
+      "stddev": 104106.88211741987
+    },
+    "Y2019": {
+      "min": 0.0,
+      "max": 88725944.0,
+      "mean": 2963.602154459021,
+      "median": 17.0,
+      "stddev": 104698.58635996754
+    },
+    "Y2020": {
+      "min": 0.0,
+      "max": 70108836.0,
+      "mean": 3029.4445971537957,
+      "median": 16.16,
+      "stddev": 99093.38925611772
+    },
+    "Y2021": {
+      "min": 0.0,
+      "max": 60476103.96,
+      "mean": 3126.852307927502,
+      "median": 15.0,
+      "stddev": 91221.00778223897
+    },
+    "Y2023": {
+      "min": 0.0,
+      "max": 103325397.0,
+      "mean": 3308.3341915856086,
+      "median": 15.04,
+      "stddev": 121018.2555835113
+    },
+    "Y2024": {
+      "min": 0.0,
+      "max": 78739436.0,
+      "mean": 3616.8994832792646,
+      "median": 16.85,
+      "stddev": 117797.12440956608
+    }
+  },
+  "outliers": {
+    "Reporter Country Code": {
+      "column": "Reporter Country Code",
+      "q1": 68.0,
+      "q3": 202.0,
+      "lower_bound": -133.0,
+      "upper_bound": 403.0,
+      "outlier_count": 0
+    },
+    "Partner Country Code": {
+      "column": "Partner Country Code",
+      "q1": 68.0,
+      "q3": 202.0,
+      "lower_bound": -133.0,
+      "upper_bound": 403.0,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 244.0,
+      "q3": 831.0,
+      "lower_bound": -636.5,
+      "upper_bound": 1711.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5610.0,
+      "q3": 5910.0,
+      "lower_bound": 5160.0,
+      "upper_bound": 6360.0,
+      "outlier_count": 0
+    },
+    "Y1996": {
+      "column": "Y1996",
+      "q1": 3.0,
+      "q3": 230.0,
+      "lower_bound": -337.5,
+      "upper_bound": 570.5,
+      "outlier_count": 146344
+    },
+    "Y1997": {
+      "column": "Y1997",
+      "q1": 3.0,
+      "q3": 208.0,
+      "lower_bound": -304.5,
+      "upper_bound": 515.5,
+      "outlier_count": 155444
+    },
+    "Y1999": {
+      "column": "Y1999",
+      "q1": 2.0,
+      "q3": 188.0,
+      "lower_bound": -277.0,
+      "upper_bound": 467.0,
+      "outlier_count": 173999
+    },
+    "Y2000": {
+      "column": "Y2000",
+      "q1": 2.0,
+      "q3": 175.0,
+      "lower_bound": -257.5,
+      "upper_bound": 434.5,
+      "outlier_count": 193020
+    },
+    "Y2001": {
+      "column": "Y2001",
+      "q1": 1.0,
+      "q3": 151.0,
+      "lower_bound": -224.0,
+      "upper_bound": 376.0,
+      "outlier_count": 210677
+    },
+    "Y2002": {
+      "column": "Y2002",
+      "q1": 2.0,
+      "q3": 158.0,
+      "lower_bound": -232.0,
+      "upper_bound": 392.0,
+      "outlier_count": 220465
+    },
+    "Y2003": {
+      "column": "Y2003",
+      "q1": 2.0,
+      "q3": 168.0,
+      "lower_bound": -247.0,
+      "upper_bound": 417.0,
+      "outlier_count": 226726
+    },
+    "Y2004": {
+      "column": "Y2004",
+      "q1": 2.0,
+      "q3": 181.0,
+      "lower_bound": -266.5,
+      "upper_bound": 449.5,
+      "outlier_count": 235173
+    },
+    "Y2005": {
+      "column": "Y2005",
+      "q1": 2.0,
+      "q3": 186.0,
+      "lower_bound": -274.0,
+      "upper_bound": 462.0,
+      "outlier_count": 244361
+    },
+    "Y2006": {
+      "column": "Y2006",
+      "q1": 2.0,
+      "q3": 203.0875,
+      "lower_bound": -299.63125,
+      "upper_bound": 504.71875,
+      "outlier_count": 243164
+    },
+    "Y2007": {
+      "column": "Y2007",
+      "q1": 2.0,
+      "q3": 223.0,
+      "lower_bound": -329.5,
+      "upper_bound": 554.5,
+      "outlier_count": 255227
+    },
+    "Y2008": {
+      "column": "Y2008",
+      "q1": 2.0,
+      "q3": 247.0,
+      "lower_bound": -365.5,
+      "upper_bound": 614.5,
+      "outlier_count": 254890
+    },
+    "Y2009": {
+      "column": "Y2009",
+      "q1": 2.0,
+      "q3": 226.0,
+      "lower_bound": -334.0,
+      "upper_bound": 562.0,
+      "outlier_count": 258125
+    },
+    "Y2010": {
+      "column": "Y2010",
+      "q1": 2.0,
+      "q3": 238.0,
+      "lower_bound": -352.0,
+      "upper_bound": 592.0,
+      "outlier_count": 265010
+    },
+    "Y2011": {
+      "column": "Y2011",
+      "q1": 2.0,
+      "q3": 260.0,
+      "lower_bound": -385.0,
+      "upper_bound": 647.0,
+      "outlier_count": 271648
+    },
+    "Y2012": {
+      "column": "Y2012",
+      "q1": 1.0,
+      "q3": 231.0,
+      "lower_bound": -344.0,
+      "upper_bound": 576.0,
+      "outlier_count": 294269
+    },
+    "Y2013": {
+      "column": "Y2013",
+      "q1": 1.0,
+      "q3": 238.0,
+      "lower_bound": -354.5,
+      "upper_bound": 593.5,
+      "outlier_count": 304786
+    },
+    "Y2014": {
+      "column": "Y2014",
+      "q1": 1.13,
+      "q3": 231.9,
+      "lower_bound": -345.02500000000003,
+      "upper_bound": 578.0550000000001,
+      "outlier_count": 321861
+    },
+    "Y2015": {
+      "column": "Y2015",
+      "q1": 1.0,
+      "q3": 211.9,
+      "lower_bound": -315.35,
+      "upper_bound": 528.25,
+      "outlier_count": 329795
+    },
+    "Y2016": {
+      "column": "Y2016",
+      "q1": 1.0,
+      "q3": 202.79,
+      "lower_bound": -301.685,
+      "upper_bound": 505.475,
+      "outlier_count": 346348
+    },
+    "Y2017": {
+      "column": "Y2017",
+      "q1": 1.0,
+      "q3": 205.0,
+      "lower_bound": -305.0,
+      "upper_bound": 511.0,
+      "outlier_count": 363393
+    },
+    "Y2018": {
+      "column": "Y2018",
+      "q1": 1.0,
+      "q3": 205.0,
+      "lower_bound": -305.0,
+      "upper_bound": 511.0,
+      "outlier_count": 368173
+    },
+    "Y2019": {
+      "column": "Y2019",
+      "q1": 1.0,
+      "q3": 200.12,
+      "lower_bound": -297.68,
+      "upper_bound": 498.8,
+      "outlier_count": 376614
+    },
+    "Y2020": {
+      "column": "Y2020",
+      "q1": 1.0,
+      "q3": 198.0,
+      "lower_bound": -294.5,
+      "upper_bound": 493.5,
+      "outlier_count": 379000
+    },
+    "Y2021": {
+      "column": "Y2021",
+      "q1": 0.95,
+      "q3": 192.0,
+      "lower_bound": -285.62500000000006,
+      "upper_bound": 478.57500000000005,
+      "outlier_count": 400660
+    },
+    "Y2023": {
+      "column": "Y2023",
+      "q1": 0.95,
+      "q3": 200.0,
+      "lower_bound": -297.62500000000006,
+      "upper_bound": 498.57500000000005,
+      "outlier_count": 393025
+    },
+    "Y2024": {
+      "column": "Y2024",
+      "q1": 0.99,
+      "q3": 224.0,
+      "lower_bound": -333.525,
+      "upper_bound": 558.515,
+      "outlier_count": 354119
+    }
+  },
+  "categorical": {
+    "Reporter Country Code (M49)": {
+      "column": "Reporter Country Code (M49)",
+      "top_values": [
+        {
+          "value": "'528",
+          "count": 160905
+        },
+        {
+          "value": "'250",
+          "count": 152320
+        },
+        {
+          "value": "'276",
+          "count": 139436
+        },
+        {
+          "value": "'840",
+          "count": 134723
+        },
+        {
+          "value": "'826",
+          "count": 129813
+        },
+        {
+          "value": "'380",
+          "count": 123698
+        },
+        {
+          "value": "'724",
+          "count": 121987
+        },
+        {
+          "value": "'056",
+          "count": 111758
+        },
+        {
+          "value": "'792",
+          "count": 106610
+        },
+        {
+          "value": "'124",
+          "count": 101843
+        }
+      ]
+    },
+    "Reporter Countries": {
+      "column": "Reporter Countries",
+      "top_values": [
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 160905
+        },
+        {
+          "value": "France",
+          "count": 152320
+        },
+        {
+          "value": "Germany",
+          "count": 139436
+        },
+        {
+          "value": "United States of America",
+          "count": 134723
+        },
+        {
+          "value": "United Kingdom of Great Britain and Northern Ireland",
+          "count": 129813
+        },
+        {
+          "value": "Italy",
+          "count": 123698
+        },
+        {
+          "value": "Spain",
+          "count": 121987
+        },
+        {
+          "value": "Belgium",
+          "count": 111758
+        },
+        {
+          "value": "T\u00fcrkiye",
+          "count": 106610
+        },
+        {
+          "value": "Canada",
+          "count": 101843
+        }
+      ]
+    },
+    "Partner Country Code (M49)": {
+      "column": "Partner Country Code (M49)",
+      "top_values": [
+        {
+          "value": "'840",
+          "count": 158654
+        },
+        {
+          "value": "'250",
+          "count": 145865
+        },
+        {
+          "value": "'276",
+          "count": 136283
+        },
+        {
+          "value": "'826",
+          "count": 134375
+        },
+        {
+          "value": "'528",
+          "count": 132202
+        },
+        {
+          "value": "'156",
+          "count": 131116
+        },
+        {
+          "value": "'380",
+          "count": 129645
+        },
+        {
+          "value": "'724",
+          "count": 117474
+        },
+        {
+          "value": "'056",
+          "count": 100983
+        },
+        {
+          "value": "'124",
+          "count": 93213
+        }
+      ]
+    },
+    "Partner Countries": {
+      "column": "Partner Countries",
+      "top_values": [
+        {
+          "value": "United States of America",
+          "count": 158654
+        },
+        {
+          "value": "France",
+          "count": 145865
+        },
+        {
+          "value": "Germany",
+          "count": 136283
+        },
+        {
+          "value": "United Kingdom of Great Britain and Northern Ireland",
+          "count": 134375
+        },
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 132202
+        },
+        {
+          "value": "China, mainland",
+          "count": 131116
+        },
+        {
+          "value": "Italy",
+          "count": 129645
+        },
+        {
+          "value": "Spain",
+          "count": 117474
+        },
+        {
+          "value": "Belgium",
+          "count": 100983
+        },
+        {
+          "value": "Canada",
+          "count": 93213
+        }
+      ]
+    },
+    "Item Code (CPC)": {
+      "column": "Item Code (CPC)",
+      "top_values": [
+        {
+          "value": "'F1232",
+          "count": 72842
+        },
+        {
+          "value": "'F1293",
+          "count": 62143
+        },
+        {
+          "value": "'F0022",
+          "count": 55056
+        },
+        {
+          "value": "'2413",
+          "count": 52312
+        },
+        {
+          "value": "'24490",
+          "count": 52054
+        },
+        {
+          "value": "'F0666",
+          "count": 51932
+        },
+        {
+          "value": "'23670.01",
+          "count": 51802
+        },
+        {
+          "value": "'F0623",
+          "count": 50774
+        },
+        {
+          "value": "'01620",
+          "count": 44502
+        },
+        {
+          "value": "'21439.90",
+          "count": 43580
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Food preparations n.e.c.",
+          "count": 72842
+        },
+        {
+          "value": "Crude organic material n.e.c.",
+          "count": 62143
+        },
+        {
+          "value": "Pastry",
+          "count": 55056
+        },
+        {
+          "value": "Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80% vol; spirits, liqueurs and other spirituous beverages",
+          "count": 52312
+        },
+        {
+          "value": "Other non-alcoholic caloric beverages",
+          "count": 52054
+        },
+        {
+          "value": "Chocolate products nes",
+          "count": 51932
+        },
+        {
+          "value": "Sugar confectionery",
+          "count": 51802
+        },
+        {
+          "value": "Fruit prepared n.e.c.",
+          "count": 50774
+        },
+        {
+          "value": "Tea leaves",
+          "count": 44502
+        },
+        {
+          "value": "Juice of fruits n.e.c.",
+          "count": 43580
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Import value",
+          "count": 1742699
+        },
+        {
+          "value": "Import quantity",
+          "count": 1742231
+        },
+        {
+          "value": "Export quantity",
+          "count": 1578643
+        },
+        {
+          "value": "Export value",
+          "count": 1576974
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "1000 USD",
+          "count": 3319673
+        },
+        {
+          "value": "t",
+          "count": 3269319
+        },
+        {
+          "value": "An",
+          "count": 34018
+        },
+        {
+          "value": "1000 An",
+          "count": 15716
+        },
+        {
+          "value": "No",
+          "count": 1821
+        }
+      ]
+    },
+    "Y1986": {
+      "column": "Y1986",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 26534
+        },
+        {
+          "value": "0.000000",
+          "count": 23463
+        },
+        {
+          "value": "2.000000",
+          "count": 22530
+        },
+        {
+          "value": "3.000000",
+          "count": 16006
+        },
+        {
+          "value": "4.000000",
+          "count": 12234
+        },
+        {
+          "value": "5.000000",
+          "count": 10360
+        },
+        {
+          "value": "6.000000",
+          "count": 8443
+        },
+        {
+          "value": "7.000000",
+          "count": 7462
+        },
+        {
+          "value": "8.000000",
+          "count": 6418
+        },
+        {
+          "value": "10.000000",
+          "count": 6317
+        }
+      ]
+    },
+    "Y1986F": {
+      "column": "Y1986F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 421958
+        },
+        {
+          "value": "E",
+          "count": 2812
+        }
+      ]
+    },
+    "Y1987": {
+      "column": "Y1987",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 25979
+        },
+        {
+          "value": "0.000000",
+          "count": 23880
+        },
+        {
+          "value": "2.000000",
+          "count": 21797
+        },
+        {
+          "value": "4.000000",
+          "count": 12894
+        },
+        {
+          "value": "3.000000",
+          "count": 12885
+        },
+        {
+          "value": "5.000000",
+          "count": 10940
+        },
+        {
+          "value": "6.000000",
+          "count": 8606
+        },
+        {
+          "value": "7.000000",
+          "count": 7606
+        },
+        {
+          "value": "8.000000",
+          "count": 6717
+        },
+        {
+          "value": "10.000000",
+          "count": 6377
+        }
+      ]
+    },
+    "Y1987F": {
+      "column": "Y1987F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 432481
+        },
+        {
+          "value": "E",
+          "count": 2680
+        }
+      ]
+    },
+    "Y1988": {
+      "column": "Y1988",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 27599
+        },
+        {
+          "value": "0.000000",
+          "count": 27322
+        },
+        {
+          "value": "2.000000",
+          "count": 26813
+        },
+        {
+          "value": "3.000000",
+          "count": 14583
+        },
+        {
+          "value": "4.000000",
+          "count": 14569
+        },
+        {
+          "value": "5.000000",
+          "count": 11881
+        },
+        {
+          "value": "6.000000",
+          "count": 10215
+        },
+        {
+          "value": "7.000000",
+          "count": 8604
+        },
+        {
+          "value": "8.000000",
+          "count": 7311
+        },
+        {
+          "value": "10.000000",
+          "count": 7280
+        }
+      ]
+    },
+    "Y1988F": {
+      "column": "Y1988F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 475760
+        },
+        {
+          "value": "E",
+          "count": 2750
+        }
+      ]
+    },
+    "Y1989": {
+      "column": "Y1989",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 29876
+        },
+        {
+          "value": "0.000000",
+          "count": 28797
+        },
+        {
+          "value": "2.000000",
+          "count": 25972
+        },
+        {
+          "value": "3.000000",
+          "count": 18850
+        },
+        {
+          "value": "4.000000",
+          "count": 13875
+        },
+        {
+          "value": "5.000000",
+          "count": 10001
+        },
+        {
+          "value": "6.000000",
+          "count": 9838
+        },
+        {
+          "value": "7.000000",
+          "count": 9021
+        },
+        {
+          "value": "8.000000",
+          "count": 8067
+        },
+        {
+          "value": "10.000000",
+          "count": 7406
+        }
+      ]
+    },
+    "Y1989F": {
+      "column": "Y1989F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 497572
+        },
+        {
+          "value": "E",
+          "count": 3034
+        }
+      ]
+    },
+    "Y1990": {
+      "column": "Y1990",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 29394
+        },
+        {
+          "value": "1.000000",
+          "count": 28987
+        },
+        {
+          "value": "2.000000",
+          "count": 22032
+        },
+        {
+          "value": "3.000000",
+          "count": 18859
+        },
+        {
+          "value": "4.000000",
+          "count": 15307
+        },
+        {
+          "value": "5.000000",
+          "count": 12822
+        },
+        {
+          "value": "6.000000",
+          "count": 10059
+        },
+        {
+          "value": "8.000000",
+          "count": 8267
+        },
+        {
+          "value": "9.000000",
+          "count": 7511
+        },
+        {
+          "value": "10.000000",
+          "count": 7502
+        }
+      ]
+    },
+    "Y1990F": {
+      "column": "Y1990F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 499887
+        },
+        {
+          "value": "E",
+          "count": 3054
+        }
+      ]
+    },
+    "Y1991": {
+      "column": "Y1991",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 30000
+        },
+        {
+          "value": "2.000000",
+          "count": 25169
+        },
+        {
+          "value": "0.000000",
+          "count": 22232
+        },
+        {
+          "value": "3.000000",
+          "count": 20733
+        },
+        {
+          "value": "4.000000",
+          "count": 16881
+        },
+        {
+          "value": "5.000000",
+          "count": 14633
+        },
+        {
+          "value": "6.000000",
+          "count": 11381
+        },
+        {
+          "value": "7.000000",
+          "count": 10302
+        },
+        {
+          "value": "9.000000",
+          "count": 8664
+        },
+        {
+          "value": "10.000000",
+          "count": 8303
+        }
+      ]
+    },
+    "Y1991F": {
+      "column": "Y1991F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 570647
+        },
+        {
+          "value": "E",
+          "count": 3686
+        }
+      ]
+    },
+    "Y1992": {
+      "column": "Y1992",
+      "top_values": [
+        {
+          "value": "1.000000",
+          "count": 30928
+        },
+        {
+          "value": "0.000000",
+          "count": 29978
+        },
+        {
+          "value": "2.000000",
+          "count": 27258
+        },
+        {
+          "value": "3.000000",
+          "count": 22219
+        },
+        {
+          "value": "4.000000",
+          "count": 18263
+        },
+        {
+          "value": "5.000000",
+          "count": 15859
+        },
+        {
+          "value": "7.000000",
+          "count": 11181
+        },
+        {
+          "value": "6.000000",
+          "count": 10285
+        },
+        {
+          "value": "8.000000",
+          "count": 10241
+        },
+        {
+          "value": "10.000000",
+          "count": 9600
+        }
+      ]
+    },
+    "Y1992F": {
+      "column": "Y1992F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 632813
+        },
+        {
+          "value": "E",
+          "count": 4076
+        },
+        {
+          "value": "X",
+          "count": 5
+        }
+      ]
+    },
+    "Y1993": {
+      "column": "Y1993",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 46670
+        },
+        {
+          "value": "1.000000",
+          "count": 38817
+        },
+        {
+          "value": "2.000000",
+          "count": 33887
+        },
+        {
+          "value": "3.000000",
+          "count": 20184
+        },
+        {
+          "value": "4.000000",
+          "count": 19751
+        },
+        {
+          "value": "5.000000",
+          "count": 17161
+        },
+        {
+          "value": "6.000000",
+          "count": 13869
+        },
+        {
+          "value": "7.000000",
+          "count": 11928
+        },
+        {
+          "value": "8.000000",
+          "count": 10651
+        },
+        {
+          "value": "9.000000",
+          "count": 9669
+        }
+      ]
+    },
+    "Y1993F": {
+      "column": "Y1993F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 689105
+        },
+        {
+          "value": "E",
+          "count": 4212
+        },
+        {
+          "value": "X",
+          "count": 8
+        }
+      ]
+    },
+    "Y1994": {
+      "column": "Y1994",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 59223
+        },
+        {
+          "value": "1.000000",
+          "count": 48335
+        },
+        {
+          "value": "2.000000",
+          "count": 37426
+        },
+        {
+          "value": "3.000000",
+          "count": 23285
+        },
+        {
+          "value": "4.000000",
+          "count": 22098
+        },
+        {
+          "value": "5.000000",
+          "count": 18660
+        },
+        {
+          "value": "6.000000",
+          "count": 15329
+        },
+        {
+          "value": "7.000000",
+          "count": 13297
+        },
+        {
+          "value": "8.000000",
+          "count": 11893
+        },
+        {
+          "value": "10.000000",
+          "count": 11178
+        }
+      ]
+    },
+    "Y1994F": {
+      "column": "Y1994F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 777228
+        },
+        {
+          "value": "E",
+          "count": 4810
+        },
+        {
+          "value": "X",
+          "count": 90
+        }
+      ]
+    },
+    "Y1995": {
+      "column": "Y1995",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 96428
+        },
+        {
+          "value": "1.000000",
+          "count": 67037
+        },
+        {
+          "value": "2.000000",
+          "count": 31722
+        },
+        {
+          "value": "3.000000",
+          "count": 28079
+        },
+        {
+          "value": "4.000000",
+          "count": 21244
+        },
+        {
+          "value": "5.000000",
+          "count": 18087
+        },
+        {
+          "value": "7.000000",
+          "count": 13186
+        },
+        {
+          "value": "6.000000",
+          "count": 12119
+        },
+        {
+          "value": "8.000000",
+          "count": 12049
+        },
+        {
+          "value": "9.000000",
+          "count": 10644
+        }
+      ]
+    },
+    "Y1995F": {
+      "column": "Y1995F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 831433
+        },
+        {
+          "value": "E",
+          "count": 5129
+        },
+        {
+          "value": "X",
+          "count": 804
+        }
+      ]
+    },
+    "Y1996F": {
+      "column": "Y1996F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 851104
+        },
+        {
+          "value": "E",
+          "count": 5158
+        },
+        {
+          "value": "X",
+          "count": 157
+        }
+      ]
+    },
+    "Y1997F": {
+      "column": "Y1997F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 896424
+        },
+        {
+          "value": "E",
+          "count": 5573
+        },
+        {
+          "value": "X",
+          "count": 398
+        }
+      ]
+    },
+    "Y1998": {
+      "column": "Y1998",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 113690
+        },
+        {
+          "value": "1.000000",
+          "count": 81631
+        },
+        {
+          "value": "2.000000",
+          "count": 44584
+        },
+        {
+          "value": "3.000000",
+          "count": 31091
+        },
+        {
+          "value": "5.000000",
+          "count": 20417
+        },
+        {
+          "value": "4.000000",
+          "count": 19922
+        },
+        {
+          "value": "6.000000",
+          "count": 17311
+        },
+        {
+          "value": "7.000000",
+          "count": 14682
+        },
+        {
+          "value": "8.000000",
+          "count": 13760
+        },
+        {
+          "value": "10.000000",
+          "count": 12094
+        }
+      ]
+    },
+    "Y1998F": {
+      "column": "Y1998F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 964569
+        },
+        {
+          "value": "E",
+          "count": 6298
+        },
+        {
+          "value": "X",
+          "count": 402
+        }
+      ]
+    },
+    "Y1999F": {
+      "column": "Y1999F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1002910
+        },
+        {
+          "value": "E",
+          "count": 7186
+        },
+        {
+          "value": "X",
+          "count": 806
+        }
+      ]
+    },
+    "Y2000F": {
+      "column": "Y2000F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1111074
+        },
+        {
+          "value": "E",
+          "count": 9527
+        },
+        {
+          "value": "X",
+          "count": 4447
+        }
+      ]
+    },
+    "Y2001F": {
+      "column": "Y2001F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1204688
+        },
+        {
+          "value": "X",
+          "count": 9676
+        },
+        {
+          "value": "E",
+          "count": 7910
+        }
+      ]
+    },
+    "Y2002F": {
+      "column": "Y2002F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1261473
+        },
+        {
+          "value": "X",
+          "count": 8791
+        },
+        {
+          "value": "E",
+          "count": 8301
+        }
+      ]
+    },
+    "Y2003F": {
+      "column": "Y2003F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1291929
+        },
+        {
+          "value": "E",
+          "count": 8279
+        },
+        {
+          "value": "X",
+          "count": 8187
+        },
+        {
+          "value": "I",
+          "count": 1
+        }
+      ]
+    },
+    "Y2004F": {
+      "column": "Y2004F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1344607
+        },
+        {
+          "value": "E",
+          "count": 8447
+        },
+        {
+          "value": "X",
+          "count": 4467
+        },
+        {
+          "value": "I",
+          "count": 1
+        }
+      ]
+    },
+    "Y2005F": {
+      "column": "Y2005F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1393310
+        },
+        {
+          "value": "E",
+          "count": 8742
+        },
+        {
+          "value": "X",
+          "count": 5937
+        },
+        {
+          "value": "I",
+          "count": 5
+        }
+      ]
+    },
+    "Y2006F": {
+      "column": "Y2006F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1382562
+        },
+        {
+          "value": "X",
+          "count": 8893
+        },
+        {
+          "value": "E",
+          "count": 8661
+        },
+        {
+          "value": "I",
+          "count": 4
+        }
+      ]
+    },
+    "Y2007F": {
+      "column": "Y2007F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1454114
+        },
+        {
+          "value": "X",
+          "count": 12770
+        },
+        {
+          "value": "E",
+          "count": 9292
+        },
+        {
+          "value": "I",
+          "count": 1
+        }
+      ]
+    },
+    "Y2008F": {
+      "column": "Y2008F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1447486
+        },
+        {
+          "value": "X",
+          "count": 11940
+        },
+        {
+          "value": "E",
+          "count": 9542
+        }
+      ]
+    },
+    "Y2009F": {
+      "column": "Y2009F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1464804
+        },
+        {
+          "value": "X",
+          "count": 10003
+        },
+        {
+          "value": "E",
+          "count": 9687
+        }
+      ]
+    },
+    "Y2010F": {
+      "column": "Y2010F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1504399
+        },
+        {
+          "value": "E",
+          "count": 9791
+        },
+        {
+          "value": "X",
+          "count": 9605
+        },
+        {
+          "value": "I",
+          "count": 3
+        }
+      ]
+    },
+    "Y2011F": {
+      "column": "Y2011F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1537481
+        },
+        {
+          "value": "E",
+          "count": 10025
+        },
+        {
+          "value": "X",
+          "count": 9633
+        },
+        {
+          "value": "I",
+          "count": 2
+        }
+      ]
+    },
+    "Y2012F": {
+      "column": "Y2012F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1658512
+        },
+        {
+          "value": "E",
+          "count": 10978
+        },
+        {
+          "value": "X",
+          "count": 10782
+        },
+        {
+          "value": "I",
+          "count": 1
+        }
+      ]
+    },
+    "Y2013F": {
+      "column": "Y2013F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1714775
+        },
+        {
+          "value": "E",
+          "count": 11197
+        },
+        {
+          "value": "X",
+          "count": 11076
+        },
+        {
+          "value": "I",
+          "count": 8
+        }
+      ]
+    },
+    "Y2014F": {
+      "column": "Y2014F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1817239
+        },
+        {
+          "value": "E",
+          "count": 11956
+        },
+        {
+          "value": "I",
+          "count": 10564
+        },
+        {
+          "value": "X",
+          "count": 119
+        }
+      ]
+    },
+    "Y2015F": {
+      "column": "Y2015F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1851511
+        },
+        {
+          "value": "E",
+          "count": 12274
+        },
+        {
+          "value": "I",
+          "count": 11201
+        },
+        {
+          "value": "X",
+          "count": 4405
+        }
+      ]
+    },
+    "Y2016F": {
+      "column": "Y2016F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1939480
+        },
+        {
+          "value": "E",
+          "count": 13036
+        },
+        {
+          "value": "I",
+          "count": 11430
+        },
+        {
+          "value": "X",
+          "count": 5191
+        }
+      ]
+    },
+    "Y2017F": {
+      "column": "Y2017F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2030162
+        },
+        {
+          "value": "I",
+          "count": 22944
+        },
+        {
+          "value": "E",
+          "count": 13302
+        },
+        {
+          "value": "X",
+          "count": 163
+        }
+      ]
+    },
+    "Y2018F": {
+      "column": "Y2018F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2058551
+        },
+        {
+          "value": "I",
+          "count": 14027
+        },
+        {
+          "value": "E",
+          "count": 13319
+        },
+        {
+          "value": "X",
+          "count": 141
+        }
+      ]
+    },
+    "Y2019F": {
+      "column": "Y2019F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2101281
+        },
+        {
+          "value": "I",
+          "count": 16721
+        },
+        {
+          "value": "E",
+          "count": 13566
+        },
+        {
+          "value": "X",
+          "count": 229
+        }
+      ]
+    },
+    "Y2020F": {
+      "column": "Y2020F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2107380
+        },
+        {
+          "value": "I",
+          "count": 18797
+        },
+        {
+          "value": "E",
+          "count": 13752
+        },
+        {
+          "value": "X",
+          "count": 158
+        }
+      ]
+    },
+    "Y2021F": {
+      "column": "Y2021F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2216277
+        },
+        {
+          "value": "I",
+          "count": 18297
+        },
+        {
+          "value": "E",
+          "count": 14183
+        },
+        {
+          "value": "X",
+          "count": 191
+        }
+      ]
+    },
+    "Y2022": {
+      "column": "Y2022",
+      "top_values": [
+        {
+          "value": "0.000000",
+          "count": 260246
+        },
+        {
+          "value": "1.000000",
+          "count": 85253
+        },
+        {
+          "value": "2.000000",
+          "count": 46994
+        },
+        {
+          "value": "0.010000",
+          "count": 43991
+        },
+        {
+          "value": "3.000000",
+          "count": 33150
+        },
+        {
+          "value": "4.000000",
+          "count": 25461
+        },
+        {
+          "value": "0.020000",
+          "count": 24431
+        },
+        {
+          "value": "5.000000",
+          "count": 20757
+        },
+        {
+          "value": "6.000000",
+          "count": 17645
+        },
+        {
+          "value": "0.030000",
+          "count": 16570
+        }
+      ]
+    },
+    "Y2022F": {
+      "column": "Y2022F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2195118
+        },
+        {
+          "value": "I",
+          "count": 20685
+        },
+        {
+          "value": "E",
+          "count": 14068
+        },
+        {
+          "value": "X",
+          "count": 279
+        }
+      ]
+    },
+    "Y2023F": {
+      "column": "Y2023F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 2164740
+        },
+        {
+          "value": "I",
+          "count": 24003
+        },
+        {
+          "value": "E",
+          "count": 13891
+        },
+        {
+          "value": "X",
+          "count": 198
+        }
+      ]
+    },
+    "Y2024F": {
+      "column": "Y2024F",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1951506
+        },
+        {
+          "value": "I",
+          "count": 17299
+        },
+        {
+          "value": "E",
+          "count": 11952
+        },
+        {
+          "value": "X",
+          "count": 199
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Partner Country Code",
+        "correlation": -0.006310264346430958
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Item Code",
+        "correlation": -0.0012573194048334539
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Element Code",
+        "correlation": 0.019871698901578038
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y1996",
+        "correlation": -0.00030148249793693273
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y1997",
+        "correlation": -0.0013651779176353984
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y1999",
+        "correlation": 0.0018673529904250142
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2000",
+        "correlation": -0.0011862860202846136
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2001",
+        "correlation": -0.00026759595907915705
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2002",
+        "correlation": -0.0007313251984785316
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2003",
+        "correlation": -4.958953422809781e-07
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2004",
+        "correlation": -0.0015612512680312084
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2005",
+        "correlation": -0.00023630817049304952
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2006",
+        "correlation": 0.00014515515919742353
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2007",
+        "correlation": -0.00012432427027634334
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2008",
+        "correlation": 0.0009518321463898499
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2009",
+        "correlation": 0.0005141574547141309
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2010",
+        "correlation": 0.0007454722732662328
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2011",
+        "correlation": 0.0006996852007029377
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2012",
+        "correlation": 0.0003284228239047655
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2013",
+        "correlation": -0.00026171994841148524
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2014",
+        "correlation": -0.001068979310951957
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2015",
+        "correlation": -0.001339421927381357
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2016",
+        "correlation": -0.0012585772157359502
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2017",
+        "correlation": -0.002866598363091533
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2018",
+        "correlation": -0.0018424503035541573
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2019",
+        "correlation": -0.0015687150426947764
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2020",
+        "correlation": -0.0029666780810063942
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2021",
+        "correlation": -0.0029414410751844975
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2023",
+        "correlation": -0.0027849911268494334
+      },
+      {
+        "column_a": "Reporter Country Code",
+        "column_b": "Y2024",
+        "correlation": -0.003214556884808558
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Item Code",
+        "correlation": -0.003684531276667497
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Element Code",
+        "correlation": -0.0018551673919470653
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y1996",
+        "correlation": -0.001461401206174119
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y1997",
+        "correlation": -0.00217234436696412
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y1999",
+        "correlation": -0.0001082389485527919
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2000",
+        "correlation": -0.0012126731796687764
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2001",
+        "correlation": -0.0018546982679669439
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2002",
+        "correlation": -0.0017447636875452862
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2003",
+        "correlation": -0.001681638111496715
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2004",
+        "correlation": 0.0012242803045007596
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2005",
+        "correlation": 0.0003090922631999911
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2006",
+        "correlation": -0.0002278235551676158
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2007",
+        "correlation": -0.00032349210583130475
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2008",
+        "correlation": -0.00030840330097462414
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2009",
+        "correlation": -2.0767972437234784e-05
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2010",
+        "correlation": -0.00014197415139810836
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2011",
+        "correlation": -0.0002785239582881376
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2012",
+        "correlation": -0.0007157373780933643
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2013",
+        "correlation": -0.001016184046223087
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2014",
+        "correlation": -0.0021259805716060624
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2015",
+        "correlation": -0.001995842360524473
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2016",
+        "correlation": -0.0013783013321258966
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2017",
+        "correlation": -0.0027567590997306483
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2018",
+        "correlation": -0.0020655011937999
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2019",
+        "correlation": -0.002718908834944178
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2020",
+        "correlation": -0.0024764523179893723
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2021",
+        "correlation": -0.003387907353582136
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2023",
+        "correlation": -0.003021752091002886
+      },
+      {
+        "column_a": "Partner Country Code",
+        "column_b": "Y2024",
+        "correlation": -0.0022313854801263404
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.018365588206830194
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y1996",
+        "correlation": -0.019450832452978736
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y1997",
+        "correlation": -0.017290208607121986
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y1999",
+        "correlation": -0.019216024543924272
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2000",
+        "correlation": -0.007510951831310996
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2001",
+        "correlation": -0.006243617008122721
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2002",
+        "correlation": -0.00856139255079343
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2003",
+        "correlation": -0.0060950786770940565
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2004",
+        "correlation": 0.002381099908037837
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2005",
+        "correlation": 0.0035116391950157613
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2006",
+        "correlation": 0.0034877862224099404
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2007",
+        "correlation": 0.003704961950100329
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2008",
+        "correlation": 0.001959882936376388
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2009",
+        "correlation": 0.004307783647549353
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2010",
+        "correlation": 0.002515997812711543
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2011",
+        "correlation": 0.002392272947864518
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2012",
+        "correlation": 0.0018065672746260465
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2013",
+        "correlation": 0.0007274201640510178
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2014",
+        "correlation": -0.0035791964986137156
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2015",
+        "correlation": -0.0036858846630087884
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2016",
+        "correlation": -0.0041359138287205425
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2017",
+        "correlation": -0.007343459923764154
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2018",
+        "correlation": -0.006527019842601848
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2019",
+        "correlation": -0.005609918344179196
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2020",
+        "correlation": -0.0071012635774382535
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2021",
+        "correlation": -0.008100694646200678
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2023",
+        "correlation": -0.005793397121137084
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Y2024",
+        "correlation": -0.005743003961345194
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y1996",
+        "correlation": 0.0004414609805360861
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y1997",
+        "correlation": 0.001450107304417957
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y1999",
+        "correlation": -0.0001766716610658571
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2000",
+        "correlation": -0.0007224059622089748
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2001",
+        "correlation": -0.000730333056041891
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2002",
+        "correlation": -0.00045951212451138365
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2003",
+        "correlation": -0.00021113845311694477
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2004",
+        "correlation": 0.0011292560508825934
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2005",
+        "correlation": 0.0014159873996122572
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2006",
+        "correlation": 0.0008843994005465626
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2007",
+        "correlation": 0.0013318290296880416
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2008",
+        "correlation": -0.0005125253042732872
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2009",
+        "correlation": 0.0013077200654850233
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2010",
+        "correlation": -0.0011584609791559057
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2011",
+        "correlation": -0.0010629915258154965
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2012",
+        "correlation": -0.0007559089586858116
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2013",
+        "correlation": -0.0012889163245445314
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2014",
+        "correlation": 0.0013110165950724435
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2015",
+        "correlation": 0.0010846725076285148
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2016",
+        "correlation": 0.0006920435452287125
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2017",
+        "correlation": 0.0015582715396496754
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2018",
+        "correlation": 0.001333129258060705
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2019",
+        "correlation": 0.0013115013450668135
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2020",
+        "correlation": 0.0008561466130079956
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2021",
+        "correlation": 0.0017933921936357045
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2023",
+        "correlation": 0.001413657301296044
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Y2024",
+        "correlation": 0.0008364863413559121
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y1997",
+        "correlation": 0.8619820621817679
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y1999",
+        "correlation": 0.9066626193632036
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2000",
+        "correlation": 0.5613003165375505
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2001",
+        "correlation": 0.498435233412978
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2002",
+        "correlation": 0.46796165712355403
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2003",
+        "correlation": 0.5080806017228565
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2004",
+        "correlation": 0.014691331668571388
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2005",
+        "correlation": 0.062915000868864
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2006",
+        "correlation": 0.057878197478736904
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2007",
+        "correlation": 0.0545840306805547
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2008",
+        "correlation": 0.09331254498199834
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2009",
+        "correlation": 0.052503535930057556
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2010",
+        "correlation": 0.06496325749993531
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2011",
+        "correlation": 0.048132244150611035
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2012",
+        "correlation": 0.09382320945229318
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2013",
+        "correlation": 0.10054115038185894
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2014",
+        "correlation": 0.4080555422434316
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2015",
+        "correlation": 0.36727327640982566
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2016",
+        "correlation": 0.37467401598236266
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2017",
+        "correlation": 0.33610792784964943
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2018",
+        "correlation": 0.33283695339616753
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2019",
+        "correlation": 0.304735405906682
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2020",
+        "correlation": 0.2791586971298716
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2021",
+        "correlation": 0.2927710028656511
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2023",
+        "correlation": 0.219736701207729
+      },
+      {
+        "column_a": "Y1996",
+        "column_b": "Y2024",
+        "correlation": 0.2743652859218257
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y1999",
+        "correlation": 0.915856391631933
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2000",
+        "correlation": 0.602219242819022
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2001",
+        "correlation": 0.5300785843397635
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2002",
+        "correlation": 0.5023070010624064
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2003",
+        "correlation": 0.5712973235008906
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2004",
+        "correlation": 0.013745172731422976
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2005",
+        "correlation": 0.06336350097703801
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2006",
+        "correlation": 0.06373026519423151
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2007",
+        "correlation": 0.060297960827743975
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2008",
+        "correlation": 0.12862949315468675
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2009",
+        "correlation": 0.05437828122995583
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2010",
+        "correlation": 0.1327556642481119
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2011",
+        "correlation": 0.1017327262694813
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2012",
+        "correlation": 0.16104510318575727
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2013",
+        "correlation": 0.13374249195801752
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2014",
+        "correlation": 0.3897624824593339
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2015",
+        "correlation": 0.3613215709113851
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2016",
+        "correlation": 0.3604492878290393
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2017",
+        "correlation": 0.3286974108063917
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2018",
+        "correlation": 0.31132863135377253
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2019",
+        "correlation": 0.3024487628290068
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2020",
+        "correlation": 0.2766549050201486
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2021",
+        "correlation": 0.28739951733129876
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2023",
+        "correlation": 0.21823818350270877
+      },
+      {
+        "column_a": "Y1997",
+        "column_b": "Y2024",
+        "correlation": 0.2650150690567631
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2000",
+        "correlation": 0.6146162718298365
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2001",
+        "correlation": 0.5462541563331765
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2002",
+        "correlation": 0.5209918180996299
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2003",
+        "correlation": 0.5619551670722879
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2004",
+        "correlation": 0.015401616445462321
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2005",
+        "correlation": 0.06958470119554742
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2006",
+        "correlation": 0.07257540681073858
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2007",
+        "correlation": 0.07035520072190672
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2008",
+        "correlation": 0.1529664671130704
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2009",
+        "correlation": 0.06361905227485383
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2010",
+        "correlation": 0.1592823779823542
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2011",
+        "correlation": 0.12005889536881288
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2012",
+        "correlation": 0.18564419334939575
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2013",
+        "correlation": 0.15520101353992505
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2014",
+        "correlation": 0.4581991788091826
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2015",
+        "correlation": 0.427722329351422
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2016",
+        "correlation": 0.4319918447597507
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2017",
+        "correlation": 0.3879210677309761
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2018",
+        "correlation": 0.37655518264080684
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2019",
+        "correlation": 0.3600524906880288
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2020",
+        "correlation": 0.32640889842690635
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2021",
+        "correlation": 0.33789299416647056
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2023",
+        "correlation": 0.26447963875892266
+      },
+      {
+        "column_a": "Y1999",
+        "column_b": "Y2024",
+        "correlation": 0.32272028596632724
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2001",
+        "correlation": 0.8710928738988852
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2002",
+        "correlation": 0.8989618580827863
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2003",
+        "correlation": 0.8498395515840822
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2004",
+        "correlation": 0.029007230735726145
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2005",
+        "correlation": 0.11906683720294561
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2006",
+        "correlation": 0.12574758491742735
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2007",
+        "correlation": 0.11508636820964434
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2008",
+        "correlation": 0.2452607662402078
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2009",
+        "correlation": 0.09141938598023523
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2010",
+        "correlation": 0.27607115751616057
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2011",
+        "correlation": 0.18533951319924327
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2012",
+        "correlation": 0.3076882383057313
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2013",
+        "correlation": 0.31039629247852724
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2014",
+        "correlation": 0.526607917571416
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2015",
+        "correlation": 0.5035205199731343
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2016",
+        "correlation": 0.5178050977993724
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2017",
+        "correlation": 0.4675316264863084
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2018",
+        "correlation": 0.41990490832043753
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2019",
+        "correlation": 0.4326325243471474
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2020",
+        "correlation": 0.4106202986550431
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2021",
+        "correlation": 0.40898141720186665
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2023",
+        "correlation": 0.33277952144643286
+      },
+      {
+        "column_a": "Y2000",
+        "column_b": "Y2024",
+        "correlation": 0.3860444153669195
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2002",
+        "correlation": 0.850348267854148
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2003",
+        "correlation": 0.8010936892898641
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2004",
+        "correlation": 0.0269209509647777
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2005",
+        "correlation": 0.11408698961561699
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2006",
+        "correlation": 0.11908341146240041
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2007",
+        "correlation": 0.10875127422065049
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2008",
+        "correlation": 0.23505876064409378
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2009",
+        "correlation": 0.0918763613545933
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2010",
+        "correlation": 0.263919250466917
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2011",
+        "correlation": 0.18037642938504148
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2012",
+        "correlation": 0.3076543093959516
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2013",
+        "correlation": 0.3156990443230064
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2014",
+        "correlation": 0.5811188907554529
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2015",
+        "correlation": 0.5648598659819325
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2016",
+        "correlation": 0.5708894442022857
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2017",
+        "correlation": 0.5227080509019489
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2018",
+        "correlation": 0.47045589175810604
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2019",
+        "correlation": 0.494444176137515
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2020",
+        "correlation": 0.46383252915974826
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2021",
+        "correlation": 0.46190330199771507
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2023",
+        "correlation": 0.38268160675318047
+      },
+      {
+        "column_a": "Y2001",
+        "column_b": "Y2024",
+        "correlation": 0.4363969826143298
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2003",
+        "correlation": 0.885407215625292
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2004",
+        "correlation": 0.03016816544114626
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2005",
+        "correlation": 0.1438389202241278
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2006",
+        "correlation": 0.1345274466609595
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2007",
+        "correlation": 0.12308658960899996
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2008",
+        "correlation": 0.19320218341092976
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2009",
+        "correlation": 0.11454326735935491
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2010",
+        "correlation": 0.15009451283307013
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2011",
+        "correlation": 0.10212590242134431
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2012",
+        "correlation": 0.23235740159794735
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2013",
+        "correlation": 0.3258793290188831
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2014",
+        "correlation": 0.5701997992236723
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2015",
+        "correlation": 0.5551285274622296
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2016",
+        "correlation": 0.5554382348167599
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2017",
+        "correlation": 0.5185334361963181
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2018",
+        "correlation": 0.4824324854400537
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2019",
+        "correlation": 0.49466739398490867
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2020",
+        "correlation": 0.4685475246716128
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2021",
+        "correlation": 0.4657750348273224
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2023",
+        "correlation": 0.3984924706425174
+      },
+      {
+        "column_a": "Y2002",
+        "column_b": "Y2024",
+        "correlation": 0.4515765156333454
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2004",
+        "correlation": 0.032811009020982586
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2005",
+        "correlation": 0.15299095131005908
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2006",
+        "correlation": 0.13773384698519334
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2007",
+        "correlation": 0.10250838918618227
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2008",
+        "correlation": 0.20314783567366373
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2009",
+        "correlation": 0.11239272408854098
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2010",
+        "correlation": 0.16774813642247033
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2011",
+        "correlation": 0.12344306055791539
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2012",
+        "correlation": 0.2650112965215232
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2013",
+        "correlation": 0.3771792460918126
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2014",
+        "correlation": 0.6706423902326181
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2015",
+        "correlation": 0.6548487888573089
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2016",
+        "correlation": 0.663895438356299
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2017",
+        "correlation": 0.6145721043725354
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2018",
+        "correlation": 0.5316093012166386
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2019",
+        "correlation": 0.5752275067958263
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2020",
+        "correlation": 0.5686875718369623
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2021",
+        "correlation": 0.548838101257528
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2023",
+        "correlation": 0.48132164771929903
+      },
+      {
+        "column_a": "Y2003",
+        "column_b": "Y2024",
+        "correlation": 0.5252640900648048
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2005",
+        "correlation": 0.31304123115735183
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2006",
+        "correlation": 0.007413933058103345
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2007",
+        "correlation": 0.007346871765254632
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2008",
+        "correlation": 0.010541271876484761
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2009",
+        "correlation": 0.006039348257328777
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2010",
+        "correlation": 0.012530171836176319
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2011",
+        "correlation": 0.00911730372246453
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2012",
+        "correlation": 0.016064117355152396
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2013",
+        "correlation": 0.01792047032610053
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2014",
+        "correlation": 0.7043994457405591
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2015",
+        "correlation": 0.6800671440702201
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2016",
+        "correlation": 0.6840898181260453
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2017",
+        "correlation": 0.6350343375398606
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2018",
+        "correlation": 0.5487685680268571
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2019",
+        "correlation": 0.5761503342092742
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2020",
+        "correlation": 0.5665555050170082
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2021",
+        "correlation": 0.571732917517588
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2023",
+        "correlation": 0.4894781354474757
+      },
+      {
+        "column_a": "Y2004",
+        "column_b": "Y2024",
+        "correlation": 0.5307916830857055
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2006",
+        "correlation": 0.8416088130449431
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2007",
+        "correlation": 0.541029458148096
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2008",
+        "correlation": 0.2595250387416791
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2009",
+        "correlation": 0.7519071612226457
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2010",
+        "correlation": 0.11654339829977914
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2011",
+        "correlation": 0.18062254938851366
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2012",
+        "correlation": 0.2944930990482365
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2013",
+        "correlation": 0.1439447528135946
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2014",
+        "correlation": 0.7230792570766728
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2015",
+        "correlation": 0.7092269935373412
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2016",
+        "correlation": 0.7098873264116797
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2017",
+        "correlation": 0.6656875972631754
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2018",
+        "correlation": 0.5825270628063938
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2019",
+        "correlation": 0.6165749965696918
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2020",
+        "correlation": 0.6072791048141355
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2021",
+        "correlation": 0.5948561282027208
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2023",
+        "correlation": 0.5205262238343957
+      },
+      {
+        "column_a": "Y2005",
+        "column_b": "Y2024",
+        "correlation": 0.5692617555843358
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2007",
+        "correlation": 0.7804600084051456
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2008",
+        "correlation": 0.5136474788164169
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2009",
+        "correlation": 0.8925620339696816
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2010",
+        "correlation": 0.3397550597206769
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2011",
+        "correlation": 0.5857807339640702
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2012",
+        "correlation": 0.8506362719167909
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2013",
+        "correlation": 0.41695225748556664
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2014",
+        "correlation": 0.7653008947642841
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2015",
+        "correlation": 0.7552977655273594
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2016",
+        "correlation": 0.7537018591217504
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2017",
+        "correlation": 0.7220164730294361
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2018",
+        "correlation": 0.6597607234966436
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2019",
+        "correlation": 0.679067248882166
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2020",
+        "correlation": 0.6613622545271376
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2021",
+        "correlation": 0.6521263078110604
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2023",
+        "correlation": 0.5833117769761588
+      },
+      {
+        "column_a": "Y2006",
+        "column_b": "Y2024",
+        "correlation": 0.6316494053150061
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2008",
+        "correlation": 0.3486276963132587
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2009",
+        "correlation": 0.8768961846455425
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2010",
+        "correlation": 0.23303604906210543
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2011",
+        "correlation": 0.6188758535262101
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2012",
+        "correlation": 0.8956132314609105
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2013",
+        "correlation": 0.28710088818137103
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2014",
+        "correlation": 0.7739806170208459
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2015",
+        "correlation": 0.7552086123098798
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2016",
+        "correlation": 0.7613054504155197
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2017",
+        "correlation": 0.7247501401257487
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2018",
+        "correlation": 0.6454600574485906
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2019",
+        "correlation": 0.6810568654611318
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2020",
+        "correlation": 0.6659582316962325
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2021",
+        "correlation": 0.6549076747759943
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2023",
+        "correlation": 0.5810362011251189
+      },
+      {
+        "column_a": "Y2007",
+        "column_b": "Y2024",
+        "correlation": 0.6289950149922234
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2009",
+        "correlation": 0.5525882341472791
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2010",
+        "correlation": 0.929703911669391
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2011",
+        "correlation": 0.8563982380145342
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2012",
+        "correlation": 0.8584934872796197
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2013",
+        "correlation": 0.7853283225152177
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2014",
+        "correlation": 0.8361235910642552
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2015",
+        "correlation": 0.7993885044184713
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2016",
+        "correlation": 0.8107517459064555
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2017",
+        "correlation": 0.7694992697235983
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2018",
+        "correlation": 0.6693398076746229
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2019",
+        "correlation": 0.7093039178832514
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2020",
+        "correlation": 0.7080741221508156
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2021",
+        "correlation": 0.7025170728319023
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2023",
+        "correlation": 0.6386915292850374
+      },
+      {
+        "column_a": "Y2008",
+        "column_b": "Y2024",
+        "correlation": 0.6731293836179596
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2010",
+        "correlation": 0.4856436804572612
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2011",
+        "correlation": 0.7488537494325443
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2012",
+        "correlation": 0.7266907909708386
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2013",
+        "correlation": 0.37722965580470125
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2014",
+        "correlation": 0.9108194949680816
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2015",
+        "correlation": 0.8727332522420613
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2016",
+        "correlation": 0.8919455747768551
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2017",
+        "correlation": 0.8514163052660547
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2018",
+        "correlation": 0.7273283944484723
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2019",
+        "correlation": 0.7649791487888236
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2020",
+        "correlation": 0.7858738490494301
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2021",
+        "correlation": 0.77166648769082
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2023",
+        "correlation": 0.7113263124002538
+      },
+      {
+        "column_a": "Y2009",
+        "column_b": "Y2024",
+        "correlation": 0.7349966327682109
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2011",
+        "correlation": 0.990311318815321
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2012",
+        "correlation": 0.9380493900159124
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2013",
+        "correlation": 0.814480648905443
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2014",
+        "correlation": 0.9122234172184569
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2015",
+        "correlation": 0.8775363685631652
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2016",
+        "correlation": 0.8925644402648337
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2017",
+        "correlation": 0.8470612243730029
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2018",
+        "correlation": 0.7131000320990548
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2019",
+        "correlation": 0.7684367120737042
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2020",
+        "correlation": 0.784440596020134
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2021",
+        "correlation": 0.772179668320167
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2023",
+        "correlation": 0.7021850297675997
+      },
+      {
+        "column_a": "Y2010",
+        "column_b": "Y2024",
+        "correlation": 0.7238707942869501
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2012",
+        "correlation": 0.9200391753529328
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2013",
+        "correlation": 0.7765379721707837
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2014",
+        "correlation": 0.9286089687582921
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2015",
+        "correlation": 0.8955251709942686
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2016",
+        "correlation": 0.9029042969938726
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2017",
+        "correlation": 0.8784636560354389
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2018",
+        "correlation": 0.7804514938582244
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2019",
+        "correlation": 0.8174338481115216
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2020",
+        "correlation": 0.8238078896716804
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2021",
+        "correlation": 0.8239426696277284
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2023",
+        "correlation": 0.7686824825232494
+      },
+      {
+        "column_a": "Y2011",
+        "column_b": "Y2024",
+        "correlation": 0.7835767731459167
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2013",
+        "correlation": 0.9278457065428246
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2014",
+        "correlation": 0.4025990662668708
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2015",
+        "correlation": 0.4106604085035907
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2016",
+        "correlation": 0.4312001592487225
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2017",
+        "correlation": 0.7852100964101776
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2018",
+        "correlation": 0.6458127951993561
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2019",
+        "correlation": 0.650184774269891
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2020",
+        "correlation": 0.8386663792660614
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2021",
+        "correlation": 0.8222191046410094
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2023",
+        "correlation": 0.6540163111175177
+      },
+      {
+        "column_a": "Y2012",
+        "column_b": "Y2024",
+        "correlation": 0.7058160264014903
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2014",
+        "correlation": 0.4057441779182705
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2015",
+        "correlation": 0.42209825216484925
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2016",
+        "correlation": 0.5145453610823388
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2017",
+        "correlation": 0.8107460640194174
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2018",
+        "correlation": 0.7024473596420563
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2019",
+        "correlation": 0.697247896360373
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2020",
+        "correlation": 0.8875019680451216
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2021",
+        "correlation": 0.8567039014854317
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2023",
+        "correlation": 0.7092855007401847
+      },
+      {
+        "column_a": "Y2013",
+        "column_b": "Y2024",
+        "correlation": 0.7591895386734175
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2015",
+        "correlation": 0.9774340669409914
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2016",
+        "correlation": 0.7942711803438953
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2017",
+        "correlation": 0.7928979234048367
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2018",
+        "correlation": 0.7984156268596021
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2019",
+        "correlation": 0.851226584974198
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2020",
+        "correlation": 0.44934334040714013
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2021",
+        "correlation": 0.6139952096242803
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2023",
+        "correlation": 0.8176579554456616
+      },
+      {
+        "column_a": "Y2014",
+        "column_b": "Y2024",
+        "correlation": 0.7535054141923071
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2016",
+        "correlation": 0.82167788489499
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2017",
+        "correlation": 0.806832940513077
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2018",
+        "correlation": 0.8175167928100746
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2019",
+        "correlation": 0.8655248033940717
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2020",
+        "correlation": 0.47862355403936946
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2021",
+        "correlation": 0.6379242974225989
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2023",
+        "correlation": 0.8298656288713286
+      },
+      {
+        "column_a": "Y2015",
+        "column_b": "Y2024",
+        "correlation": 0.7739264129408397
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2017",
+        "correlation": 0.8660713130509786
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2018",
+        "correlation": 0.8475801011919155
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2019",
+        "correlation": 0.7672161310706036
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2020",
+        "correlation": 0.4603092697272449
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2021",
+        "correlation": 0.5878516073308196
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2023",
+        "correlation": 0.716080190788277
+      },
+      {
+        "column_a": "Y2016",
+        "column_b": "Y2024",
+        "correlation": 0.6806949437417045
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2018",
+        "correlation": 0.9447216502411767
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2019",
+        "correlation": 0.928685929302521
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2020",
+        "correlation": 0.7875935126067163
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2021",
+        "correlation": 0.9162572040752828
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2023",
+        "correlation": 0.9334801968366988
+      },
+      {
+        "column_a": "Y2017",
+        "column_b": "Y2024",
+        "correlation": 0.9487874384036996
+      },
+      {
+        "column_a": "Y2018",
+        "column_b": "Y2019",
+        "correlation": 0.9172178101103086
+      },
+      {
+        "column_a": "Y2018",
+        "column_b": "Y2020",
+        "correlation": 0.7485970372103873
+      },
+      {
+        "column_a": "Y2018",
+        "column_b": "Y2021",
+        "correlation": 0.8825333373992641
+      },
+      {
+        "column_a": "Y2018",
+        "column_b": "Y2023",
+        "correlation": 0.9493323382445995
+      },
+      {
+        "column_a": "Y2018",
+        "column_b": "Y2024",
+        "correlation": 0.9591237811013527
+      },
+      {
+        "column_a": "Y2019",
+        "column_b": "Y2020",
+        "correlation": 0.746082462056028
+      },
+      {
+        "column_a": "Y2019",
+        "column_b": "Y2021",
+        "correlation": 0.8768265324022394
+      },
+      {
+        "column_a": "Y2019",
+        "column_b": "Y2023",
+        "correlation": 0.9557741955925542
+      },
+      {
+        "column_a": "Y2019",
+        "column_b": "Y2024",
+        "correlation": 0.9544725387024786
+      },
+      {
+        "column_a": "Y2020",
+        "column_b": "Y2021",
+        "correlation": 0.8346751079656993
+      },
+      {
+        "column_a": "Y2020",
+        "column_b": "Y2023",
+        "correlation": 0.7422628993773478
+      },
+      {
+        "column_a": "Y2020",
+        "column_b": "Y2024",
+        "correlation": 0.7910745235552495
+      },
+      {
+        "column_a": "Y2021",
+        "column_b": "Y2023",
+        "correlation": 0.9018281269522197
+      },
+      {
+        "column_a": "Y2021",
+        "column_b": "Y2024",
+        "correlation": 0.9283306384097452
+      },
+      {
+        "column_a": "Y2023",
+        "column_b": "Y2024",
+        "correlation": 0.9715732049343734
+      }
+    ]
+  }
+}

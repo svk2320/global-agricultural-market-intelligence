@@ -1,0 +1,156 @@
+{
+  "table": "raw.production_crops_livestock_areacodes",
+  "generated_at": "2026-07-07T19:16:09",
+  "dataset_summary": {
+    "row_count": 244,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 244,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 244
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 244
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 244
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 861.094262295082,
+      "median": 148.5,
+      "stddev": 1823.1027443872874
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 74.75,
+      "q3": 222.25,
+      "lower_bound": -146.5,
+      "upper_bound": 443.5,
+      "outlier_count": 34
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'024",
+          "count": 1
+        },
+        {
+          "value": "'028",
+          "count": 1
+        },
+        {
+          "value": "'050",
+          "count": 1
+        },
+        {
+          "value": "'072",
+          "count": 1
+        },
+        {
+          "value": "'100",
+          "count": 1
+        },
+        {
+          "value": "'029",
+          "count": 1
+        },
+        {
+          "value": "'159",
+          "count": 1
+        },
+        {
+          "value": "'178",
+          "count": 1
+        },
+        {
+          "value": "'192",
+          "count": 1
+        },
+        {
+          "value": "'230",
+          "count": 1
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 1
+        },
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        },
+        {
+          "value": "Hungary",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

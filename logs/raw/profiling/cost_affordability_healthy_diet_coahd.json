@@ -1,0 +1,531 @@
+{
+  "table": "raw.cost_affordability_healthy_diet_coahd",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 11672,
+    "column_count": 14
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Release Code": "VARCHAR",
+    "Release": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "VARCHAR",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 11672,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Release Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Release": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 1207,
+        "null_pct": 10.34
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 247
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 247
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 247
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 16
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 16
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 8
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 8
+    },
+    "Release Code": {
+      "column": "Release Code",
+      "distinct_count": 2
+    },
+    "Release": {
+      "column": "Release",
+      "distinct_count": 2
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 3031
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 9011,
+      "mean": 803.6732350925291,
+      "median": 145.5,
+      "stddev": 1820.689996318828
+    },
+    "Item Code": {
+      "min": 7005,
+      "max": 70121,
+      "mean": 36200.86223440713,
+      "median": 7006.0,
+      "stddev": 31444.115638397398
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 6226,
+      "mean": 6168.159355723098,
+      "median": 6132.0,
+      "stddev": 45.60701662667963
+    },
+    "Year Code": {
+      "min": 2017,
+      "max": 2024,
+      "mean": 2020.351439342015,
+      "median": 2021.0,
+      "stddev": 1.9763054439711567
+    },
+    "Year": {
+      "min": 2017,
+      "max": 2024,
+      "mean": 2020.351439342015,
+      "median": 2021.0,
+      "stddev": 1.9763054439711567
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 74.0,
+      "q3": 221.0,
+      "lower_bound": -146.5,
+      "upper_bound": 441.5,
+      "outlier_count": 1440
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 7005.0,
+      "q3": 70041.0,
+      "lower_bound": -87549.0,
+      "upper_bound": 164595.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6226.0,
+      "lower_bound": 5963.5,
+      "upper_bound": 6383.5,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2019.0,
+      "q3": 2021.0,
+      "lower_bound": 2016.0,
+      "upper_bound": 2024.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2019.0,
+      "q3": 2021.0,
+      "lower_bound": 2016.0,
+      "upper_bound": 2024.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'204",
+          "count": 56
+        },
+        {
+          "value": "'140",
+          "count": 56
+        },
+        {
+          "value": "'624",
+          "count": 56
+        },
+        {
+          "value": "'064",
+          "count": 56
+        },
+        {
+          "value": "'504",
+          "count": 56
+        },
+        {
+          "value": "'174",
+          "count": 56
+        },
+        {
+          "value": "'591",
+          "count": 56
+        },
+        {
+          "value": "'262",
+          "count": 56
+        },
+        {
+          "value": "'300",
+          "count": 56
+        },
+        {
+          "value": "'498",
+          "count": 56
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Comoros",
+          "count": 56
+        },
+        {
+          "value": "Ecuador",
+          "count": 56
+        },
+        {
+          "value": "Nicaragua",
+          "count": 56
+        },
+        {
+          "value": "Argentina",
+          "count": 56
+        },
+        {
+          "value": "Oman",
+          "count": 56
+        },
+        {
+          "value": "New Zealand",
+          "count": 56
+        },
+        {
+          "value": "Rwanda",
+          "count": 56
+        },
+        {
+          "value": "Denmark",
+          "count": 56
+        },
+        {
+          "value": "Norway",
+          "count": 56
+        },
+        {
+          "value": "Saint Lucia",
+          "count": 56
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Prevalence of unaffordability (PUA), percent",
+          "count": 3134
+        },
+        {
+          "value": "Number of people unable to afford a healthy diet (NUA), million",
+          "count": 3134
+        },
+        {
+          "value": "Cost of a healthy diet (CoHD), PPP dollar per person per day",
+          "count": 1688
+        },
+        {
+          "value": "Cost of a healthy diet (CoHD), LCU per person per day",
+          "count": 1400
+        },
+        {
+          "value": "Cost of starchy staples, PPP dollar per person per day",
+          "count": 211
+        },
+        {
+          "value": "Cost of animal source foods, PPP dollar per person per day",
+          "count": 211
+        },
+        {
+          "value": "Cost of vegetables, PPP dollar per person per day",
+          "count": 211
+        },
+        {
+          "value": "Cost of legumes, nuts and seeds, PPP dollar per person per day",
+          "count": 211
+        },
+        {
+          "value": "Cost of oils and fats, PPP dollar per person per day",
+          "count": 211
+        },
+        {
+          "value": "Cost of fruits, PPP dollar per person per day",
+          "count": 211
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 11672
+        }
+      ]
+    },
+    "Release Code": {
+      "column": "Release Code",
+      "top_values": [
+        {
+          "value": "7S2025",
+          "count": 8780
+        },
+        {
+          "value": "12U2024",
+          "count": 2892
+        }
+      ]
+    },
+    "Release": {
+      "column": "Release",
+      "top_values": [
+        {
+          "value": "July 2025 (SOFI report)",
+          "count": 8780
+        },
+        {
+          "value": "December 2024 (Update)",
+          "count": 2892
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 3134
+        },
+        {
+          "value": "million No",
+          "count": 3134
+        },
+        {
+          "value": "Int$ (PPP) per person per day",
+          "count": 2954
+        },
+        {
+          "value": "LCU/cap/d",
+          "count": 2450
+        }
+      ]
+    },
+    "Value": {
+      "column": "Value",
+      "top_values": [
+        {
+          "value": "0.1",
+          "count": 175
+        },
+        {
+          "value": "<0.1",
+          "count": 169
+        },
+        {
+          "value": "0.2",
+          "count": 131
+        },
+        {
+          "value": "0.3",
+          "count": 96
+        },
+        {
+          "value": "0.4",
+          "count": 80
+        },
+        {
+          "value": "0.8",
+          "count": 79
+        },
+        {
+          "value": "0.6",
+          "count": 74
+        },
+        {
+          "value": "1",
+          "count": 64
+        },
+        {
+          "value": "0.5",
+          "count": 63
+        },
+        {
+          "value": "3.2",
+          "count": 57
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 10465
+        },
+        {
+          "value": "O",
+          "count": 1103
+        },
+        {
+          "value": "Q",
+          "count": 104
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.09851343738251468
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -0.07136252643759601
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.013618308787740173
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.013618308787740173
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.983798007486846
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.17053291805853749
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.17053291805853749
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.1677207568406364
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.1677207568406364
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0
+      }
+    ]
+  }
+}

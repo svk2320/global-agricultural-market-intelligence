@@ -1,0 +1,102 @@
+{
+  "table": "raw.macro_statistics_key_indicators_itemcodes",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 11,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 11,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 11
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 11
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 22008,
+      "max": 22078,
+      "mean": 22046.363636363636,
+      "median": 22071.0,
+      "stddev": 33.02203121333615
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 22013.0,
+      "q3": 22075.5,
+      "lower_bound": 21919.25,
+      "upper_bound": 22169.25,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Value Added (Agriculture; Forestry and Fishing)",
+          "count": 1
+        },
+        {
+          "value": "Gross Output (Agriculture; Forestry and Fishing)",
+          "count": 1
+        },
+        {
+          "value": "Value Added (Manufacture of food; beverages and tobacco products)",
+          "count": 1
+        },
+        {
+          "value": "Value Added (Manufacture of food and beverages)",
+          "count": 1
+        },
+        {
+          "value": "Gross Fixed Capital Formation",
+          "count": 1
+        },
+        {
+          "value": "Gross Output (Agriculture)",
+          "count": 1
+        },
+        {
+          "value": "Value Added (Agriculture)",
+          "count": 1
+        },
+        {
+          "value": "Gross National Income",
+          "count": 1
+        },
+        {
+          "value": "Value Added (Total Manufacturing)",
+          "count": 1
+        },
+        {
+          "value": "Gross Domestic Product",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

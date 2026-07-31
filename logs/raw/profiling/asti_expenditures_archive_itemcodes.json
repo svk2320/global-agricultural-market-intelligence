@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_expenditures_archive_itemcodes",
+  "generated_at": "2026-07-07T19:15:27",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 1
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 23045,
+      "max": 23045,
+      "mean": 23045.0,
+      "median": 23045.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23045.0,
+      "q3": 23045.0,
+      "lower_bound": 23045.0,
+      "upper_bound": 23045.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agriculture research spending",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Investment_CreditAgriculture_E_All_Data_(Normalized)__Investment_CreditAgriculture_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/Investment_CreditAgriculture_E_All_Data_(Normalized)/Investment_CreditAgriculture_E_ItemCodes.parquet",
+  "file_size_bytes": 1077,
+  "file_size_human": "1.1KB",
+  "last_modified": "2026-07-05T03:52:40.897226+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:14.456728+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 8,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "23019",
+        "23066",
+        "23067"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Credit to Agriculture",
+        "Credit to Agriculture and Fishery",
+        "Credit to Agriculture and Forestry"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

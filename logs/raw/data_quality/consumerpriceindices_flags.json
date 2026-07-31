@@ -1,0 +1,38 @@
+{
+  "table": "raw.consumerpriceindices_flags",
+  "generated_at": "2026-07-07T18:56:59",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 4,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 4,
+      "columns": {
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        " Description": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 4,
+      "distinct_rows": 4,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Flag": "VARCHAR",
+        " Description": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

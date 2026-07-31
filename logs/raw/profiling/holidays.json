@@ -1,0 +1,433 @@
+{
+  "table": "raw.holidays",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 88537,
+    "column_count": 10
+  },
+  "schema": {
+    "country_code": "VARCHAR",
+    "country_name": "VARCHAR",
+    "date": "VARCHAR",
+    "local_name": "VARCHAR",
+    "name": "VARCHAR",
+    "fixed": "INTEGER",
+    "global": "INTEGER",
+    "counties": "INTEGER",
+    "launch_year": "INTEGER",
+    "types": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 88537,
+    "columns": {
+      "country_code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "country_name": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "date": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "local_name": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "name": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "fixed": {
+        "null_count": 88537,
+        "null_pct": 100.0
+      },
+      "global": {
+        "null_count": 88537,
+        "null_pct": 100.0
+      },
+      "counties": {
+        "null_count": 88537,
+        "null_pct": 100.0
+      },
+      "launch_year": {
+        "null_count": 88537,
+        "null_pct": 100.0
+      },
+      "types": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "country_code": {
+      "column": "country_code",
+      "distinct_count": 248
+    },
+    "country_name": {
+      "column": "country_name",
+      "distinct_count": 248
+    },
+    "date": {
+      "column": "date",
+      "distinct_count": 9307
+    },
+    "local_name": {
+      "column": "local_name",
+      "distinct_count": 2569
+    },
+    "name": {
+      "column": "name",
+      "distinct_count": 2569
+    },
+    "fixed": {
+      "column": "fixed",
+      "distinct_count": 0
+    },
+    "global": {
+      "column": "global",
+      "distinct_count": 0
+    },
+    "counties": {
+      "column": "counties",
+      "distinct_count": 0
+    },
+    "launch_year": {
+      "column": "launch_year",
+      "distinct_count": 0
+    },
+    "types": {
+      "column": "types",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "fixed": {
+      "min": null,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "stddev": null
+    },
+    "global": {
+      "min": null,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "stddev": null
+    },
+    "counties": {
+      "min": null,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "stddev": null
+    },
+    "launch_year": {
+      "min": null,
+      "max": null,
+      "mean": null,
+      "median": null,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "fixed": {
+      "column": "fixed",
+      "outlier_count": 0,
+      "lower_bound": null,
+      "upper_bound": null
+    },
+    "global": {
+      "column": "global",
+      "outlier_count": 0,
+      "lower_bound": null,
+      "upper_bound": null
+    },
+    "counties": {
+      "column": "counties",
+      "outlier_count": 0,
+      "lower_bound": null,
+      "upper_bound": null
+    },
+    "launch_year": {
+      "column": "launch_year",
+      "outlier_count": 0,
+      "lower_bound": null,
+      "upper_bound": null
+    }
+  },
+  "categorical": {
+    "country_code": {
+      "column": "country_code",
+      "top_values": [
+        {
+          "value": "SE",
+          "count": 1684
+        },
+        {
+          "value": "VA",
+          "count": 772
+        },
+        {
+          "value": "IR",
+          "count": 744
+        },
+        {
+          "value": "MM",
+          "count": 682
+        },
+        {
+          "value": "TH",
+          "count": 642
+        },
+        {
+          "value": "KH",
+          "count": 640
+        },
+        {
+          "value": "AZ",
+          "count": 609
+        },
+        {
+          "value": "LK",
+          "count": 606
+        },
+        {
+          "value": "CN",
+          "count": 550
+        },
+        {
+          "value": "TZ",
+          "count": 539
+        }
+      ]
+    },
+    "country_name": {
+      "column": "country_name",
+      "top_values": [
+        {
+          "value": "Sweden",
+          "count": 1684
+        },
+        {
+          "value": "Vatican City",
+          "count": 772
+        },
+        {
+          "value": "Iran",
+          "count": 744
+        },
+        {
+          "value": "Myanmar [Burma]",
+          "count": 682
+        },
+        {
+          "value": "Thailand",
+          "count": 642
+        },
+        {
+          "value": "Cambodia",
+          "count": 640
+        },
+        {
+          "value": "Azerbaijan",
+          "count": 609
+        },
+        {
+          "value": "Sri Lanka",
+          "count": 606
+        },
+        {
+          "value": "China",
+          "count": 550
+        },
+        {
+          "value": "Tanzania",
+          "count": 539
+        }
+      ]
+    },
+    "date": {
+      "column": "date",
+      "top_values": [
+        {
+          "value": "2022-01-01",
+          "count": 228
+        },
+        {
+          "value": "2018-01-01",
+          "count": 228
+        },
+        {
+          "value": "2025-01-01",
+          "count": 228
+        },
+        {
+          "value": "2026-01-01",
+          "count": 228
+        },
+        {
+          "value": "2019-01-01",
+          "count": 227
+        },
+        {
+          "value": "2020-01-01",
+          "count": 227
+        },
+        {
+          "value": "2021-01-01",
+          "count": 227
+        },
+        {
+          "value": "2024-01-01",
+          "count": 227
+        },
+        {
+          "value": "2016-01-01",
+          "count": 226
+        },
+        {
+          "value": "2017-01-01",
+          "count": 225
+        }
+      ]
+    },
+    "local_name": {
+      "column": "local_name",
+      "top_values": [
+        {
+          "value": "New Year's Day",
+          "count": 5839
+        },
+        {
+          "value": "Christmas Day",
+          "count": 5121
+        },
+        {
+          "value": "Good Friday",
+          "count": 3328
+        },
+        {
+          "value": "Easter Monday",
+          "count": 3082
+        },
+        {
+          "value": "Independence Day",
+          "count": 2982
+        },
+        {
+          "value": "Labor Day",
+          "count": 2973
+        },
+        {
+          "value": "Eid al-Adha (estimated)",
+          "count": 1595
+        },
+        {
+          "value": "Eid al-Fitr (estimated)",
+          "count": 1590
+        },
+        {
+          "value": "Eid al-Adha",
+          "count": 1453
+        },
+        {
+          "value": "Eid al-Fitr",
+          "count": 1416
+        }
+      ]
+    },
+    "name": {
+      "column": "name",
+      "top_values": [
+        {
+          "value": "New Year's Day",
+          "count": 5839
+        },
+        {
+          "value": "Christmas Day",
+          "count": 5121
+        },
+        {
+          "value": "Good Friday",
+          "count": 3328
+        },
+        {
+          "value": "Easter Monday",
+          "count": 3082
+        },
+        {
+          "value": "Independence Day",
+          "count": 2982
+        },
+        {
+          "value": "Labor Day",
+          "count": 2973
+        },
+        {
+          "value": "Eid al-Adha (estimated)",
+          "count": 1595
+        },
+        {
+          "value": "Eid al-Fitr (estimated)",
+          "count": 1590
+        },
+        {
+          "value": "Eid al-Adha",
+          "count": 1453
+        },
+        {
+          "value": "Eid al-Fitr",
+          "count": 1416
+        }
+      ]
+    },
+    "types": {
+      "column": "types",
+      "top_values": [
+        {
+          "value": "Public",
+          "count": 88537
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "fixed",
+        "column_b": "global",
+        "correlation": null
+      },
+      {
+        "column_a": "fixed",
+        "column_b": "counties",
+        "correlation": null
+      },
+      {
+        "column_a": "fixed",
+        "column_b": "launch_year",
+        "correlation": null
+      },
+      {
+        "column_a": "global",
+        "column_b": "counties",
+        "correlation": null
+      },
+      {
+        "column_a": "global",
+        "column_b": "launch_year",
+        "correlation": null
+      },
+      {
+        "column_a": "counties",
+        "column_b": "launch_year",
+        "correlation": null
+      }
+    ]
+  }
+}

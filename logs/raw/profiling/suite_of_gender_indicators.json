@@ -1,0 +1,1023 @@
+{
+  "table": "raw.suite_of_gender_indicators",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 315014,
+    "column_count": 24
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "VARCHAR",
+    "Item Code (SDG)": "VARCHAR",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Sex Code": "BIGINT",
+    "Sex Code (SDG)": "VARCHAR",
+    "Sex": "VARCHAR",
+    "Population Age Group Code": "VARCHAR",
+    "Population Age Group": "VARCHAR",
+    "Geographic Level Code": "BIGINT",
+    "Geographic Level": "VARCHAR",
+    "Activity Code": "BIGINT",
+    "Activity Code (SDG)": "VARCHAR",
+    "Activity": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 315014,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code (SDG)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex Code (SDG)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Population Age Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Population Age Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Activity Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Activity Code (SDG)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Activity": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 28494,
+        "null_pct": 9.05
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 278
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 278
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 278
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 115
+    },
+    "Item Code (SDG)": {
+      "column": "Item Code (SDG)",
+      "distinct_count": 115
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 115
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "distinct_count": 4
+    },
+    "Sex Code (SDG)": {
+      "column": "Sex Code (SDG)",
+      "distinct_count": 4
+    },
+    "Sex": {
+      "column": "Sex",
+      "distinct_count": 4
+    },
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "distinct_count": 39
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "distinct_count": 39
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 3
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 3
+    },
+    "Activity Code": {
+      "column": "Activity Code",
+      "distinct_count": 4
+    },
+    "Activity Code (SDG)": {
+      "column": "Activity Code (SDG)",
+      "distinct_count": 4
+    },
+    "Activity": {
+      "column": "Activity",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 26
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 26
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 42259
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 5
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 549
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 9011,
+      "mean": 637.5963004818833,
+      "median": 138.0,
+      "stddev": 1555.9452961995999
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 6204,
+      "mean": 6137.087173903382,
+      "median": 6121.0,
+      "stddev": 30.840119235200067
+    },
+    "Sex Code": {
+      "min": 1,
+      "max": 6,
+      "mean": 1.875881706844775,
+      "median": 2.0,
+      "stddev": 0.8518749905922821
+    },
+    "Geographic Level Code": {
+      "min": 10000,
+      "max": 10002,
+      "mean": 10000.183258521844,
+      "median": 10000.0,
+      "stddev": 0.5192551553593564
+    },
+    "Activity Code": {
+      "min": 1,
+      "max": 4,
+      "mean": 2.115988495749395,
+      "median": 2.0,
+      "stddev": 1.1520785324285046
+    },
+    "Year Code": {
+      "min": 2000,
+      "max": 2025,
+      "mean": 2013.084815278051,
+      "median": 2014.0,
+      "stddev": 6.816070166202595
+    },
+    "Year": {
+      "min": 2000,
+      "max": 2025,
+      "mean": 2013.084815278051,
+      "median": 2014.0,
+      "stddev": 6.816070166202595
+    },
+    "Value": {
+      "min": -5130.4,
+      "max": 1394350.0,
+      "mean": 2221.330411280204,
+      "median": 13.87,
+      "stddev": 27063.59265578549
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 68.0,
+      "q3": 212.0,
+      "lower_bound": -148.0,
+      "upper_bound": 428.0,
+      "outlier_count": 30571
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6121.0,
+      "lower_bound": 6121.0,
+      "upper_bound": 6121.0,
+      "outlier_count": 68765
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 0
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "q1": 10000.0,
+      "q3": 10000.0,
+      "lower_bound": 10000.0,
+      "upper_bound": 10000.0,
+      "outlier_count": 38836
+    },
+    "Activity Code": {
+      "column": "Activity Code",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2008.0,
+      "q3": 2019.0,
+      "lower_bound": 1991.5,
+      "upper_bound": 2035.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2008.0,
+      "q3": 2019.0,
+      "lower_bound": 1991.5,
+      "upper_bound": 2035.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.95,
+      "q3": 63.872499999999995,
+      "lower_bound": -93.43374999999999,
+      "upper_bound": 158.25625,
+      "outlier_count": 28386
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'604",
+          "count": 3824
+        },
+        {
+          "value": "'170",
+          "count": 3646
+        },
+        {
+          "value": "'484",
+          "count": 3514
+        },
+        {
+          "value": "'076",
+          "count": 3254
+        },
+        {
+          "value": "'496",
+          "count": 3222
+        },
+        {
+          "value": "'218",
+          "count": 3168
+        },
+        {
+          "value": "'214",
+          "count": 3132
+        },
+        {
+          "value": "'840",
+          "count": 3006
+        },
+        {
+          "value": "'756",
+          "count": 2949
+        },
+        {
+          "value": "'710",
+          "count": 2784
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Peru",
+          "count": 3824
+        },
+        {
+          "value": "Colombia",
+          "count": 3646
+        },
+        {
+          "value": "Mexico",
+          "count": 3514
+        },
+        {
+          "value": "Brazil",
+          "count": 3254
+        },
+        {
+          "value": "Mongolia",
+          "count": 3222
+        },
+        {
+          "value": "Ecuador",
+          "count": 3168
+        },
+        {
+          "value": "Dominican Republic",
+          "count": 3132
+        },
+        {
+          "value": "United States of America",
+          "count": 3006
+        },
+        {
+          "value": "Switzerland",
+          "count": 2949
+        },
+        {
+          "value": "South Africa",
+          "count": 2784
+        }
+      ]
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "24064_T",
+          "count": 13309
+        },
+        {
+          "value": "24064_A",
+          "count": 13226
+        },
+        {
+          "value": "24089_T",
+          "count": 12848
+        },
+        {
+          "value": "24089_A",
+          "count": 12794
+        },
+        {
+          "value": "24064_N",
+          "count": 12010
+        },
+        {
+          "value": "24089_N",
+          "count": 11578
+        },
+        {
+          "value": "24107_T",
+          "count": 11540
+        },
+        {
+          "value": "24107_A",
+          "count": 11453
+        },
+        {
+          "value": "24107_N",
+          "count": 10266
+        },
+        {
+          "value": "24017",
+          "count": 7626
+        }
+      ]
+    },
+    "Item Code (SDG)": {
+      "column": "Item Code (SDG)",
+      "top_values": [
+        {
+          "value": "EMPL_SEX_AFS_T",
+          "count": 13309
+        },
+        {
+          "value": "EMPL_SEX_AFS_A",
+          "count": 13226
+        },
+        {
+          "value": "SH_EMPL_SEX_AFS_T",
+          "count": 12848
+        },
+        {
+          "value": "SH_EMPL_SEX_AFS_A",
+          "count": 12794
+        },
+        {
+          "value": "EMPL_SEX_AFS_N",
+          "count": 12010
+        },
+        {
+          "value": "SH_EMPL_SEX_AFS_N",
+          "count": 11578
+        },
+        {
+          "value": "SH_EMPL_AFS_SEX_T",
+          "count": 11540
+        },
+        {
+          "value": "SH_EMPL_AFS_SEX_A",
+          "count": 11453
+        },
+        {
+          "value": "SH_EMPL_AFS_SEX_N",
+          "count": 10266
+        },
+        {
+          "value": "IT.NET.USER.ZS",
+          "count": 7626
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Employment in agrifood systems by subindustry and sex: Total",
+          "count": 13309
+        },
+        {
+          "value": "Employment in agrifood systems by subindustry and sex: Agriculture",
+          "count": 13226
+        },
+        {
+          "value": "Share of employment in agrifood systems out of total employment by subindustry and sex: Total employment in agrifood systems",
+          "count": 12848
+        },
+        {
+          "value": "Share of employment in agrifood systems out of total employment by subindustry and sex: Employment in agriculture",
+          "count": 12794
+        },
+        {
+          "value": "Employment in agrifood systems by subindustry and sex: Off-farm agrifood systems",
+          "count": 12010
+        },
+        {
+          "value": "Share of employment in agrifood systems out of total employment by subindustry and sex: Employment in off-farm agrifood systems",
+          "count": 11578
+        },
+        {
+          "value": "Share of employment by sex in industry: Total employment in agrifood systems",
+          "count": 11540
+        },
+        {
+          "value": "Share of employment by sex in industry: Employment in agriculture",
+          "count": 11453
+        },
+        {
+          "value": "Share of employment by sex in industry: Employment in off-farm agrifood systems",
+          "count": 10266
+        },
+        {
+          "value": "Share of people who used the internet in the previous three months",
+          "count": 7626
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 301114
+        },
+        {
+          "value": "Value (2017 constant prices)",
+          "count": 13900
+        }
+      ]
+    },
+    "Sex Code (SDG)": {
+      "column": "Sex Code (SDG)",
+      "top_values": [
+        {
+          "value": "_T",
+          "count": 134261
+        },
+        {
+          "value": "F",
+          "count": 93818
+        },
+        {
+          "value": "M",
+          "count": 86599
+        },
+        {
+          "value": "_X",
+          "count": 336
+        }
+      ]
+    },
+    "Sex": {
+      "column": "Sex",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 134261
+        },
+        {
+          "value": "Female",
+          "count": 93818
+        },
+        {
+          "value": "Male",
+          "count": 86599
+        },
+        {
+          "value": "Not available",
+          "count": 336
+        }
+      ]
+    },
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "top_values": [
+        {
+          "value": "Y_T",
+          "count": 300383
+        },
+        {
+          "value": "Y_GE15",
+          "count": 2299
+        },
+        {
+          "value": "Y_GE65",
+          "count": 2005
+        },
+        {
+          "value": "Y15T24",
+          "count": 1952
+        },
+        {
+          "value": "Y45T54",
+          "count": 1942
+        },
+        {
+          "value": "Y55T64",
+          "count": 1920
+        },
+        {
+          "value": "Y25T44",
+          "count": 1829
+        },
+        {
+          "value": "Y_GE10",
+          "count": 972
+        },
+        {
+          "value": "Y_GE12",
+          "count": 522
+        },
+        {
+          "value": "Y35T44",
+          "count": 189
+        }
+      ]
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "top_values": [
+        {
+          "value": "All age ranges or no breakdown by age",
+          "count": 300383
+        },
+        {
+          "value": "15 years old and over",
+          "count": 2299
+        },
+        {
+          "value": "65 years old and over",
+          "count": 2005
+        },
+        {
+          "value": "15 to 24 years old",
+          "count": 1952
+        },
+        {
+          "value": "45 to 54 years old",
+          "count": 1942
+        },
+        {
+          "value": "55 to 64 years old",
+          "count": 1920
+        },
+        {
+          "value": "25 to 44 years old",
+          "count": 1829
+        },
+        {
+          "value": "10 years old and over",
+          "count": 972
+        },
+        {
+          "value": "12 years old and over",
+          "count": 522
+        },
+        {
+          "value": "25 to 34 years old",
+          "count": 189
+        }
+      ]
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "National",
+          "count": 276178
+        },
+        {
+          "value": "Urban",
+          "count": 19943
+        },
+        {
+          "value": "Rural",
+          "count": 18893
+        }
+      ]
+    },
+    "Activity Code (SDG)": {
+      "column": "Activity Code (SDG)",
+      "top_values": [
+        {
+          "value": "_T",
+          "count": 136766
+        },
+        {
+          "value": "AFS",
+          "count": 61084
+        },
+        {
+          "value": "AGR",
+          "count": 61024
+        },
+        {
+          "value": "NON_AGR_AFS",
+          "count": 56140
+        }
+      ]
+    },
+    "Activity": {
+      "column": "Activity",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 136766
+        },
+        {
+          "value": "Agrifood systems",
+          "count": 61084
+        },
+        {
+          "value": "Agriculture",
+          "count": 61024
+        },
+        {
+          "value": "Non-agricultural agrifood systems",
+          "count": 56140
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 246249
+        },
+        {
+          "value": "1000 No",
+          "count": 44562
+        },
+        {
+          "value": "USD_PPP/cap",
+          "count": 13900
+        },
+        {
+          "value": "Score",
+          "count": 10303
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 158686
+        },
+        {
+          "value": "X",
+          "count": 117872
+        },
+        {
+          "value": "O",
+          "count": 27594
+        },
+        {
+          "value": "A",
+          "count": 9962
+        },
+        {
+          "value": "Q",
+          "count": 900
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Source: Estimated by FAO",
+          "count": 98045
+        },
+        {
+          "value": "Source: Estimated by FAO using ILOStat Data",
+          "count": 48759
+        },
+        {
+          "value": "Source: ILOStat modelled estimates",
+          "count": 35231
+        },
+        {
+          "value": "Source: UNESCO",
+          "count": 22401
+        },
+        {
+          "value": "Source: FAOSTAT",
+          "count": 18508
+        },
+        {
+          "value": "Source: World Bank Indicators",
+          "count": 9643
+        },
+        {
+          "value": "Source: World Bank's FINDEX",
+          "count": 8102
+        },
+        {
+          "value": "Source: ITU",
+          "count": 7985
+        },
+        {
+          "value": "Source: Estimated by FAO using UNESCO data",
+          "count": 7315
+        },
+        {
+          "value": "Source: Figure from international organizations",
+          "count": 6107
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.034950480514638234
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Sex Code",
+        "correlation": 0.021882719029320725
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Geographic Level Code",
+        "correlation": -0.11694217256156308
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Activity Code",
+        "correlation": 0.1489155157117628
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.025952537715176357
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.025952537715176357
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.17504615428077974
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Sex Code",
+        "correlation": -0.014279194251104415
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Geographic Level Code",
+        "correlation": -0.184097736544914
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Activity Code",
+        "correlation": 0.022892126979181745
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.0697412385620858
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.0697412385620858
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.16431777713975465
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Geographic Level Code",
+        "correlation": -0.03320421545630411
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Activity Code",
+        "correlation": 0.034988213939053624
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year Code",
+        "correlation": 0.026424518654476863
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year",
+        "correlation": 0.026424518654476724
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Value",
+        "correlation": -0.015042416845135536
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Activity Code",
+        "correlation": -0.3418710881806659
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Year Code",
+        "correlation": 0.009919732334506982
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Year",
+        "correlation": 0.009919732334500957
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Value",
+        "correlation": -0.02995117678843903
+      },
+      {
+        "column_a": "Activity Code",
+        "column_b": "Year Code",
+        "correlation": -0.09156900213767563
+      },
+      {
+        "column_a": "Activity Code",
+        "column_b": "Year",
+        "correlation": -0.0915690021376747
+      },
+      {
+        "column_a": "Activity Code",
+        "column_b": "Value",
+        "correlation": 0.02985564966870865
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.016616976666413943
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.016616976666413943
+      }
+    ]
+  }
+}

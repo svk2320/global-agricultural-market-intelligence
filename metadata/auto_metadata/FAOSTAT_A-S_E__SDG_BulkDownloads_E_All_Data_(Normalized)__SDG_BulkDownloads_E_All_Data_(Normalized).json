@@ -1,0 +1,227 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__SDG_BulkDownloads_E_All_Data_(Normalized)__SDG_BulkDownloads_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/SDG_BulkDownloads_E_All_Data_(Normalized)/SDG_BulkDownloads_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 909511,
+  "file_size_human": "888.2KB",
+  "last_modified": "2026-07-05T03:52:45.718809+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:21.451282+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 464787,
+  "column_count": 14,
+  "columns": [
+    {
+      "name": "Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2",
+        "284",
+        "3"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Area Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'004",
+        "'248",
+        "'008"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Afghanistan",
+        "\u00c5land Islands",
+        "Albania"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "24001",
+        "24000",
+        "24004-F-Y_GE15"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code (SDG)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "SN_ITK_DEFCN",
+        "SN_ITK_DEFC",
+        "AG_PRD_FIESSN-F-Y_GE15"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2.1.1 Number of undernourished people",
+        "2.1.1 Prevalence of undernourishment",
+        "2.1.2 Number of severely food insecure people (female) (15 years old and over)"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "6132",
+        "6121",
+        "6199"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Value",
+        "Confidence interval: Lower bound",
+        "Confidence interval: Upper bound"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Year Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2001",
+        "2002",
+        "2003"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "million No",
+        "%",
+        "1000 No"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "String",
+      "nullable": true,
+      "null_count": 169806,
+      "null_percent": 36.53,
+      "sample_values": [
+        "9.4",
+        "9.3",
+        "8.7"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "E",
+        "O",
+        "A"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Note",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Estimated | Food and Agriculture Organization of the United Nations (FAO) | 3...",
+        "Estimated | Food and Agriculture Organization of the United Nations (FAO) | 3...",
+        "Estimated | Food and Agriculture Organization of the United Nations (FAO) | 3..."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

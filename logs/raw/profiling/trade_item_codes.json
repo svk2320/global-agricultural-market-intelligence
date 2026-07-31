@@ -1,0 +1,156 @@
+{
+  "table": "raw.trade_item_codes",
+  "generated_at": "2026-07-07T19:16:16",
+  "dataset_summary": {
+    "row_count": 572,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 572,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 572
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 572
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 572
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 15,
+      "max": 1296,
+      "mean": 589.5576923076923,
+      "median": 565.5,
+      "stddev": 369.7607620937589
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 250.75,
+      "q3": 903.25,
+      "lower_bound": -728.0,
+      "upper_bound": 1882.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'01343",
+          "count": 1
+        },
+        {
+          "value": "'01379.01",
+          "count": 1
+        },
+        {
+          "value": "'39120.07",
+          "count": 1
+        },
+        {
+          "value": "'39120.14",
+          "count": 1
+        },
+        {
+          "value": "'39120.02",
+          "count": 1
+        },
+        {
+          "value": "'21910.05",
+          "count": 1
+        },
+        {
+          "value": "'21910.06",
+          "count": 1
+        },
+        {
+          "value": "'01229",
+          "count": 1
+        },
+        {
+          "value": "'21512.01",
+          "count": 1
+        },
+        {
+          "value": "'01913",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Almonds; in shell",
+          "count": 1
+        },
+        {
+          "value": "Animal or vegetable fats and oils and their fractions; chemically modified; except those hydrogenated; inter-esterified; re-esterified or elaidinized; inedible mixtures or preparations of animal or vegetable fats or oils",
+          "count": 1
+        },
+        {
+          "value": "Beets for fodder",
+          "count": 1
+        },
+        {
+          "value": "Bran of millet",
+          "count": 1
+        },
+        {
+          "value": "Bran of mixed grain",
+          "count": 1
+        },
+        {
+          "value": "Bran of pulses",
+          "count": 1
+        },
+        {
+          "value": "Bran of rye",
+          "count": 1
+        },
+        {
+          "value": "Buckwheat",
+          "count": 1
+        },
+        {
+          "value": "Buffalo",
+          "count": 1
+        },
+        {
+          "value": "Cereals n.e.c.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

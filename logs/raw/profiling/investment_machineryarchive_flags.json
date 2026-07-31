@@ -1,0 +1,82 @@
+{
+  "table": "raw.investment_machineryarchive_flags",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    "Flag": "VARCHAR",
+    " Description": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Description": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 4
+    },
+    " Description": {
+      "column": " Description",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1
+        },
+        {
+          "value": "E",
+          "count": 1
+        },
+        {
+          "value": "O",
+          "count": 1
+        },
+        {
+          "value": "X",
+          "count": 1
+        }
+      ]
+    },
+    " Description": {
+      "column": " Description",
+      "top_values": [
+        {
+          "value": "Missing value",
+          "count": 1
+        },
+        {
+          "value": "Estimated value",
+          "count": 1
+        },
+        {
+          "value": "Figure from external organization",
+          "count": 1
+        },
+        {
+          "value": "Official figure",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

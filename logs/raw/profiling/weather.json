@@ -1,0 +1,354 @@
+{
+  "table": "raw.weather",
+  "generated_at": "2026-07-07T19:16:39",
+  "dataset_summary": {
+    "row_count": 76440,
+    "column_count": 8
+  },
+  "schema": {
+    "country_iso2": "VARCHAR",
+    "country_name": "VARCHAR",
+    "latitude": "DOUBLE",
+    "longitude": "DOUBLE",
+    "year": "BIGINT",
+    "month": "BIGINT",
+    "temp_c": "DOUBLE",
+    "precip_mm_day": "DOUBLE"
+  },
+  "null_counts": {
+    "total_rows": 76440,
+    "columns": {
+      "country_iso2": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "country_name": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "latitude": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "longitude": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "month": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "temp_c": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "precip_mm_day": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "country_iso2": {
+      "column": "country_iso2",
+      "distinct_count": 245
+    },
+    "country_name": {
+      "column": "country_name",
+      "distinct_count": 245
+    },
+    "latitude": {
+      "column": "latitude",
+      "distinct_count": 245
+    },
+    "longitude": {
+      "column": "longitude",
+      "distinct_count": 245
+    },
+    "year": {
+      "column": "year",
+      "distinct_count": 26
+    },
+    "month": {
+      "column": "month",
+      "distinct_count": 12
+    },
+    "temp_c": {
+      "column": "temp_c",
+      "distinct_count": 5777
+    },
+    "precip_mm_day": {
+      "column": "precip_mm_day",
+      "distinct_count": 1900
+    }
+  },
+  "statistics": {
+    "latitude": {
+      "min": -75.250973,
+      "max": 77.553604,
+      "mean": 16.301901571431834,
+      "median": 16.995971,
+      "stddev": 26.931611389090552
+    },
+    "longitude": {
+      "min": -177.3735,
+      "max": 179.414413,
+      "mean": 12.516575571428467,
+      "median": 17.873887,
+      "stddev": 74.6705971531539
+    },
+    "year": {
+      "min": 2000,
+      "max": 2025,
+      "mean": 2012.5,
+      "median": 2012.5,
+      "stddev": 7.500049058566128
+    },
+    "month": {
+      "min": 1,
+      "max": 12,
+      "mean": 6.5,
+      "median": 6.5,
+      "stddev": 3.4520751099009512
+    },
+    "temp_c": {
+      "min": -53.34,
+      "max": 40.33,
+      "mean": 19.15479133961261,
+      "median": 23.55,
+      "stddev": 11.22778965947997
+    },
+    "precip_mm_day": {
+      "min": 0.0,
+      "max": 59.23,
+      "mean": 2.7970979853479947,
+      "median": 1.83,
+      "stddev": 3.166122787328807
+    }
+  },
+  "outliers": {
+    "latitude": {
+      "column": "latitude",
+      "q1": -0.228021,
+      "q3": 38.963745,
+      "lower_bound": -59.01567,
+      "upper_bound": 97.751394,
+      "outlier_count": 312
+    },
+    "longitude": {
+      "column": "longitude",
+      "q1": -42.604303,
+      "q3": 48.516388,
+      "lower_bound": -179.28533950000002,
+      "upper_bound": 185.1974245,
+      "outlier_count": 0
+    },
+    "year": {
+      "column": "year",
+      "q1": 2006.0,
+      "q3": 2019.0,
+      "lower_bound": 1986.5,
+      "upper_bound": 2038.5,
+      "outlier_count": 0
+    },
+    "month": {
+      "column": "month",
+      "q1": 3.75,
+      "q3": 9.25,
+      "lower_bound": -4.5,
+      "upper_bound": 17.5,
+      "outlier_count": 0
+    },
+    "temp_c": {
+      "column": "temp_c",
+      "q1": 13.58,
+      "q3": 26.95,
+      "lower_bound": -6.475,
+      "upper_bound": 47.004999999999995,
+      "outlier_count": 1961
+    },
+    "precip_mm_day": {
+      "column": "precip_mm_day",
+      "q1": 0.57,
+      "q3": 3.89,
+      "lower_bound": -4.41,
+      "upper_bound": 8.870000000000001,
+      "outlier_count": 4068
+    }
+  },
+  "categorical": {
+    "country_iso2": {
+      "column": "country_iso2",
+      "top_values": [
+        {
+          "value": "AZ",
+          "count": 312
+        },
+        {
+          "value": "BM",
+          "count": 312
+        },
+        {
+          "value": "CL",
+          "count": 312
+        },
+        {
+          "value": "CO",
+          "count": 312
+        },
+        {
+          "value": "CU",
+          "count": 312
+        },
+        {
+          "value": "CV",
+          "count": 312
+        },
+        {
+          "value": "CX",
+          "count": 312
+        },
+        {
+          "value": "DJ",
+          "count": 312
+        },
+        {
+          "value": "GB",
+          "count": 312
+        },
+        {
+          "value": "HR",
+          "count": 312
+        }
+      ]
+    },
+    "country_name": {
+      "column": "country_name",
+      "top_values": [
+        {
+          "value": "Aruba",
+          "count": 312
+        },
+        {
+          "value": "Bosnia and Herzegovina",
+          "count": 312
+        },
+        {
+          "value": "Bangladesh",
+          "count": 312
+        },
+        {
+          "value": "Belgium",
+          "count": 312
+        },
+        {
+          "value": "Bahrain",
+          "count": 312
+        },
+        {
+          "value": "Benin",
+          "count": 312
+        },
+        {
+          "value": "Bermuda",
+          "count": 312
+        },
+        {
+          "value": "Bouvet Island",
+          "count": 312
+        },
+        {
+          "value": "Costa Rica",
+          "count": 312
+        },
+        {
+          "value": "Czech Republic",
+          "count": 312
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "latitude",
+        "column_b": "longitude",
+        "correlation": 0.046643838403615114
+      },
+      {
+        "column_a": "latitude",
+        "column_b": "year",
+        "correlation": -4.2465492820247054e-14
+      },
+      {
+        "column_a": "latitude",
+        "column_b": "month",
+        "correlation": -1.006167908960798e-15
+      },
+      {
+        "column_a": "latitude",
+        "column_b": "temp_c",
+        "correlation": -0.3094594131482292
+      },
+      {
+        "column_a": "latitude",
+        "column_b": "precip_mm_day",
+        "correlation": -0.16948039955181543
+      },
+      {
+        "column_a": "longitude",
+        "column_b": "year",
+        "correlation": -6.425942544599752e-14
+      },
+      {
+        "column_a": "longitude",
+        "column_b": "month",
+        "correlation": -8.98918333557195e-16
+      },
+      {
+        "column_a": "longitude",
+        "column_b": "temp_c",
+        "correlation": -0.0837641892208264
+      },
+      {
+        "column_a": "longitude",
+        "column_b": "precip_mm_day",
+        "correlation": 0.03050233835478728
+      },
+      {
+        "column_a": "year",
+        "column_b": "month",
+        "correlation": -9.265130894281826e-17
+      },
+      {
+        "column_a": "year",
+        "column_b": "temp_c",
+        "correlation": 0.01911941098424245
+      },
+      {
+        "column_a": "year",
+        "column_b": "precip_mm_day",
+        "correlation": 0.039276712687217274
+      },
+      {
+        "column_a": "month",
+        "column_b": "temp_c",
+        "correlation": 0.06529648043446244
+      },
+      {
+        "column_a": "month",
+        "column_b": "precip_mm_day",
+        "correlation": 0.047177372653931245
+      },
+      {
+        "column_a": "temp_c",
+        "column_b": "precip_mm_day",
+        "correlation": 0.15847293070034127
+      }
+    ]
+  }
+}

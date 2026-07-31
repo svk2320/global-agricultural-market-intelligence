@@ -1,0 +1,108 @@
+{
+  "table": "raw.emissions_crops",
+  "generated_at": "2026-07-07T18:57:02",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 766730,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 2
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 766730,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code (CPC)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Source Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Source": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 958,
+          "null_pct": 0.12
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Note": {
+          "null_count": 749499,
+          "null_pct": 97.75
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 766730,
+      "distinct_rows": 766730,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "Area Code (M49)": "VARCHAR",
+        "Area": "VARCHAR",
+        "Item Code": "BIGINT",
+        "Item Code (CPC)": "VARCHAR",
+        "Item": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Year Code": "BIGINT",
+        "Year": "BIGINT",
+        "Source Code": "BIGINT",
+        "Source": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR",
+        "Note": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

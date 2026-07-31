@@ -1,0 +1,74 @@
+{
+  "table": "raw.environment_emissions_intensities_elements",
+  "generated_at": "2026-07-07T19:15:46",
+  "dataset_summary": {
+    "row_count": 3,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 3,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 3
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 5510,
+      "max": 723113,
+      "mean": 266794.6666666667,
+      "median": 71761.0,
+      "stddev": 396569.18028552516
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 38635.5,
+      "q3": 397437.0,
+      "lower_bound": -499566.75,
+      "upper_bound": 935639.25,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Production",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CO2eq) (AR5)",
+          "count": 1
+        },
+        {
+          "value": "Emissions intensity",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

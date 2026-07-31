@@ -1,0 +1,525 @@
+{
+  "table": "raw.indicators_from_household_surveys",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 148620,
+    "column_count": 13
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR",
+    "Breakdown Variable Code": "BIGINT",
+    "Breakdown Variable": "VARCHAR",
+    "Breadown by Sex of the Household Head Code": "BIGINT",
+    "Breadown by Sex of the Household Head": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 148620,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Breakdown Variable Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Breakdown Variable": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Breadown by Sex of the Household Head Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Breadown by Sex of the Household Head": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 43
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 43
+    },
+    "Breakdown Variable Code": {
+      "column": "Breakdown Variable Code",
+      "distinct_count": 27
+    },
+    "Breakdown Variable": {
+      "column": "Breakdown Variable",
+      "distinct_count": 27
+    },
+    "Breadown by Sex of the Household Head Code": {
+      "column": "Breadown by Sex of the Household Head Code",
+      "distinct_count": 3
+    },
+    "Breadown by Sex of the Household Head": {
+      "column": "Breadown by Sex of the Household Head",
+      "distinct_count": 3
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 15
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 15
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 16
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 6
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 99531
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Breakdown Variable Code": {
+      "min": 20003,
+      "max": 20031,
+      "mean": 20017.651594670973,
+      "median": 20021.0,
+      "stddev": 9.735374439272409
+    },
+    "Breadown by Sex of the Household Head Code": {
+      "min": 20000,
+      "max": 20002,
+      "mean": 20000.932983447718,
+      "median": 20001.0,
+      "stddev": 0.8335144866456557
+    },
+    "Indicator Code": {
+      "min": 6061,
+      "max": 6075,
+      "mean": 6068.0,
+      "median": 6068.0,
+      "stddev": 4.320508334383305
+    },
+    "Element Code": {
+      "min": 6079,
+      "max": 60785,
+      "mean": 47099.75,
+      "median": 60768.0,
+      "stddev": 23683.421808771705
+    },
+    "Value": {
+      "min": -1e-06,
+      "max": 109204.0,
+      "mean": 1031.6519754832887,
+      "median": 62.33095,
+      "stddev": 2607.696723719713
+    }
+  },
+  "outliers": {
+    "Breakdown Variable Code": {
+      "column": "Breakdown Variable Code",
+      "q1": 20008.0,
+      "q3": 20027.0,
+      "lower_bound": 19979.5,
+      "upper_bound": 20055.5,
+      "outlier_count": 0
+    },
+    "Breadown by Sex of the Household Head Code": {
+      "column": "Breadown by Sex of the Household Head Code",
+      "q1": 20000.0,
+      "q3": 20002.0,
+      "lower_bound": 19997.0,
+      "upper_bound": 20005.0,
+      "outlier_count": 0
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 6064.0,
+      "q3": 6072.0,
+      "lower_bound": 6052.0,
+      "upper_bound": 6084.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 47090.5,
+      "q3": 60776.5,
+      "lower_bound": 26561.5,
+      "upper_bound": 81305.5,
+      "outlier_count": 37155
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 13.216525,
+      "q3": 905.92125,
+      "lower_bound": -1325.8405624999998,
+      "upper_bound": 2244.9783374999997,
+      "outlier_count": 20432
+    }
+  },
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "800_20052006",
+          "count": 3900
+        },
+        {
+          "value": "894_20022003",
+          "count": 3900
+        },
+        {
+          "value": "454_20042005",
+          "count": 3900
+        },
+        {
+          "value": "320_2006",
+          "count": 3900
+        },
+        {
+          "value": "068_20032004",
+          "count": 3900
+        },
+        {
+          "value": "384_2002",
+          "count": 3900
+        },
+        {
+          "value": "440_2002",
+          "count": 3900
+        },
+        {
+          "value": "404_20052006",
+          "count": 3900
+        },
+        {
+          "value": "800_20022003",
+          "count": 3900
+        },
+        {
+          "value": "484_2008",
+          "count": 3900
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Lithuania - 2002",
+          "count": 3900
+        },
+        {
+          "value": "Guatemala - 2006",
+          "count": 3900
+        },
+        {
+          "value": "Malawi - 2004-2005",
+          "count": 3900
+        },
+        {
+          "value": "Ghana - 1998-1999",
+          "count": 3900
+        },
+        {
+          "value": "Panama - 2008",
+          "count": 3900
+        },
+        {
+          "value": "Zambia - 2002-2003",
+          "count": 3900
+        },
+        {
+          "value": "Uganda - 2002-2003",
+          "count": 3900
+        },
+        {
+          "value": "Kenya - 2005-2006",
+          "count": 3900
+        },
+        {
+          "value": "C\u00f4te d'Ivoire - 2002",
+          "count": 3900
+        },
+        {
+          "value": "Bolivia (Plurinational State of) - 2003-2004",
+          "count": 3900
+        }
+      ]
+    },
+    "Breakdown Variable": {
+      "column": "Breakdown Variable",
+      "top_values": [
+        {
+          "value": "Country-level",
+          "count": 7740
+        },
+        {
+          "value": "Area of residence: Urban",
+          "count": 7680
+        },
+        {
+          "value": "Household size: 2 to 4 people",
+          "count": 7680
+        },
+        {
+          "value": "Age of household head: 35-59 yrs",
+          "count": 7680
+        },
+        {
+          "value": "Presence children under 5: Household with no children <5",
+          "count": 7680
+        },
+        {
+          "value": "High dependency rate: Less than 70% dependency rate",
+          "count": 7680
+        },
+        {
+          "value": "Income terciles: Highest income tercile",
+          "count": 7680
+        },
+        {
+          "value": "Household size: 5 or more",
+          "count": 7560
+        },
+        {
+          "value": "Income terciles: Medium income tercile",
+          "count": 7560
+        },
+        {
+          "value": "Income terciles: Poorest income tercile",
+          "count": 7500
+        }
+      ]
+    },
+    "Breadown by Sex of the Household Head": {
+      "column": "Breadown by Sex of the Household Head",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 56940
+        },
+        {
+          "value": "Male-headed household",
+          "count": 46980
+        },
+        {
+          "value": "Female-headed household",
+          "count": 44700
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Total consumption in monetary value",
+          "count": 9908
+        },
+        {
+          "value": "Share of dietary energy consumption from fat",
+          "count": 9908
+        },
+        {
+          "value": "Dietary energy consumption",
+          "count": 9908
+        },
+        {
+          "value": "Share of food consumed away from home in total food consumption (in dietary energy)",
+          "count": 9908
+        },
+        {
+          "value": "Share of dietary energy consumption from protein",
+          "count": 9908
+        },
+        {
+          "value": "Food consumption in monetary value",
+          "count": 9908
+        },
+        {
+          "value": "Share of food from other sources in total food consumption (in dietary energy)",
+          "count": 9908
+        },
+        {
+          "value": "Average dietary energy unit value (per 1000 kcal)",
+          "count": 9908
+        },
+        {
+          "value": "Protein consumption",
+          "count": 9908
+        },
+        {
+          "value": "Share of purchased food in total food consumption (in dietary energy)",
+          "count": 9908
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Number Observations",
+          "count": 37155
+        },
+        {
+          "value": "Mean",
+          "count": 37155
+        },
+        {
+          "value": "Median",
+          "count": 37155
+        },
+        {
+          "value": "Standard Deviation",
+          "count": 37155
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 59448
+        },
+        {
+          "value": "No",
+          "count": 37155
+        },
+        {
+          "value": "g/cap/d",
+          "count": 22293
+        },
+        {
+          "value": "LCU/cap/d",
+          "count": 14862
+        },
+        {
+          "value": "LCU",
+          "count": 7431
+        },
+        {
+          "value": "kcal/cap/d",
+          "count": 7431
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 148620
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Breakdown Variable Code",
+        "column_b": "Breadown by Sex of the Household Head Code",
+        "correlation": 0.021998607265584832
+      },
+      {
+        "column_a": "Breakdown Variable Code",
+        "column_b": "Indicator Code",
+        "correlation": 8.585478884216569e-14
+      },
+      {
+        "column_a": "Breakdown Variable Code",
+        "column_b": "Element Code",
+        "correlation": -1.561088176472855e-16
+      },
+      {
+        "column_a": "Breakdown Variable Code",
+        "column_b": "Value",
+        "correlation": -0.01444723622231443
+      },
+      {
+        "column_a": "Breadown by Sex of the Household Head Code",
+        "column_b": "Indicator Code",
+        "correlation": 3.527304322399585e-14
+      },
+      {
+        "column_a": "Breadown by Sex of the Household Head Code",
+        "column_b": "Element Code",
+        "correlation": 8.044427436264589e-16
+      },
+      {
+        "column_a": "Breadown by Sex of the Household Head Code",
+        "column_b": "Value",
+        "correlation": -0.023389536394468936
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": 3.1761937437278095e-05
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.08975025960830037
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.4741190673173257
+      }
+    ]
+  }
+}

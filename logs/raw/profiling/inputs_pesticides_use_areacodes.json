@@ -1,0 +1,156 @@
+{
+  "table": "raw.inputs_pesticides_use_areacodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 256,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 256,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 256
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 256
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 256
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 828.4296875,
+      "median": 152.0,
+      "stddev": 1785.9048969413561
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 78.0,
+      "q3": 223.25,
+      "lower_bound": -139.875,
+      "upper_bound": 441.125,
+      "outlier_count": 34
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'008",
+          "count": 1
+        },
+        {
+          "value": "'660",
+          "count": 1
+        },
+        {
+          "value": "'051",
+          "count": 1
+        },
+        {
+          "value": "'533",
+          "count": 1
+        },
+        {
+          "value": "'036",
+          "count": 1
+        },
+        {
+          "value": "'060",
+          "count": 1
+        },
+        {
+          "value": "'180",
+          "count": 1
+        },
+        {
+          "value": "'014",
+          "count": 1
+        },
+        {
+          "value": "'242",
+          "count": 1
+        },
+        {
+          "value": "'266",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        },
+        {
+          "value": "Guam",
+          "count": 1
+        },
+        {
+          "value": "Hungary",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

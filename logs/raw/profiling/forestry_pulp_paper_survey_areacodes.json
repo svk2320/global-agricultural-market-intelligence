@@ -1,0 +1,156 @@
+{
+  "table": "raw.forestry_pulp_paper_survey_areacodes",
+  "generated_at": "2026-07-07T19:16:00",
+  "dataset_summary": {
+    "row_count": 89,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 89,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 89
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 89
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 89
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 9,
+      "max": 5817,
+      "mean": 2196.2134831460676,
+      "median": 211.0,
+      "stddev": 2582.9960030232955
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 106.0,
+      "q3": 5300.0,
+      "lower_bound": -7685.0,
+      "upper_bound": 13091.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'348",
+          "count": 1
+        },
+        {
+          "value": "'364",
+          "count": 1
+        },
+        {
+          "value": "'376",
+          "count": 1
+        },
+        {
+          "value": "'057",
+          "count": 1
+        },
+        {
+          "value": "'017",
+          "count": 1
+        },
+        {
+          "value": "'018",
+          "count": 1
+        },
+        {
+          "value": "'752",
+          "count": 1
+        },
+        {
+          "value": "'716",
+          "count": 1
+        },
+        {
+          "value": "'036",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Africa",
+          "count": 1
+        },
+        {
+          "value": "Asia",
+          "count": 1
+        },
+        {
+          "value": "Australia and New Zealand",
+          "count": 1
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 1
+        },
+        {
+          "value": "Germany",
+          "count": 1
+        },
+        {
+          "value": "India",
+          "count": 1
+        },
+        {
+          "value": "Least Developed Countries (LDCs)",
+          "count": 1
+        },
+        {
+          "value": "Malaysia",
+          "count": 1
+        },
+        {
+          "value": "Philippines",
+          "count": 1
+        },
+        {
+          "value": "Ukraine",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

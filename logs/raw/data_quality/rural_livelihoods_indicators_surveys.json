@@ -1,0 +1,38 @@
+{
+  "table": "raw.rural_livelihoods_indicators_surveys",
+  "generated_at": "2026-07-07T18:57:13",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 103,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 103,
+      "columns": {
+        "Survey Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Survey": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 103,
+      "distinct_rows": 103,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Survey Code": "VARCHAR",
+        "Survey": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "table": "raw.trade_elements",
+  "generated_at": "2026-07-07T18:57:16",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 10,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 10,
+      "columns": {
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 10,
+      "distinct_rows": 10,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

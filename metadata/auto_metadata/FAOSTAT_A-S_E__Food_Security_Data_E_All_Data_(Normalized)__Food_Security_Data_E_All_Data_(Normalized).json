@@ -1,0 +1,212 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Food_Security_Data_E_All_Data_(Normalized)__Food_Security_Data_E_All_Data_(Normalized)",
+  "file_path": "FAOSTAT_A-S_E/Food_Security_Data_E_All_Data_(Normalized)/Food_Security_Data_E_All_Data_(Normalized).parquet",
+  "file_size_bytes": 426428,
+  "file_size_human": "416.4KB",
+  "last_modified": "2026-07-05T03:52:21.359733+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:04.282870+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 279470,
+  "column_count": 13,
+  "columns": [
+    {
+      "name": "Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2",
+        "3",
+        "4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Area Code (M49)",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'004",
+        "'008",
+        "'012"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Afghanistan",
+        "Albania",
+        "Algeria"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "21010",
+        "220001",
+        "22000"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Average dietary energy supply adequacy (percent) (3-year average)",
+        "Dietary energy supply used in the estimation of the prevalence of undernouris...",
+        "Dietary energy supply used in the estimation of the prevalence of undernouris..."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "6121",
+        "6128",
+        "6123"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Value",
+        "Confidence interval: Lower bound",
+        "Confidence interval: Upper bound"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Year Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "20002002",
+        "20012003",
+        "20022004"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Year",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2000-2002",
+        "2001-2003",
+        "2002-2004"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Unit",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "%",
+        "kcal/cap/d",
+        "g/cap/d"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Value",
+      "type": "String",
+      "nullable": true,
+      "null_count": 38019,
+      "null_percent": 13.6,
+      "sample_values": [
+        "87",
+        "88",
+        "91"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "E",
+        "X",
+        "Q"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Note",
+      "type": "String",
+      "nullable": true,
+      "null_count": 237680,
+      "null_percent": 85.05,
+      "sample_values": [
+        "FAO data",
+        "Official estimate",
+        "Official estimate integrated with FAO data"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

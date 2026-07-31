@@ -1,0 +1,130 @@
+{
+  "table": "raw.suite_of_gender_indicators_populationagegroups",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 40,
+    "column_count": 2
+  },
+  "schema": {
+    "Population Age Group Code": "VARCHAR",
+    "Population Age Group": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 40,
+    "columns": {
+      "Population Age Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Population Age Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "distinct_count": 40
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "distinct_count": 40
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "top_values": [
+        {
+          "value": "Y15T59",
+          "count": 1
+        },
+        {
+          "value": "Y_GE18",
+          "count": 1
+        },
+        {
+          "value": "Y_GE5",
+          "count": 1
+        },
+        {
+          "value": "Y_GE65",
+          "count": 1
+        },
+        {
+          "value": "Y15T29",
+          "count": 1
+        },
+        {
+          "value": "Y15T49",
+          "count": 1
+        },
+        {
+          "value": "Y18T24",
+          "count": 1
+        },
+        {
+          "value": "Y20T64",
+          "count": 1
+        },
+        {
+          "value": "Y_GE60",
+          "count": 1
+        },
+        {
+          "value": "Y15T64",
+          "count": 1
+        }
+      ]
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "top_values": [
+        {
+          "value": "20 years old and over",
+          "count": 1
+        },
+        {
+          "value": "35 to 44 years old",
+          "count": 1
+        },
+        {
+          "value": "45 to 54 years old",
+          "count": 1
+        },
+        {
+          "value": "85 years old and over",
+          "count": 1
+        },
+        {
+          "value": "55 to 64 years old",
+          "count": 1
+        },
+        {
+          "value": "6 to 14 years old",
+          "count": 1
+        },
+        {
+          "value": "10 to 14 years old",
+          "count": 1
+        },
+        {
+          "value": "12 to 24 years old",
+          "count": 1
+        },
+        {
+          "value": "16 years old and over",
+          "count": 1
+        },
+        {
+          "value": "18 years old and over",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.commoditybalances_non_food_itemcodes",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 28,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 28,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 28
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 28
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 28
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 2558,
+      "max": 2927,
+      "mean": 2661.8571428571427,
+      "median": 2660.0,
+      "stddev": 104.23289957828722
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 2593.75,
+      "q3": 2668.0,
+      "lower_bound": 2482.375,
+      "upper_bound": 2779.375,
+      "outlier_count": 3
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'S2562",
+          "count": 1
+        },
+        {
+          "value": "'B2591",
+          "count": 1
+        },
+        {
+          "value": "'B2592",
+          "count": 1
+        },
+        {
+          "value": "'B2662",
+          "count": 1
+        },
+        {
+          "value": "'B2664",
+          "count": 1
+        },
+        {
+          "value": "'B2596",
+          "count": 1
+        },
+        {
+          "value": "'B2598",
+          "count": 1
+        },
+        {
+          "value": "'B2663",
+          "count": 1
+        },
+        {
+          "value": "'S2559",
+          "count": 1
+        },
+        {
+          "value": "'B2593",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Cottonseed",
+          "count": 1
+        },
+        {
+          "value": "Cottonseed Cake",
+          "count": 1
+        },
+        {
+          "value": "Palmkernel Cake",
+          "count": 1
+        },
+        {
+          "value": "Tobacco & Rubber",
+          "count": 1
+        },
+        {
+          "value": "Groundnut Cake",
+          "count": 1
+        },
+        {
+          "value": "Rape and Mustard Cake",
+          "count": 1
+        },
+        {
+          "value": "Rubber",
+          "count": 1
+        },
+        {
+          "value": "Oilseed Cakes; Other",
+          "count": 1
+        },
+        {
+          "value": "Brans",
+          "count": 1
+        },
+        {
+          "value": "Tobacco",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,78 @@
+{
+  "table": "raw.sdg_bulkdownloads_elements",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 16,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 16,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 16
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 6121,
+      "max": 61992,
+      "mean": 23502.9375,
+      "median": 6188.5,
+      "stddev": 26548.660650382477
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6173.75,
+      "q3": 61211.25,
+      "lower_bound": -76382.5,
+      "upper_bound": 143767.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 10
+        },
+        {
+          "value": "Value (2017 constant prices)",
+          "count": 2
+        },
+        {
+          "value": "Confidence interval: Upper bound",
+          "count": 2
+        },
+        {
+          "value": "Confidence interval: Lower bound",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,68 @@
+{
+  "table": "raw.weather",
+  "generated_at": "2026-07-07T18:57:25",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 76440,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 76440,
+      "columns": {
+        "country_iso2": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "country_name": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "latitude": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "longitude": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "month": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "temp_c": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "precip_mm_day": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 76440,
+      "distinct_rows": 76440,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "country_iso2": "VARCHAR",
+        "country_name": "VARCHAR",
+        "latitude": "DOUBLE",
+        "longitude": "DOUBLE",
+        "year": "BIGINT",
+        "month": "BIGINT",
+        "temp_c": "DOUBLE",
+        "precip_mm_day": "DOUBLE"
+      },
+      "mismatches": {}
+    }
+  }
+}

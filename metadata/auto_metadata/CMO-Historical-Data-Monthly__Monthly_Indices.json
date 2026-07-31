@@ -1,0 +1,272 @@
+{
+  "dataset_name": "CMO-Historical-Data-Monthly__Monthly_Indices",
+  "file_path": "CMO-Historical-Data-Monthly/Monthly_Indices.parquet",
+  "file_size_bytes": 60540,
+  "file_size_human": "59.1KB",
+  "last_modified": "2026-07-06T02:41:00.720851+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-06T02:41:00.716552+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 798,
+  "column_count": 17,
+  "columns": [
+    {
+      "name": "Date",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1960M01",
+        "1960M02",
+        "1960M03"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Total Index",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "7.6",
+        "7.7",
+        "7.4"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Energy",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2.1",
+        "2.0",
+        "1.9"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Non-energy **",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "18.8",
+        "18.7",
+        "18.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Agriculture **",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "22.0",
+        "21.8",
+        "21.9"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Beverages",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "25.4",
+        "25.1",
+        "24.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Food **",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "21.2",
+        "20.9",
+        "21.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Oils & Meals",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "23.2",
+        "22.5",
+        "22.2"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Grains",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "23.6",
+        "23.4",
+        "23.8"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Other Food **",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "16.4",
+        "16.5",
+        "17.1"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Raw Materials",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "22.3",
+        "22.4",
+        "22.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Timber",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "16.2",
+        "16.6",
+        "17.6"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Other Raw Mat.",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "29.0",
+        "29.4",
+        "29.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Fertilizers **",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "12.9",
+        "12.6",
+        "12.7"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Metals  & Minerals",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "12.9",
+        "12.7",
+        "12.8"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Base Metals (ex. iron ore)",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "14.1",
+        "13.9",
+        "14.0"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Precious Metals",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3.3",
+        "3.4",
+        "3.5"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    }
+  ],
+  "error": null
+}

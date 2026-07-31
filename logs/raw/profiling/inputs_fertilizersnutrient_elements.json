@@ -1,0 +1,90 @@
+{
+  "table": "raw.inputs_fertilizersnutrient_elements",
+  "generated_at": "2026-07-07T19:16:03",
+  "dataset_summary": {
+    "row_count": 7,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 7,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 7
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 7
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5157,
+      "max": 5910,
+      "mean": 5384.428571428572,
+      "median": 5173.0,
+      "stddev": 298.67644541814633
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 5165.5,
+      "q3": 5560.0,
+      "lower_bound": 4573.75,
+      "upper_bound": 6151.75,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Agricultural Use",
+          "count": 1
+        },
+        {
+          "value": "Production",
+          "count": 1
+        },
+        {
+          "value": "Export quantity",
+          "count": 1
+        },
+        {
+          "value": "Use per value of agricultural production",
+          "count": 1
+        },
+        {
+          "value": "Use per capita",
+          "count": 1
+        },
+        {
+          "value": "Import quantity",
+          "count": 1
+        },
+        {
+          "value": "Use per area of cropland",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

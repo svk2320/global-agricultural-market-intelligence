@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__SDG_BulkDownloads_E_All_Data_(Normalized)__SDG_BulkDownloads_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/SDG_BulkDownloads_E_All_Data_(Normalized)/SDG_BulkDownloads_E_ItemCodes.parquet",
+  "file_size_bytes": 6651,
+  "file_size_human": "6.5KB",
+  "last_modified": "2026-07-05T03:52:45.745987+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:21.864148+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 279,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "24044",
+        "24044-AGGS3001",
+        "24044-AGGS3002"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "SDG Code",
+      "type": "String",
+      "nullable": true,
+      "null_count": 5,
+      "null_percent": 1.79,
+      "sample_values": [
+        "'AG_FLS_IDX",
+        "'AG_FLS_PCT-CPC2_1_AGGS3001",
+        "'AG_FLS_PCT-CPC2_1_AGGS3002"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "12.3.1a Food loss percentage",
+        "12.3.1a Food loss percentage: cereals and pulses",
+        "12.3.1a Food loss percentage: fruits and vegetables"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

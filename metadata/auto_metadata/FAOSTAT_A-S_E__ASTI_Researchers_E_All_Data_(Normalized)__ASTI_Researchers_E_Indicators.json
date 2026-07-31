@@ -1,0 +1,45 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__ASTI_Researchers_E_All_Data_(Normalized)__ASTI_Researchers_E_Indicators",
+  "file_path": "FAOSTAT_A-S_E/ASTI_Researchers_E_All_Data_(Normalized)/ASTI_Researchers_E_Indicators.parquet",
+  "file_size_bytes": 1294,
+  "file_size_human": "1.3KB",
+  "last_modified": "2026-07-05T03:52:01.961021+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:40.189393+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 2,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Indicator Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "8100",
+        "8102"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Indicator",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Agricultural Researchers (FTE)",
+        "Agricultural Researchers (FTE) per 100 000 Agricultural Workers"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

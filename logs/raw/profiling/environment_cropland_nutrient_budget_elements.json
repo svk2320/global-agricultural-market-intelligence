@@ -1,0 +1,98 @@
+{
+  "table": "raw.environment_cropland_nutrient_budget_elements",
+  "generated_at": "2026-07-07T19:15:46",
+  "dataset_summary": {
+    "row_count": 9,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 9,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 9
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 9
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 7275,
+      "max": 7292,
+      "mean": 7283.333333333333,
+      "median": 7282.0,
+      "stddev": 6.32455532033693
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7280.0,
+      "q3": 7290.0,
+      "lower_bound": 7265.0,
+      "upper_bound": 7305.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Cropland nitrogen use efficiency",
+          "count": 1
+        },
+        {
+          "value": "Cropland phosphorus use efficiency",
+          "count": 1
+        },
+        {
+          "value": "Cropland nitrogen",
+          "count": 1
+        },
+        {
+          "value": "Cropland phosphorus",
+          "count": 1
+        },
+        {
+          "value": "Cropland potassium use efficiency",
+          "count": 1
+        },
+        {
+          "value": "Cropland phosphorus per unit area",
+          "count": 1
+        },
+        {
+          "value": "Cropland potassium",
+          "count": 1
+        },
+        {
+          "value": "Cropland nitrogen per unit area",
+          "count": 1
+        },
+        {
+          "value": "Cropland potassium per unit area",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

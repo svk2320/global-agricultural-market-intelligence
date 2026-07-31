@@ -1,0 +1,474 @@
+{
+  "table": "raw.environment_temperature_change",
+  "generated_at": "2026-07-07T19:15:49",
+  "dataset_summary": {
+    "row_count": 590512,
+    "column_count": 12
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Months Code": "BIGINT",
+    "Months": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 590512,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Months": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 22333,
+        "null_pct": 3.78
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 288
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 288
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 288
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "distinct_count": 17
+    },
+    "Months": {
+      "column": "Months",
+      "distinct_count": 17
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 65
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 65
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 8926
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 883.4806540764624,
+      "median": 153.0,
+      "stddev": 1846.2388799880794
+    },
+    "Months Code": {
+      "min": 7001,
+      "max": 7020,
+      "mean": 7009.882352941177,
+      "median": 7009.0,
+      "stddev": 6.037947427931688
+    },
+    "Element Code": {
+      "min": 6078,
+      "max": 7271,
+      "mean": 6674.5,
+      "median": 6674.5,
+      "stddev": 596.500505070817
+    },
+    "Year Code": {
+      "min": 1961,
+      "max": 2025,
+      "mean": 1993.7214993090743,
+      "median": 1994.0,
+      "stddev": 18.739179620519884
+    },
+    "Year": {
+      "min": 1961,
+      "max": 2025,
+      "mean": 1993.7214993090743,
+      "median": 1994.0,
+      "stddev": 18.739179620519884
+    },
+    "Value": {
+      "min": -9.225,
+      "max": 11.743,
+      "mean": 0.640400667747309,
+      "median": 0.513,
+      "stddev": 0.8307921709532863
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 75.0,
+      "q3": 229.0,
+      "lower_bound": -156.0,
+      "upper_bound": 460.0,
+      "outlier_count": 83980
+    },
+    "Months Code": {
+      "column": "Months Code",
+      "q1": 7005.0,
+      "q3": 7016.0,
+      "lower_bound": 6988.5,
+      "upper_bound": 7032.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6078.0,
+      "q3": 7271.0,
+      "lower_bound": 4288.5,
+      "upper_bound": 9060.5,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1978.0,
+      "q3": 2010.0,
+      "lower_bound": 1930.0,
+      "upper_bound": 2058.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1978.0,
+      "q3": 2010.0,
+      "lower_bound": 1930.0,
+      "upper_bound": 2058.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.276,
+      "q3": 0.988,
+      "lower_bound": -0.792,
+      "upper_bound": 2.056,
+      "outlier_count": 44511
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'454",
+          "count": 2210
+        },
+        {
+          "value": "'426",
+          "count": 2210
+        },
+        {
+          "value": "'504",
+          "count": 2210
+        },
+        {
+          "value": "'466",
+          "count": 2210
+        },
+        {
+          "value": "'496",
+          "count": 2210
+        },
+        {
+          "value": "'500",
+          "count": 2210
+        },
+        {
+          "value": "'887",
+          "count": 2210
+        },
+        {
+          "value": "'520",
+          "count": 2210
+        },
+        {
+          "value": "'591",
+          "count": 2210
+        },
+        {
+          "value": "'716",
+          "count": 2210
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Western Sahara",
+          "count": 2210
+        },
+        {
+          "value": "Northern America",
+          "count": 2210
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 2210
+        },
+        {
+          "value": "South-eastern Asia",
+          "count": 2210
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 2210
+        },
+        {
+          "value": "European Union (27)",
+          "count": 2210
+        },
+        {
+          "value": "Annex I countries",
+          "count": 2210
+        },
+        {
+          "value": "Denmark",
+          "count": 2210
+        },
+        {
+          "value": "Ecuador",
+          "count": 2210
+        },
+        {
+          "value": "Guernsey",
+          "count": 2210
+        }
+      ]
+    },
+    "Months": {
+      "column": "Months",
+      "top_values": [
+        {
+          "value": "June",
+          "count": 34736
+        },
+        {
+          "value": "August",
+          "count": 34736
+        },
+        {
+          "value": "April",
+          "count": 34736
+        },
+        {
+          "value": "December",
+          "count": 34736
+        },
+        {
+          "value": "Dec\u2013Jan\u2013Feb",
+          "count": 34736
+        },
+        {
+          "value": "Mar\u2013Apr\u2013May",
+          "count": 34736
+        },
+        {
+          "value": "February",
+          "count": 34736
+        },
+        {
+          "value": "September",
+          "count": 34736
+        },
+        {
+          "value": "Jun\u2013Jul\u2013Aug",
+          "count": 34736
+        },
+        {
+          "value": "October",
+          "count": 34736
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Temperature change",
+          "count": 295256
+        },
+        {
+          "value": "Standard Deviation",
+          "count": 295256
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "\u00b0C",
+          "count": 590512
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 568179
+        },
+        {
+          "value": "O",
+          "count": 22299
+        },
+        {
+          "value": "L",
+          "count": 34
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Months Code",
+        "correlation": 2.5578504811377592e-12
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 1.9231153380752202e-14
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.014883386610419179
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.014883386610420742
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": -0.03854138074892315
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Element Code",
+        "correlation": -2.1666237761045703e-15
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Year Code",
+        "correlation": -9.687001181482691e-14
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Year",
+        "correlation": -9.664080409896034e-14
+      },
+      {
+        "column_a": "Months Code",
+        "column_b": "Value",
+        "correlation": -0.0930827605423344
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -1.973982586186801e-18
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -1.973982586186801e-18
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.07410418217273802
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.3327557398350199
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.3327557398350199
+      }
+    ]
+  }
+}

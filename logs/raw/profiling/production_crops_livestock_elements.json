@@ -1,0 +1,102 @@
+{
+  "table": "raw.production_crops_livestock_elements",
+  "generated_at": "2026-07-07T19:16:09",
+  "dataset_summary": {
+    "row_count": 20,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 20,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 20
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 10
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 5111,
+      "max": 5513,
+      "mean": 5336.65,
+      "median": 5321.5,
+      "stddev": 116.00919881856925
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5313.75,
+      "q3": 5418.25,
+      "lower_bound": 5157.0,
+      "upper_bound": 5575.0,
+      "outlier_count": 3
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Production",
+          "count": 4
+        },
+        {
+          "value": "Stocks",
+          "count": 3
+        },
+        {
+          "value": "Yield",
+          "count": 3
+        },
+        {
+          "value": "Yield/Carcass Weight",
+          "count": 2
+        },
+        {
+          "value": "Producing Animals/Slaughtered",
+          "count": 2
+        },
+        {
+          "value": "Prod Popultn",
+          "count": 2
+        },
+        {
+          "value": "Laying",
+          "count": 1
+        },
+        {
+          "value": "Extraction Rate",
+          "count": 1
+        },
+        {
+          "value": "Milk Animals",
+          "count": 1
+        },
+        {
+          "value": "Area harvested",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

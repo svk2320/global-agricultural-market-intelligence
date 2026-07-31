@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Emissions_crops_E_All_Data_(Normalized)__Emissions_crops_E_Flags",
+  "file_path": "FAOSTAT_A-S_E/Emissions_crops_E_All_Data_(Normalized)/Emissions_crops_E_Flags.parquet",
+  "file_size_bytes": 1121,
+  "file_size_human": "1.1KB",
+  "last_modified": "2026-07-05T03:52:10.674407+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:50.919959+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 8,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "A",
+        "B",
+        "E"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Description",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Official figure",
+        "Time series break",
+        "Estimated value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

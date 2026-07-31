@@ -1,0 +1,130 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet_surveys",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 59,
+    "column_count": 2
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 59,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 59
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 59
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "004_2020",
+          "count": 1
+        },
+        {
+          "value": "032_2018",
+          "count": 1
+        },
+        {
+          "value": "051_2022",
+          "count": 1
+        },
+        {
+          "value": "152_2022",
+          "count": 1
+        },
+        {
+          "value": "188_2019",
+          "count": 1
+        },
+        {
+          "value": "384_2022",
+          "count": 1
+        },
+        {
+          "value": "231_2022",
+          "count": 1
+        },
+        {
+          "value": "624_2019",
+          "count": 1
+        },
+        {
+          "value": "624_2022",
+          "count": 1
+        },
+        {
+          "value": "398_2022",
+          "count": 1
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Armenia - 2022",
+          "count": 1
+        },
+        {
+          "value": "Benin - 2019",
+          "count": 1
+        },
+        {
+          "value": "Burkina Faso - 2022",
+          "count": 1
+        },
+        {
+          "value": "C\u00f4te d'Ivoire - 2022",
+          "count": 1
+        },
+        {
+          "value": "Ethiopia - 2022",
+          "count": 1
+        },
+        {
+          "value": "Kiribati - 2020",
+          "count": 1
+        },
+        {
+          "value": "Niger - 2019",
+          "count": 1
+        },
+        {
+          "value": "Nigeria - 2019",
+          "count": 1
+        },
+        {
+          "value": "Peru - 2023",
+          "count": 1
+        },
+        {
+          "value": "Somalia - 2022",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Forestry_Pulp_Paper_Survey_E_All_Data_(Normalized)__Forestry_Pulp_Paper_Survey_E_AreaCodes",
+  "file_path": "FAOSTAT_A-S_E/Forestry_Pulp_Paper_Survey_E_All_Data_(Normalized)/Forestry_Pulp_Paper_Survey_E_AreaCodes.parquet",
+  "file_size_bytes": 2614,
+  "file_size_human": "2.6KB",
+  "last_modified": "2026-07-05T03:52:33.602856+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:09.265724+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 89,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": " Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5100",
+        "5200",
+        "5600"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": " M49 Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'002",
+        "'019",
+        "'912"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Africa",
+        "Americas",
+        "Antarctic Region"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

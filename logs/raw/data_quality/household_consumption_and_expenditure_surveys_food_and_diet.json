@@ -1,0 +1,98 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet",
+  "generated_at": "2026-07-07T18:57:10",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 1166330,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 1
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 1166330,
+      "columns": {
+        "Survey Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Survey": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Food Group Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Food Group": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Note": {
+          "null_count": 21121,
+          "null_pct": 1.81
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 1166330,
+      "distinct_rows": 1166330,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Survey Code": "VARCHAR",
+        "Survey": "VARCHAR",
+        "Geographic Level Code": "VARCHAR",
+        "Geographic Level": "VARCHAR",
+        "Food Group Code": "VARCHAR",
+        "Food Group": "VARCHAR",
+        "Indicator Code": "BIGINT",
+        "Indicator": "VARCHAR",
+        "Element Code": "VARCHAR",
+        "Element": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR",
+        "Note": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

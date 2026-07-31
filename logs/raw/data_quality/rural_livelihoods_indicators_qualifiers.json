@@ -1,0 +1,38 @@
+{
+  "table": "raw.rural_livelihoods_indicators_qualifiers",
+  "generated_at": "2026-07-07T18:57:13",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 9,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 9,
+      "columns": {
+        "Qualifier Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Qualifier": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 9,
+      "distinct_rows": 9,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Qualifier Code": "VARCHAR",
+        "Qualifier": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

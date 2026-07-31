@@ -1,0 +1,66 @@
+{
+  "table": "raw.exchange_rate_elements",
+  "generated_at": "2026-07-07T19:15:49",
+  "dataset_summary": {
+    "row_count": 2,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "VARCHAR",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Element Code": {
+      "column": "Element Code",
+      "top_values": [
+        {
+          "value": "LCU",
+          "count": 1
+        },
+        {
+          "value": "SLC",
+          "count": 1
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Local currency units per USD",
+          "count": 1
+        },
+        {
+          "value": "Standard local currency units per USD",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

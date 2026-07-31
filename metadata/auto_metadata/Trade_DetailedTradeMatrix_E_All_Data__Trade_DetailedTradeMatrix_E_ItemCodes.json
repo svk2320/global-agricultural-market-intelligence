@@ -1,0 +1,62 @@
+{
+  "dataset_name": "Trade_DetailedTradeMatrix_E_All_Data__Trade_DetailedTradeMatrix_E_ItemCodes",
+  "file_path": "Trade_DetailedTradeMatrix_E_All_Data/Trade_DetailedTradeMatrix_E_ItemCodes.parquet",
+  "file_size_bytes": 10627,
+  "file_size_human": "10.4KB",
+  "last_modified": "2026-07-05T12:54:42.849016+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T12:54:42.847013+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 572,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "809",
+        "221",
+        "231"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "CPC Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'01929.07",
+        "'01371",
+        "'21422"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Abaca; manila hemp; raw",
+        "Almonds; in shell",
+        "Almonds; shelled"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

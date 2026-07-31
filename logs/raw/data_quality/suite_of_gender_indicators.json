@@ -1,0 +1,148 @@
+{
+  "table": "raw.suite_of_gender_indicators",
+  "generated_at": "2026-07-07T18:57:16",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 315014,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 1
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 315014,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area Code (M49)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item Code (SDG)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Item": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sex Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sex Code (SDG)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Sex": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Population Age Group Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Population Age Group": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Geographic Level": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Activity Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Activity Code (SDG)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Activity": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 28494,
+          "null_pct": 9.05
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Note": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 315014,
+      "distinct_rows": 315014,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "Area Code (M49)": "VARCHAR",
+        "Area": "VARCHAR",
+        "Item Code": "VARCHAR",
+        "Item Code (SDG)": "VARCHAR",
+        "Item": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Sex Code": "BIGINT",
+        "Sex Code (SDG)": "VARCHAR",
+        "Sex": "VARCHAR",
+        "Population Age Group Code": "VARCHAR",
+        "Population Age Group": "VARCHAR",
+        "Geographic Level Code": "BIGINT",
+        "Geographic Level": "VARCHAR",
+        "Activity Code": "BIGINT",
+        "Activity Code (SDG)": "VARCHAR",
+        "Activity": "VARCHAR",
+        "Year Code": "BIGINT",
+        "Year": "BIGINT",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR",
+        "Note": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

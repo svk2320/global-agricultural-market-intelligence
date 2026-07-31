@@ -1,0 +1,774 @@
+{
+  "table": "raw.development_assistance_to_agriculture",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 13020275,
+    "column_count": 18
+  },
+  "schema": {
+    "Donor Code": "BIGINT",
+    "Donor Code (M49)": "VARCHAR",
+    "Donor": "VARCHAR",
+    "Recipient Country Code": "BIGINT",
+    "Recipient Country Code (M49)": "VARCHAR",
+    "Recipient Country": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Purpose Code": "BIGINT",
+    "Purpose": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 13020275,
+    "columns": {
+      "Donor Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Donor Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Donor": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Recipient Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Recipient Country Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Recipient Country": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Purpose Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Purpose": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 13020275,
+        "null_pct": 100.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Donor Code": {
+      "column": "Donor Code",
+      "distinct_count": 149
+    },
+    "Donor Code (M49)": {
+      "column": "Donor Code (M49)",
+      "distinct_count": 149
+    },
+    "Donor": {
+      "column": "Donor",
+      "distinct_count": 149
+    },
+    "Recipient Country Code": {
+      "column": "Recipient Country Code",
+      "distinct_count": 231
+    },
+    "Recipient Country Code (M49)": {
+      "column": "Recipient Country Code (M49)",
+      "distinct_count": 231
+    },
+    "Recipient Country": {
+      "column": "Recipient Country",
+      "distinct_count": 231
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 10
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 10
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Purpose Code": {
+      "column": "Purpose Code",
+      "distinct_count": 57
+    },
+    "Purpose": {
+      "column": "Purpose",
+      "distinct_count": 56
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 51
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 51
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 3
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 1921267
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 0
+    }
+  },
+  "statistics": {
+    "Donor Code": {
+      "min": 10,
+      "max": 1212,
+      "mean": 500.16231592650695,
+      "median": 690.0,
+      "stddev": 376.94712503575886
+    },
+    "Recipient Country Code": {
+      "min": 1,
+      "max": 5901,
+      "mean": 2495.6586929999557,
+      "median": 299.0,
+      "stddev": 2612.5301248375677
+    },
+    "Item Code": {
+      "min": 22040,
+      "max": 22054,
+      "mean": 22045.59591375758,
+      "median": 22044.0,
+      "stddev": 5.045489964822474
+    },
+    "Element Code": {
+      "min": 6110,
+      "max": 6230,
+      "mean": 6169.920337396868,
+      "median": 6139.0,
+      "stddev": 59.91936914530207
+    },
+    "Purpose Code": {
+      "min": 307,
+      "max": 43040,
+      "mean": 21894.8470358729,
+      "median": 31140.0,
+      "stddev": 16285.66103316187
+    },
+    "Year Code": {
+      "min": 1973,
+      "max": 2023,
+      "mean": 2007.7776974756678,
+      "median": 2010.0,
+      "stddev": 12.058239665794064
+    },
+    "Year": {
+      "min": 1973,
+      "max": 2023,
+      "mean": 2007.7776974756678,
+      "median": 2010.0,
+      "stddev": 12.058239665797775
+    },
+    "Value": {
+      "min": -138.279173,
+      "max": 490327.745314,
+      "mean": 30.44033660876833,
+      "median": 0.33,
+      "stddev": 1093.117460641275
+    }
+  },
+  "outliers": {
+    "Donor Code": {
+      "column": "Donor Code",
+      "q1": 117.0,
+      "q3": 702.0,
+      "lower_bound": -760.5,
+      "upper_bound": 1579.5,
+      "outlier_count": 0
+    },
+    "Recipient Country Code": {
+      "column": "Recipient Country Code",
+      "q1": 130.0,
+      "q3": 5300.0,
+      "lower_bound": -7625.0,
+      "upper_bound": 13055.0,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 22041.0,
+      "q3": 22051.0,
+      "lower_bound": 22026.0,
+      "upper_bound": 22066.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6110.0,
+      "q3": 6230.0,
+      "lower_bound": 5930.0,
+      "upper_bound": 6410.0,
+      "outlier_count": 0
+    },
+    "Purpose Code": {
+      "column": "Purpose Code",
+      "q1": 312.0,
+      "q3": 31282.0,
+      "lower_bound": -46143.0,
+      "upper_bound": 77737.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2001.0,
+      "q3": 2018.0,
+      "lower_bound": 1975.5,
+      "upper_bound": 2043.5,
+      "outlier_count": 112178
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2001.0,
+      "q3": 2018.0,
+      "lower_bound": 1975.5,
+      "upper_bound": 2043.5,
+      "outlier_count": 112178
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.008785,
+      "q3": 3.572935,
+      "lower_bound": -5.337440000000001,
+      "upper_bound": 8.919160000000002,
+      "outlier_count": 2179143
+    }
+  },
+  "categorical": {
+    "Donor Code (M49)": {
+      "column": "Donor Code (M49)",
+      "top_values": [
+        {
+          "value": "'F702",
+          "count": 1883003
+        },
+        {
+          "value": "'F690",
+          "count": 1536220
+        },
+        {
+          "value": "'F691",
+          "count": 811812
+        },
+        {
+          "value": "'392",
+          "count": 526360
+        },
+        {
+          "value": "'276",
+          "count": 506396
+        },
+        {
+          "value": "'918",
+          "count": 496380
+        },
+        {
+          "value": "'124",
+          "count": 477396
+        },
+        {
+          "value": "'840",
+          "count": 445296
+        },
+        {
+          "value": "'250",
+          "count": 411512
+        },
+        {
+          "value": "'F1075",
+          "count": 339624
+        }
+      ]
+    },
+    "Donor": {
+      "column": "Donor",
+      "top_values": [
+        {
+          "value": "All Donors",
+          "count": 1883003
+        },
+        {
+          "value": "Bilateral Donors",
+          "count": 1536220
+        },
+        {
+          "value": "Multilateral Donors",
+          "count": 811812
+        },
+        {
+          "value": "Japan",
+          "count": 526360
+        },
+        {
+          "value": "Germany",
+          "count": 506396
+        },
+        {
+          "value": "European Union (EU) Institutions",
+          "count": 496380
+        },
+        {
+          "value": "Canada",
+          "count": 477396
+        },
+        {
+          "value": "United States of America",
+          "count": 445296
+        },
+        {
+          "value": "France",
+          "count": 411512
+        },
+        {
+          "value": "International Development Association (IDA)",
+          "count": 339624
+        }
+      ]
+    },
+    "Recipient Country Code (M49)": {
+      "column": "Recipient Country Code (M49)",
+      "top_values": [
+        {
+          "value": "'001",
+          "count": 466655
+        },
+        {
+          "value": "'F5901",
+          "count": 441883
+        },
+        {
+          "value": "'902",
+          "count": 375367
+        },
+        {
+          "value": "'002",
+          "count": 345713
+        },
+        {
+          "value": "'199",
+          "count": 320262
+        },
+        {
+          "value": "'901",
+          "count": 319576
+        },
+        {
+          "value": "'142",
+          "count": 307417
+        },
+        {
+          "value": "'432",
+          "count": 279602
+        },
+        {
+          "value": "'014",
+          "count": 251616
+        },
+        {
+          "value": "'019",
+          "count": 241491
+        }
+      ]
+    },
+    "Recipient Country": {
+      "column": "Recipient Country",
+      "top_values": [
+        {
+          "value": "World",
+          "count": 466655
+        },
+        {
+          "value": "Bilateral Recipients",
+          "count": 441883
+        },
+        {
+          "value": "Net Food Importing Developing Countries (NFIDCs)",
+          "count": 375367
+        },
+        {
+          "value": "Africa",
+          "count": 345713
+        },
+        {
+          "value": "Least Developed Countries (LDCs)",
+          "count": 320262
+        },
+        {
+          "value": "Low Income Food Deficit Countries (LIFDCs)",
+          "count": 319576
+        },
+        {
+          "value": "Asia",
+          "count": 307417
+        },
+        {
+          "value": "Land Locked Developing Countries (LLDCs)",
+          "count": 279602
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 251616
+        },
+        {
+          "value": "Americas",
+          "count": 241491
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Commitment",
+          "count": 3179409
+        },
+        {
+          "value": "Disbursement",
+          "count": 3177762
+        },
+        {
+          "value": "Disbursement ODA",
+          "count": 2923792
+        },
+        {
+          "value": "Commitment ODA",
+          "count": 2923792
+        },
+        {
+          "value": "Commitment OOF",
+          "count": 268720
+        },
+        {
+          "value": "Disbursement OOF",
+          "count": 268720
+        },
+        {
+          "value": "Disbursement Private Grant",
+          "count": 133794
+        },
+        {
+          "value": "Commitment Private Grant",
+          "count": 133794
+        },
+        {
+          "value": "Commitment Private Sector Instrument",
+          "count": 5246
+        },
+        {
+          "value": "Disbursement Private Sector Instrument",
+          "count": 5246
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value US$",
+          "count": 6488648
+        },
+        {
+          "value": "Value US$, 2023 prices",
+          "count": 6488648
+        },
+        {
+          "value": "Share of Total US$",
+          "count": 28223
+        },
+        {
+          "value": "Agriculture orientation index US$",
+          "count": 14756
+        }
+      ]
+    },
+    "Purpose": {
+      "column": "Purpose",
+      "top_values": [
+        {
+          "value": "Other Agriculture, Forestry and Fishing",
+          "count": 1046944
+        },
+        {
+          "value": "Agriculture, forestry, fishing",
+          "count": 1007181
+        },
+        {
+          "value": "Agriculture",
+          "count": 903616
+        },
+        {
+          "value": "General Environment Protection",
+          "count": 657154
+        },
+        {
+          "value": "Environmental policy and administrative management",
+          "count": 506104
+        },
+        {
+          "value": "Agricultural development",
+          "count": 498676
+        },
+        {
+          "value": "Rural Development",
+          "count": 465512
+        },
+        {
+          "value": "Rural development",
+          "count": 465512
+        },
+        {
+          "value": "Agricultural policy and administrative management",
+          "count": 451376
+        },
+        {
+          "value": "Forestry",
+          "count": 360032
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "million USD",
+          "count": 12977296
+        },
+        {
+          "value": "%",
+          "count": 28223
+        },
+        {
+          "value": "",
+          "count": 14756
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 11958575
+        },
+        {
+          "value": "E",
+          "count": 1061700
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": []
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Donor Code",
+        "column_b": "Recipient Country Code",
+        "correlation": -0.05567789332688341
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Item Code",
+        "correlation": 0.01624168601804522
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Element Code",
+        "correlation": -0.0007118838061823208
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Purpose Code",
+        "correlation": 0.002816495756173741
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Year Code",
+        "correlation": 0.05949562479294593
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Year",
+        "correlation": 0.05949562479250065
+      },
+      {
+        "column_a": "Donor Code",
+        "column_b": "Value",
+        "correlation": 0.014217612065942374
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Item Code",
+        "correlation": 0.004629556977600326
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Element Code",
+        "correlation": 0.0006938237543986592
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Purpose Code",
+        "correlation": 0.07938206148731644
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Year Code",
+        "correlation": -0.07921127215690915
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Year",
+        "correlation": -0.07921127215711857
+      },
+      {
+        "column_a": "Recipient Country Code",
+        "column_b": "Value",
+        "correlation": 0.02127970594367456
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.00020368858887937592
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Purpose Code",
+        "correlation": -0.001622267006674778
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.010587668346923393
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.010587668339128874
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": -0.0091758746674084
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Purpose Code",
+        "correlation": 0.001759166150779264
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.0005123140279819033
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.0005123140278908504
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.0030206299155280934
+      },
+      {
+        "column_a": "Purpose Code",
+        "column_b": "Year Code",
+        "correlation": 0.04382216020847187
+      },
+      {
+        "column_a": "Purpose Code",
+        "column_b": "Year",
+        "correlation": 0.043822160208332156
+      },
+      {
+        "column_a": "Purpose Code",
+        "column_b": "Value",
+        "correlation": -0.016793191528295996
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.0014606404346584354
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.0014606404346634919
+      }
+    ]
+  }
+}

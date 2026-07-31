@@ -1,0 +1,102 @@
+{
+  "table": "raw.climate_change_emissions_indicators_elements",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 10,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 10,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 10
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 10
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 7179,
+      "max": 726313,
+      "mean": 105215.2,
+      "median": 39640.0,
+      "stddev": 220619.50411602325
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 7265.25,
+      "q3": 72593.75,
+      "lower_bound": -90727.5,
+      "upper_bound": 170586.5,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Emissions per area of agricultural land",
+          "count": 1
+        },
+        {
+          "value": "Emissions Share (CH4)",
+          "count": 1
+        },
+        {
+          "value": "Emissions per capita",
+          "count": 1
+        },
+        {
+          "value": "Emissions Share (CO2eq) (AR5) (F-gases)",
+          "count": 1
+        },
+        {
+          "value": "Emissions Share (CO2)",
+          "count": 1
+        },
+        {
+          "value": "Indicators",
+          "count": 1
+        },
+        {
+          "value": "Emissions Share (N2O)",
+          "count": 1
+        },
+        {
+          "value": "Emissions shares",
+          "count": 1
+        },
+        {
+          "value": "Emissions per value of agricultural production",
+          "count": 1
+        },
+        {
+          "value": "Emissions Share (CO2eq) (AR5)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

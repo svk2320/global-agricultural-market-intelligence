@@ -1,0 +1,527 @@
+{
+  "table": "raw.environment_cropland_nutrient_budget",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 827796,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 827796,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 827796,
+        "null_pct": 100.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 233
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 233
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 233
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 12
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 12
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 9
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 9
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 63
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 63
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 3
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 541245
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 4
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 0
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 1112.4918095762723,
+      "median": 150.0,
+      "stddev": 2054.7542879686066
+    },
+    "Item Code": {
+      "min": 5076,
+      "max": 5089,
+      "mean": 5082.6457170607255,
+      "median": 5081.0,
+      "stddev": 4.240614886577397
+    },
+    "Element Code": {
+      "min": 7275,
+      "max": 7292,
+      "mean": 7279.626784860038,
+      "median": 7280.0,
+      "stddev": 3.9705900430893437
+    },
+    "Year Code": {
+      "min": 1961,
+      "max": 2023,
+      "mean": 1992.8163086074346,
+      "median": 1993.0,
+      "stddev": 18.18530395055375
+    },
+    "Year": {
+      "min": 1961,
+      "max": 2023,
+      "mean": 1992.8163086074346,
+      "median": 1993.0,
+      "stddev": 18.185303950553745
+    },
+    "Value": {
+      "min": -2508490.3107,
+      "max": 191014022.0951,
+      "mean": 261331.09594866334,
+      "median": 43.6,
+      "stddev": 2390093.7991128666
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 74.0,
+      "q3": 229.0,
+      "lower_bound": -158.5,
+      "upper_bound": 461.5,
+      "outlier_count": 155925
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 5079.0,
+      "q3": 5087.0,
+      "lower_bound": 5067.0,
+      "upper_bound": 5099.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7276.0,
+      "q3": 7282.0,
+      "lower_bound": 7267.0,
+      "upper_bound": 7291.0,
+      "outlier_count": 13500
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1977.0,
+      "q3": 2009.0,
+      "lower_bound": 1929.0,
+      "upper_bound": 2057.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1977.0,
+      "q3": 2009.0,
+      "lower_bound": 1929.0,
+      "upper_bound": 2057.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 4.497775,
+      "q3": 7804.412675,
+      "lower_bound": -11695.374575,
+      "upper_bound": 19504.285024999997,
+      "outlier_count": 172534
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'154",
+          "count": 4725
+        },
+        {
+          "value": "'017",
+          "count": 4725
+        },
+        {
+          "value": "'021",
+          "count": 4725
+        },
+        {
+          "value": "'015",
+          "count": 4725
+        },
+        {
+          "value": "'018",
+          "count": 4725
+        },
+        {
+          "value": "'199",
+          "count": 4725
+        },
+        {
+          "value": "'035",
+          "count": 4725
+        },
+        {
+          "value": "'014",
+          "count": 4725
+        },
+        {
+          "value": "'143",
+          "count": 4725
+        },
+        {
+          "value": "'145",
+          "count": 4725
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Europe",
+          "count": 4725
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 4725
+        },
+        {
+          "value": "Africa",
+          "count": 4725
+        },
+        {
+          "value": "Central America",
+          "count": 4725
+        },
+        {
+          "value": "Australia and New Zealand",
+          "count": 4725
+        },
+        {
+          "value": "Western Europe",
+          "count": 4725
+        },
+        {
+          "value": "Least Developed Countries (LDCs)",
+          "count": 4725
+        },
+        {
+          "value": "Net Food Importing Developing Countries (NFIDCs)",
+          "count": 4725
+        },
+        {
+          "value": "Asia",
+          "count": 4725
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 4725
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Nutrient balance",
+          "count": 121500
+        },
+        {
+          "value": "Crop residue removal",
+          "count": 81000
+        },
+        {
+          "value": "Outputs",
+          "count": 81000
+        },
+        {
+          "value": "Input",
+          "count": 81000
+        },
+        {
+          "value": "Seed",
+          "count": 80898
+        },
+        {
+          "value": "Crop harvest removal",
+          "count": 80898
+        },
+        {
+          "value": "Mineral fertilizers",
+          "count": 80874
+        },
+        {
+          "value": "Manure applied",
+          "count": 80622
+        },
+        {
+          "value": "Atmospheric deposition",
+          "count": 35316
+        },
+        {
+          "value": "Leaching",
+          "count": 35316
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Cropland nitrogen per unit area",
+          "count": 161273
+        },
+        {
+          "value": "Cropland nitrogen",
+          "count": 161273
+        },
+        {
+          "value": "Cropland phosphorus per unit area",
+          "count": 116216
+        },
+        {
+          "value": "Cropland phosphorus",
+          "count": 116216
+        },
+        {
+          "value": "Cropland potassium per unit area",
+          "count": 116159
+        },
+        {
+          "value": "Cropland potassium",
+          "count": 116159
+        },
+        {
+          "value": "Cropland nitrogen use efficiency",
+          "count": 13500
+        },
+        {
+          "value": "Cropland phosphorus use efficiency",
+          "count": 13500
+        },
+        {
+          "value": "Cropland potassium use efficiency",
+          "count": 13500
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "kg/ha",
+          "count": 393648
+        },
+        {
+          "value": "t",
+          "count": 393648
+        },
+        {
+          "value": "%",
+          "count": 40500
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 821760
+        },
+        {
+          "value": "X",
+          "count": 2675
+        },
+        {
+          "value": "A",
+          "count": 2007
+        },
+        {
+          "value": "I",
+          "count": 1354
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": []
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.059612209842171
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.04036176554257098
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.020596840090203263
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.020596840090198135
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.14944382384371205
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.019141833907286746
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.0014475327559360963
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.0014475327559338273
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": -0.026386770060601757
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.0008675574915766831
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.0008675574916103867
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.06488076262109105
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.026626032264046487
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.02662603226404681
+      }
+    ]
+  }
+}

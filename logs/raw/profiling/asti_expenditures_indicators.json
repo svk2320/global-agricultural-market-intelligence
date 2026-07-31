@@ -1,0 +1,82 @@
+{
+  "table": "raw.asti_expenditures_indicators",
+  "generated_at": "2026-07-07T19:15:27",
+  "dataset_summary": {
+    "row_count": 5,
+    "column_count": 2
+  },
+  "schema": {
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 5,
+    "columns": {
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 5
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 8000,
+      "max": 8006,
+      "mean": 8002.4,
+      "median": 8002.0,
+      "stddev": 2.3021728866442333
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 8001.0,
+      "q3": 8003.0,
+      "lower_bound": 7998.0,
+      "upper_bound": 8006.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Total Expenditure in Agricultural R&D (US$ PPP; 2015 prices)",
+          "count": 1
+        },
+        {
+          "value": "Total Expenditure in Agricultural R&D (US$; 2015 prices)",
+          "count": 1
+        },
+        {
+          "value": "Expenditure in Agricultural R&D as Share of Agricultural Value Added (Standard Local Currency)",
+          "count": 1
+        },
+        {
+          "value": "Total Expenditure in Agricultural R&D (Standard Local Currency)",
+          "count": 1
+        },
+        {
+          "value": "Total Expenditure in Agricultural R&D (Standard Local Currency; 2015 prices)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

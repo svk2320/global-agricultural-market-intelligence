@@ -1,0 +1,38 @@
+{
+  "table": "raw.development_assistance_to_agriculture_purposes",
+  "generated_at": "2026-07-07T18:57:01",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 58,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 58,
+      "columns": {
+        " Purpose Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        " Purpose": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 58,
+      "distinct_rows": 58,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        " Purpose Code": "BIGINT",
+        " Purpose": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

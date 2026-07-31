@@ -1,0 +1,502 @@
+{
+  "table": "raw.climate_change_emissions_indicators",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 678370,
+    "column_count": 12
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 678370,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 248
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 248
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 248
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 17
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 17
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 8
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 8
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 34
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 34
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 20238
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 987.2920397423235,
+      "median": 154.0,
+      "stddev": 1952.4283173910712
+    },
+    "Item Code": {
+      "min": 1707,
+      "max": 6996,
+      "mean": 5970.005479310701,
+      "median": 6818.0,
+      "stddev": 1721.5805738486513
+    },
+    "Element Code": {
+      "min": 7179,
+      "max": 726313,
+      "mean": 147419.1833114672,
+      "median": 7266.0,
+      "stddev": 279579.4820859335
+    },
+    "Year Code": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2006.6362633960819,
+      "median": 2007.0,
+      "stddev": 9.756521736457316
+    },
+    "Year": {
+      "min": 1990,
+      "max": 2023,
+      "mean": 2006.6362633960819,
+      "median": 2007.0,
+      "stddev": 9.756521736457318
+    },
+    "Value": {
+      "min": -13379.05,
+      "max": 21366500.0,
+      "mean": 280.9374801362025,
+      "median": 7.05,
+      "stddev": 64934.42455084469
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 80.0,
+      "q3": 226.0,
+      "lower_bound": -139.0,
+      "upper_bound": 445.0,
+      "outlier_count": 110119
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6516.0,
+      "q3": 6825.0,
+      "lower_bound": 6052.5,
+      "upper_bound": 7288.5,
+      "outlier_count": 149367
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7265.0,
+      "q3": 72791.0,
+      "lower_bound": -91024.0,
+      "upper_bound": 171080.0,
+      "outlier_count": 127938
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1998.0,
+      "q3": 2015.0,
+      "lower_bound": 1972.5,
+      "upper_bound": 2040.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1998.0,
+      "q3": 2015.0,
+      "lower_bound": 1972.5,
+      "upper_bound": 2040.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.7,
+      "q3": 59.16,
+      "lower_bound": -86.99,
+      "upper_bound": 146.85,
+      "outlier_count": 5575
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'001",
+          "count": 3162
+        },
+        {
+          "value": "'192",
+          "count": 2992
+        },
+        {
+          "value": "'907",
+          "count": 2992
+        },
+        {
+          "value": "'029",
+          "count": 2992
+        },
+        {
+          "value": "'150",
+          "count": 2992
+        },
+        {
+          "value": "'348",
+          "count": 2992
+        },
+        {
+          "value": "'097",
+          "count": 2992
+        },
+        {
+          "value": "'432",
+          "count": 2992
+        },
+        {
+          "value": "'159",
+          "count": 2992
+        },
+        {
+          "value": "'034",
+          "count": 2992
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "World",
+          "count": 3162
+        },
+        {
+          "value": "European Union (27)",
+          "count": 2992
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 2992
+        },
+        {
+          "value": "Hungary",
+          "count": 2992
+        },
+        {
+          "value": "Annex I countries",
+          "count": 2992
+        },
+        {
+          "value": "Afghanistan",
+          "count": 2992
+        },
+        {
+          "value": "Ecuador",
+          "count": 2992
+        },
+        {
+          "value": "New Zealand",
+          "count": 2992
+        },
+        {
+          "value": "Northern America",
+          "count": 2992
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 2992
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Emissions on agricultural land",
+          "count": 55904
+        },
+        {
+          "value": "Farm gate",
+          "count": 55904
+        },
+        {
+          "value": "IPCC Agriculture",
+          "count": 47851
+        },
+        {
+          "value": "All sectors with LULUCF",
+          "count": 46619
+        },
+        {
+          "value": "All sectors without LULUCF",
+          "count": 46585
+        },
+        {
+          "value": "Agrifood systems",
+          "count": 46512
+        },
+        {
+          "value": "Pre- and post-production",
+          "count": 46511
+        },
+        {
+          "value": "IPPU",
+          "count": 43786
+        },
+        {
+          "value": "LULUCF",
+          "count": 40217
+        },
+        {
+          "value": "AFOLU",
+          "count": 40217
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Emissions per capita",
+          "count": 127938
+        },
+        {
+          "value": "Emissions Share (CO2eq) (AR5)",
+          "count": 127938
+        },
+        {
+          "value": "Emissions Share (N2O)",
+          "count": 127530
+        },
+        {
+          "value": "Emissions Share (CH4)",
+          "count": 119169
+        },
+        {
+          "value": "Emissions Share (CO2)",
+          "count": 96938
+        },
+        {
+          "value": "Emissions Share (CO2eq) (AR5) (F-gases)",
+          "count": 31796
+        },
+        {
+          "value": "Emissions per area of agricultural land",
+          "count": 23955
+        },
+        {
+          "value": "Emissions per value of agricultural production",
+          "count": 23106
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 503371
+        },
+        {
+          "value": "t CO2eq/cap",
+          "count": 127938
+        },
+        {
+          "value": "t CO2eq/ha",
+          "count": 23955
+        },
+        {
+          "value": "kg CO2eq/Int$",
+          "count": 23106
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 678370
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": 0.005324583697057446
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -0.0065868702665380354
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.004250099528801217
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.004250099528794846
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": -0.0018431468307783725
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": -0.017408301962360002
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.00013630670066240732
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.00013630670066242762
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.001335275396652371
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.00013170196187910929
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.0001317019618790838
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.0019482895761005075
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.004562465780687671
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.004562465780687569
+      }
+    ]
+  }
+}

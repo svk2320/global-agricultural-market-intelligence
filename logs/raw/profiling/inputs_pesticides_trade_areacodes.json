@@ -1,0 +1,156 @@
+{
+  "table": "raw.inputs_pesticides_trade_areacodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 300,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 300,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 300
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 300
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 300
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 1,
+      "max": 55040,
+      "mean": 5483.073333333334,
+      "median": 169.5,
+      "stddev": 15050.559102092326
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 88.5,
+      "q3": 255.25,
+      "lower_bound": -161.625,
+      "upper_bound": 505.375,
+      "outlier_count": 61
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'016",
+          "count": 1
+        },
+        {
+          "value": "'654",
+          "count": 1
+        },
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'064",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'174",
+          "count": 1
+        },
+        {
+          "value": "'200",
+          "count": 1
+        },
+        {
+          "value": "'262",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Algeria",
+          "count": 1
+        },
+        {
+          "value": "Armenia",
+          "count": 1
+        },
+        {
+          "value": "Asia (excluding intra-trade)",
+          "count": 1
+        },
+        {
+          "value": "Azerbaijan",
+          "count": 1
+        },
+        {
+          "value": "Bolivia (Plurinational State of)",
+          "count": 1
+        },
+        {
+          "value": "Brazil",
+          "count": 1
+        },
+        {
+          "value": "Burundi",
+          "count": 1
+        },
+        {
+          "value": "Cambodia",
+          "count": 1
+        },
+        {
+          "value": "Cuba",
+          "count": 1
+        },
+        {
+          "value": "Czechoslovakia",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

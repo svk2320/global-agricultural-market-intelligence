@@ -1,0 +1,38 @@
+{
+  "table": "raw.emissions_crops_sources",
+  "generated_at": "2026-07-07T18:57:02",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 2,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 2,
+      "columns": {
+        "Source Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Source": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 2,
+      "distinct_rows": 2,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Source Code": "BIGINT",
+        "Source": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

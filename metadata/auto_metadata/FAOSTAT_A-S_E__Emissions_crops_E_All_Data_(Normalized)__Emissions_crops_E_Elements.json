@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Emissions_crops_E_All_Data_(Normalized)__Emissions_crops_E_Elements",
+  "file_path": "FAOSTAT_A-S_E/Emissions_crops_E_All_Data_(Normalized)/Emissions_crops_E_Elements.parquet",
+  "file_size_bytes": 1507,
+  "file_size_human": "1.5KB",
+  "last_modified": "2026-07-05T03:52:10.671406+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:50.902894+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 23,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "5312",
+        "5066",
+        "7245"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Area harvested",
+        "Burning - Crop residues",
+        "Burning crop residues (Biomass burned; dry matter)"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

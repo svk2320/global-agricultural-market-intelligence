@@ -1,0 +1,66 @@
+{
+  "table": "raw.cost_affordability_healthy_diet_coahd_releases",
+  "generated_at": "2026-07-07T19:15:31",
+  "dataset_summary": {
+    "row_count": 2,
+    "column_count": 2
+  },
+  "schema": {
+    " Release Code": "VARCHAR",
+    " Release": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2,
+    "columns": {
+      " Release Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Release": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Release Code": {
+      "column": " Release Code",
+      "distinct_count": 2
+    },
+    " Release": {
+      "column": " Release",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    " Release Code": {
+      "column": " Release Code",
+      "top_values": [
+        {
+          "value": "7S2025",
+          "count": 1
+        },
+        {
+          "value": "12U2024",
+          "count": 1
+        }
+      ]
+    },
+    " Release": {
+      "column": " Release",
+      "top_values": [
+        {
+          "value": "December 2024 (Update)",
+          "count": 1
+        },
+        {
+          "value": "July 2025 (SOFI report)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

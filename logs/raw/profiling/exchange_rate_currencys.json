@@ -1,0 +1,130 @@
+{
+  "table": "raw.exchange_rate_currencys",
+  "generated_at": "2026-07-07T19:15:49",
+  "dataset_summary": {
+    "row_count": 294,
+    "column_count": 2
+  },
+  "schema": {
+    "ISO Currency Code": "VARCHAR",
+    "Currency": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 294,
+    "columns": {
+      "ISO Currency Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Currency": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "ISO Currency Code": {
+      "column": "ISO Currency Code",
+      "distinct_count": 294
+    },
+    "Currency": {
+      "column": "Currency",
+      "distinct_count": 268
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "ISO Currency Code": {
+      "column": "ISO Currency Code",
+      "top_values": [
+        {
+          "value": "DZD",
+          "count": 1
+        },
+        {
+          "value": "ARL",
+          "count": 1
+        },
+        {
+          "value": "AWG",
+          "count": 1
+        },
+        {
+          "value": "BYN",
+          "count": 1
+        },
+        {
+          "value": "BEF",
+          "count": 1
+        },
+        {
+          "value": "BMD",
+          "count": 1
+        },
+        {
+          "value": "VEF",
+          "count": 1
+        },
+        {
+          "value": "BOP",
+          "count": 1
+        },
+        {
+          "value": "BOB",
+          "count": 1
+        },
+        {
+          "value": "BND",
+          "count": 1
+        }
+      ]
+    },
+    "Currency": {
+      "column": "Currency",
+      "top_values": [
+        {
+          "value": "Belarusian Ruble",
+          "count": 3
+        },
+        {
+          "value": "Sol",
+          "count": 3
+        },
+        {
+          "value": "Serbian Dinar",
+          "count": 2
+        },
+        {
+          "value": "Zambian Kwacha",
+          "count": 2
+        },
+        {
+          "value": "Russian Ruble",
+          "count": 2
+        },
+        {
+          "value": "Loti",
+          "count": 2
+        },
+        {
+          "value": "Ouguiya",
+          "count": 2
+        },
+        {
+          "value": "Ghana Cedi",
+          "count": 2
+        },
+        {
+          "value": "Kyat",
+          "count": 2
+        },
+        {
+          "value": "Mozambique Metical",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

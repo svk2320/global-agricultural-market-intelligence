@@ -1,0 +1,98 @@
+{
+  "table": "raw.emissions_totals_elements",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 9,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 9,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 9
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 9
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 7225,
+      "max": 724413,
+      "mean": 325094.6666666667,
+      "median": 7273.0,
+      "stddev": 376934.5900454746
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7234.0,
+      "q3": 723113.0,
+      "lower_bound": -1066584.5,
+      "upper_bound": 1796931.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Emissions (CO2eq) from CH4 (AR5)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CO2)",
+          "count": 1
+        },
+        {
+          "value": "Indirect emissions (N2O)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CO2eq) (AR5)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CO2eq) from F-gases (AR5)",
+          "count": 1
+        },
+        {
+          "value": "Direct emissions (N2O)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CH4)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 1
+        },
+        {
+          "value": "Emissions (CO2eq) from N2O (AR5)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

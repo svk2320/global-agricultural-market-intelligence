@@ -1,0 +1,66 @@
+{
+  "table": "raw.population_itemcodes",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 1
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 3010,
+      "max": 3010,
+      "mean": 3010.0,
+      "median": 3010.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 3010.0,
+      "q3": 3010.0,
+      "lower_bound": 3010.0,
+      "upper_bound": 3010.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Population - Est. & Proj.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

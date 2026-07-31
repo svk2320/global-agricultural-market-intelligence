@@ -1,0 +1,70 @@
+{
+  "table": "raw.asti_researchers_archive_elements",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 2,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 6082,
+      "max": 6086,
+      "mean": 6084.0,
+      "median": 6084.0,
+      "stddev": 2.8284271247461903
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6083.0,
+      "q3": 6085.0,
+      "lower_bound": 6080.0,
+      "upper_bound": 6088.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Per 100;000 farmers",
+          "count": 1
+        },
+        {
+          "value": "Researchers; total",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

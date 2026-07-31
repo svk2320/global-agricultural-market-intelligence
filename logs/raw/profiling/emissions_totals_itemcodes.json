@@ -1,0 +1,115 @@
+{
+  "table": "raw.emissions_totals_itemcodes",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 47,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 47,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 47,
+        "null_pct": 100.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 47
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 0
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 47
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 1707,
+      "max": 69921,
+      "mean": 10013.744680851063,
+      "median": 6751.0,
+      "stddev": 15411.832359344085
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 5084.5,
+      "q3": 6966.5,
+      "lower_bound": 2261.5,
+      "upper_bound": 9789.5,
+      "outlier_count": 6
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": []
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agricultural Soils",
+          "count": 1
+        },
+        {
+          "value": "Emissions from crops",
+          "count": 1
+        },
+        {
+          "value": "Enteric Fermentation",
+          "count": 1
+        },
+        {
+          "value": "Food Packaging",
+          "count": 1
+        },
+        {
+          "value": "Food Transport",
+          "count": 1
+        },
+        {
+          "value": "Rice Cultivation",
+          "count": 1
+        },
+        {
+          "value": "Drained organic soils (CO2)",
+          "count": 1
+        },
+        {
+          "value": "Food Household Consumption",
+          "count": 1
+        },
+        {
+          "value": "Manure applied to Soils",
+          "count": 1
+        },
+        {
+          "value": "Agrifood systems",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

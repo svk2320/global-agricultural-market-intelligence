@@ -1,0 +1,66 @@
+{
+  "table": "raw.minimum_dietary_diversity_for_women_mdd_w_food_and_diet_elements",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 1
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 6121,
+      "max": 6121,
+      "mean": 6121.0,
+      "median": 6121.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 6121.0,
+      "q3": 6121.0,
+      "lower_bound": 6121.0,
+      "upper_bound": 6121.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

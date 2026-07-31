@@ -1,0 +1,78 @@
+{
+  "table": "raw.development_assistance_to_agriculture_elements",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 4
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 6110,
+      "max": 6230,
+      "mean": 6159.5,
+      "median": 6149.0,
+      "stddev": 51.12403218317846
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 6131.75,
+      "q3": 6176.75,
+      "lower_bound": 6064.25,
+      "upper_bound": 6244.25,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Value US$",
+          "count": 1
+        },
+        {
+          "value": "Share of Total US$",
+          "count": 1
+        },
+        {
+          "value": "Agriculture orientation index US$",
+          "count": 1
+        },
+        {
+          "value": "Value US$; 2023 prices",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

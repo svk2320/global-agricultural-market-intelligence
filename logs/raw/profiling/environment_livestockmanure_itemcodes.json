@@ -1,0 +1,156 @@
+{
+  "table": "raw.environment_livestockmanure_itemcodes",
+  "generated_at": "2026-07-07T19:15:48",
+  "dataset_summary": {
+    "row_count": 24,
+    "column_count": 3
+  },
+  "schema": {
+    " Item Code": "BIGINT",
+    " CPC Code": "VARCHAR",
+    " Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 24,
+    "columns": {
+      " Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Item Code": {
+      "column": " Item Code",
+      "distinct_count": 24
+    },
+    " CPC Code": {
+      "column": " CPC Code",
+      "distinct_count": 24
+    },
+    " Item": {
+      "column": " Item",
+      "distinct_count": 24
+    }
+  },
+  "statistics": {
+    " Item Code": {
+      "min": 946,
+      "max": 2029,
+      "mean": 1239.0833333333333,
+      "median": 1073.5,
+      "stddev": 339.9600893029071
+    }
+  },
+  "outliers": {
+    " Item Code": {
+      "column": " Item Code",
+      "q1": 1048.75,
+      "q3": 1320.0,
+      "lower_bound": 641.875,
+      "upper_bound": 1726.875,
+      "outlier_count": 6
+    }
+  },
+  "categorical": {
+    " CPC Code": {
+      "column": " CPC Code",
+      "top_values": [
+        {
+          "value": "'F1049",
+          "count": 1
+        },
+        {
+          "value": "'F1051",
+          "count": 1
+        },
+        {
+          "value": "'F1760",
+          "count": 1
+        },
+        {
+          "value": "'02154",
+          "count": 1
+        },
+        {
+          "value": "'02152",
+          "count": 1
+        },
+        {
+          "value": "'F1054",
+          "count": 1
+        },
+        {
+          "value": "'02131",
+          "count": 1
+        },
+        {
+          "value": "'02121.01",
+          "count": 1
+        },
+        {
+          "value": "'F1755",
+          "count": 1
+        },
+        {
+          "value": "'F1757",
+          "count": 1
+        }
+      ]
+    },
+    " Item": {
+      "column": " Item",
+      "top_values": [
+        {
+          "value": "Swine; breeding",
+          "count": 1
+        },
+        {
+          "value": "Horses",
+          "count": 1
+        },
+        {
+          "value": "Sheep and Goats",
+          "count": 1
+        },
+        {
+          "value": "Buffalo",
+          "count": 1
+        },
+        {
+          "value": "Cattle; non-dairy",
+          "count": 1
+        },
+        {
+          "value": "Swine; market",
+          "count": 1
+        },
+        {
+          "value": "Chickens; layers",
+          "count": 1
+        },
+        {
+          "value": "Chickens",
+          "count": 1
+        },
+        {
+          "value": "Turkeys",
+          "count": 1
+        },
+        {
+          "value": "Swine",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

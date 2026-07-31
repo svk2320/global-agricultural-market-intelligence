@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_All_Data_(Normalized)__Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_Surveys",
+  "file_path": "FAOSTAT_A-S_E/Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_All_Data_(Normalized)/Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_Surveys.parquet",
+  "file_size_bytes": 1387,
+  "file_size_human": "1.4KB",
+  "last_modified": "2026-07-05T03:52:41.832935+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:16.008663+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 25,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": " Survey Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "076_2014",
+        "854_2021",
+        "116_2021"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Survey",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Brazil - 2014",
+        "Burkina Faso - 2021",
+        "Cambodia - 2021"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

@@ -1,0 +1,43 @@
+{
+  "table": "raw.sdg_bulkdownloads_itemcodes",
+  "generated_at": "2026-07-07T18:57:14",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 279,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 1
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 279,
+      "columns": {
+        "Item Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "SDG Code": {
+          "null_count": 5,
+          "null_pct": 1.79
+        },
+        "Item": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 279,
+      "distinct_rows": 279,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Item Code": "VARCHAR",
+        "SDG Code": "VARCHAR",
+        "Item": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

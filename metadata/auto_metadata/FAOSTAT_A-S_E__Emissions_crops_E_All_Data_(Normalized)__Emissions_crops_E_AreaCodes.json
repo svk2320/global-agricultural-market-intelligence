@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Emissions_crops_E_All_Data_(Normalized)__Emissions_crops_E_AreaCodes",
+  "file_path": "FAOSTAT_A-S_E/Emissions_crops_E_All_Data_(Normalized)/Emissions_crops_E_AreaCodes.parquet",
+  "file_size_bytes": 4687,
+  "file_size_human": "4.6KB",
+  "last_modified": "2026-07-05T03:52:10.669399+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:50.884892+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 282,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": "Area Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2",
+        "5100",
+        "3"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "M49 Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'004",
+        "'002",
+        "'008"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Area",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Afghanistan",
+        "Africa",
+        "Albania"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

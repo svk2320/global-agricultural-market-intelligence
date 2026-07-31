@@ -1,0 +1,102 @@
+{
+  "table": "raw.environment_bioenergy_itemcodes",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 15,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 15,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 15
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 15
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 170,
+      "max": 6532,
+      "mean": 6101.8,
+      "median": 6525.0,
+      "stddev": 1640.9879950810123
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6521.5,
+      "q3": 6528.5,
+      "lower_bound": 6511.0,
+      "upper_bound": 6539.0,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Biogasoline",
+          "count": 1
+        },
+        {
+          "value": "Bio jet kerosene",
+          "count": 1
+        },
+        {
+          "value": "Other liquid biofuels",
+          "count": 1
+        },
+        {
+          "value": "Bagasse",
+          "count": 1
+        },
+        {
+          "value": "Biodiesel",
+          "count": 1
+        },
+        {
+          "value": "Charcoal",
+          "count": 1
+        },
+        {
+          "value": "Gaseous biofuels",
+          "count": 1
+        },
+        {
+          "value": "Animal waste",
+          "count": 1
+        },
+        {
+          "value": "Black liquor",
+          "count": 1
+        },
+        {
+          "value": "Fuelwood",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

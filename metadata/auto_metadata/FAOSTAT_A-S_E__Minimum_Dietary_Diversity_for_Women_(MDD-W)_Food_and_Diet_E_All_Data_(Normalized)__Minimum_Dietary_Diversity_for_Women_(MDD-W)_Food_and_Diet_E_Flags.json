@@ -1,0 +1,45 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_All_Data_(Normalized)__Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_Flags",
+  "file_path": "FAOSTAT_A-S_E/Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_All_Data_(Normalized)/Minimum_Dietary_Diversity_for_Women_(MDD-W)_Food_and_Diet_E_Flags.parquet",
+  "file_size_bytes": 908,
+  "file_size_human": "908.0B",
+  "last_modified": "2026-07-05T03:52:41.826932+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:15.970819+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 2,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": " Flag",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "A",
+        "E"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": " Description",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Official figure",
+        "Estimated value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

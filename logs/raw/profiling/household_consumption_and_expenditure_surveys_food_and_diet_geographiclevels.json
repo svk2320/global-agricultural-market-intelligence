@@ -1,0 +1,143 @@
+{
+  "table": "raw.household_consumption_and_expenditure_surveys_food_and_diet_geographiclevels",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 774,
+    "column_count": 3
+  },
+  "schema": {
+    "Geographic Level Code": "VARCHAR",
+    "M49 Code": "VARCHAR",
+    "Geographic Level": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 774,
+    "columns": {
+      "Geographic Level Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 774,
+        "null_pct": 100.0
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 774
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 0
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 618
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "top_values": [
+        {
+          "value": "566_2",
+          "count": 1
+        },
+        {
+          "value": "231_14",
+          "count": 1
+        },
+        {
+          "value": "604_2",
+          "count": 1
+        },
+        {
+          "value": "204_2",
+          "count": 1
+        },
+        {
+          "value": "384_20",
+          "count": 1
+        },
+        {
+          "value": "004_21",
+          "count": 1
+        },
+        {
+          "value": "466_9",
+          "count": 1
+        },
+        {
+          "value": "854_1",
+          "count": 1
+        },
+        {
+          "value": "854_2",
+          "count": 1
+        },
+        {
+          "value": "231_15",
+          "count": 1
+        }
+      ]
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": []
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "Lowest income quintile",
+          "count": 31
+        },
+        {
+          "value": "Income quintile 4",
+          "count": 31
+        },
+        {
+          "value": "Income quintile 2",
+          "count": 31
+        },
+        {
+          "value": "Highest income quintile",
+          "count": 31
+        },
+        {
+          "value": "Income quintile 3",
+          "count": 31
+        },
+        {
+          "value": "Central",
+          "count": 4
+        },
+        {
+          "value": "Plateau",
+          "count": 2
+        },
+        {
+          "value": "Delta",
+          "count": 2
+        },
+        {
+          "value": "Mwanza",
+          "count": 2
+        },
+        {
+          "value": "Atacora",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,102 @@
+{
+  "table": "raw.forestry_itemcodes",
+  "generated_at": "2026-07-07T19:16:00",
+  "dataset_summary": {
+    "row_count": 104,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 104,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 104
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 104
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 1600,
+      "max": 5225,
+      "mean": 1736.3461538461538,
+      "median": 1662.5,
+      "stddev": 363.02750087676617
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 1628.75,
+      "q3": 1694.25,
+      "lower_bound": 1530.5,
+      "upper_bound": 1792.5,
+      "outlier_count": 23
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Cartonboard",
+          "count": 1
+        },
+        {
+          "value": "Dissolving wood pulp",
+          "count": 1
+        },
+        {
+          "value": "Fibreboard",
+          "count": 1
+        },
+        {
+          "value": "Hardboard",
+          "count": 1
+        },
+        {
+          "value": "Industrial roundwood; coniferous (export/import)",
+          "count": 1
+        },
+        {
+          "value": "Printing and writing papers",
+          "count": 1
+        },
+        {
+          "value": "Printing and writing papers; uncoated; mechanical",
+          "count": 1
+        },
+        {
+          "value": "Roundwood; coniferous",
+          "count": 1
+        },
+        {
+          "value": "Sawlogs and veneer logs; coniferous",
+          "count": 1
+        },
+        {
+          "value": "Secondary processed wood products (export/import)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,93 @@
+{
+  "table": "raw.indicators_from_household_surveys",
+  "generated_at": "2026-07-07T18:57:10",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 148620,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 148620,
+      "columns": {
+        "Survey Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Survey": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Breakdown Variable Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Breakdown Variable": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Breadown by Sex of the Household Head Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Breadown by Sex of the Household Head": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Indicator": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Element": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Unit": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Value": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Flag": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 148620,
+      "distinct_rows": 148620,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Survey Code": "VARCHAR",
+        "Survey": "VARCHAR",
+        "Breakdown Variable Code": "BIGINT",
+        "Breakdown Variable": "VARCHAR",
+        "Breadown by Sex of the Household Head Code": "BIGINT",
+        "Breadown by Sex of the Household Head": "VARCHAR",
+        "Indicator Code": "BIGINT",
+        "Indicator": "VARCHAR",
+        "Element Code": "BIGINT",
+        "Element": "VARCHAR",
+        "Unit": "VARCHAR",
+        "Value": "DOUBLE",
+        "Flag": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

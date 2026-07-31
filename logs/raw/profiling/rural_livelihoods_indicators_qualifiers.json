@@ -1,0 +1,122 @@
+{
+  "table": "raw.rural_livelihoods_indicators_qualifiers",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 9,
+    "column_count": 2
+  },
+  "schema": {
+    "Qualifier Code": "VARCHAR",
+    "Qualifier": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 9,
+    "columns": {
+      "Qualifier Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Qualifier": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Qualifier Code": {
+      "column": "Qualifier Code",
+      "distinct_count": 9
+    },
+    "Qualifier": {
+      "column": "Qualifier",
+      "distinct_count": 9
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Qualifier Code": {
+      "column": "Qualifier Code",
+      "top_values": [
+        {
+          "value": "R",
+          "count": 1
+        },
+        {
+          "value": "F",
+          "count": 1
+        },
+        {
+          "value": "N",
+          "count": 1
+        },
+        {
+          "value": "NSF",
+          "count": 1
+        },
+        {
+          "value": "FH",
+          "count": 1
+        },
+        {
+          "value": "SF",
+          "count": 1
+        },
+        {
+          "value": "U",
+          "count": 1
+        },
+        {
+          "value": "MH",
+          "count": 1
+        },
+        {
+          "value": "M",
+          "count": 1
+        }
+      ]
+    },
+    "Qualifier": {
+      "column": "Qualifier",
+      "top_values": [
+        {
+          "value": "Female",
+          "count": 1
+        },
+        {
+          "value": "Male",
+          "count": 1
+        },
+        {
+          "value": "National",
+          "count": 1
+        },
+        {
+          "value": "Male-headed household",
+          "count": 1
+        },
+        {
+          "value": "Non small-scale food producers",
+          "count": 1
+        },
+        {
+          "value": "Urban",
+          "count": 1
+        },
+        {
+          "value": "Rural",
+          "count": 1
+        },
+        {
+          "value": "Female-headed household",
+          "count": 1
+        },
+        {
+          "value": "Small-scale food producers",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

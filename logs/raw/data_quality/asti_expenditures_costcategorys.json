@@ -1,0 +1,38 @@
+{
+  "table": "raw.asti_expenditures_costcategorys",
+  "generated_at": "2026-07-07T18:56:58",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 1,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 1,
+      "columns": {
+        "Cost Category Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Cost Category": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 1,
+      "distinct_rows": 1,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Cost Category Code": "BIGINT",
+        "Cost Category": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

@@ -1,0 +1,56 @@
+[0m07:23:49.986549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B40F9FAF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B40FAE1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B40FABA250>]}
+
+
+============================== 07:23:49.989632 | 399f0ae0-8913-4525-a3e8-6ff1f7a44a52 ==============================
+[0m07:23:49.989632 [info ] [MainThread]: Running with dbt=1.8.0
+[0m07:23:49.990646 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\svkum\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init agriculture', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:23:50.013555 [debug] [MainThread]: Starter project path: C:\Users\svkum\miniconda3\envs\global-agricultural-market-intelligence\Lib\site-packages\dbt\include\starter_project
+[0m07:23:50.027019 [info ] [MainThread]: 
+Your new dbt project "agriculture" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:23:50.028020 [info ] [MainThread]: Setting up your profile.
+[0m07:23:59.929797 [debug] [MainThread]: Command `dbt init` succeeded at 07:23:59.929797 after 10.01 seconds
+[0m07:23:59.930798 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4082C6990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B40F89D850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B4084842D0>]}
+[0m07:23:59.931797 [debug] [MainThread]: Flushing usage events
+[0m07:24:11.980005 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m19:58:43.099394 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226921EC510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226921EF9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226921EFB50>]}
+
+
+============================== 19:58:43.107219 | a8894190-e8ae-4a31-abad-3a3fad2476ad ==============================
+[0m19:58:43.107219 [info ] [MainThread]: Running with dbt=1.8.0
+[0m19:58:43.108307 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\svkum\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --select stg_asti_expenditures stg_asti_researchers', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:58:43.109219 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path E:\Data analysis\global-agricultural-market-intelligence-pvt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:58:43.110250 [debug] [MainThread]: Command `dbt run` failed at 19:58:43.110250 after 0.10 seconds
+[0m19:58:43.111311 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022692228890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269213E910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002269213E490>]}
+[0m19:58:43.111311 [debug] [MainThread]: Flushing usage events
+[0m16:57:18.607002 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D43610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D41210>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D42A50>]}
+
+
+============================== 16:57:18.610592 | 0200f242-3341-4121-bb65-e255fa2356ca ==============================
+[0m16:57:18.610592 [info ] [MainThread]: Running with dbt=1.8.0
+[0m16:57:18.611544 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\svkum\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt docs generate', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:57:18.612599 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path E:\Data analysis\global-agricultural-market-intelligence-pvt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:57:18.613551 [debug] [MainThread]: Command `dbt docs generate` failed at 16:57:18.613551 after 0.08 seconds
+[0m16:57:18.614642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D86610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D87E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268C6D43550>]}
+[0m16:57:18.614642 [debug] [MainThread]: Flushing usage events

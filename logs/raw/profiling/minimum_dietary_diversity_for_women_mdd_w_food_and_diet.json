@@ -1,0 +1,475 @@
+{
+  "table": "raw.minimum_dietary_diversity_for_women_mdd_w_food_and_diet",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 1223,
+    "column_count": 13
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR",
+    "Food Group Code": "VARCHAR",
+    "Food Group": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Geographic Level Code": "BIGINT",
+    "Geographic Level": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1223,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 25
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 25
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "distinct_count": 20
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "distinct_count": 20
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 2
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 2
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 3
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 3
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 1
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 670
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 6211,
+      "max": 6212,
+      "mean": 6211.940310711366,
+      "median": 6212.0,
+      "stddev": 0.23700718864853024
+    },
+    "Geographic Level Code": {
+      "min": 10000,
+      "max": 10002,
+      "mean": 10000.988552739165,
+      "median": 10001.0,
+      "stddev": 0.8190848243915192
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 6121,
+      "mean": 6121.0,
+      "median": 6121.0,
+      "stddev": 0.0
+    },
+    "Value": {
+      "min": 0.2,
+      "max": 100.0,
+      "mean": 46.71154538021262,
+      "median": 42.4,
+      "stddev": 29.779749918700112
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 6212.0,
+      "q3": 6212.0,
+      "lower_bound": 6212.0,
+      "upper_bound": 6212.0,
+      "outlier_count": 73
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "q1": 10000.0,
+      "q3": 10002.0,
+      "lower_bound": 9997.0,
+      "upper_bound": 10005.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6121.0,
+      "lower_bound": 6121.0,
+      "upper_bound": 6121.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 20.65,
+      "q3": 70.1,
+      "lower_bound": -53.525,
+      "upper_bound": 144.27499999999998,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "800_2020",
+          "count": 57
+        },
+        {
+          "value": "288_2022",
+          "count": 54
+        },
+        {
+          "value": "694_2019",
+          "count": 54
+        },
+        {
+          "value": "686_2023",
+          "count": 54
+        },
+        {
+          "value": "762_2017",
+          "count": 54
+        },
+        {
+          "value": "566_2018",
+          "count": 54
+        },
+        {
+          "value": "384_2021",
+          "count": 54
+        },
+        {
+          "value": "854_2021",
+          "count": 54
+        },
+        {
+          "value": "508_2023",
+          "count": 51
+        },
+        {
+          "value": "116_2021",
+          "count": 51
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Uganda - 2020",
+          "count": 57
+        },
+        {
+          "value": "C\u00f4te d'Ivoire - 2021",
+          "count": 54
+        },
+        {
+          "value": "Tajikistan - 2017",
+          "count": 54
+        },
+        {
+          "value": "Senegal - 2023",
+          "count": 54
+        },
+        {
+          "value": "Burkina Faso - 2021",
+          "count": 54
+        },
+        {
+          "value": "Ghana - 2022",
+          "count": 54
+        },
+        {
+          "value": "Nigeria - 2018",
+          "count": 54
+        },
+        {
+          "value": "Sierra Leone - 2019",
+          "count": 54
+        },
+        {
+          "value": "Cambodia - 2021",
+          "count": 51
+        },
+        {
+          "value": "Brazil - 2014",
+          "count": 51
+        }
+      ]
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "top_values": [
+        {
+          "value": "FGW6",
+          "count": 73
+        },
+        {
+          "value": "FGW0",
+          "count": 73
+        },
+        {
+          "value": "FGW4",
+          "count": 73
+        },
+        {
+          "value": "FGW7",
+          "count": 73
+        },
+        {
+          "value": "FGW3",
+          "count": 73
+        },
+        {
+          "value": "FGW8",
+          "count": 73
+        },
+        {
+          "value": "FGW2",
+          "count": 73
+        },
+        {
+          "value": "FGW10",
+          "count": 73
+        },
+        {
+          "value": "FGW9",
+          "count": 73
+        },
+        {
+          "value": "FGW5",
+          "count": 73
+        }
+      ]
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "top_values": [
+        {
+          "value": "Nuts and seeds",
+          "count": 73
+        },
+        {
+          "value": "Dairy",
+          "count": 73
+        },
+        {
+          "value": "Meat, poultry and fish",
+          "count": 73
+        },
+        {
+          "value": "Pulses (beans, peas and lentils)",
+          "count": 73
+        },
+        {
+          "value": "Vegetables, other",
+          "count": 73
+        },
+        {
+          "value": "Dark green leafy vegetables",
+          "count": 73
+        },
+        {
+          "value": "Eggs",
+          "count": 73
+        },
+        {
+          "value": "Other vitamin A-rich fruits and vegetables",
+          "count": 73
+        },
+        {
+          "value": "Fruits, other",
+          "count": 73
+        },
+        {
+          "value": "MDD-W Food groups",
+          "count": 73
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Percentage of women consuming each food group",
+          "count": 1150
+        },
+        {
+          "value": "Percentage of women achieving MDD-W",
+          "count": 73
+        }
+      ]
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "National",
+          "count": 417
+        },
+        {
+          "value": "Rural",
+          "count": 403
+        },
+        {
+          "value": "Urban",
+          "count": 403
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 1223
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 1223
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 923
+        },
+        {
+          "value": "A",
+          "count": 300
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Geographic Level Code",
+        "correlation": 0.0006928001867240262
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.02208226387123271
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Value",
+        "correlation": -0.03201369044955665
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": NaN
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.emissions_drained_organic_soils_areacodes",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 280,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 280,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 280
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 280
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 280
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 831.5142857142857,
+      "median": 154.5,
+      "stddev": 1794.964258130849
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 80.75,
+      "q3": 225.25,
+      "lower_bound": -136.0,
+      "upper_bound": 442.0,
+      "outlier_count": 37
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'008",
+          "count": 1
+        },
+        {
+          "value": "'660",
+          "count": 1
+        },
+        {
+          "value": "'051",
+          "count": 1
+        },
+        {
+          "value": "'533",
+          "count": 1
+        },
+        {
+          "value": "'036",
+          "count": 1
+        },
+        {
+          "value": "'060",
+          "count": 1
+        },
+        {
+          "value": "'180",
+          "count": 1
+        },
+        {
+          "value": "'014",
+          "count": 1
+        },
+        {
+          "value": "'242",
+          "count": 1
+        },
+        {
+          "value": "'266",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 1
+        },
+        {
+          "value": "Annex I countries",
+          "count": 1
+        },
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

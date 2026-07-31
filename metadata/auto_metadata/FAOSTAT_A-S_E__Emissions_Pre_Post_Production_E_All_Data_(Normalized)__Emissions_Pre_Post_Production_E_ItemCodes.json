@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Emissions_Pre_Post_Production_E_All_Data_(Normalized)__Emissions_Pre_Post_Production_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/Emissions_Pre_Post_Production_E_All_Data_(Normalized)/Emissions_Pre_Post_Production_E_ItemCodes.parquet",
+  "file_size_bytes": 1295,
+  "file_size_human": "1.3KB",
+  "last_modified": "2026-07-05T03:52:13.563943+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:54.948332+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 15,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "6991",
+        "6998",
+        "6988"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Agrifood Systems Waste Disposal",
+        "Cold Chain F-Gas",
+        "Domestic Wastewater"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

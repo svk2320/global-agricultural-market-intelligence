@@ -1,0 +1,130 @@
+{
+  "table": "raw.minimum_dietary_diversity_for_women_mdd_w_food_and_diet_surveys",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 25,
+    "column_count": 2
+  },
+  "schema": {
+    " Survey Code": "VARCHAR",
+    " Survey": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 25,
+    "columns": {
+      " Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Survey Code": {
+      "column": " Survey Code",
+      "distinct_count": 25
+    },
+    " Survey": {
+      "column": " Survey",
+      "distinct_count": 25
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    " Survey Code": {
+      "column": " Survey Code",
+      "top_values": [
+        {
+          "value": "524_2016",
+          "count": 1
+        },
+        {
+          "value": "694_2019",
+          "count": 1
+        },
+        {
+          "value": "854_2021",
+          "count": 1
+        },
+        {
+          "value": "608_2022",
+          "count": 1
+        },
+        {
+          "value": "788_1996",
+          "count": 1
+        },
+        {
+          "value": "076_2014",
+          "count": 1
+        },
+        {
+          "value": "116_2021",
+          "count": 1
+        },
+        {
+          "value": "242_2021",
+          "count": 1
+        },
+        {
+          "value": "524_2022",
+          "count": 1
+        },
+        {
+          "value": "384_2021",
+          "count": 1
+        }
+      ]
+    },
+    " Survey": {
+      "column": " Survey",
+      "top_values": [
+        {
+          "value": "Fiji - 2021",
+          "count": 1
+        },
+        {
+          "value": "Brazil - 2014",
+          "count": 1
+        },
+        {
+          "value": "Mexico - 2012",
+          "count": 1
+        },
+        {
+          "value": "Nauru - 2023",
+          "count": 1
+        },
+        {
+          "value": "Nepal - 2022",
+          "count": 1
+        },
+        {
+          "value": "Ethiopia - 2021",
+          "count": 1
+        },
+        {
+          "value": "Sierra Leone - 2019",
+          "count": 1
+        },
+        {
+          "value": "Uganda - 2020",
+          "count": 1
+        },
+        {
+          "value": "Cambodia - 2021",
+          "count": 1
+        },
+        {
+          "value": "Jordan - 2023",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

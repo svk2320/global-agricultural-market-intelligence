@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized)__Individual_Quantitative_Dietary_Data_Food_and_Diet_E_Indicators",
+  "file_path": "FAOSTAT_A-S_E/Individual_Quantitative_Dietary_Data_Food_and_Diet_E_All_Data_(Normalized)/Individual_Quantitative_Dietary_Data_Food_and_Diet_E_Indicators.parquet",
+  "file_size_bytes": 1404,
+  "file_size_human": "1.4KB",
+  "last_modified": "2026-07-05T03:52:39.624852+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:12.039256+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 27,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": " Indicator Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "3334",
+        "3331",
+        "3332"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": " Indicator",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Calcium intake",
+        "Carbohydrate (total) intake",
+        "Dietary Fibre intake"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

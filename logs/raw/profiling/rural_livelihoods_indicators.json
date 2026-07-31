@@ -1,0 +1,573 @@
+{
+  "table": "raw.rural_livelihoods_indicators",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 38918,
+    "column_count": 14
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Qualifier Code": "VARCHAR",
+    "Qualifier": "VARCHAR",
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 38918,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Qualifier Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Qualifier": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 103
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 103
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 114
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 114
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 12
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "Qualifier Code": {
+      "column": "Qualifier Code",
+      "distinct_count": 9
+    },
+    "Qualifier": {
+      "column": "Qualifier",
+      "distinct_count": 9
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 3
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 3
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 6
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 5581
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 35
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 24201,
+      "max": 24342,
+      "mean": 24273.858805694024,
+      "median": 24269.0,
+      "stddev": 39.752633747337455
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 60790,
+      "mean": 21081.776581530397,
+      "median": 6121.0,
+      "stddev": 24350.336892316012
+    },
+    "Source Code": {
+      "min": 3052,
+      "max": 3055,
+      "mean": 3054.091088956267,
+      "median": 3054.0,
+      "stddev": 0.30237004602310236
+    },
+    "Value": {
+      "min": -74.0,
+      "max": 255163472.0,
+      "mean": 50188.456118383176,
+      "median": 28.700001,
+      "stddev": 1805688.7691692635
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 24242.0,
+      "q3": 24304.0,
+      "lower_bound": 24149.0,
+      "upper_bound": 24397.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 60784.0,
+      "lower_bound": -75873.5,
+      "upper_bound": 142778.5,
+      "outlier_count": 0
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3054.0,
+      "q3": 3054.0,
+      "lower_bound": 3054.0,
+      "upper_bound": 3054.0,
+      "outlier_count": 3713
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 4.44,
+      "q3": 78.099998,
+      "lower_bound": -106.049997,
+      "upper_bound": 188.589995,
+      "outlier_count": 5380
+    }
+  },
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "454_2010",
+          "count": 544
+        },
+        {
+          "value": "854_2019",
+          "count": 542
+        },
+        {
+          "value": "454_2017",
+          "count": 519
+        },
+        {
+          "value": "854_2014",
+          "count": 492
+        },
+        {
+          "value": "320_2014",
+          "count": 490
+        },
+        {
+          "value": "694_2018",
+          "count": 488
+        },
+        {
+          "value": "800_2016",
+          "count": 486
+        },
+        {
+          "value": "800_2014",
+          "count": 484
+        },
+        {
+          "value": "231_2014",
+          "count": 481
+        },
+        {
+          "value": "231_2016",
+          "count": 481
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Malawi - 2010",
+          "count": 544
+        },
+        {
+          "value": "Burkina Faso - 2019",
+          "count": 542
+        },
+        {
+          "value": "Malawi - 2017",
+          "count": 519
+        },
+        {
+          "value": "Burkina Faso - 2014",
+          "count": 492
+        },
+        {
+          "value": "Guatemala - 2014",
+          "count": 490
+        },
+        {
+          "value": "Sierra Leone - 2018",
+          "count": 488
+        },
+        {
+          "value": "Uganda - 2016",
+          "count": 486
+        },
+        {
+          "value": "Uganda - 2014",
+          "count": 484
+        },
+        {
+          "value": "Ethiopia - 2016",
+          "count": 481
+        },
+        {
+          "value": "Ethiopia - 2014",
+          "count": 481
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Average cultivated land area (ha)",
+          "count": 806
+        },
+        {
+          "value": "Average cropland (ha)",
+          "count": 806
+        },
+        {
+          "value": "Median income from farm activities, PPP (constant 2011 international USD)",
+          "count": 798
+        },
+        {
+          "value": "Average annual income from agriculture, PPP (constant 2011 international USD)",
+          "count": 784
+        },
+        {
+          "value": "Value of crop used for own consumption, share of total value of crop production (%)",
+          "count": 784
+        },
+        {
+          "value": "Concentration index (Herfindahl) of total income (real number)",
+          "count": 746
+        },
+        {
+          "value": "Transfers (public and private) as a share of total income (%)",
+          "count": 742
+        },
+        {
+          "value": "Agricultural income (livestock, crop, fishery, forestry, ag wage), share of total income (%)",
+          "count": 742
+        },
+        {
+          "value": "Average daily income per capita, PPP (constant 2011 international USD)",
+          "count": 742
+        },
+        {
+          "value": "Non-agricultural income, share of total income (%)",
+          "count": 742
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 28281
+        },
+        {
+          "value": "Standard Deviation",
+          "count": 10637
+        }
+      ]
+    },
+    "Qualifier Code": {
+      "column": "Qualifier Code",
+      "top_values": [
+        {
+          "value": "NSF",
+          "count": 5677
+        },
+        {
+          "value": "R",
+          "count": 5648
+        },
+        {
+          "value": "SF",
+          "count": 5547
+        },
+        {
+          "value": "N",
+          "count": 5514
+        },
+        {
+          "value": "U",
+          "count": 5496
+        },
+        {
+          "value": "MH",
+          "count": 5156
+        },
+        {
+          "value": "FH",
+          "count": 5114
+        },
+        {
+          "value": "M",
+          "count": 406
+        },
+        {
+          "value": "F",
+          "count": 360
+        }
+      ]
+    },
+    "Qualifier": {
+      "column": "Qualifier",
+      "top_values": [
+        {
+          "value": "Non small-scale food producers",
+          "count": 5677
+        },
+        {
+          "value": "Rural",
+          "count": 5648
+        },
+        {
+          "value": "Small-scale food producers",
+          "count": 5547
+        },
+        {
+          "value": "National",
+          "count": 5514
+        },
+        {
+          "value": "Urban",
+          "count": 5496
+        },
+        {
+          "value": "Male-headed household",
+          "count": 5156
+        },
+        {
+          "value": "Female-headed household",
+          "count": 5114
+        },
+        {
+          "value": "Male",
+          "count": 406
+        },
+        {
+          "value": "Female",
+          "count": 360
+        }
+      ]
+    },
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "Household level",
+          "count": 35205
+        },
+        {
+          "value": "Individual level",
+          "count": 3657
+        },
+        {
+          "value": "Community level",
+          "count": 56
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 24964
+        },
+        {
+          "value": "Int$",
+          "count": 6968
+        },
+        {
+          "value": "ha",
+          "count": 2994
+        },
+        {
+          "value": "No",
+          "count": 2626
+        },
+        {
+          "value": "",
+          "count": 746
+        },
+        {
+          "value": "TLU",
+          "count": 620
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 38918
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "2014",
+          "count": 4181
+        },
+        {
+          "value": "2018-19",
+          "count": 4160
+        },
+        {
+          "value": "2018",
+          "count": 2272
+        },
+        {
+          "value": "2010-11",
+          "count": 1972
+        },
+        {
+          "value": "2013-14",
+          "count": 1583
+        },
+        {
+          "value": "2016",
+          "count": 1558
+        },
+        {
+          "value": "2013",
+          "count": 1490
+        },
+        {
+          "value": "2011",
+          "count": 1489
+        },
+        {
+          "value": "2019",
+          "count": 1379
+        },
+        {
+          "value": "2017",
+          "count": 1360
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": 0.07737052026652044
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Source Code",
+        "correlation": -0.25621619104406557
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.02650576274195365
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Source Code",
+        "correlation": -0.12709667159473148
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.016108939827046153
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Value",
+        "correlation": -0.007858206845051173
+      }
+    ]
+  }
+}

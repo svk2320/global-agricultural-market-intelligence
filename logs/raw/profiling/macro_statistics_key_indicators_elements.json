@@ -1,0 +1,102 @@
+{
+  "table": "raw.macro_statistics_key_indicators_elements",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 20,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 20,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 20
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 20
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 6103,
+      "max": 61900,
+      "mean": 28382.2,
+      "median": 6205.5,
+      "stddev": 27920.3393766133
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6158.0,
+      "q3": 61630.0,
+      "lower_bound": -77050.0,
+      "upper_bound": 144838.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Annual growth Standard Local Currency; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Value Standard Local Currency; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Value US$ per capita; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Share of Value Added (Total Manufacturing) US$",
+          "count": 1
+        },
+        {
+          "value": "Annual growth Standard Local Currency",
+          "count": 1
+        },
+        {
+          "value": "Share of GDP Standard Local Currency; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Share of GDP US$",
+          "count": 1
+        },
+        {
+          "value": "Value US$",
+          "count": 1
+        },
+        {
+          "value": "Value US$ per capita",
+          "count": 1
+        },
+        {
+          "value": "Annual growth US$ per capita; 2015 prices",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,608 @@
+{
+  "table": "raw.supply_utilization_accounts_food_and_diet",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 743139,
+    "column_count": 15
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Food Group Code": "VARCHAR",
+    "Food Group": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 743139,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 720099,
+        "null_pct": 96.9
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 179
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 179
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 179
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "distinct_count": 17
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "distinct_count": 17
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 25
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 25
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 14
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 14
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 10422
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 351,
+      "mean": 129.96929511168167,
+      "median": 128.0,
+      "stddev": 74.19579734301254
+    },
+    "Indicator Code": {
+      "min": 4003,
+      "max": 4038,
+      "mean": 4014.8930455809746,
+      "median": 4013.0,
+      "stddev": 9.365924291780505
+    },
+    "Element Code": {
+      "min": 6123,
+      "max": 6209,
+      "mean": 6179.500816132648,
+      "median": 6209.0,
+      "stddev": 40.13009030235468
+    },
+    "Year Code": {
+      "min": 2010,
+      "max": 2023,
+      "mean": 2016.5726802119118,
+      "median": 2017.0,
+      "stddev": 4.0367744937862895
+    },
+    "Year": {
+      "min": 2010,
+      "max": 2023,
+      "mean": 2016.5726802119118,
+      "median": 2017.0,
+      "stddev": 4.036774493786291
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 17956.0,
+      "mean": 115.16326204113521,
+      "median": 2.0,
+      "stddev": 433.84279130460607
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 70.0,
+      "q3": 193.0,
+      "lower_bound": -114.5,
+      "upper_bound": 377.5,
+      "outlier_count": 0
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 4007.0,
+      "q3": 4021.0,
+      "lower_bound": 3986.0,
+      "upper_bound": 4042.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6123.0,
+      "q3": 6209.0,
+      "lower_bound": 5994.0,
+      "upper_bound": 6338.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2013.0,
+      "q3": 2020.0,
+      "lower_bound": 2002.5,
+      "upper_bound": 2030.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2013.0,
+      "q3": 2020.0,
+      "lower_bound": 2002.5,
+      "upper_bound": 2030.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.1,
+      "q3": 31.0,
+      "lower_bound": -46.24999999999999,
+      "upper_bound": 77.35,
+      "outlier_count": 128043
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'159",
+          "count": 4564
+        },
+        {
+          "value": "'887",
+          "count": 4438
+        },
+        {
+          "value": "'710",
+          "count": 4438
+        },
+        {
+          "value": "'250",
+          "count": 4438
+        },
+        {
+          "value": "'705",
+          "count": 4438
+        },
+        {
+          "value": "'616",
+          "count": 4438
+        },
+        {
+          "value": "'036",
+          "count": 4438
+        },
+        {
+          "value": "'620",
+          "count": 4438
+        },
+        {
+          "value": "'380",
+          "count": 4438
+        },
+        {
+          "value": "'348",
+          "count": 4438
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "China",
+          "count": 4564
+        },
+        {
+          "value": "Pakistan",
+          "count": 4438
+        },
+        {
+          "value": "Yemen",
+          "count": 4438
+        },
+        {
+          "value": "Slovenia",
+          "count": 4438
+        },
+        {
+          "value": "Peru",
+          "count": 4438
+        },
+        {
+          "value": "Poland",
+          "count": 4438
+        },
+        {
+          "value": "South Africa",
+          "count": 4438
+        },
+        {
+          "value": "Finland",
+          "count": 4438
+        },
+        {
+          "value": "Hungary",
+          "count": 4438
+        },
+        {
+          "value": "Australia",
+          "count": 4438
+        }
+      ]
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "top_values": [
+        {
+          "value": "FG0",
+          "count": 60625
+        },
+        {
+          "value": "FG6",
+          "count": 60625
+        },
+        {
+          "value": "FGD",
+          "count": 60625
+        },
+        {
+          "value": "FG7",
+          "count": 55747
+        },
+        {
+          "value": "FG11",
+          "count": 44515
+        },
+        {
+          "value": "FG9",
+          "count": 39178
+        },
+        {
+          "value": "FG4",
+          "count": 38800
+        },
+        {
+          "value": "FG5",
+          "count": 38800
+        },
+        {
+          "value": "FG10",
+          "count": 38800
+        },
+        {
+          "value": "FG13",
+          "count": 38800
+        }
+      ]
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "top_values": [
+        {
+          "value": "All food groups (excluding beverages)",
+          "count": 60625
+        },
+        {
+          "value": "Fish, shellfish and their products",
+          "count": 60625
+        },
+        {
+          "value": "All food groups",
+          "count": 60625
+        },
+        {
+          "value": "Meat and meat products",
+          "count": 55747
+        },
+        {
+          "value": "Fats and oils",
+          "count": 44515
+        },
+        {
+          "value": "Vegetables and their products",
+          "count": 39178
+        },
+        {
+          "value": "Sweets and sugars",
+          "count": 38800
+        },
+        {
+          "value": "Beverages",
+          "count": 38800
+        },
+        {
+          "value": "Fruits and their products",
+          "count": 38800
+        },
+        {
+          "value": "Cereals and their products",
+          "count": 38800
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Carbohydrate (available) supply",
+          "count": 40914
+        },
+        {
+          "value": "Calcium supply",
+          "count": 40914
+        },
+        {
+          "value": "Thiamin supply",
+          "count": 40914
+        },
+        {
+          "value": "Magnesium supply",
+          "count": 40914
+        },
+        {
+          "value": "Energy supply",
+          "count": 40914
+        },
+        {
+          "value": "Vitamin A supply (retinol equivalents)",
+          "count": 40914
+        },
+        {
+          "value": "Fat supply",
+          "count": 40914
+        },
+        {
+          "value": "Vitamin C supply",
+          "count": 40914
+        },
+        {
+          "value": "Iron supply",
+          "count": 40914
+        },
+        {
+          "value": "Protein supply",
+          "count": 40914
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 743139
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "mg/cap/d",
+          "count": 387896
+        },
+        {
+          "value": "g/cap/d",
+          "count": 212831
+        },
+        {
+          "value": "\u03bcg/cap/d",
+          "count": 101498
+        },
+        {
+          "value": "kcal/cap/d",
+          "count": 40914
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 743139
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Data correspond only to other aquatic animal products.",
+          "count": 16947
+        },
+        {
+          "value": "Data correspond only to fish oil products.",
+          "count": 5715
+        },
+        {
+          "value": "Data correspond only to algae products.",
+          "count": 378
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Indicator Code",
+        "correlation": -0.00013407510699118665
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 3.534291791238737e-05
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.003934366120122635
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.003934366120120071
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.0010700870155419724
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": 0.28883166230676416
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year Code",
+        "correlation": 0.004810600195577811
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year",
+        "correlation": 0.004810600195578148
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.12199166153096208
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.0012681000667272317
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.0012681000667272122
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.031169551948451685
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.005515735586921632
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.005515735586921696
+      }
+    ]
+  }
+}

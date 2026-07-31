@@ -1,0 +1,102 @@
+{
+  "table": "raw.emissions_livestock_elements",
+  "generated_at": "2026-07-07T19:15:43",
+  "dataset_summary": {
+    "row_count": 29,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 29,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 29
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 29
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5058,
+      "max": 723812,
+      "mean": 240432.93103448275,
+      "median": 72361.0,
+      "stddev": 304575.2754382417
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 72300.0,
+      "q3": 723601.0,
+      "lower_bound": -904651.5,
+      "upper_bound": 1700552.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Indirect emissions (N2O that leaches) (Manure on pasture)",
+          "count": 1
+        },
+        {
+          "value": "Indirect emissions (N2O that volatilises) (Manure applied)",
+          "count": 1
+        },
+        {
+          "value": "Indirect emissions (N2O that volatilises) (Manure on pasture)",
+          "count": 1
+        },
+        {
+          "value": "Livestock total (Emissions CH4)",
+          "count": 1
+        },
+        {
+          "value": "Livestock total (Emissions N2O)",
+          "count": 1
+        },
+        {
+          "value": "Manure Management",
+          "count": 1
+        },
+        {
+          "value": "Stocks",
+          "count": 1
+        },
+        {
+          "value": "Emissions (N2O) (Manure applied)",
+          "count": 1
+        },
+        {
+          "value": "Manure applied to soils that leaches (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure left on pasture (Indirect emissions N2O)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,102 @@
+{
+  "table": "raw.foodbalancesheets_elements",
+  "generated_at": "2026-07-07T19:15:55",
+  "dataset_summary": {
+    "row_count": 21,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 21,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 21
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 21
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 511,
+      "max": 5911,
+      "mean": 3549.3333333333335,
+      "median": 5131.0,
+      "stddev": 2340.2095703875184
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 674.0,
+      "q3": 5301.0,
+      "lower_bound": -6266.5,
+      "upper_bound": 12241.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Fat supply quantity (t)",
+          "count": 1
+        },
+        {
+          "value": "Losses",
+          "count": 1
+        },
+        {
+          "value": "Production",
+          "count": 1
+        },
+        {
+          "value": "Export quantity",
+          "count": 1
+        },
+        {
+          "value": "Food",
+          "count": 1
+        },
+        {
+          "value": "Import quantity",
+          "count": 1
+        },
+        {
+          "value": "Seed",
+          "count": 1
+        },
+        {
+          "value": "Tourist consumption",
+          "count": 1
+        },
+        {
+          "value": "Processing",
+          "count": 1
+        },
+        {
+          "value": "Protein supply quantity (t)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

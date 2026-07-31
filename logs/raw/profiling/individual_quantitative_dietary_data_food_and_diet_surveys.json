@@ -1,0 +1,114 @@
+{
+  "table": "raw.individual_quantitative_dietary_data_food_and_diet_surveys",
+  "generated_at": "2026-07-07T19:16:03",
+  "dataset_summary": {
+    "row_count": 8,
+    "column_count": 2
+  },
+  "schema": {
+    " Survey Code": "VARCHAR",
+    " Survey": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 8,
+    "columns": {
+      " Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Survey Code": {
+      "column": " Survey Code",
+      "distinct_count": 8
+    },
+    " Survey": {
+      "column": " Survey",
+      "distinct_count": 8
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    " Survey Code": {
+      "column": " Survey Code",
+      "top_values": [
+        {
+          "value": "076_20082009",
+          "count": 1
+        },
+        {
+          "value": "484_2016",
+          "count": 1
+        },
+        {
+          "value": "076_20172018",
+          "count": 1
+        },
+        {
+          "value": "788_19961997",
+          "count": 1
+        },
+        {
+          "value": "226_2004",
+          "count": 1
+        },
+        {
+          "value": "076_2014",
+          "count": 1
+        },
+        {
+          "value": "659_2020",
+          "count": 1
+        },
+        {
+          "value": "484_2012",
+          "count": 1
+        }
+      ]
+    },
+    " Survey": {
+      "column": " Survey",
+      "top_values": [
+        {
+          "value": "Equatorial Guinea - 2004",
+          "count": 1
+        },
+        {
+          "value": "Mexico - 2016",
+          "count": 1
+        },
+        {
+          "value": "Saint Kitts and Nevis - 2020",
+          "count": 1
+        },
+        {
+          "value": "Tunisia - 1996-1997",
+          "count": 1
+        },
+        {
+          "value": "Brazil - 2008-2009",
+          "count": 1
+        },
+        {
+          "value": "Brazil - 2014",
+          "count": 1
+        },
+        {
+          "value": "Brazil - 2017-2018",
+          "count": 1
+        },
+        {
+          "value": "Mexico - 2012",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

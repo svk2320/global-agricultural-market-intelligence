@@ -1,0 +1,47 @@
+{
+  "dataset_name": "public_emdat_incl_hist_2026-06-29__EM-DAT_Info",
+  "file_path": "public_emdat_incl_hist_2026-06-29/EM-DAT_Info.parquet",
+  "file_size_bytes": 2231,
+  "file_size_human": "2.2KB",
+  "last_modified": "2026-07-05T13:24:22.473390+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T13:24:22.472386+00:00",
+  "generated_at": "2026-07-06T04:01:31.319332+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 6,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Source:",
+      "type": "String",
+      "nullable": true,
+      "null_count": 1,
+      "null_percent": 16.67,
+      "sample_values": [
+        "Glossary:",
+        "Version:",
+        "File creation:"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "EM-DAT, CRED / UCLouvain, Brussels, Belgium",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "https://www.emdat.be",
+        "https://doc.emdat.be/docs/data-structure-and-content/emdat-public-table/",
+        "2026-06-24"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

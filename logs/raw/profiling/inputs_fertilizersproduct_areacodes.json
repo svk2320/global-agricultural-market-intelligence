@@ -1,0 +1,156 @@
+{
+  "table": "raw.inputs_fertilizersproduct_areacodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 310,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 310,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 310
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 310
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 310
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 1,
+      "max": 58170,
+      "mean": 6610.041935483871,
+      "median": 169.5,
+      "stddev": 16739.054469673272
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 88.25,
+      "q3": 257.5,
+      "lower_bound": -165.625,
+      "upper_bound": 511.375,
+      "outlier_count": 68
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'132",
+          "count": 1
+        },
+        {
+          "value": "'136",
+          "count": 1
+        },
+        {
+          "value": "'013.03",
+          "count": 1
+        },
+        {
+          "value": "'158",
+          "count": 1
+        },
+        {
+          "value": "'174",
+          "count": 1
+        },
+        {
+          "value": "'384",
+          "count": 1
+        },
+        {
+          "value": "'203",
+          "count": 1
+        },
+        {
+          "value": "'212",
+          "count": 1
+        },
+        {
+          "value": "'014.03",
+          "count": 1
+        },
+        {
+          "value": "'232",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Albania",
+          "count": 1
+        },
+        {
+          "value": "Andorra",
+          "count": 1
+        },
+        {
+          "value": "Antigua and Barbuda",
+          "count": 1
+        },
+        {
+          "value": "Belize",
+          "count": 1
+        },
+        {
+          "value": "Bulgaria",
+          "count": 1
+        },
+        {
+          "value": "Canada",
+          "count": 1
+        },
+        {
+          "value": "Cayman Islands",
+          "count": 1
+        },
+        {
+          "value": "Central America",
+          "count": 1
+        },
+        {
+          "value": "Central America (excluding intra-trade)",
+          "count": 1
+        },
+        {
+          "value": "Central Asia (excluding intra-trade)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.environment_livestockpatterns_itemcodes",
+  "generated_at": "2026-07-07T19:15:49",
+  "dataset_summary": {
+    "row_count": 14,
+    "column_count": 3
+  },
+  "schema": {
+    " Item Code": "BIGINT",
+    " CPC Code": "VARCHAR",
+    " Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 14,
+    "columns": {
+      " Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Item Code": {
+      "column": " Item Code",
+      "distinct_count": 14
+    },
+    " CPC Code": {
+      "column": " CPC Code",
+      "distinct_count": 14
+    },
+    " Item": {
+      "column": " Item",
+      "distinct_count": 14
+    }
+  },
+  "statistics": {
+    " Item Code": {
+      "min": 866,
+      "max": 1764,
+      "mean": 1238.9285714285713,
+      "median": 1101.5,
+      "stddev": 344.4338642079011
+    }
+  },
+  "outliers": {
+    " Item Code": {
+      "column": " Item Code",
+      "q1": 1020.5,
+      "q3": 1591.0,
+      "lower_bound": 164.75,
+      "upper_bound": 2446.75,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " CPC Code": {
+      "column": " CPC Code",
+      "top_values": [
+        {
+          "value": "'02151",
+          "count": 1
+        },
+        {
+          "value": "'F1746",
+          "count": 1
+        },
+        {
+          "value": "'02122",
+          "count": 1
+        },
+        {
+          "value": "'02131",
+          "count": 1
+        },
+        {
+          "value": "'02111",
+          "count": 1
+        },
+        {
+          "value": "'F1764",
+          "count": 1
+        },
+        {
+          "value": "'02121.01",
+          "count": 1
+        },
+        {
+          "value": "'02140",
+          "count": 1
+        },
+        {
+          "value": "'02133",
+          "count": 1
+        },
+        {
+          "value": "'F1749",
+          "count": 1
+        }
+      ]
+    },
+    " Item": {
+      "column": " Item",
+      "top_values": [
+        {
+          "value": "Horses",
+          "count": 1
+        },
+        {
+          "value": "Sheep and Goats",
+          "count": 1
+        },
+        {
+          "value": "Buffalo",
+          "count": 1
+        },
+        {
+          "value": "Chickens",
+          "count": 1
+        },
+        {
+          "value": "Asses",
+          "count": 1
+        },
+        {
+          "value": "Mules and hinnies",
+          "count": 1
+        },
+        {
+          "value": "Camels",
+          "count": 1
+        },
+        {
+          "value": "Goats",
+          "count": 1
+        },
+        {
+          "value": "Swine / pigs",
+          "count": 1
+        },
+        {
+          "value": "Sheep",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

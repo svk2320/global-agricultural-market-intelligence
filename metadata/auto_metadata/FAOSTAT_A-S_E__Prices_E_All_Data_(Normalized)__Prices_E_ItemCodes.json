@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Prices_E_All_Data_(Normalized)__Prices_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/Prices_E_All_Data_(Normalized)/Prices_E_ItemCodes.parquet",
+  "file_size_bytes": 5133,
+  "file_size_human": "5.0KB",
+  "last_modified": "2026-07-05T03:52:42.471356+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:17.165579+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 242,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "809",
+        "800",
+        "2051"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "CPC Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "'01929.07",
+        "'01929.06",
+        "'F2051"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Abaca; manila hemp; raw",
+        "Agave fibres; raw; n.e.c.",
+        "Agriculture"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

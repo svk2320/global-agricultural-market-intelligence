@@ -1,0 +1,552 @@
+{
+  "table": "raw.investment_governmentexpenditure",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 156256,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 156256,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 4,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 236
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 236
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 236
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 45
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 45
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 7
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 7
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 24
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 24
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 4
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 65341
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 8
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 351.08326720253945,
+      "median": 131.0,
+      "stddev": 1067.8841442505127
+    },
+    "Item Code": {
+      "min": 2304,
+      "max": 231822,
+      "mean": 41690.809069731724,
+      "median": 23162.0,
+      "stddev": 63093.63371071983
+    },
+    "Element Code": {
+      "min": 6110,
+      "max": 61060,
+      "mean": 7930.647763925866,
+      "median": 6184.0,
+      "stddev": 9673.793366486088
+    },
+    "Year Code": {
+      "min": 2001,
+      "max": 2024,
+      "mean": 2014.026782971534,
+      "median": 2015.0,
+      "stddev": 6.46213444235586
+    },
+    "Year": {
+      "min": 2001,
+      "max": 2024,
+      "mean": 2014.026782971534,
+      "median": 2015.0,
+      "stddev": 6.46213444235586
+    },
+    "Value": {
+      "min": -3463.0,
+      "max": 7824728000.0,
+      "mean": 1327628.162123934,
+      "median": 58.52,
+      "stddev": 48967112.11756245
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 60.0,
+      "q3": 200.0,
+      "lower_bound": -150.0,
+      "upper_bound": 410.0,
+      "outlier_count": 6888
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23137.0,
+      "q3": 23174.0,
+      "lower_bound": 23081.5,
+      "upper_bound": 23229.5,
+      "outlier_count": 30314
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6110.0,
+      "q3": 6224.0,
+      "lower_bound": 5939.0,
+      "upper_bound": 6395.0,
+      "outlier_count": 5014
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2009.0,
+      "q3": 2020.0,
+      "lower_bound": 1992.5,
+      "upper_bound": 2036.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2009.0,
+      "q3": 2020.0,
+      "lower_bound": 1992.5,
+      "upper_bound": 2036.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 2.71,
+      "q3": 1281.85,
+      "lower_bound": -1915.9999999999998,
+      "upper_bound": 3200.5599999999995,
+      "outlier_count": 30913
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'376",
+          "count": 3138
+        },
+        {
+          "value": "'710",
+          "count": 3019
+        },
+        {
+          "value": "'024",
+          "count": 2664
+        },
+        {
+          "value": "'752",
+          "count": 2376
+        },
+        {
+          "value": "'616",
+          "count": 2350
+        },
+        {
+          "value": "'076",
+          "count": 2244
+        },
+        {
+          "value": "'417",
+          "count": 2186
+        },
+        {
+          "value": "'480",
+          "count": 2172
+        },
+        {
+          "value": "'036",
+          "count": 2049
+        },
+        {
+          "value": "'051",
+          "count": 1967
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Israel",
+          "count": 3138
+        },
+        {
+          "value": "South Africa",
+          "count": 3019
+        },
+        {
+          "value": "Angola",
+          "count": 2664
+        },
+        {
+          "value": "Sweden",
+          "count": 2376
+        },
+        {
+          "value": "Poland",
+          "count": 2350
+        },
+        {
+          "value": "Brazil",
+          "count": 2244
+        },
+        {
+          "value": "Kyrgyzstan",
+          "count": 2186
+        },
+        {
+          "value": "Mauritius",
+          "count": 2172
+        },
+        {
+          "value": "Australia",
+          "count": 2049
+        },
+        {
+          "value": "Armenia",
+          "count": 1967
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "SDG 2.a.1: highest government level",
+          "count": 14942
+        },
+        {
+          "value": "Agriculture, forestry, fishing (central government expenditure)",
+          "count": 13376
+        },
+        {
+          "value": "Total Expenditure (central government)",
+          "count": 11604
+        },
+        {
+          "value": "Environmental protection (central government expenditure)",
+          "count": 8661
+        },
+        {
+          "value": "Agriculture, forestry, fishing (general government expenditure)",
+          "count": 7699
+        },
+        {
+          "value": "Total Expenditure (general government)",
+          "count": 6750
+        },
+        {
+          "value": "Protection of Biodiversity and Landscape (central government expenditure)",
+          "count": 6060
+        },
+        {
+          "value": "Environmental protection (general government expenditure)",
+          "count": 5252
+        },
+        {
+          "value": "R&D Environmental Protection (central government expenditure)",
+          "count": 5115
+        },
+        {
+          "value": "Protection of Biodiversity and Landscape (general government expenditure)",
+          "count": 4161
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value US$, 2015 prices",
+          "count": 46009
+        },
+        {
+          "value": "Value US$",
+          "count": 46009
+        },
+        {
+          "value": "Value Standard Local Currency",
+          "count": 44051
+        },
+        {
+          "value": "Share of Total Expenditure",
+          "count": 5245
+        },
+        {
+          "value": "SDG 2.a.1: Agriculture value added share of GDP",
+          "count": 5014
+        },
+        {
+          "value": "SDG 2.a.1: Agriculture Orientation Index (AOI) for Government Expenditure",
+          "count": 4964
+        },
+        {
+          "value": "SDG 2.a.1: Agriculture share of Government Expenditure",
+          "count": 4964
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "million USD",
+          "count": 92018
+        },
+        {
+          "value": "million SLC",
+          "count": 44051
+        },
+        {
+          "value": "%",
+          "count": 15223
+        },
+        {
+          "value": "",
+          "count": 4964
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 113420
+        },
+        {
+          "value": "E",
+          "count": 25523
+        },
+        {
+          "value": "X",
+          "count": 17313
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "consolidated General Government",
+          "count": 55368
+        },
+        {
+          "value": "consolidated Central Government",
+          "count": 55073
+        },
+        {
+          "value": "Budgetary Central Government",
+          "count": 32937
+        },
+        {
+          "value": "Combination of various levels of public expenditure, depending on availability: Consolidated General or Central Government (including or excluding social security funds), or Budgetary Central Government",
+          "count": 5904
+        },
+        {
+          "value": "mainly UNSD National Accounts estimates. Missing data supplemented by IMF and other sources",
+          "count": 5012
+        },
+        {
+          "value": "Consolidated Central Government Expenditure Including Social Security Funds",
+          "count": 1955
+        },
+        {
+          "value": "Data provided by NSO Malta communicated on 12 Dec 2025",
+          "count": 2
+        },
+        {
+          "value": "consolidated General Government. The reason for the spike in AOI in 2023 is the sharp drop in the Gross Value Added of Section A of the National Accounts, due to negative value added recorded in the aquaculture industry that year. For more information on this, refer to NSO's Aquaculture 2024 News Release\u009d.",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.09367662059840266
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.13295646588210697
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.052465049652595915
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.052465049652595915
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": -0.0024278312473018366
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": -0.11353771456835994
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.06681672254425135
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.06681672254425135
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": -0.00795975128689895
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.033780029431807516
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.033780029431807516
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.004790774562593026
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.00879152696447942
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.00879152696447942
+      }
+    ]
+  }
+}

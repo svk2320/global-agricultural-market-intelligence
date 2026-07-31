@@ -1,0 +1,62 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__SUA_Crops_Livestock_E_All_Data_(Normalized)__SUA_Crops_Livestock_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/SUA_Crops_Livestock_E_All_Data_(Normalized)/SUA_Crops_Livestock_E_ItemCodes.parquet",
+  "file_size_bytes": 8753,
+  "file_size_human": "8.5KB",
+  "last_modified": "2026-07-05T03:52:51.224747+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:28.358270+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 485,
+  "column_count": 3,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "221",
+        "231",
+        "1168"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "CPC Code",
+      "type": "String",
+      "nullable": true,
+      "null_count": 4,
+      "null_percent": 0.82,
+      "sample_values": [
+        "'01371",
+        "'21422",
+        "'21529.03"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Almonds; in shell",
+        "Almonds; shelled",
+        "Animal oils and fats n.e.c."
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

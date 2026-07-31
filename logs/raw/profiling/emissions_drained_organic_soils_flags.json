@@ -1,0 +1,74 @@
+{
+  "table": "raw.emissions_drained_organic_soils_flags",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 3,
+    "column_count": 2
+  },
+  "schema": {
+    " Flag": "VARCHAR",
+    " Description": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 3,
+    "columns": {
+      " Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Description": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Flag": {
+      "column": " Flag",
+      "distinct_count": 3
+    },
+    " Description": {
+      "column": " Description",
+      "distinct_count": 3
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    " Flag": {
+      "column": " Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 1
+        },
+        {
+          "value": "E",
+          "count": 1
+        },
+        {
+          "value": "I",
+          "count": 1
+        }
+      ]
+    },
+    " Description": {
+      "column": " Description",
+      "top_values": [
+        {
+          "value": "Estimated value",
+          "count": 1
+        },
+        {
+          "value": "Value imputed by a receiving agency",
+          "count": 1
+        },
+        {
+          "value": "Official figure",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

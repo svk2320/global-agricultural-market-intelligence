@@ -1,0 +1,102 @@
+{
+  "table": "raw.environment_livestockmanure_elements",
+  "generated_at": "2026-07-07T19:15:48",
+  "dataset_summary": {
+    "row_count": 10,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 10,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 10
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 10
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 5111,
+      "max": 723812,
+      "mean": 326256.1,
+      "median": 72538.5,
+      "stddev": 342769.82345476554
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 72382.25,
+      "q3": 723801.75,
+      "lower_bound": -904747.0,
+      "upper_bound": 1700931.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Stocks",
+          "count": 1
+        },
+        {
+          "value": "Manure applied to soils that volatilises (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure left on pasture that leaches (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure applied to soils that leaches (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure left on pasture that volatilises (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure management (manure treated; N content)",
+          "count": 1
+        },
+        {
+          "value": "Amount excreted in manure (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure applied to soils (N content)",
+          "count": 1
+        },
+        {
+          "value": "Losses from manure treated (N content)",
+          "count": 1
+        },
+        {
+          "value": "Manure left on pasture (N content)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,43 @@
+{
+  "table": "raw.forestry_pulp_paper_survey_itemcodes",
+  "generated_at": "2026-07-07T18:57:09",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 0,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 0,
+      "columns": {
+        " Item Code": {
+          "null_count": 0,
+          "null_pct": 0
+        },
+        " CPC Code": {
+          "null_count": 0,
+          "null_pct": 0
+        },
+        " Item": {
+          "null_count": 0,
+          "null_pct": 0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 0,
+      "distinct_rows": 0,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        " Item Code": "VARCHAR",
+        " CPC Code": "VARCHAR",
+        " Item": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

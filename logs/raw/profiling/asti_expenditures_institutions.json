@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_expenditures_institutions",
+  "generated_at": "2026-07-07T19:15:27",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Institution Code": "BIGINT",
+    "Institution": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Institution Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Institution": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Institution Code": {
+      "column": "Institution Code",
+      "distinct_count": 1
+    },
+    "Institution": {
+      "column": "Institution",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Institution Code": {
+      "min": 200,
+      "max": 200,
+      "mean": 200.0,
+      "median": 200.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Institution Code": {
+      "column": "Institution Code",
+      "q1": 200.0,
+      "q3": 200.0,
+      "lower_bound": 200.0,
+      "upper_bound": 200.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Institution": {
+      "column": "Institution",
+      "top_values": [
+        {
+          "value": "Government; Higher Education and Private Non-profit",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

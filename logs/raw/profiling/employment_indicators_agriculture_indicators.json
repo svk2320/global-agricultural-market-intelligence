@@ -1,0 +1,102 @@
+{
+  "table": "raw.employment_indicators_agriculture_indicators",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 38,
+    "column_count": 2
+  },
+  "schema": {
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 38,
+    "columns": {
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 38
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 38
+    }
+  },
+  "statistics": {
+    "Indicator Code": {
+      "min": 21066,
+      "max": 21169,
+      "mean": 21132.36842105263,
+      "median": 21146.5,
+      "stddev": 31.662426408730084
+    }
+  },
+  "outliers": {
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 21101.75,
+      "q3": 21159.5,
+      "lower_bound": 21015.125,
+      "upper_bound": 21246.125,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Employment in agriculture by sub-sectors",
+          "count": 1
+        },
+        {
+          "value": "Employment in fishing and aquaculture",
+          "count": 1
+        },
+        {
+          "value": "Share of employment in agriculture by sub-sectors",
+          "count": 1
+        },
+        {
+          "value": "Total employment in agrifood systems (AFS)",
+          "count": 1
+        },
+        {
+          "value": "Agriculture value added per worker (constant 2015 US$)",
+          "count": 1
+        },
+        {
+          "value": "Employment in agriculture by status of employment; employees",
+          "count": 1
+        },
+        {
+          "value": "Employment in agriculture by status of employment; self-employed",
+          "count": 1
+        },
+        {
+          "value": "Employment in forestry and logging",
+          "count": 1
+        },
+        {
+          "value": "Share of employees in agriculture in total employees",
+          "count": 1
+        },
+        {
+          "value": "Employment in agriculture - ILO modelled estimates",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

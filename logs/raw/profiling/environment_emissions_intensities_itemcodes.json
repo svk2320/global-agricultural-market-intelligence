@@ -1,0 +1,156 @@
+{
+  "table": "raw.environment_emissions_intensities_itemcodes",
+  "generated_at": "2026-07-07T19:15:46",
+  "dataset_summary": {
+    "row_count": 14,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 14,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 14
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 14
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 14
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 27,
+      "max": 1718,
+      "mean": 976.6428571428571,
+      "median": 999.5,
+      "stddev": 341.7503828466388
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 948.0,
+      "q3": 1052.25,
+      "lower_bound": 791.625,
+      "upper_bound": 1208.625,
+      "outlier_count": 2
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'0231",
+          "count": 1
+        },
+        {
+          "value": "'F1718",
+          "count": 1
+        },
+        {
+          "value": "'21116",
+          "count": 1
+        },
+        {
+          "value": "'02293",
+          "count": 1
+        },
+        {
+          "value": "'21112",
+          "count": 1
+        },
+        {
+          "value": "'02292",
+          "count": 1
+        },
+        {
+          "value": "'21111.01",
+          "count": 1
+        },
+        {
+          "value": "'02212",
+          "count": 1
+        },
+        {
+          "value": "'0113",
+          "count": 1
+        },
+        {
+          "value": "'21121",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Cereals excluding rice",
+          "count": 1
+        },
+        {
+          "value": "Raw milk of camel",
+          "count": 1
+        },
+        {
+          "value": "Raw milk of cattle",
+          "count": 1
+        },
+        {
+          "value": "Raw milk of goats",
+          "count": 1
+        },
+        {
+          "value": "Raw milk of sheep",
+          "count": 1
+        },
+        {
+          "value": "Meat of buffalo; fresh or chilled",
+          "count": 1
+        },
+        {
+          "value": "Meat of sheep; fresh or chilled",
+          "count": 1
+        },
+        {
+          "value": "Hen eggs in shell; fresh",
+          "count": 1
+        },
+        {
+          "value": "Meat of goat; fresh or chilled",
+          "count": 1
+        },
+        {
+          "value": "Meat of chickens; fresh or chilled",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

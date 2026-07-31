@@ -1,0 +1,113 @@
+{
+  "table": "raw.commodity_indices",
+  "generated_at": "2026-07-07T18:56:58",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 798,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 798,
+      "columns": {
+        "Date": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Total Index": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Energy": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Non-energy **": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Agriculture **": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Beverages": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Food **": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Oils & Meals": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Grains": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Other Food **": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Raw Materials": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Timber": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Other Raw Mat.": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Fertilizers **": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Metals  & Minerals": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Base Metals (ex. iron ore)": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Precious Metals": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 798,
+      "distinct_rows": 798,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Date": "VARCHAR",
+        "Total Index": "DOUBLE",
+        "Energy": "DOUBLE",
+        "Non-energy **": "DOUBLE",
+        "Agriculture **": "DOUBLE",
+        "Beverages": "DOUBLE",
+        "Food **": "DOUBLE",
+        "Oils & Meals": "DOUBLE",
+        "Grains": "DOUBLE",
+        "Other Food **": "DOUBLE",
+        "Raw Materials": "DOUBLE",
+        "Timber": "DOUBLE",
+        "Other Raw Mat.": "DOUBLE",
+        "Fertilizers **": "DOUBLE",
+        "Metals  & Minerals": "DOUBLE",
+        "Base Metals (ex. iron ore)": "DOUBLE",
+        "Precious Metals": "DOUBLE"
+      },
+      "mismatches": {}
+    }
+  }
+}

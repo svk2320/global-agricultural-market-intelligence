@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_expenditures_costcategorys",
+  "generated_at": "2026-07-07T19:15:27",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Cost Category Code": "BIGINT",
+    "Cost Category": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Cost Category Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Cost Category": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Cost Category Code": {
+      "column": "Cost Category Code",
+      "distinct_count": 1
+    },
+    "Cost Category": {
+      "column": "Cost Category",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Cost Category Code": {
+      "min": 300,
+      "max": 300,
+      "mean": 300.0,
+      "median": 300.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Cost Category Code": {
+      "column": "Cost Category Code",
+      "q1": 300.0,
+      "q3": 300.0,
+      "lower_bound": 300.0,
+      "upper_bound": 300.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Cost Category": {
+      "column": "Cost Category",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

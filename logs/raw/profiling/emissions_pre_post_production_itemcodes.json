@@ -1,0 +1,102 @@
+{
+  "table": "raw.emissions_pre_post_production_itemcodes",
+  "generated_at": "2026-07-07T19:15:43",
+  "dataset_summary": {
+    "row_count": 15,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 15,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 15
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 15
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 6500,
+      "max": 6998,
+      "mean": 6753.466666666666,
+      "median": 6815.0,
+      "stddev": 242.99496369462554
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6506.5,
+      "q3": 6989.5,
+      "lower_bound": 5782.0,
+      "upper_bound": 7714.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agrifood Systems Waste Disposal",
+          "count": 1
+        },
+        {
+          "value": "Cold Chain F-Gas",
+          "count": 1
+        },
+        {
+          "value": "Food Packaging",
+          "count": 1
+        },
+        {
+          "value": "Food Transport",
+          "count": 1
+        },
+        {
+          "value": "Food Retail",
+          "count": 1
+        },
+        {
+          "value": "Pesticides Manufacturing",
+          "count": 1
+        },
+        {
+          "value": "Domestic Wastewater",
+          "count": 1
+        },
+        {
+          "value": "Fertilizers Manufacturing",
+          "count": 1
+        },
+        {
+          "value": "Pre- and post-production",
+          "count": 1
+        },
+        {
+          "value": "Food Household Consumption",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

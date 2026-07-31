@@ -1,0 +1,45 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Cost_Affordability_Healthy_Diet_(CoAHD)_E_All_Data_(Normalized)__Cost_Affordability_Healthy_Diet_(CoAHD)_E_Elements",
+  "file_path": "FAOSTAT_A-S_E/Cost_Affordability_Healthy_Diet_(CoAHD)_E_All_Data_(Normalized)/Cost_Affordability_Healthy_Diet_(CoAHD)_E_Elements.parquet",
+  "file_size_bytes": 904,
+  "file_size_human": "904.0B",
+  "last_modified": "2026-07-05T03:52:04.617867+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:43:41.853503+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 4,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": " Element Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "6121",
+        "6132",
+        "6205"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": " Element",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Value"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

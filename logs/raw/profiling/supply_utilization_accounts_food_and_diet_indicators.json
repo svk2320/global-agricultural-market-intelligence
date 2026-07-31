@@ -1,0 +1,102 @@
+{
+  "table": "raw.supply_utilization_accounts_food_and_diet_indicators",
+  "generated_at": "2026-07-07T19:16:16",
+  "dataset_summary": {
+    "row_count": 26,
+    "column_count": 2
+  },
+  "schema": {
+    " Indicator Code": "BIGINT",
+    " Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 26,
+    "columns": {
+      " Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "distinct_count": 26
+    },
+    " Indicator": {
+      "column": " Indicator",
+      "distinct_count": 26
+    }
+  },
+  "statistics": {
+    " Indicator Code": {
+      "min": 4003,
+      "max": 4040,
+      "mean": 4020.269230769231,
+      "median": 4017.5,
+      "stddev": 12.177217062392149
+    }
+  },
+  "outliers": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "q1": 4010.25,
+      "q3": 4032.75,
+      "lower_bound": 3976.5,
+      "upper_bound": 4066.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Indicator": {
+      "column": " Indicator",
+      "top_values": [
+        {
+          "value": "Protein supply",
+          "count": 1
+        },
+        {
+          "value": "Riboflavin supply",
+          "count": 1
+        },
+        {
+          "value": "Docosahexaenoic acid\u00a0(DHA) supply",
+          "count": 1
+        },
+        {
+          "value": "Magnesium supply",
+          "count": 1
+        },
+        {
+          "value": "Thiamin supply",
+          "count": 1
+        },
+        {
+          "value": "Total monounsaturated fatty acids supply",
+          "count": 1
+        },
+        {
+          "value": "Total polyunsaturated fatty acids supply",
+          "count": 1
+        },
+        {
+          "value": "Vitamin A supply (retinol equivalents)",
+          "count": 1
+        },
+        {
+          "value": "Calcium supply",
+          "count": 1
+        },
+        {
+          "value": "Copper supply",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

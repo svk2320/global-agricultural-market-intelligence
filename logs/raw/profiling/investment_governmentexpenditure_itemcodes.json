@@ -1,0 +1,102 @@
+{
+  "table": "raw.investment_governmentexpenditure_itemcodes",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 47,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 47,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 47
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 47
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 2304,
+      "max": 231822,
+      "mean": 57341.14893617021,
+      "median": 23165.0,
+      "stddev": 80035.04072048386
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23138.5,
+      "q3": 23178.5,
+      "lower_bound": 23078.5,
+      "upper_bound": 23238.5,
+      "outlier_count": 11
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Fishing (central government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Protection of Biodiversity and Landscape; Recurrent (general government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "R&D Environmental Protection (central government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "R&D Environmental Protection (general government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Environmental protection (general government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Fishing; Capital (central government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Fishing; Recurrent (general government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "R&D Environmental Protection; Recurrent (central government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Agriculture; forestry; fishing; Recurrent (central government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "Central Government",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,184 @@
+{
+  "table": "raw.suite_of_gender_indicators_itemcodes",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 146,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "VARCHAR",
+    "SDG Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 146,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "SDG Code": {
+        "null_count": 23,
+        "null_pct": 15.75
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 146
+    },
+    "SDG Code": {
+      "column": "SDG Code",
+      "distinct_count": 123
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 146
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "24053",
+          "count": 1
+        },
+        {
+          "value": "24063_LS_R",
+          "count": 1
+        },
+        {
+          "value": "24063_P_U",
+          "count": 1
+        },
+        {
+          "value": "24008_G",
+          "count": 1
+        },
+        {
+          "value": "24074_R",
+          "count": 1
+        },
+        {
+          "value": "24066_A",
+          "count": 1
+        },
+        {
+          "value": "24056",
+          "count": 1
+        },
+        {
+          "value": "24060",
+          "count": 1
+        },
+        {
+          "value": "24003-GAPYGE15T",
+          "count": 1
+        },
+        {
+          "value": "24058",
+          "count": 1
+        }
+      ]
+    },
+    "SDG Code": {
+      "column": "SDG Code",
+      "top_values": [
+        {
+          "value": "'PD_AGR_SSFP",
+          "count": 1
+        },
+        {
+          "value": "'SG_LGL_LNDFEMOD",
+          "count": 1
+        },
+        {
+          "value": "'CR.1.URB",
+          "count": 1
+        },
+        {
+          "value": "'EMPL_SEX_AFS",
+          "count": 1
+        },
+        {
+          "value": "'GD-AFS_INFL_GAP_EC2_NB_N",
+          "count": 1
+        },
+        {
+          "value": "'CR.3.URB_ABS_GAP",
+          "count": 1
+        },
+        {
+          "value": "'SL_DOM_TSPDDC",
+          "count": 1
+        },
+        {
+          "value": "'GD-AFS_FRML_SEX_EC2_NB_T",
+          "count": 1
+        },
+        {
+          "value": "'GG.AFS.FIN.ACCT",
+          "count": 1
+        },
+        {
+          "value": "'GD-SH_SE_IND_SLF",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "2.1.2 Prevalence of severe food insecurity (15 years old and over) (no breakdown by urbanisation)",
+          "count": 1
+        },
+        {
+          "value": "A woman can register a business in the same way as a man (1=yes; 0=no)",
+          "count": 1
+        },
+        {
+          "value": "Agency and Social Institutions",
+          "count": 1
+        },
+        {
+          "value": "Food Security and Nutrition",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in average income of Small-scale food producers",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in formal employment by industry: Agrifood systems",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in formal employment by industry: Non-agricultural agrifood systems",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in informal employment by industry",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in informal employment by industry: Agriculture",
+          "count": 1
+        },
+        {
+          "value": "Gender gap in the prevalence of moderate or severe food insecurity (15 years old and over) (no breakdown by urbanisation)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

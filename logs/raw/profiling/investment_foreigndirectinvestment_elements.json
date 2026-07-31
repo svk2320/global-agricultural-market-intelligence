@@ -1,0 +1,78 @@
+{
+  "table": "raw.investment_foreigndirectinvestment_elements",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 4,
+    "column_count": 2
+  },
+  "schema": {
+    " Element Code": "BIGINT",
+    " Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 4,
+    "columns": {
+      " Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Element Code": {
+      "column": " Element Code",
+      "distinct_count": 4
+    },
+    " Element": {
+      "column": " Element",
+      "distinct_count": 4
+    }
+  },
+  "statistics": {
+    " Element Code": {
+      "min": 6110,
+      "max": 61420,
+      "mean": 33781.0,
+      "median": 33797.0,
+      "stddev": 31909.00923981606
+    }
+  },
+  "outliers": {
+    " Element Code": {
+      "column": " Element Code",
+      "q1": 6165.5,
+      "q3": 61412.5,
+      "lower_bound": -76705.0,
+      "upper_bound": 144283.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Element": {
+      "column": " Element",
+      "top_values": [
+        {
+          "value": "Share of Total FDI inflows US$; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Value US$",
+          "count": 1
+        },
+        {
+          "value": "Share of Total FDI outflows US$; 2015 prices",
+          "count": 1
+        },
+        {
+          "value": "Value US$; 2015 prices",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

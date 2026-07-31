@@ -1,0 +1,156 @@
+{
+  "table": "raw.inputs_landuse_areacodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 284,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 284,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 284
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 284
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 284
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 802.4366197183099,
+      "median": 156.5,
+      "stddev": 1752.151329705236
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 81.75,
+      "q3": 228.25,
+      "lower_bound": -138.0,
+      "upper_bound": 448.0,
+      "outlier_count": 36
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'008",
+          "count": 1
+        },
+        {
+          "value": "'660",
+          "count": 1
+        },
+        {
+          "value": "'051",
+          "count": 1
+        },
+        {
+          "value": "'533",
+          "count": 1
+        },
+        {
+          "value": "'036",
+          "count": 1
+        },
+        {
+          "value": "'060",
+          "count": 1
+        },
+        {
+          "value": "'531",
+          "count": 1
+        },
+        {
+          "value": "'180",
+          "count": 1
+        },
+        {
+          "value": "'014",
+          "count": 1
+        },
+        {
+          "value": "'242",
+          "count": 1
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 1
+        },
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "Bonaire; Sint Eustatius and Saba",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

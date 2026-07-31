@@ -1,0 +1,70 @@
+{
+  "table": "raw.rural_livelihoods_indicators_elements",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 13,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 13,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 13
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 6121,
+      "max": 60790,
+      "mean": 31393.615384615383,
+      "median": 6245.0,
+      "stddev": 28324.52504026167
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6242.0,
+      "q3": 60787.0,
+      "lower_bound": -75575.5,
+      "upper_bound": 142604.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 7
+        },
+        {
+          "value": "Standard Deviation",
+          "count": 6
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

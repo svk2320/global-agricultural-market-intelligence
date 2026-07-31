@@ -1,0 +1,102 @@
+{
+  "table": "raw.emissions_crops_elements",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 23,
+    "column_count": 2
+  },
+  "schema": {
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 23,
+    "columns": {
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 23
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 23
+    }
+  },
+  "statistics": {
+    "Element Code": {
+      "min": 5060,
+      "max": 723632,
+      "mean": 147205.73913043478,
+      "median": 72307.0,
+      "stddev": 228117.0983731855
+    }
+  },
+  "outliers": {
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6278.5,
+      "q3": 72411.0,
+      "lower_bound": -92920.25,
+      "upper_bound": 171609.75,
+      "outlier_count": 4
+    }
+  },
+  "categorical": {
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Burning crop residues (Biomass burned; dry matter)",
+          "count": 1
+        },
+        {
+          "value": "Indirect emissions (N2O that volatilises) (Synthetic fertilizers)",
+          "count": 1
+        },
+        {
+          "value": "Rice Cultivation",
+          "count": 1
+        },
+        {
+          "value": "Synthetic fertilizers (Agricultural use)",
+          "count": 1
+        },
+        {
+          "value": "Nitrogen fertilizer content applied that leaches",
+          "count": 1
+        },
+        {
+          "value": "Rice cultivation (Emissions CH4)",
+          "count": 1
+        },
+        {
+          "value": "Crops total (Emissions CH4)",
+          "count": 1
+        },
+        {
+          "value": "Synthetic fertilizers (Emissions N2O)",
+          "count": 1
+        },
+        {
+          "value": "Crop residues (N content)",
+          "count": 1
+        },
+        {
+          "value": "Nitrogen fertilizer content applied that volatilises",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

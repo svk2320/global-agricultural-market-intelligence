@@ -1,0 +1,149 @@
+{
+  "dataset_name": "All_countries_holidays",
+  "file_path": "All_countries_holidays.parquet",
+  "file_size_bytes": 280188,
+  "file_size_human": "273.6KB",
+  "last_modified": "2026-07-05T14:21:57.240168+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T14:21:57.124631+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 88537,
+  "column_count": 10,
+  "columns": [
+    {
+      "name": "country_code",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "AD",
+        "AE",
+        "AF"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "country_name",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Andorra",
+        "United Arab Emirates",
+        "Afghanistan"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "date",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2000-01-01",
+        "2000-01-06",
+        "2000-03-06"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "local_name",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "New Year's Day",
+        "Epiphany",
+        "Carnival"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "name",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "New Year's Day",
+        "Epiphany",
+        "Carnival"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "fixed",
+      "type": "Null",
+      "nullable": true,
+      "null_count": 88537,
+      "null_percent": 100.0,
+      "sample_values": [],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "global",
+      "type": "Null",
+      "nullable": true,
+      "null_count": 88537,
+      "null_percent": 100.0,
+      "sample_values": [],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "counties",
+      "type": "Null",
+      "nullable": true,
+      "null_count": 88537,
+      "null_percent": 100.0,
+      "sample_values": [],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "launch_year",
+      "type": "Null",
+      "nullable": true,
+      "null_count": 88537,
+      "null_percent": 100.0,
+      "sample_values": [],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "types",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Public"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

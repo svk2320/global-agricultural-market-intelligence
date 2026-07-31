@@ -1,0 +1,130 @@
+{
+  "table": "raw.food_security_data_itemcodes",
+  "generated_at": "2026-07-07T19:15:52",
+  "dataset_summary": {
+    "row_count": 75,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 75,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 75
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 75
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "21051",
+          "count": 1
+        },
+        {
+          "value": "21035",
+          "count": 1
+        },
+        {
+          "value": "210011",
+          "count": 1
+        },
+        {
+          "value": "210071F",
+          "count": 1
+        },
+        {
+          "value": "21034",
+          "count": 1
+        },
+        {
+          "value": "21025",
+          "count": 1
+        },
+        {
+          "value": "21048",
+          "count": 1
+        },
+        {
+          "value": "21032",
+          "count": 1
+        },
+        {
+          "value": "21042",
+          "count": 1
+        },
+        {
+          "value": "210401F",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Availability",
+          "count": 1
+        },
+        {
+          "value": "Dietary energy supply used in the estimation of the prevalence of undernourishment (kcal/cap/day)",
+          "count": 1
+        },
+        {
+          "value": "Dietary energy supply used in the estimation of the prevalence of undernourishment (kcal/cap/day) (3-year average)",
+          "count": 1
+        },
+        {
+          "value": "Number of moderately or severely food insecure female adults (million) (annual value)",
+          "count": 1
+        },
+        {
+          "value": "Percent of arable land equipped for irrigation (percent) (3-year average)",
+          "count": 1
+        },
+        {
+          "value": "Prevalence of exclusive breastfeeding among infants 0-5 months of age (percent)",
+          "count": 1
+        },
+        {
+          "value": "Prevalence of moderate or severe food insecurity in the male adult population (percent) (3-year average)",
+          "count": 1
+        },
+        {
+          "value": "Prevalence of severe food insecurity in the female adult population (percent) (annual value)",
+          "count": 1
+        },
+        {
+          "value": "Prevalence of severe food insecurity in the male adult population (percent) (annual value)",
+          "count": 1
+        },
+        {
+          "value": "Prevalence of severe food insecurity in the town and semi-dense area adult population (percent) (annual value)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

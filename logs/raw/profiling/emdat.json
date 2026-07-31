@@ -1,0 +1,2860 @@
+{
+  "table": "raw.emdat",
+  "generated_at": "2026-07-07T19:15:39",
+  "dataset_summary": {
+    "row_count": 27681,
+    "column_count": 47
+  },
+  "schema": {
+    "DisNo.": "VARCHAR",
+    "Historic": "VARCHAR",
+    "Classification Key": "VARCHAR",
+    "Disaster Group": "VARCHAR",
+    "Disaster Subgroup": "VARCHAR",
+    "Disaster Type": "VARCHAR",
+    "Disaster Subtype": "VARCHAR",
+    "External IDs": "VARCHAR",
+    "Event Name": "VARCHAR",
+    "ISO": "VARCHAR",
+    "Country": "VARCHAR",
+    "Subregion": "VARCHAR",
+    "Region": "VARCHAR",
+    "Location": "VARCHAR",
+    "Origin": "VARCHAR",
+    "Associated Types": "VARCHAR",
+    "OFDA/BHA Response": "VARCHAR",
+    "Appeal": "VARCHAR",
+    "Declaration": "VARCHAR",
+    "AID Contribution ('000 US$)": "DOUBLE",
+    "Magnitude": "DOUBLE",
+    "Magnitude Scale": "VARCHAR",
+    "Latitude": "DOUBLE",
+    "Longitude": "DOUBLE",
+    "River Basin": "VARCHAR",
+    "Start Year": "BIGINT",
+    "Start Month": "DOUBLE",
+    "Start Day": "DOUBLE",
+    "End Year": "BIGINT",
+    "End Month": "DOUBLE",
+    "End Day": "DOUBLE",
+    "Total Deaths": "DOUBLE",
+    "No. Injured": "DOUBLE",
+    "No. Affected": "DOUBLE",
+    "No. Homeless": "DOUBLE",
+    "Total Affected": "DOUBLE",
+    "Reconstruction Costs ('000 US$)": "DOUBLE",
+    "Reconstruction Costs, Adjusted ('000 US$)": "DOUBLE",
+    "Insured Damage ('000 US$)": "DOUBLE",
+    "Insured Damage, Adjusted ('000 US$)": "DOUBLE",
+    "Total Damage ('000 US$)": "DOUBLE",
+    "Total Damage, Adjusted ('000 US$)": "DOUBLE",
+    "CPI": "DOUBLE",
+    "Admin Units": "VARCHAR",
+    "GADM Admin Units": "VARCHAR",
+    "Entry Date": "VARCHAR",
+    "Last Update": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 27681,
+    "columns": {
+      "DisNo.": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Historic": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Classification Key": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Disaster Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Disaster Subgroup": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Disaster Type": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Disaster Subtype": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "External IDs": {
+        "null_count": 22981,
+        "null_pct": 83.02
+      },
+      "Event Name": {
+        "null_count": 18840,
+        "null_pct": 68.06
+      },
+      "ISO": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Country": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Subregion": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Region": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Location": {
+        "null_count": 2484,
+        "null_pct": 8.97
+      },
+      "Origin": {
+        "null_count": 22763,
+        "null_pct": 82.23
+      },
+      "Associated Types": {
+        "null_count": 23229,
+        "null_pct": 83.92
+      },
+      "OFDA/BHA Response": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Appeal": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Declaration": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "AID Contribution ('000 US$)": {
+        "null_count": 26894,
+        "null_pct": 97.16
+      },
+      "Magnitude": {
+        "null_count": 22210,
+        "null_pct": 80.24
+      },
+      "Magnitude Scale": {
+        "null_count": 10295,
+        "null_pct": 37.19
+      },
+      "Latitude": {
+        "null_count": 24846,
+        "null_pct": 89.76
+      },
+      "Longitude": {
+        "null_count": 24846,
+        "null_pct": 89.76
+      },
+      "River Basin": {
+        "null_count": 26048,
+        "null_pct": 94.1
+      },
+      "Start Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Start Month": {
+        "null_count": 481,
+        "null_pct": 1.74
+      },
+      "Start Day": {
+        "null_count": 3930,
+        "null_pct": 14.2
+      },
+      "End Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "End Month": {
+        "null_count": 775,
+        "null_pct": 2.8
+      },
+      "End Day": {
+        "null_count": 3821,
+        "null_pct": 13.8
+      },
+      "Total Deaths": {
+        "null_count": 5563,
+        "null_pct": 20.1
+      },
+      "No. Injured": {
+        "null_count": 18444,
+        "null_pct": 66.63
+      },
+      "No. Affected": {
+        "null_count": 16023,
+        "null_pct": 57.88
+      },
+      "No. Homeless": {
+        "null_count": 24917,
+        "null_pct": 90.01
+      },
+      "Total Affected": {
+        "null_count": 8966,
+        "null_pct": 32.39
+      },
+      "Reconstruction Costs ('000 US$)": {
+        "null_count": 27637,
+        "null_pct": 99.84
+      },
+      "Reconstruction Costs, Adjusted ('000 US$)": {
+        "null_count": 27637,
+        "null_pct": 99.84
+      },
+      "Insured Damage ('000 US$)": {
+        "null_count": 26530,
+        "null_pct": 95.84
+      },
+      "Insured Damage, Adjusted ('000 US$)": {
+        "null_count": 26530,
+        "null_pct": 95.84
+      },
+      "Total Damage ('000 US$)": {
+        "null_count": 21640,
+        "null_pct": 78.18
+      },
+      "Total Damage, Adjusted ('000 US$)": {
+        "null_count": 21654,
+        "null_pct": 78.23
+      },
+      "CPI": {
+        "null_count": 161,
+        "null_pct": 0.58
+      },
+      "Admin Units": {
+        "null_count": 19274,
+        "null_pct": 69.63
+      },
+      "GADM Admin Units": {
+        "null_count": 19839,
+        "null_pct": 71.67
+      },
+      "Entry Date": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Last Update": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "DisNo.": {
+      "column": "DisNo.",
+      "distinct_count": 27681
+    },
+    "Historic": {
+      "column": "Historic",
+      "distinct_count": 2
+    },
+    "Classification Key": {
+      "column": "Classification Key",
+      "distinct_count": 67
+    },
+    "Disaster Group": {
+      "column": "Disaster Group",
+      "distinct_count": 2
+    },
+    "Disaster Subgroup": {
+      "column": "Disaster Subgroup",
+      "distinct_count": 9
+    },
+    "Disaster Type": {
+      "column": "Disaster Type",
+      "distinct_count": 32
+    },
+    "Disaster Subtype": {
+      "column": "Disaster Subtype",
+      "distinct_count": 67
+    },
+    "External IDs": {
+      "column": "External IDs",
+      "distinct_count": 3473
+    },
+    "Event Name": {
+      "column": "Event Name",
+      "distinct_count": 3824
+    },
+    "ISO": {
+      "column": "ISO",
+      "distinct_count": 231
+    },
+    "Country": {
+      "column": "Country",
+      "distinct_count": 231
+    },
+    "Subregion": {
+      "column": "Subregion",
+      "distinct_count": 17
+    },
+    "Region": {
+      "column": "Region",
+      "distinct_count": 5
+    },
+    "Location": {
+      "column": "Location",
+      "distinct_count": 21433
+    },
+    "Origin": {
+      "column": "Origin",
+      "distinct_count": 907
+    },
+    "Associated Types": {
+      "column": "Associated Types",
+      "distinct_count": 150
+    },
+    "OFDA/BHA Response": {
+      "column": "OFDA/BHA Response",
+      "distinct_count": 2
+    },
+    "Appeal": {
+      "column": "Appeal",
+      "distinct_count": 2
+    },
+    "Declaration": {
+      "column": "Declaration",
+      "distinct_count": 2
+    },
+    "AID Contribution ('000 US$)": {
+      "column": "AID Contribution ('000 US$)",
+      "distinct_count": 644
+    },
+    "Magnitude": {
+      "column": "Magnitude",
+      "distinct_count": 1932
+    },
+    "Magnitude Scale": {
+      "column": "Magnitude Scale",
+      "distinct_count": 6
+    },
+    "Latitude": {
+      "column": "Latitude",
+      "distinct_count": 2423
+    },
+    "Longitude": {
+      "column": "Longitude",
+      "distinct_count": 2496
+    },
+    "River Basin": {
+      "column": "River Basin",
+      "distinct_count": 1542
+    },
+    "Start Year": {
+      "column": "Start Year",
+      "distinct_count": 127
+    },
+    "Start Month": {
+      "column": "Start Month",
+      "distinct_count": 12
+    },
+    "Start Day": {
+      "column": "Start Day",
+      "distinct_count": 31
+    },
+    "End Year": {
+      "column": "End Year",
+      "distinct_count": 127
+    },
+    "End Month": {
+      "column": "End Month",
+      "distinct_count": 12
+    },
+    "End Day": {
+      "column": "End Day",
+      "distinct_count": 31
+    },
+    "Total Deaths": {
+      "column": "Total Deaths",
+      "distinct_count": 977
+    },
+    "No. Injured": {
+      "column": "No. Injured",
+      "distinct_count": 945
+    },
+    "No. Affected": {
+      "column": "No. Affected",
+      "distinct_count": 4203
+    },
+    "No. Homeless": {
+      "column": "No. Homeless",
+      "distinct_count": 999
+    },
+    "Total Affected": {
+      "column": "Total Affected",
+      "distinct_count": 6033
+    },
+    "Reconstruction Costs ('000 US$)": {
+      "column": "Reconstruction Costs ('000 US$)",
+      "distinct_count": 40
+    },
+    "Reconstruction Costs, Adjusted ('000 US$)": {
+      "column": "Reconstruction Costs, Adjusted ('000 US$)",
+      "distinct_count": 43
+    },
+    "Insured Damage ('000 US$)": {
+      "column": "Insured Damage ('000 US$)",
+      "distinct_count": 378
+    },
+    "Insured Damage, Adjusted ('000 US$)": {
+      "column": "Insured Damage, Adjusted ('000 US$)",
+      "distinct_count": 898
+    },
+    "Total Damage ('000 US$)": {
+      "column": "Total Damage ('000 US$)",
+      "distinct_count": 1721
+    },
+    "Total Damage, Adjusted ('000 US$)": {
+      "column": "Total Damage, Adjusted ('000 US$)",
+      "distinct_count": 4551
+    },
+    "CPI": {
+      "column": "CPI",
+      "distinct_count": 114
+    },
+    "Admin Units": {
+      "column": "Admin Units",
+      "distinct_count": 6908
+    },
+    "GADM Admin Units": {
+      "column": "GADM Admin Units",
+      "distinct_count": 6454
+    },
+    "Entry Date": {
+      "column": "Entry Date",
+      "distinct_count": 2845
+    },
+    "Last Update": {
+      "column": "Last Update",
+      "distinct_count": 355
+    }
+  },
+  "statistics": {
+    "AID Contribution ('000 US$)": {
+      "min": 1.0,
+      "max": 3518530.0,
+      "mean": 19818.012706480305,
+      "median": 728.0,
+      "stddev": 167859.20783897472
+    },
+    "Magnitude": {
+      "min": -57.0,
+      "max": 40000000.0,
+      "mean": 44275.121806616735,
+      "median": 150.0,
+      "stddev": 591598.1608893527
+    },
+    "Latitude": {
+      "min": -72.64,
+      "max": 67.93,
+      "mean": 18.734457735802458,
+      "median": 23.2,
+      "stddev": 21.627177755519476
+    },
+    "Longitude": {
+      "min": -178.252,
+      "max": 179.65,
+      "mean": 39.72252703118157,
+      "median": 49.414,
+      "stddev": 77.3090935388476
+    },
+    "Start Year": {
+      "min": 1900,
+      "max": 2026,
+      "mean": 1999.9640908926701,
+      "median": 2003.0,
+      "stddev": 19.87213671012332
+    },
+    "Start Month": {
+      "min": 1.0,
+      "max": 12.0,
+      "mean": 6.482463235294118,
+      "median": 7.0,
+      "stddev": 3.4157039042680726
+    },
+    "Start Day": {
+      "min": 1.0,
+      "max": 31.0,
+      "mean": 15.385331143951834,
+      "median": 15.0,
+      "stddev": 8.91491346445718
+    },
+    "End Year": {
+      "min": 1900,
+      "max": 2026,
+      "mean": 1999.9972544344496,
+      "median": 2003.0,
+      "stddev": 19.86382633099225
+    },
+    "End Month": {
+      "min": 1.0,
+      "max": 12.0,
+      "mean": 6.5839218018285885,
+      "median": 7.0,
+      "stddev": 3.3960688959679985
+    },
+    "End Day": {
+      "min": 1.0,
+      "max": 31.0,
+      "mean": 15.760100586756078,
+      "median": 16.0,
+      "stddev": 8.878002507792996
+    },
+    "Total Deaths": {
+      "min": 1.0,
+      "max": 3700000.0,
+      "mean": 1501.2732615968894,
+      "median": 20.0,
+      "stddev": 49302.6805476879
+    },
+    "No. Injured": {
+      "min": 1.0,
+      "max": 1800000.0,
+      "mean": 1310.7381184367218,
+      "median": 30.0,
+      "stddev": 22647.324523403946
+    },
+    "No. Affected": {
+      "min": 1.0,
+      "max": 330000000.0,
+      "mean": 757444.9378967233,
+      "median": 7804.0,
+      "stddev": 7667907.2320165
+    },
+    "No. Homeless": {
+      "min": 1.0,
+      "max": 15850000.0,
+      "mean": 67167.83068017366,
+      "median": 2752.5,
+      "stddev": 491970.5375693833
+    },
+    "Total Affected": {
+      "min": 1.0,
+      "max": 330000000.0,
+      "mean": 482396.5940689287,
+      "median": 1389.0,
+      "stddev": 6119748.011188892
+    },
+    "Reconstruction Costs ('000 US$)": {
+      "min": 84.0,
+      "max": 100000000.0,
+      "mean": 5271095.568181818,
+      "median": 444500.0,
+      "stddev": 15525540.844055079
+    },
+    "Reconstruction Costs, Adjusted ('000 US$)": {
+      "min": 138.0,
+      "max": 105658407.0,
+      "mean": 6844064.5227272725,
+      "median": 567964.0,
+      "stddev": 17567750.413734317
+    },
+    "Insured Damage ('000 US$)": {
+      "min": 34.0,
+      "max": 60000000.0,
+      "mean": 1000013.7537793223,
+      "median": 186000.0,
+      "stddev": 3930810.004146206
+    },
+    "Insured Damage, Adjusted ('000 US$)": {
+      "min": 50.0,
+      "max": 98911427.0,
+      "mean": 1450890.651607298,
+      "median": 296251.0,
+      "stddev": 5335085.612926083
+    },
+    "Total Damage ('000 US$)": {
+      "min": 1.0,
+      "max": 210000000.0,
+      "mean": 816095.031272968,
+      "median": 60000.0,
+      "stddev": 4960064.923945227
+    },
+    "Total Damage, Adjusted ('000 US$)": {
+      "min": 3.0,
+      "max": 300561348.0,
+      "mean": 1362224.8276090925,
+      "median": 134614.0,
+      "stddev": 7432879.309404907
+    },
+    "CPI": {
+      "min": 2.584224967578082,
+      "max": 100.0,
+      "mean": 56.16767328859024,
+      "median": 57.1400352670416,
+      "stddev": 23.227163670935248
+    }
+  },
+  "outliers": {
+    "AID Contribution ('000 US$)": {
+      "column": "AID Contribution ('000 US$)",
+      "q1": 175.0,
+      "q3": 3609.5,
+      "lower_bound": -4976.75,
+      "upper_bound": 8761.25,
+      "outlier_count": 114
+    },
+    "Magnitude": {
+      "column": "Magnitude",
+      "q1": 7.0,
+      "q3": 4185.0,
+      "lower_bound": -6260.0,
+      "upper_bound": 10452.0,
+      "outlier_count": 1177
+    },
+    "Latitude": {
+      "column": "Latitude",
+      "q1": 3.295,
+      "q3": 36.7445,
+      "lower_bound": -46.87925,
+      "upper_bound": 86.91875,
+      "outlier_count": 3
+    },
+    "Longitude": {
+      "column": "Longitude",
+      "q1": -0.1,
+      "q3": 102.8235,
+      "lower_bound": -154.48524999999998,
+      "upper_bound": 257.20875,
+      "outlier_count": 14
+    },
+    "Start Year": {
+      "column": "Start Year",
+      "q1": 1992.0,
+      "q3": 2014.0,
+      "lower_bound": 1959.0,
+      "upper_bound": 2047.0,
+      "outlier_count": 1225
+    },
+    "Start Month": {
+      "column": "Start Month",
+      "q1": 4.0,
+      "q3": 9.0,
+      "lower_bound": -3.5,
+      "upper_bound": 16.5,
+      "outlier_count": 0
+    },
+    "Start Day": {
+      "column": "Start Day",
+      "q1": 8.0,
+      "q3": 23.0,
+      "lower_bound": -14.5,
+      "upper_bound": 45.5,
+      "outlier_count": 0
+    },
+    "End Year": {
+      "column": "End Year",
+      "q1": 1992.0,
+      "q3": 2014.0,
+      "lower_bound": 1959.0,
+      "upper_bound": 2047.0,
+      "outlier_count": 1225
+    },
+    "End Month": {
+      "column": "End Month",
+      "q1": 4.0,
+      "q3": 9.0,
+      "lower_bound": -3.5,
+      "upper_bound": 16.5,
+      "outlier_count": 0
+    },
+    "End Day": {
+      "column": "End Day",
+      "q1": 8.0,
+      "q3": 23.25,
+      "lower_bound": -14.875,
+      "upper_bound": 46.125,
+      "outlier_count": 0
+    },
+    "Total Deaths": {
+      "column": "Total Deaths",
+      "q1": 10.0,
+      "q3": 47.0,
+      "lower_bound": -45.5,
+      "upper_bound": 102.5,
+      "outlier_count": 2926
+    },
+    "No. Injured": {
+      "column": "No. Injured",
+      "q1": 12.0,
+      "q3": 100.0,
+      "lower_bound": -120.0,
+      "upper_bound": 232.0,
+      "outlier_count": 1293
+    },
+    "No. Affected": {
+      "column": "No. Affected",
+      "q1": 891.25,
+      "q3": 75000.0,
+      "lower_bound": -110271.875,
+      "upper_bound": 186163.125,
+      "outlier_count": 2045
+    },
+    "No. Homeless": {
+      "column": "No. Homeless",
+      "q1": 500.0,
+      "q3": 15000.0,
+      "lower_bound": -21250.0,
+      "upper_bound": 36750.0,
+      "outlier_count": 451
+    },
+    "Total Affected": {
+      "column": "Total Affected",
+      "q1": 70.0,
+      "q3": 22234.5,
+      "lower_bound": -33176.75,
+      "upper_bound": 55481.25,
+      "outlier_count": 3430
+    },
+    "Reconstruction Costs ('000 US$)": {
+      "column": "Reconstruction Costs ('000 US$)",
+      "q1": 51612.25,
+      "q3": 3808000.0,
+      "lower_bound": -5582969.375,
+      "upper_bound": 9442581.625,
+      "outlier_count": 9
+    },
+    "Reconstruction Costs, Adjusted ('000 US$)": {
+      "column": "Reconstruction Costs, Adjusted ('000 US$)",
+      "q1": 84018.5,
+      "q3": 5176374.5,
+      "lower_bound": -7554515.5,
+      "upper_bound": 12814908.5,
+      "outlier_count": 7
+    },
+    "Insured Damage ('000 US$)": {
+      "column": "Insured Damage ('000 US$)",
+      "q1": 54500.0,
+      "q3": 585000.0,
+      "lower_bound": -741250.0,
+      "upper_bound": 1380750.0,
+      "outlier_count": 141
+    },
+    "Insured Damage, Adjusted ('000 US$)": {
+      "column": "Insured Damage, Adjusted ('000 US$)",
+      "q1": 103037.5,
+      "q3": 909101.0,
+      "lower_bound": -1106057.75,
+      "upper_bound": 2118196.25,
+      "outlier_count": 135
+    },
+    "Total Damage ('000 US$)": {
+      "column": "Total Damage ('000 US$)",
+      "q1": 9000.0,
+      "q3": 344173.0,
+      "lower_bound": -493759.5,
+      "upper_bound": 846932.5,
+      "outlier_count": 903
+    },
+    "Total Damage, Adjusted ('000 US$)": {
+      "column": "Total Damage, Adjusted ('000 US$)",
+      "q1": 19681.5,
+      "q3": 684210.5,
+      "lower_bound": -977112.0,
+      "upper_bound": 1681004.0,
+      "outlier_count": 852
+    },
+    "CPI": {
+      "column": "CPI",
+      "q1": 43.58432516729147,
+      "q3": 72.35973747892506,
+      "lower_bound": 0.42120669984108616,
+      "upper_bound": 115.52285594637544,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "DisNo.": {
+      "column": "DisNo.",
+      "top_values": [
+        {
+          "value": "1988-0312-PHL",
+          "count": 1
+        },
+        {
+          "value": "1989-0447-USA",
+          "count": 1
+        },
+        {
+          "value": "1988-0424-GTM",
+          "count": 1
+        },
+        {
+          "value": "1988-0631-MEX",
+          "count": 1
+        },
+        {
+          "value": "1988-0676-FJI",
+          "count": 1
+        },
+        {
+          "value": "2025-0750-AFG",
+          "count": 1
+        },
+        {
+          "value": "1987-0317-CAN",
+          "count": 1
+        },
+        {
+          "value": "1987-0198-TWN",
+          "count": 1
+        },
+        {
+          "value": "1988-0427-JAM",
+          "count": 1
+        },
+        {
+          "value": "1989-0120-CHN",
+          "count": 1
+        }
+      ]
+    },
+    "Historic": {
+      "column": "Historic",
+      "top_values": [
+        {
+          "value": "No",
+          "count": 16858
+        },
+        {
+          "value": "Yes",
+          "count": 10823
+        }
+      ]
+    },
+    "Classification Key": {
+      "column": "Classification Key",
+      "top_values": [
+        {
+          "value": "tec-tra-roa-roa",
+          "count": 3020
+        },
+        {
+          "value": "nat-met-sto-tro",
+          "count": 2750
+        },
+        {
+          "value": "nat-hyd-flo-riv",
+          "count": 2679
+        },
+        {
+          "value": "nat-hyd-flo-flo",
+          "count": 2478
+        },
+        {
+          "value": "tec-tra-wat-wat",
+          "count": 1714
+        },
+        {
+          "value": "nat-geo-ear-gro",
+          "count": 1594
+        },
+        {
+          "value": "tec-tra-air-air",
+          "count": 1116
+        },
+        {
+          "value": "nat-hyd-flo-fla",
+          "count": 950
+        },
+        {
+          "value": "nat-met-sto-sto",
+          "count": 915
+        },
+        {
+          "value": "tec-mis-fir-fir",
+          "count": 849
+        }
+      ]
+    },
+    "Disaster Group": {
+      "column": "Disaster Group",
+      "top_values": [
+        {
+          "value": "Natural",
+          "count": 17866
+        },
+        {
+          "value": "Technological",
+          "count": 9815
+        }
+      ]
+    },
+    "Disaster Subgroup": {
+      "column": "Disaster Subgroup",
+      "top_values": [
+        {
+          "value": "Hydrological",
+          "count": 7065
+        },
+        {
+          "value": "Transport",
+          "count": 6504
+        },
+        {
+          "value": "Meteorological",
+          "count": 5868
+        },
+        {
+          "value": "Geophysical",
+          "count": 1981
+        },
+        {
+          "value": "Miscellaneous accident",
+          "count": 1688
+        },
+        {
+          "value": "Biological",
+          "count": 1623
+        },
+        {
+          "value": "Industrial accident",
+          "count": 1623
+        },
+        {
+          "value": "Climatological",
+          "count": 1328
+        },
+        {
+          "value": "Extra-terrestrial",
+          "count": 1
+        }
+      ]
+    },
+    "Disaster Type": {
+      "column": "Disaster Type",
+      "top_values": [
+        {
+          "value": "Flood",
+          "count": 6193
+        },
+        {
+          "value": "Storm",
+          "count": 5137
+        },
+        {
+          "value": "Road",
+          "count": 3020
+        },
+        {
+          "value": "Water",
+          "count": 1714
+        },
+        {
+          "value": "Earthquake",
+          "count": 1653
+        },
+        {
+          "value": "Epidemic",
+          "count": 1527
+        },
+        {
+          "value": "Air",
+          "count": 1116
+        },
+        {
+          "value": "Mass movement (wet)",
+          "count": 872
+        },
+        {
+          "value": "Fire (Miscellaneous)",
+          "count": 849
+        },
+        {
+          "value": "Explosion (Industrial)",
+          "count": 806
+        }
+      ]
+    },
+    "Disaster Subtype": {
+      "column": "Disaster Subtype",
+      "top_values": [
+        {
+          "value": "Road",
+          "count": 3020
+        },
+        {
+          "value": "Tropical cyclone",
+          "count": 2750
+        },
+        {
+          "value": "Riverine flood",
+          "count": 2679
+        },
+        {
+          "value": "Flood (General)",
+          "count": 2478
+        },
+        {
+          "value": "Water",
+          "count": 1714
+        },
+        {
+          "value": "Ground movement",
+          "count": 1594
+        },
+        {
+          "value": "Air",
+          "count": 1116
+        },
+        {
+          "value": "Flash flood",
+          "count": 950
+        },
+        {
+          "value": "Storm (General)",
+          "count": 915
+        },
+        {
+          "value": "Fire (Miscellaneous)",
+          "count": 849
+        }
+      ]
+    },
+    "External IDs": {
+      "column": "External IDs",
+      "top_values": [
+        {
+          "value": "GLIDE:HT-2022-000399",
+          "count": 33
+        },
+        {
+          "value": "GLIDE:CW-2012-000006",
+          "count": 29
+        },
+        {
+          "value": "GLIDE:TC-2017-000125|GLIDE:TC-2017-000132",
+          "count": 16
+        },
+        {
+          "value": "HANZE:20034|HANZE:20076|HANZE:20104|HANZE:20250|HANZE:20457|HANZE:20576|HANZE:20763|HANZE:20911|HANZE:21290",
+          "count": 14
+        },
+        {
+          "value": "GLIDE:TC-2004-000089",
+          "count": 13
+        },
+        {
+          "value": "HANZE:1520|HANZE:20072|HANZE:20389|HANZE:20548|HANZE:21144",
+          "count": 13
+        },
+        {
+          "value": "GLIDE:HT-2007-000106",
+          "count": 13
+        },
+        {
+          "value": "HANZE:20065|HANZE:20110|HANZE:20287|HANZE:20499|HANZE:20608|HANZE:20701|HANZE:20980|HANZE:21044|HANZE:21183|HANZE:21356|HANZE:2343",
+          "count": 12
+        },
+        {
+          "value": "HANZE:20070|HANZE:20202|HANZE:20385|HANZE:20751|HANZE:21220|HANZE:95",
+          "count": 12
+        },
+        {
+          "value": "GLIDE:TS-2004-000147|USGS:official20041226005853450_30",
+          "count": 12
+        }
+      ]
+    },
+    "Event Name": {
+      "column": "Event Name",
+      "top_values": [
+        {
+          "value": "Cholera",
+          "count": 515
+        },
+        {
+          "value": "Coal mine",
+          "count": 454
+        },
+        {
+          "value": "Migrants",
+          "count": 263
+        },
+        {
+          "value": "Building",
+          "count": 124
+        },
+        {
+          "value": "Dengue",
+          "count": 109
+        },
+        {
+          "value": "Ferry",
+          "count": 95
+        },
+        {
+          "value": "Mine",
+          "count": 94
+        },
+        {
+          "value": "Helicopter",
+          "count": 68
+        },
+        {
+          "value": "Gold mine",
+          "count": 66
+        },
+        {
+          "value": "Meningococcal disease",
+          "count": 60
+        }
+      ]
+    },
+    "ISO": {
+      "column": "ISO",
+      "top_values": [
+        {
+          "value": "CHN",
+          "count": 2051
+        },
+        {
+          "value": "IND",
+          "count": 1639
+        },
+        {
+          "value": "USA",
+          "count": 1587
+        },
+        {
+          "value": "PHL",
+          "count": 977
+        },
+        {
+          "value": "IDN",
+          "count": 928
+        },
+        {
+          "value": "BGD",
+          "count": 602
+        },
+        {
+          "value": "NGA",
+          "count": 554
+        },
+        {
+          "value": "PAK",
+          "count": 526
+        },
+        {
+          "value": "MEX",
+          "count": 506
+        },
+        {
+          "value": "BRA",
+          "count": 494
+        }
+      ]
+    },
+    "Country": {
+      "column": "Country",
+      "top_values": [
+        {
+          "value": "China",
+          "count": 2051
+        },
+        {
+          "value": "India",
+          "count": 1639
+        },
+        {
+          "value": "United States of America",
+          "count": 1587
+        },
+        {
+          "value": "Philippines",
+          "count": 977
+        },
+        {
+          "value": "Indonesia",
+          "count": 928
+        },
+        {
+          "value": "Bangladesh",
+          "count": 602
+        },
+        {
+          "value": "Nigeria",
+          "count": 554
+        },
+        {
+          "value": "Pakistan",
+          "count": 526
+        },
+        {
+          "value": "Mexico",
+          "count": 506
+        },
+        {
+          "value": "Brazil",
+          "count": 494
+        }
+      ]
+    },
+    "Subregion": {
+      "column": "Subregion",
+      "top_values": [
+        {
+          "value": "Sub-Saharan Africa",
+          "count": 4907
+        },
+        {
+          "value": "Latin America and the Caribbean",
+          "count": 4278
+        },
+        {
+          "value": "Southern Asia",
+          "count": 3938
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 3198
+        },
+        {
+          "value": "South-eastern Asia",
+          "count": 3060
+        },
+        {
+          "value": "Northern America",
+          "count": 1851
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1120
+        },
+        {
+          "value": "Southern Europe",
+          "count": 1066
+        },
+        {
+          "value": "Western Asia",
+          "count": 1028
+        },
+        {
+          "value": "Northern Africa",
+          "count": 953
+        }
+      ]
+    },
+    "Region": {
+      "column": "Region",
+      "top_values": [
+        {
+          "value": "Asia",
+          "count": 11421
+        },
+        {
+          "value": "Americas",
+          "count": 6129
+        },
+        {
+          "value": "Africa",
+          "count": 5860
+        },
+        {
+          "value": "Europe",
+          "count": 3474
+        },
+        {
+          "value": "Oceania",
+          "count": 797
+        }
+      ]
+    },
+    "Location": {
+      "column": "Location",
+      "top_values": [
+        {
+          "value": "North",
+          "count": 66
+        },
+        {
+          "value": "South",
+          "count": 51
+        },
+        {
+          "value": "Uttar Pradesh",
+          "count": 37
+        },
+        {
+          "value": "Countrywide",
+          "count": 34
+        },
+        {
+          "value": "Lagos",
+          "count": 33
+        },
+        {
+          "value": "Karachi",
+          "count": 32
+        },
+        {
+          "value": "Yunnan province",
+          "count": 31
+        },
+        {
+          "value": "Central",
+          "count": 28
+        },
+        {
+          "value": "New Delhi",
+          "count": 26
+        },
+        {
+          "value": "Bombay",
+          "count": 25
+        }
+      ]
+    },
+    "Origin": {
+      "column": "Origin",
+      "top_values": [
+        {
+          "value": "Heavy rains",
+          "count": 1962
+        },
+        {
+          "value": "Heavy rain",
+          "count": 782
+        },
+        {
+          "value": "Monsoonal rain",
+          "count": 195
+        },
+        {
+          "value": "Torrential rains",
+          "count": 182
+        },
+        {
+          "value": "Torrential rain",
+          "count": 127
+        },
+        {
+          "value": "Brief torrential rain",
+          "count": 113
+        },
+        {
+          "value": "Extreme rain",
+          "count": 70
+        },
+        {
+          "value": "El Nino",
+          "count": 46
+        },
+        {
+          "value": "Monsoonal rains",
+          "count": 41
+        },
+        {
+          "value": "Monsoon rain",
+          "count": 30
+        }
+      ]
+    },
+    "Associated Types": {
+      "column": "Associated Types",
+      "top_values": [
+        {
+          "value": "Slide (land, mud, snow, rock)",
+          "count": 1313
+        },
+        {
+          "value": "Flood",
+          "count": 724
+        },
+        {
+          "value": "Flood|Slide (land, mud, snow, rock)",
+          "count": 378
+        },
+        {
+          "value": "Food shortage",
+          "count": 150
+        },
+        {
+          "value": "Tsunami/Tidal wave",
+          "count": 150
+        },
+        {
+          "value": "Broken Dam/Burst bank",
+          "count": 140
+        },
+        {
+          "value": "Hail",
+          "count": 126
+        },
+        {
+          "value": "Rain",
+          "count": 120
+        },
+        {
+          "value": "Flood|Hail",
+          "count": 83
+        },
+        {
+          "value": "Storm",
+          "count": 75
+        }
+      ]
+    },
+    "OFDA/BHA Response": {
+      "column": "OFDA/BHA Response",
+      "top_values": [
+        {
+          "value": "No",
+          "count": 25830
+        },
+        {
+          "value": "Yes",
+          "count": 1851
+        }
+      ]
+    },
+    "Appeal": {
+      "column": "Appeal",
+      "top_values": [
+        {
+          "value": "No",
+          "count": 27446
+        },
+        {
+          "value": "Yes",
+          "count": 235
+        }
+      ]
+    },
+    "Declaration": {
+      "column": "Declaration",
+      "top_values": [
+        {
+          "value": "No",
+          "count": 26452
+        },
+        {
+          "value": "Yes",
+          "count": 1229
+        }
+      ]
+    },
+    "Magnitude Scale": {
+      "column": "Magnitude Scale",
+      "top_values": [
+        {
+          "value": "Km2",
+          "count": 7513
+        },
+        {
+          "value": "Kph",
+          "count": 5137
+        },
+        {
+          "value": "Moment Magnitude",
+          "count": 1653
+        },
+        {
+          "value": "m3",
+          "count": 1623
+        },
+        {
+          "value": "Vaccinated",
+          "count": 730
+        },
+        {
+          "value": "\u00b0C",
+          "count": 730
+        }
+      ]
+    },
+    "River Basin": {
+      "column": "River Basin",
+      "top_values": [
+        {
+          "value": "Yangtze river",
+          "count": 9
+        },
+        {
+          "value": "Mekong river",
+          "count": 9
+        },
+        {
+          "value": "Shabelle river",
+          "count": 6
+        },
+        {
+          "value": "Yangtze",
+          "count": 5
+        },
+        {
+          "value": "Danube",
+          "count": 4
+        },
+        {
+          "value": "Niger",
+          "count": 4
+        },
+        {
+          "value": "Brahmaputra",
+          "count": 4
+        },
+        {
+          "value": "Elbe",
+          "count": 3
+        },
+        {
+          "value": "Niger river",
+          "count": 3
+        },
+        {
+          "value": "Mekong",
+          "count": 3
+        }
+      ]
+    },
+    "Admin Units": {
+      "column": "Admin Units",
+      "top_values": [
+        {
+          "value": "[{\"adm1_code\":925,\"adm1_name\":\"Taiwan Sheng\"}]",
+          "count": 54
+        },
+        {
+          "value": "[{\"adm1_code\":2370,\"adm1_name\":\"Dolnoslaskie\"},{\"adm1_code\":2371,\"adm1_name\":\"Kujawsko-Pomorskie\"},{\"adm1_code\":2372,\"adm1_name\":\"Lodzkie\"},{\"adm1_code\":2373,\"adm1_name\":\"Lubeiskie\"},{\"adm1_code\":2374,\"adm1_name\":\"Lubuskie\"},{\"adm1_code\":2375,\"adm1_name\":\"Malopolske\"},{\"adm1_code\":2376,\"adm1_name\":\"Mazowieckie\"},{\"adm1_code\":2377,\"adm1_name\":\"Opolskie\"},{\"adm1_code\":2378,\"adm1_name\":\"Podkarpackie\"},{\"adm1_code\":2379,\"adm1_name\":\"Podlaskie\"},{\"adm1_code\":2380,\"adm1_name\":\"Pomorskie\"},{\"adm1_code\":2381,\"adm1_name\":\"Slaskie\"},{\"adm1_code\":2382,\"adm1_name\":\"Swietokrzyskie\"},{\"adm1_code\":2383,\"adm1_name\":\"Warminsko-Mazurskie\"},{\"adm1_code\":2384,\"adm1_name\":\"Wielkopolskie\"},{\"adm1_code\":2385,\"adm1_name\":\"Zachodnio-Pomorskie\"}]",
+          "count": 17
+        },
+        {
+          "value": "[{\"adm1_code\":600,\"adm1_name\":\"Region de Bruxelles-Capitale / Brussels Hoofdstedelijk Gewes\"},{\"adm1_code\":601,\"adm1_name\":\"Vlaams Gewest\"},{\"adm1_code\":602,\"adm1_name\":\"Region wallonne\"}]",
+          "count": 16
+        },
+        {
+          "value": "[{\"adm1_code\":2687,\"adm1_name\":\"Administrative unit not available\"}]",
+          "count": 15
+        },
+        {
+          "value": "[{\"adm1_code\":561,\"adm1_name\":\"Administrative unit not available\"}]",
+          "count": 13
+        },
+        {
+          "value": "[{\"adm1_code\":2524,\"adm1_name\":\"Krasnodarskiy Kray\"}]",
+          "count": 13
+        },
+        {
+          "value": "[{\"adm1_code\":903,\"adm1_name\":\"Guangdong Sheng\"},{\"adm1_code\":904,\"adm1_name\":\"Guangxi Zhuangzu Zizhiqu\"},{\"adm1_code\":906,\"adm1_name\":\"Hainan Sheng\"}]",
+          "count": 12
+        },
+        {
+          "value": "[{\"adm1_code\":903,\"adm1_name\":\"Guangdong Sheng\"}]",
+          "count": 12
+        },
+        {
+          "value": "[{\"adm1_code\":77311,\"adm1_name\":\"KwaZulu-Natal\"}]",
+          "count": 11
+        },
+        {
+          "value": "[{\"adm1_code\":1108,\"adm1_name\":\"Azua\"},{\"adm1_code\":1109,\"adm1_name\":\"Baoruco\"},{\"adm1_code\":1110,\"adm1_name\":\"Barahona\"},{\"adm1_code\":1111,\"adm1_name\":\"Dajabon\"},{\"adm1_code\":1112,\"adm1_name\":\"Santo Domingo\"},{\"adm1_code\":1113,\"adm1_name\":\"Duarte\"},{\"adm1_code\":1114,\"adm1_name\":\"El Seibo\"},{\"adm1_code\":1115,\"adm1_name\":\"Espaillat\"},{\"adm1_code\":1116,\"adm1_name\":\"Independencia\"},{\"adm1_code\":1117,\"adm1_name\":\"La Altagracia\"},{\"adm1_code\":1118,\"adm1_name\":\"Elias Pina\"},{\"adm1_code\":1119,\"adm1_name\":\"La Romana\"},{\"adm1_code\":1120,\"adm1_name\":\"La Vega\"},{\"adm1_code\":1121,\"adm1_name\":\"Maria Trinidad Sanches\"},{\"adm1_code\":1122,\"adm1_name\":\"Monte Cristi\"},{\"adm1_code\":1123,\"adm1_name\":\"Pedernales\"},{\"adm1_code\":1124,\"adm1_name\":\"Peravia\"},{\"adm1_code\":1125,\"adm1_name\":\"Puerto Plata\"},{\"adm1_code\":1126,\"adm1_name\":\"Salcedo\"},{\"adm1_code\":1127,\"adm1_name\":\"Samana\"},{\"adm1_code\":1128,\"adm1_name\":\"San Cristobal\"},{\"adm1_code\":1129,\"adm1_name\":\"San Juan\"},{\"adm1_code\":1130,\"adm1_name\":\"San Pedro de Macoris\"},{\"adm1_code\":1131,\"adm1_name\":\"Sanchez Ramirez\"},{\"adm1_code\":1132,\"adm1_name\":\"Santiago\"},{\"adm1_code\":1133,\"adm1_name\":\"Santiago Rodriguez\"},{\"adm1_code\":1134,\"adm1_name\":\"Valverde\"},{\"adm1_code\":36854,\"adm1_name\":\"Hato Mayor\"},{\"adm1_code\":36855,\"adm1_name\":\"Monsenor Nouel\"},{\"adm1_code\":36856,\"adm1_name\":\"Monte Plata\"},{\"adm1_code\":36857,\"adm1_name\":\"San Jos\u00e9 de Ocoa\"},{\"adm1_code\":36858,\"adm1_name\":\"Distrito Nacional\"}]",
+          "count": 11
+        }
+      ]
+    },
+    "GADM Admin Units": {
+      "column": "GADM Admin Units",
+      "top_values": [
+        {
+          "value": "[{\"gid_1\":\"TWN.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Kaohsiung\"},{\"gid_1\":\"TWN.3_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"New Taipei\"},{\"gid_1\":\"TWN.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Taichung\"},{\"gid_1\":\"TWN.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Tainan\"},{\"gid_1\":\"TWN.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Taipei\"},{\"gid_1\":\"TWN.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Taiwan\"}]",
+          "count": 54
+        },
+        {
+          "value": "[{\"gid_1\":\"POL.10_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Podlaskie\"},{\"gid_1\":\"POL.11_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Pomorskie\"},{\"gid_1\":\"POL.12_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"\u015al\u0105skie\"},{\"gid_1\":\"POL.13_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"\u015awi\u0119tokrzyskie\"},{\"gid_1\":\"POL.14_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Warmi\u0144sko-Mazurskie\"},{\"gid_1\":\"POL.15_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Wielkopolskie\"},{\"gid_1\":\"POL.16_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Zachodniopomorskie\"},{\"gid_1\":\"POL.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Dolno\u015bl\u0105skie\"},{\"gid_1\":\"POL.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Kujawsko-Pomorskie\"},{\"gid_1\":\"POL.3_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"\u0141\u00f3dzkie\"},{\"gid_1\":\"POL.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Lubelskie\"},{\"gid_1\":\"POL.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Lubuskie\"},{\"gid_1\":\"POL.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Ma\u0142opolskie\"},{\"gid_1\":\"POL.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Mazowieckie\"},{\"gid_1\":\"POL.8_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Opolskie\"},{\"gid_1\":\"POL.9_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Podkarpackie\"}]",
+          "count": 17
+        },
+        {
+          "value": "[{\"gid_1\":\"BEL.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Bruxelles\"},{\"gid_1\":\"BEL.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Vlaanderen\"},{\"gid_1\":\"BEL.3_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Wallonie\"}]",
+          "count": 16
+        },
+        {
+          "value": "[{\"gid_1\":\"SLB.10_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Western\"},{\"gid_1\":\"SLB.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Central\"},{\"gid_1\":\"SLB.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Choiseul\"},{\"gid_1\":\"SLB.3_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Guadalcanal\"},{\"gid_1\":\"SLB.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Honiara\"},{\"gid_1\":\"SLB.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Isabel\"},{\"gid_1\":\"SLB.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Makira Ulawa\"},{\"gid_1\":\"SLB.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Malaita\"},{\"gid_1\":\"SLB.8_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Rennell and Bellona\"},{\"gid_1\":\"SLB.9_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Temotu\"}]",
+          "count": 15
+        },
+        {
+          "value": "[{\"gid_1\":\"BHS.10_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Crooked Island\"},{\"gid_1\":\"BHS.11_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"East Grand Bahama\"},{\"gid_1\":\"BHS.12_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Exuma\"},{\"gid_1\":\"BHS.13_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Grand Cay\"},{\"gid_1\":\"BHS.14_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Harbour Island\"},{\"gid_1\":\"BHS.15_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Hope Town\"},{\"gid_1\":\"BHS.16_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Inagua\"},{\"gid_1\":\"BHS.17_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Long Island\"},{\"gid_1\":\"BHS.18_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Mangrove Cay\"},{\"gid_1\":\"BHS.19_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Mayaguana\"},{\"gid_1\":\"BHS.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Acklins\"},{\"gid_1\":\"BHS.20_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Moore's Island\"},{\"gid_1\":\"BHS.21_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"New Providence\"},{\"gid_1\":\"BHS.22_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"North Abaco\"},{\"gid_1\":\"BHS.23_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"North Andros\"},{\"gid_1\":\"BHS.24_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"North Eleuthera\"},{\"gid_1\":\"BHS.26_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Rum Cay\"},{\"gid_1\":\"BHS.27_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"San Salvador\"},{\"gid_1\":\"BHS.28_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"South Abaco\"},{\"gid_1\":\"BHS.29_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"South Andros\"},{\"gid_1\":\"BHS.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Berry Islands\"},{\"gid_1\":\"BHS.30_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"South Eleuthera\"},{\"gid_1\":\"BHS.31_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Spanish Wells\"},{\"gid_1\":\"BHS.32_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"West Grand Bahama\"},{\"gid_1\":\"BHS.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Black Point\"},{\"gid_1\":\"BHS.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Cat Island\"},{\"gid_1\":\"BHS.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Central Abaco\"},{\"gid_1\":\"BHS.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Central Andros\"},{\"gid_1\":\"BHS.8_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"Central Eleuthera\"},{\"gid_1\":\"BHS.9_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"puzzle1_1\",\"name_1\":\"City of Freeport\"}]",
+          "count": 13
+        },
+        {
+          "value": "[{\"gid_1\":\"RUS.34_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Krasnodar\"}]",
+          "count": 13
+        },
+        {
+          "value": "[{\"gid_1\":\"CHN.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Guangdong\"},{\"gid_1\":\"CHN.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Guangxi\"},{\"gid_1\":\"CHN.9_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Hainan\"}]",
+          "count": 12
+        },
+        {
+          "value": "[{\"gid_1\":\"CHN.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Guangdong\"}]",
+          "count": 12
+        },
+        {
+          "value": "[{\"gid_1\":\"DOM.10_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Independencia\"},{\"gid_1\":\"DOM.11_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"La Altagracia\"},{\"gid_1\":\"DOM.12_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"La Estrelleta\"},{\"gid_1\":\"DOM.13_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"La Romana\"},{\"gid_1\":\"DOM.14_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"La Vega\"},{\"gid_1\":\"DOM.15_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Mar\u00eda Trinidad S\u00e1nchez\"},{\"gid_1\":\"DOM.16_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Monse\u00f1or Nouel\"},{\"gid_1\":\"DOM.17_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Monte Cristi\"},{\"gid_1\":\"DOM.18_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Monte Plata\"},{\"gid_1\":\"DOM.19_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Pedernales\"},{\"gid_1\":\"DOM.1_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Azua\"},{\"gid_1\":\"DOM.20_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Peravia\"},{\"gid_1\":\"DOM.21_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Puerto Plata\"},{\"gid_1\":\"DOM.22_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Salcedo\"},{\"gid_1\":\"DOM.23_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Saman\u00e1\"},{\"gid_1\":\"DOM.24_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"San Crist\u00f3bal\"},{\"gid_1\":\"DOM.25_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"San Jos\u00e9 de Ocoa\"},{\"gid_1\":\"DOM.26_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"San Juan\"},{\"gid_1\":\"DOM.27_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"San Pedro de Macor\u00eds\"},{\"gid_1\":\"DOM.28_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"S\u00e1nchez Ram\u00edrez\"},{\"gid_1\":\"DOM.29_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Santiago Rodr\u00edguez\"},{\"gid_1\":\"DOM.2_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Bahoruco\"},{\"gid_1\":\"DOM.30_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Santiago\"},{\"gid_1\":\"DOM.31_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Santo Domingo\"},{\"gid_1\":\"DOM.32_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Valverde\"},{\"gid_1\":\"DOM.3_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Barahona\"},{\"gid_1\":\"DOM.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Dajab\u00f3n\"},{\"gid_1\":\"DOM.5_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Distrito Nacional\"},{\"gid_1\":\"DOM.6_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Duarte\"},{\"gid_1\":\"DOM.7_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"El Seybo\"},{\"gid_1\":\"DOM.8_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Espaillat\"},{\"gid_1\":\"DOM.9_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"Hato Mayor\"}]",
+          "count": 11
+        },
+        {
+          "value": "[{\"gid_1\":\"ZAF.4_1\",\"migration_date\":\"2025-12-20\",\"migration_method\":\"jaccard1\",\"name_1\":\"KwaZulu-Natal\"}]",
+          "count": 11
+        }
+      ]
+    },
+    "Entry Date": {
+      "column": "Entry Date",
+      "top_values": [
+        {
+          "value": "2003-07-01",
+          "count": 9316
+        },
+        {
+          "value": "2006-02-13",
+          "count": 214
+        },
+        {
+          "value": "2007-05-06",
+          "count": 155
+        },
+        {
+          "value": "2008-08-04",
+          "count": 130
+        },
+        {
+          "value": "2014-07-28",
+          "count": 102
+        },
+        {
+          "value": "2005-04-13",
+          "count": 72
+        },
+        {
+          "value": "2005-06-03",
+          "count": 72
+        },
+        {
+          "value": "2007-01-06",
+          "count": 61
+        },
+        {
+          "value": "2005-04-21",
+          "count": 60
+        },
+        {
+          "value": "2006-07-09",
+          "count": 51
+        }
+      ]
+    },
+    "Last Update": {
+      "column": "Last Update",
+      "top_values": [
+        {
+          "value": "2023-09-25",
+          "count": 16393
+        },
+        {
+          "value": "2025-12-20",
+          "count": 7569
+        },
+        {
+          "value": "2023-09-26",
+          "count": 313
+        },
+        {
+          "value": "2025-06-25",
+          "count": 200
+        },
+        {
+          "value": "2025-03-06",
+          "count": 129
+        },
+        {
+          "value": "2025-03-12",
+          "count": 125
+        },
+        {
+          "value": "2026-01-25",
+          "count": 95
+        },
+        {
+          "value": "2025-03-18",
+          "count": 87
+        },
+        {
+          "value": "2025-03-14",
+          "count": 67
+        },
+        {
+          "value": "2025-11-05",
+          "count": 60
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Magnitude",
+        "correlation": -0.004081851676276464
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Latitude",
+        "correlation": 0.05398267892495739
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Longitude",
+        "correlation": -0.06569284331973654
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Start Year",
+        "correlation": 0.11036986681317414
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Start Month",
+        "correlation": -0.038704216401334667
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Start Day",
+        "correlation": 0.010917440510562235
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "End Year",
+        "correlation": 0.11122811610203331
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "End Month",
+        "correlation": -0.03030428850491162
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "End Day",
+        "correlation": -0.031221110891913623
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Total Deaths",
+        "correlation": 0.6984619681703966
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "No. Injured",
+        "correlation": 0.1328849880652124
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "No. Affected",
+        "correlation": 0.04659169978566901
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "No. Homeless",
+        "correlation": 0.43302800930786295
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Total Affected",
+        "correlation": 0.04845539071370187
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.2678833997667535
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.18778231554755304
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.09981212850131922
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.09673815416326935
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.19610316126767388
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.17976604237959462
+      },
+      {
+        "column_a": "AID Contribution ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.11089312379018382
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Latitude",
+        "correlation": -0.09067985943675826
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Longitude",
+        "correlation": -0.05043830157394033
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Start Year",
+        "correlation": 0.03097698525483156
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Start Month",
+        "correlation": 0.008266574344998598
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Start Day",
+        "correlation": -0.026296318610634303
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "End Year",
+        "correlation": 0.031243909403776533
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "End Month",
+        "correlation": 0.010924638096709549
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "End Day",
+        "correlation": -0.013515927534339509
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Total Deaths",
+        "correlation": -0.0048518842637897755
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "No. Injured",
+        "correlation": 0.0019848044359931003
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "No. Affected",
+        "correlation": 0.13431137467961685
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "No. Homeless",
+        "correlation": 0.0017922330207217636
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Total Affected",
+        "correlation": 0.035531326845096994
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": -0.1336755623740197
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": -0.15481213441732164
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.040935852917331525
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.04257396465230762
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": -0.0027496069831534574
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": -0.0029869458125499925
+      },
+      {
+        "column_a": "Magnitude",
+        "column_b": "CPI",
+        "correlation": 0.031569840307556794
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Longitude",
+        "correlation": 0.07640748189928186
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Start Year",
+        "correlation": -0.13521902851331272
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Start Month",
+        "correlation": 0.0520542977179219
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Start Day",
+        "correlation": 0.04495749718690591
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "End Year",
+        "correlation": -0.13567408218090282
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "End Month",
+        "correlation": 0.07873748408335289
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "End Day",
+        "correlation": 0.0014522149282916572
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Total Deaths",
+        "correlation": 0.04166116066699656
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "No. Injured",
+        "correlation": 0.012316610534223062
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "No. Affected",
+        "correlation": 0.0373998470935015
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "No. Homeless",
+        "correlation": 0.014076856719103652
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Total Affected",
+        "correlation": 0.026134624244553525
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.3641702939974527
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.4167898040930026
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.04007149255039861
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.042831033815880624
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.05151560208036956
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.05538754977652129
+      },
+      {
+        "column_a": "Latitude",
+        "column_b": "CPI",
+        "correlation": -0.13151476691652778
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Start Year",
+        "correlation": 0.012189288904994674
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Start Month",
+        "correlation": 0.009715272507717159
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Start Day",
+        "correlation": -0.015414875655750324
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "End Year",
+        "correlation": 0.01204427043365116
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "End Month",
+        "correlation": 0.015104112451900768
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "End Day",
+        "correlation": -0.04763212981726896
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Total Deaths",
+        "correlation": 0.025027766148811827
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "No. Injured",
+        "correlation": -0.004259119929038502
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "No. Affected",
+        "correlation": 0.0651858708202442
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "No. Homeless",
+        "correlation": 0.021358553278423533
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Total Affected",
+        "correlation": 0.055723573092361554
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.016158471008903726
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.008112439569574156
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.09516830052391045
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.07745239409290099
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.0504486873278212
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.03983593623859943
+      },
+      {
+        "column_a": "Longitude",
+        "column_b": "CPI",
+        "correlation": 0.04045878936485725
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Start Month",
+        "correlation": -0.023775214128401036
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Start Day",
+        "correlation": -0.00920705814163462
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "End Year",
+        "correlation": 0.9998415913572282
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "End Month",
+        "correlation": -0.008937720099193807
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "End Day",
+        "correlation": 0.01550548624961618
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Total Deaths",
+        "correlation": -0.09311078024116272
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "No. Injured",
+        "correlation": -0.008528238088407329
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "No. Affected",
+        "correlation": -0.02357765596485714
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "No. Homeless",
+        "correlation": -0.04564842498056487
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Total Affected",
+        "correlation": -0.016706410883609593
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.2115816678632971
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.14707825158704263
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.18847314311103044
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.13627854405624254
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.09479268790124282
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.03407525380077307
+      },
+      {
+        "column_a": "Start Year",
+        "column_b": "CPI",
+        "correlation": 0.9424537505060654
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Start Day",
+        "correlation": 0.03848925454972144
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "End Year",
+        "correlation": -0.023161194022084747
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "End Month",
+        "correlation": 0.9209154768668975
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "End Day",
+        "correlation": 0.017186387359010392
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Total Deaths",
+        "correlation": 0.0026699816577308534
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "No. Injured",
+        "correlation": -0.020900204798040115
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "No. Affected",
+        "correlation": -0.014132794739764493
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "No. Homeless",
+        "correlation": 0.014999113291448403
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Total Affected",
+        "correlation": -0.010629419925678344
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": -0.22050597809824624
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": -0.18430471044906313
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.043850391332934016
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.04736997358950039
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": -0.007550024205154222
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": -0.003659732836552425
+      },
+      {
+        "column_a": "Start Month",
+        "column_b": "CPI",
+        "correlation": -0.010761886911998463
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "End Year",
+        "correlation": -0.009040261351269303
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "End Month",
+        "correlation": 0.030640026610742704
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "End Day",
+        "correlation": 0.7455448574351885
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Total Deaths",
+        "correlation": 0.005859499831158005
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "No. Injured",
+        "correlation": -0.014039900829068393
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "No. Affected",
+        "correlation": 0.0005643829482629401
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "No. Homeless",
+        "correlation": -0.02177060287561508
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Total Affected",
+        "correlation": -0.001240753921721188
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": -0.15307456023754037
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": -0.13092431398867937
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.03256520895398169
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.04082349795938931
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.011425467073463707
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.013709086453146137
+      },
+      {
+        "column_a": "Start Day",
+        "column_b": "CPI",
+        "correlation": -0.008500467592748752
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "End Month",
+        "correlation": -0.009855143467208444
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "End Day",
+        "correlation": 0.015410498408040709
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Total Deaths",
+        "correlation": -0.0927097033725276
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "No. Injured",
+        "correlation": -0.008238039549308808
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "No. Affected",
+        "correlation": -0.022450574854048826
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "No. Homeless",
+        "correlation": -0.04566799038250992
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Total Affected",
+        "correlation": -0.01575271410200769
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.21024713165938694
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.1458038806872753
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.188498981761229
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.13633074374622575
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.09492938866672809
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.034228144461476144
+      },
+      {
+        "column_a": "End Year",
+        "column_b": "CPI",
+        "correlation": 0.942465489697927
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "End Day",
+        "correlation": 0.015133001810011232
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Total Deaths",
+        "correlation": 0.00487310156505721
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "No. Injured",
+        "correlation": 0.0029157205465076583
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "No. Affected",
+        "correlation": 0.021617654546945236
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "No. Homeless",
+        "correlation": 0.02440223800091731
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Total Affected",
+        "correlation": 0.018048505152887542
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": -0.1967229631186468
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": -0.16211486518759902
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.06254421277694301
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.06402155622845411
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.009681655984300139
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.011652701997506208
+      },
+      {
+        "column_a": "End Month",
+        "column_b": "CPI",
+        "correlation": 0.006769820378847085
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Total Deaths",
+        "correlation": -0.0032865009490637975
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "No. Injured",
+        "correlation": 0.0019369359598764126
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "No. Affected",
+        "correlation": 0.026754796296868957
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "No. Homeless",
+        "correlation": 0.02389276183854155
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Total Affected",
+        "correlation": 0.020335127266731194
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": -0.20390684137734824
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": -0.19099357209782689
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.0023760603620567823
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.01079094832893526
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.008047281939252556
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.011419205944161024
+      },
+      {
+        "column_a": "End Day",
+        "column_b": "CPI",
+        "correlation": 0.020950214632561498
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "No. Injured",
+        "correlation": 0.2498114722067999
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "No. Affected",
+        "correlation": 0.13958250231064917
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "No. Homeless",
+        "correlation": 0.1636210578726416
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Total Affected",
+        "correlation": 0.13779412667597019
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.27988753929658294
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.31219841224298983
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.00044097978844587015
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.0018203947518056617
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.012412453037788271
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.061152467597116185
+      },
+      {
+        "column_a": "Total Deaths",
+        "column_b": "CPI",
+        "correlation": -0.059628850048019794
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "No. Affected",
+        "correlation": 0.14249267046069186
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "No. Homeless",
+        "correlation": 0.4153485035675338
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Total Affected",
+        "correlation": 0.1455165180516801
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.26339118949507606
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.2994079150278684
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.025384176874429735
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.02275640937534156
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.19096062900916158
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.21839243688037485
+      },
+      {
+        "column_a": "No. Injured",
+        "column_b": "CPI",
+        "correlation": -0.0065308503733741185
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "No. Homeless",
+        "correlation": 0.7599950146368002
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Total Affected",
+        "correlation": 0.9996912592305596
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.33380257243119077
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.32722290492463585
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.022943463651195956
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.022367895594204948
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.11386191045849367
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.13180294619345953
+      },
+      {
+        "column_a": "No. Affected",
+        "column_b": "CPI",
+        "correlation": -0.024286012724891164
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Total Affected",
+        "correlation": 0.6708057985964574
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.12820503629446803
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.11568125832818309
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.018555952591123467
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.016931676028003183
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.14970480215710238
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.18279837367028975
+      },
+      {
+        "column_a": "No. Homeless",
+        "column_b": "CPI",
+        "correlation": -0.05812316048118216
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Reconstruction Costs ('000 US$)",
+        "correlation": 0.3422755566105947
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.3395409909887551
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": -0.02067654735993215
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": -0.020541801971942917
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.10991268782832923
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.1279794818432826
+      },
+      {
+        "column_a": "Total Affected",
+        "column_b": "CPI",
+        "correlation": -0.018849257721086893
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "Reconstruction Costs, Adjusted ('000 US$)",
+        "correlation": 0.979429549512716
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.3143194078362107
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.36585257050283426
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.4237924688929939
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.33848256636463164
+      },
+      {
+        "column_a": "Reconstruction Costs ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.27427109669153577
+      },
+      {
+        "column_a": "Reconstruction Costs, Adjusted ('000 US$)",
+        "column_b": "Insured Damage ('000 US$)",
+        "correlation": 0.2990386429134144
+      },
+      {
+        "column_a": "Reconstruction Costs, Adjusted ('000 US$)",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.36094531363179827
+      },
+      {
+        "column_a": "Reconstruction Costs, Adjusted ('000 US$)",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.45895510130238887
+      },
+      {
+        "column_a": "Reconstruction Costs, Adjusted ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.3951028500954218
+      },
+      {
+        "column_a": "Reconstruction Costs, Adjusted ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.2042476041439131
+      },
+      {
+        "column_a": "Insured Damage ('000 US$)",
+        "column_b": "Insured Damage, Adjusted ('000 US$)",
+        "correlation": 0.977531695731879
+      },
+      {
+        "column_a": "Insured Damage ('000 US$)",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.8040106961811774
+      },
+      {
+        "column_a": "Insured Damage ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.7386902389329876
+      },
+      {
+        "column_a": "Insured Damage ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.20635016037461396
+      },
+      {
+        "column_a": "Insured Damage, Adjusted ('000 US$)",
+        "column_b": "Total Damage ('000 US$)",
+        "correlation": 0.8042232059680795
+      },
+      {
+        "column_a": "Insured Damage, Adjusted ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.7694536782846473
+      },
+      {
+        "column_a": "Insured Damage, Adjusted ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.15306634237598762
+      },
+      {
+        "column_a": "Total Damage ('000 US$)",
+        "column_b": "Total Damage, Adjusted ('000 US$)",
+        "correlation": 0.9667932432642136
+      },
+      {
+        "column_a": "Total Damage ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.10591099491361529
+      },
+      {
+        "column_a": "Total Damage, Adjusted ('000 US$)",
+        "column_b": "CPI",
+        "correlation": 0.044352415556413935
+      }
+    ]
+  }
+}

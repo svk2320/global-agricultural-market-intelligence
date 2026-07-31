@@ -1,0 +1,508 @@
+{
+  "table": "raw.investment_machinery",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 146834,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 146834,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 146342,
+        "null_pct": 99.66
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 258
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 258
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 258
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 17
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 17
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 5
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 5
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 49
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 49
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 2
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 40938
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 1208.1420856204966,
+      "median": 162.0,
+      "stddev": 2125.2404038258783
+    },
+    "Item Code": {
+      "min": 2455001,
+      "max": 2455017,
+      "mean": 2455010.3969925223,
+      "median": 2455010.0,
+      "stddev": 4.685494191787623
+    },
+    "Element Code": {
+      "min": 5116,
+      "max": 5922,
+      "mean": 5668.639572578558,
+      "median": 5622.0,
+      "stddev": 231.0140319641195
+    },
+    "Year Code": {
+      "min": 1961,
+      "max": 2009,
+      "mean": 1993.0758747973903,
+      "median": 1999.0,
+      "stddev": 13.715025451291176
+    },
+    "Year": {
+      "min": 1961,
+      "max": 2009,
+      "mean": 1993.0758747973903,
+      "median": 1999.0,
+      "stddev": 13.715025451291176
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 24872058.0,
+      "mean": 70529.32532846618,
+      "median": 941.0,
+      "stddev": 501647.59438792866
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 84.0,
+      "q3": 236.0,
+      "lower_bound": -144.0,
+      "upper_bound": 464.0,
+      "outlier_count": 30210
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 2455008.0,
+      "q3": 2455015.0,
+      "lower_bound": 2454997.5,
+      "upper_bound": 2455025.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5607.0,
+      "q3": 5907.0,
+      "lower_bound": 5157.0,
+      "upper_bound": 6357.0,
+      "outlier_count": 14845
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1982.0,
+      "q3": 2004.0,
+      "lower_bound": 1949.0,
+      "upper_bound": 2037.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1982.0,
+      "q3": 2004.0,
+      "lower_bound": 1949.0,
+      "upper_bound": 2037.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 74.0,
+      "q3": 10248.75,
+      "lower_bound": -15188.125,
+      "upper_bound": 25510.875,
+      "outlier_count": 25510
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'756",
+          "count": 1195
+        },
+        {
+          "value": "'578",
+          "count": 1104
+        },
+        {
+          "value": "'372",
+          "count": 1100
+        },
+        {
+          "value": "'156",
+          "count": 1092
+        },
+        {
+          "value": "'392",
+          "count": 1080
+        },
+        {
+          "value": "'840",
+          "count": 1078
+        },
+        {
+          "value": "'250",
+          "count": 1075
+        },
+        {
+          "value": "'276",
+          "count": 1075
+        },
+        {
+          "value": "'528",
+          "count": 1070
+        },
+        {
+          "value": "'792",
+          "count": 1067
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Switzerland",
+          "count": 1195
+        },
+        {
+          "value": "Norway",
+          "count": 1104
+        },
+        {
+          "value": "Ireland",
+          "count": 1100
+        },
+        {
+          "value": "China, mainland",
+          "count": 1092
+        },
+        {
+          "value": "Japan",
+          "count": 1080
+        },
+        {
+          "value": "United States of America",
+          "count": 1078
+        },
+        {
+          "value": "France",
+          "count": 1075
+        },
+        {
+          "value": "Germany",
+          "count": 1075
+        },
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 1070
+        },
+        {
+          "value": "T\u00fcrkiye",
+          "count": 1067
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agricultural tractors, total",
+          "count": 32003
+        },
+        {
+          "value": "Harvester and threshers (trade)",
+          "count": 13595
+        },
+        {
+          "value": "Agricultural machinery nes (trade)",
+          "count": 13545
+        },
+        {
+          "value": "Soil working equipment (trade)",
+          "count": 13417
+        },
+        {
+          "value": "Milking, dairy machinery (trade)",
+          "count": 11050
+        },
+        {
+          "value": "Combine harvesters - threshers",
+          "count": 8298
+        },
+        {
+          "value": "Agricultural tractors",
+          "count": 7049
+        },
+        {
+          "value": "Other Agricultural tractors (two-axle tractors)",
+          "count": 6005
+        },
+        {
+          "value": "Milking machines",
+          "count": 5593
+        },
+        {
+          "value": "Ploughs (e.g. reversible and non-reversible ploughs)",
+          "count": 5320
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Import Value",
+          "count": 59269
+        },
+        {
+          "value": "Export Value",
+          "count": 35263
+        },
+        {
+          "value": "Import Quantity",
+          "count": 22981
+        },
+        {
+          "value": "In Use",
+          "count": 14845
+        },
+        {
+          "value": "Export Quantity",
+          "count": 14476
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "1000 USD",
+          "count": 94532
+        },
+        {
+          "value": "No",
+          "count": 52302
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "A",
+          "count": 92766
+        },
+        {
+          "value": "E",
+          "count": 53576
+        },
+        {
+          "value": "X",
+          "count": 492
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Unofficial figure",
+          "count": 492
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": 0.0008262165802569211
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.1973486516755307
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.020666544995447275
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.020666544995447275
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.14147726268322242
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.13509567045777396
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.2982893396242391
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.2982893396242391
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.023234989389522665
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.19356161793910123
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.19356161793910123
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.01630444001262135
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.03300641430027986
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.03300641430027986
+      }
+    ]
+  }
+}

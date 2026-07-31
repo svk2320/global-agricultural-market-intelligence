@@ -1,0 +1,84 @@
+{
+  "table": "raw.inputs_fertilizersnutrient_itemcodes",
+  "generated_at": "2026-07-07T19:16:03",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 3
+  },
+  "schema": {
+    " Item Code": "BIGINT",
+    " CPC Code": "VARCHAR",
+    " Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      " Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Item Code": {
+      "column": " Item Code",
+      "distinct_count": 1
+    },
+    " CPC Code": {
+      "column": " CPC Code",
+      "distinct_count": 1
+    },
+    " Item": {
+      "column": " Item",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    " Item Code": {
+      "min": 3102,
+      "max": 3102,
+      "mean": 3102.0,
+      "median": 3102.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    " Item Code": {
+      "column": " Item Code",
+      "q1": 3102.0,
+      "q3": 3102.0,
+      "lower_bound": 3102.0,
+      "upper_bound": 3102.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " CPC Code": {
+      "column": " CPC Code",
+      "top_values": [
+        {
+          "value": "'F3102",
+          "count": 1
+        }
+      ]
+    },
+    " Item": {
+      "column": " Item",
+      "top_values": [
+        {
+          "value": "Nutrient nitrogen N (total)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

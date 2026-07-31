@@ -1,0 +1,156 @@
+{
+  "table": "raw.asti_researchers_areacodes",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 168,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 168,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 168
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 168
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 168
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 3,
+      "max": 5817,
+      "mean": 1221.7440476190477,
+      "median": 163.5,
+      "stddev": 2137.797940847661
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 80.5,
+      "q3": 250.25,
+      "lower_bound": -174.125,
+      "upper_bound": 504.875,
+      "outlier_count": 35
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'300",
+          "count": 1
+        },
+        {
+          "value": "'624",
+          "count": 1
+        },
+        {
+          "value": "'348",
+          "count": 1
+        },
+        {
+          "value": "'388",
+          "count": 1
+        },
+        {
+          "value": "'428",
+          "count": 1
+        },
+        {
+          "value": "'426",
+          "count": 1
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        },
+        {
+          "value": "Hungary",
+          "count": 1
+        },
+        {
+          "value": "Nicaragua",
+          "count": 1
+        },
+        {
+          "value": "Northern America",
+          "count": 1
+        },
+        {
+          "value": "Norway",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

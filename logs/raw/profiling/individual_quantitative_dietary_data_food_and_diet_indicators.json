@@ -1,0 +1,102 @@
+{
+  "table": "raw.individual_quantitative_dietary_data_food_and_diet_indicators",
+  "generated_at": "2026-07-07T19:16:03",
+  "dataset_summary": {
+    "row_count": 27,
+    "column_count": 2
+  },
+  "schema": {
+    " Indicator Code": "BIGINT",
+    " Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 27,
+    "columns": {
+      " Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "distinct_count": 27
+    },
+    " Indicator": {
+      "column": " Indicator",
+      "distinct_count": 27
+    }
+  },
+  "statistics": {
+    " Indicator Code": {
+      "min": 3320,
+      "max": 3348,
+      "mean": 3333.259259259259,
+      "median": 3333.0,
+      "stddev": 8.35092161009149
+    }
+  },
+  "outliers": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "q1": 3326.5,
+      "q3": 3339.5,
+      "lower_bound": 3307.0,
+      "upper_bound": 3359.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Indicator": {
+      "column": " Indicator",
+      "top_values": [
+        {
+          "value": "First most consumed food; quantity",
+          "count": 1
+        },
+        {
+          "value": "Magnesium intake",
+          "count": 1
+        },
+        {
+          "value": "Percentage of consumers",
+          "count": 1
+        },
+        {
+          "value": "Third most consumed food; name",
+          "count": 1
+        },
+        {
+          "value": "Dietary Fibre intake",
+          "count": 1
+        },
+        {
+          "value": "Thiamin intake",
+          "count": 1
+        },
+        {
+          "value": "Vitamin B12 intake",
+          "count": 1
+        },
+        {
+          "value": "Zinc intake",
+          "count": 1
+        },
+        {
+          "value": "Energy intake",
+          "count": 1
+        },
+        {
+          "value": "First most consumed food; name",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

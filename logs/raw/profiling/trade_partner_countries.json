@@ -1,0 +1,156 @@
+{
+  "table": "raw.trade_partner_countries",
+  "generated_at": "2026-07-07T19:16:39",
+  "dataset_summary": {
+    "row_count": 255,
+    "column_count": 3
+  },
+  "schema": {
+    "Partner Country Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Partner Countries": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 255,
+    "columns": {
+      "Partner Country Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Partner Countries": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Partner Country Code": {
+      "column": "Partner Country Code",
+      "distinct_count": 255
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 255
+    },
+    "Partner Countries": {
+      "column": "Partner Countries",
+      "distinct_count": 255
+    }
+  },
+  "statistics": {
+    "Partner Country Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 830.2196078431373,
+      "median": 148.0,
+      "stddev": 1789.17503281239
+    }
+  },
+  "outliers": {
+    "Partner Country Code": {
+      "column": "Partner Country Code",
+      "q1": 77.0,
+      "q3": 222.5,
+      "lower_bound": -141.25,
+      "upper_bound": 440.75,
+      "outlier_count": 34
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'064",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'174",
+          "count": 1
+        },
+        {
+          "value": "'200",
+          "count": 1
+        },
+        {
+          "value": "'408",
+          "count": 1
+        },
+        {
+          "value": "'262",
+          "count": 1
+        },
+        {
+          "value": "'234",
+          "count": 1
+        }
+      ]
+    },
+    "Partner Countries": {
+      "column": "Partner Countries",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 1
+        },
+        {
+          "value": "Argentina",
+          "count": 1
+        },
+        {
+          "value": "China; Hong Kong SAR",
+          "count": 1
+        },
+        {
+          "value": "Comoros",
+          "count": 1
+        },
+        {
+          "value": "Denmark",
+          "count": 1
+        },
+        {
+          "value": "Eastern Asia",
+          "count": 1
+        },
+        {
+          "value": "Eastern Europe",
+          "count": 1
+        },
+        {
+          "value": "Ecuador",
+          "count": 1
+        },
+        {
+          "value": "European Union (27)",
+          "count": 1
+        },
+        {
+          "value": "Hungary",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

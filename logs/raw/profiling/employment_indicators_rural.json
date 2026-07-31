@@ -1,0 +1,705 @@
+{
+  "table": "raw.employment_indicators_rural",
+  "generated_at": "2026-07-07T19:15:45",
+  "dataset_summary": {
+    "row_count": 113187,
+    "column_count": 17
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Sex Code": "BIGINT",
+    "Sex": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 113187,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 661,
+        "null_pct": 0.58
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 161
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 161
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 161
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 6
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 6
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 23
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 23
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "distinct_count": 3
+    },
+    "Sex": {
+      "column": "Sex",
+      "distinct_count": 3
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 74
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 74
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 2
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 35166
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 3
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 165
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 351,
+      "mean": 127.53427513760414,
+      "median": 117.0,
+      "stddev": 73.22623174204587
+    },
+    "Source Code": {
+      "min": 3015,
+      "max": 3035,
+      "mean": 3022.911253059097,
+      "median": 3023.0,
+      "stddev": 1.5262374015501923
+    },
+    "Indicator Code": {
+      "min": 21069,
+      "max": 21139,
+      "mean": 21102.788465106416,
+      "median": 21103.0,
+      "stddev": 16.333405996072447
+    },
+    "Sex Code": {
+      "min": 1,
+      "max": 3,
+      "mean": 1.9413448540910174,
+      "median": 2.0,
+      "stddev": 0.8256656625957942
+    },
+    "Element Code": {
+      "min": 6121,
+      "max": 6199,
+      "mean": 6154.297834556972,
+      "median": 6121.0,
+      "stddev": 38.58106349039883
+    },
+    "Year Code": {
+      "min": 1952,
+      "max": 2025,
+      "mean": 2012.3740005477662,
+      "median": 2014.0,
+      "stddev": 8.220343336563834
+    },
+    "Year": {
+      "min": 1952,
+      "max": 2025,
+      "mean": 2012.3740005477662,
+      "median": 2014.0,
+      "stddev": 8.220343336563834
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 490390.0,
+      "mean": 1379.1563653069456,
+      "median": 68.71,
+      "stddev": 14713.712177532365
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 67.0,
+      "q3": 183.0,
+      "lower_bound": -107.0,
+      "upper_bound": 357.0,
+      "outlier_count": 0
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3023.0,
+      "q3": 3023.0,
+      "lower_bound": 3023.0,
+      "upper_bound": 3023.0,
+      "outlier_count": 20280
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 21094.0,
+      "q3": 21117.0,
+      "lower_bound": 21059.5,
+      "upper_bound": 21151.5,
+      "outlier_count": 0
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6121.0,
+      "q3": 6199.0,
+      "lower_bound": 6004.0,
+      "upper_bound": 6316.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2007.0,
+      "q3": 2019.0,
+      "lower_bound": 1989.0,
+      "upper_bound": 2037.0,
+      "outlier_count": 313
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2007.0,
+      "q3": 2019.0,
+      "lower_bound": 1989.0,
+      "upper_bound": 2037.0,
+      "outlier_count": 313
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 37.45,
+      "q3": 177.78500000000003,
+      "lower_bound": -173.05250000000007,
+      "upper_bound": 388.2875000000001,
+      "outlier_count": 21278
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'300",
+          "count": 2203
+        },
+        {
+          "value": "'724",
+          "count": 1950
+        },
+        {
+          "value": "'250",
+          "count": 1904
+        },
+        {
+          "value": "'620",
+          "count": 1893
+        },
+        {
+          "value": "'276",
+          "count": 1885
+        },
+        {
+          "value": "'380",
+          "count": 1881
+        },
+        {
+          "value": "'208",
+          "count": 1872
+        },
+        {
+          "value": "'056",
+          "count": 1869
+        },
+        {
+          "value": "'372",
+          "count": 1831
+        },
+        {
+          "value": "'360",
+          "count": 1821
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Greece",
+          "count": 2203
+        },
+        {
+          "value": "Spain",
+          "count": 1950
+        },
+        {
+          "value": "France",
+          "count": 1904
+        },
+        {
+          "value": "Portugal",
+          "count": 1893
+        },
+        {
+          "value": "Germany",
+          "count": 1885
+        },
+        {
+          "value": "Italy",
+          "count": 1881
+        },
+        {
+          "value": "Denmark",
+          "count": 1872
+        },
+        {
+          "value": "Belgium",
+          "count": 1869
+        },
+        {
+          "value": "Ireland",
+          "count": 1831
+        },
+        {
+          "value": "Indonesia",
+          "count": 1821
+        }
+      ]
+    },
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "ILOSTAT - Labour force survey",
+          "count": 92907
+        },
+        {
+          "value": "ILOSTAT - Household survey",
+          "count": 10495
+        },
+        {
+          "value": "ILOSTAT - Household income and expenditure survey",
+          "count": 8089
+        },
+        {
+          "value": "ILOSTAT - Population census",
+          "count": 1319
+        },
+        {
+          "value": "ILOSTAT - Official estimates",
+          "count": 212
+        },
+        {
+          "value": "ILOSTAT - Administrative records",
+          "count": 165
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Employment by age, total (15+), rural areas",
+          "count": 6235
+        },
+        {
+          "value": "Employment by age, 25 to 54, rural areas",
+          "count": 6010
+        },
+        {
+          "value": "Employment by age, 15 to 24, rural areas",
+          "count": 5987
+        },
+        {
+          "value": "Employment by age, 55 to 64, rural areas",
+          "count": 5978
+        },
+        {
+          "value": "Labour force participation rate by age, total (15+), rural areas",
+          "count": 5928
+        },
+        {
+          "value": "Labour force participation rate by age, 25 to 54, rural areas",
+          "count": 5926
+        },
+        {
+          "value": "Employment-to-population ratio by age, total (15+), rural areas",
+          "count": 5924
+        },
+        {
+          "value": "Employment-to-population ratio by age, 25 to 54, rural areas",
+          "count": 5912
+        },
+        {
+          "value": "Labour force participation rate by age, 15 to 24, rural areas",
+          "count": 5907
+        },
+        {
+          "value": "Labour force participation rate by age, 55 to 64, rural areas",
+          "count": 5896
+        }
+      ]
+    },
+    "Sex": {
+      "column": "Sex",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 42095
+        },
+        {
+          "value": "Male",
+          "count": 35636
+        },
+        {
+          "value": "Female",
+          "count": 35456
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 113187
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "%",
+          "count": 64868
+        },
+        {
+          "value": "1000 No",
+          "count": 48319
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 100909
+        },
+        {
+          "value": "B",
+          "count": 11055
+        },
+        {
+          "value": "U",
+          "count": 1223
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing",
+          "count": 88645
+        },
+        {
+          "value": "Break in series: Methodology revised Repository: ILO-STATISTICS - Micro data processing",
+          "count": 9392
+        },
+        {
+          "value": "Repository: Eurostat special tabulation",
+          "count": 1804
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Age coverage - minimum age: 16 years old",
+          "count": 1442
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Data reference period: Second quarter",
+          "count": 1076
+        },
+        {
+          "value": "Unreliable Repository: ILO-STATISTICS - Micro data processing",
+          "count": 1031
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Age coverage - maximum age: 75 years old",
+          "count": 834
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Data reference period: Noncalendar year",
+          "count": 627
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Data reference period: August",
+          "count": 549
+        },
+        {
+          "value": "Repository: ILO-STATISTICS - Micro data processing | Age coverage - maximum age: 74 years old",
+          "count": 486
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Source Code",
+        "correlation": 0.05212731325433871
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Indicator Code",
+        "correlation": 0.0035575011347404556
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Sex Code",
+        "correlation": -0.0032940319685244982
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.0028233062027031054
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": 0.008846291598830972
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": 0.008846291598830972
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.028510892290265037
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Indicator Code",
+        "correlation": -0.003139334861650908
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Sex Code",
+        "correlation": -0.007993897181863703
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Element Code",
+        "correlation": 0.0002710869514789017
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Year Code",
+        "correlation": -0.06706377789146382
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Year",
+        "correlation": -0.06706377789146382
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Value",
+        "correlation": 0.16428413731796662
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Sex Code",
+        "correlation": -0.11549411305285667
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": -0.2688840483351073
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year Code",
+        "correlation": 0.002961672245861008
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Year",
+        "correlation": 0.002961672245861008
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Value",
+        "correlation": -0.05049070472733552
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Element Code",
+        "correlation": 0.05430308836014508
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year Code",
+        "correlation": 0.007004469728744719
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Year",
+        "correlation": 0.007004469728744719
+      },
+      {
+        "column_a": "Sex Code",
+        "column_b": "Value",
+        "correlation": -0.05327680095915064
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.0035381873145838077
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.0035381873145838077
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.104365580220919
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.06863235390031971
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.06863235390031971
+      }
+    ]
+  }
+}

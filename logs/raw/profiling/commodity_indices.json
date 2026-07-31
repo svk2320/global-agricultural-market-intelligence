@@ -1,0 +1,1065 @@
+{
+  "table": "raw.commodity_indices",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 798,
+    "column_count": 17
+  },
+  "schema": {
+    "Date": "VARCHAR",
+    "Total Index": "DOUBLE",
+    "Energy": "DOUBLE",
+    "Non-energy **": "DOUBLE",
+    "Agriculture **": "DOUBLE",
+    "Beverages": "DOUBLE",
+    "Food **": "DOUBLE",
+    "Oils & Meals": "DOUBLE",
+    "Grains": "DOUBLE",
+    "Other Food **": "DOUBLE",
+    "Raw Materials": "DOUBLE",
+    "Timber": "DOUBLE",
+    "Other Raw Mat.": "DOUBLE",
+    "Fertilizers **": "DOUBLE",
+    "Metals  & Minerals": "DOUBLE",
+    "Base Metals (ex. iron ore)": "DOUBLE",
+    "Precious Metals": "DOUBLE"
+  },
+  "null_counts": {
+    "total_rows": 798,
+    "columns": {
+      "Date": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Total Index": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Energy": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Non-energy **": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Agriculture **": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Beverages": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food **": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Oils & Meals": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Grains": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Other Food **": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Raw Materials": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Timber": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Other Raw Mat.": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Fertilizers **": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Metals  & Minerals": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Base Metals (ex. iron ore)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Precious Metals": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Date": {
+      "column": "Date",
+      "distinct_count": 798
+    },
+    "Total Index": {
+      "column": "Total Index",
+      "distinct_count": 466
+    },
+    "Energy": {
+      "column": "Energy",
+      "distinct_count": 447
+    },
+    "Non-energy **": {
+      "column": "Non-energy **",
+      "distinct_count": 428
+    },
+    "Agriculture **": {
+      "column": "Agriculture **",
+      "distinct_count": 432
+    },
+    "Beverages": {
+      "column": "Beverages",
+      "distinct_count": 510
+    },
+    "Food **": {
+      "column": "Food **",
+      "distinct_count": 483
+    },
+    "Oils & Meals": {
+      "column": "Oils & Meals",
+      "distinct_count": 502
+    },
+    "Grains": {
+      "column": "Grains",
+      "distinct_count": 507
+    },
+    "Other Food **": {
+      "column": "Other Food **",
+      "distinct_count": 526
+    },
+    "Raw Materials": {
+      "column": "Raw Materials",
+      "distinct_count": 433
+    },
+    "Timber": {
+      "column": "Timber",
+      "distinct_count": 475
+    },
+    "Other Raw Mat.": {
+      "column": "Other Raw Mat.",
+      "distinct_count": 447
+    },
+    "Fertilizers **": {
+      "column": "Fertilizers **",
+      "distinct_count": 445
+    },
+    "Metals  & Minerals": {
+      "column": "Metals  & Minerals",
+      "distinct_count": 488
+    },
+    "Base Metals (ex. iron ore)": {
+      "column": "Base Metals (ex. iron ore)",
+      "distinct_count": 506
+    },
+    "Precious Metals": {
+      "column": "Precious Metals",
+      "distinct_count": 463
+    }
+  },
+  "statistics": {
+    "Total Index": {
+      "min": 7.3,
+      "max": 158.0,
+      "mean": 50.085463659147884,
+      "median": 37.7,
+      "stddev": 37.466075518774005
+    },
+    "Energy": {
+      "min": 1.8,
+      "max": 173.5,
+      "mean": 45.86541353383457,
+      "median": 32.5,
+      "stddev": 41.707780483263164
+    },
+    "Non-energy **": {
+      "min": 17.9,
+      "max": 138.7,
+      "mean": 58.63847117794485,
+      "median": 50.849999999999994,
+      "stddev": 30.304603940548724
+    },
+    "Agriculture **": {
+      "min": 20.8,
+      "max": 130.4,
+      "mean": 62.82368421052623,
+      "median": 57.55,
+      "stddev": 28.888972823136747
+    },
+    "Beverages": {
+      "min": 20.6,
+      "max": 240.4,
+      "mean": 67.46466165413534,
+      "median": 66.1,
+      "stddev": 36.57506887293288
+    },
+    "Food **": {
+      "min": 19.8,
+      "max": 153.1,
+      "mean": 64.55789473684206,
+      "median": 58.0,
+      "stddev": 31.14522919259741
+    },
+    "Oils & Meals": {
+      "min": 20.5,
+      "max": 172.8,
+      "mean": 62.99072681704262,
+      "median": 56.150000000000006,
+      "stddev": 31.52223630875836
+    },
+    "Grains": {
+      "min": 22.4,
+      "max": 169.0,
+      "mean": 68.08145363408521,
+      "median": 61.05,
+      "stddev": 32.654980646081626
+    },
+    "Other Food **": {
+      "min": 15.3,
+      "max": 136.5,
+      "mean": 63.43421052631581,
+      "median": 59.2,
+      "stddev": 31.908788137711472
+    },
+    "Raw Materials": {
+      "min": 18.7,
+      "max": 134.6,
+      "mean": 56.24874686716793,
+      "median": 56.1,
+      "stddev": 25.910514710842044
+    },
+    "Timber": {
+      "min": 15.3,
+      "max": 125.1,
+      "mean": 60.335964912280744,
+      "median": 63.75,
+      "stddev": 30.609930196074526
+    },
+    "Other Raw Mat.": {
+      "min": 18.8,
+      "max": 159.3,
+      "mean": 51.77819548872173,
+      "median": 48.95,
+      "stddev": 22.977126824104246
+    },
+    "Fertilizers **": {
+      "min": 8.3,
+      "max": 293.7,
+      "mean": 57.88671679197993,
+      "median": 37.6,
+      "stddev": 49.670417886770565
+    },
+    "Metals  & Minerals": {
+      "min": 12.2,
+      "max": 148.8,
+      "mean": 50.135714285714236,
+      "median": 37.6,
+      "stddev": 33.133971092065146
+    },
+    "Base Metals (ex. iron ore)": {
+      "min": 13.2,
+      "max": 166.1,
+      "mean": 53.904887218045076,
+      "median": 41.349999999999994,
+      "stddev": 34.199633692738615
+    },
+    "Precious Metals": {
+      "min": 3.3,
+      "max": 400.2,
+      "mean": 52.59461152882203,
+      "median": 29.8,
+      "stddev": 59.19607898894753
+    }
+  },
+  "outliers": {
+    "Total Index": {
+      "column": "Total Index",
+      "q1": 24.974999999999998,
+      "q3": 76.875,
+      "lower_bound": -52.875000000000014,
+      "upper_bound": 154.72500000000002,
+      "outlier_count": 4
+    },
+    "Energy": {
+      "column": "Energy",
+      "q1": 15.625,
+      "q3": 74.10000000000001,
+      "lower_bound": -72.0875,
+      "upper_bound": 161.8125,
+      "outlier_count": 7
+    },
+    "Non-energy **": {
+      "column": "Non-energy **",
+      "q1": 41.4,
+      "q3": 81.6,
+      "lower_bound": -18.9,
+      "upper_bound": 141.89999999999998,
+      "outlier_count": 0
+    },
+    "Agriculture **": {
+      "column": "Agriculture **",
+      "q1": 47.2,
+      "q3": 84.0,
+      "lower_bound": -7.999999999999993,
+      "upper_bound": 139.2,
+      "outlier_count": 0
+    },
+    "Beverages": {
+      "column": "Beverages",
+      "q1": 39.8,
+      "q3": 87.85,
+      "lower_bound": -32.27499999999999,
+      "upper_bound": 159.92499999999998,
+      "outlier_count": 22
+    },
+    "Food **": {
+      "column": "Food **",
+      "q1": 46.3,
+      "q3": 87.625,
+      "lower_bound": -15.687500000000007,
+      "upper_bound": 149.6125,
+      "outlier_count": 3
+    },
+    "Oils & Meals": {
+      "column": "Oils & Meals",
+      "q1": 42.025,
+      "q3": 81.67500000000001,
+      "lower_bound": -17.450000000000024,
+      "upper_bound": 141.15000000000003,
+      "outlier_count": 6
+    },
+    "Grains": {
+      "column": "Grains",
+      "q1": 47.324999999999996,
+      "q3": 86.45,
+      "lower_bound": -11.362500000000018,
+      "upper_bound": 145.13750000000002,
+      "outlier_count": 19
+    },
+    "Other Food **": {
+      "column": "Other Food **",
+      "q1": 42.324999999999996,
+      "q3": 93.35000000000001,
+      "lower_bound": -34.21250000000003,
+      "upper_bound": 169.88750000000005,
+      "outlier_count": 0
+    },
+    "Raw Materials": {
+      "column": "Raw Materials",
+      "q1": 36.324999999999996,
+      "q3": 78.77499999999999,
+      "lower_bound": -27.35,
+      "upper_bound": 142.45,
+      "outlier_count": 0
+    },
+    "Timber": {
+      "column": "Timber",
+      "q1": 31.6,
+      "q3": 87.0,
+      "lower_bound": -51.49999999999999,
+      "upper_bound": 170.1,
+      "outlier_count": 0
+    },
+    "Other Raw Mat.": {
+      "column": "Other Raw Mat.",
+      "q1": 37.5,
+      "q3": 66.07499999999999,
+      "lower_bound": -5.362499999999983,
+      "upper_bound": 108.93749999999997,
+      "outlier_count": 12
+    },
+    "Fertilizers **": {
+      "column": "Fertilizers **",
+      "q1": 29.6,
+      "q3": 77.7,
+      "lower_bound": -42.550000000000004,
+      "upper_bound": 149.85000000000002,
+      "outlier_count": 53
+    },
+    "Metals  & Minerals": {
+      "column": "Metals  & Minerals",
+      "q1": 26.825000000000003,
+      "q3": 75.75,
+      "lower_bound": -46.562499999999986,
+      "upper_bound": 149.1375,
+      "outlier_count": 0
+    },
+    "Base Metals (ex. iron ore)": {
+      "column": "Base Metals (ex. iron ore)",
+      "q1": 29.325000000000003,
+      "q3": 80.475,
+      "lower_bound": -47.39999999999999,
+      "upper_bound": 157.2,
+      "outlier_count": 3
+    },
+    "Precious Metals": {
+      "column": "Precious Metals",
+      "q1": 14.925,
+      "q3": 84.25,
+      "lower_bound": -89.06250000000001,
+      "upper_bound": 188.2375,
+      "outlier_count": 22
+    }
+  },
+  "categorical": {
+    "Date": {
+      "column": "Date",
+      "top_values": [
+        {
+          "value": "1960M06",
+          "count": 1
+        },
+        {
+          "value": "1961M01",
+          "count": 1
+        },
+        {
+          "value": "1961M06",
+          "count": 1
+        },
+        {
+          "value": "1962M01",
+          "count": 1
+        },
+        {
+          "value": "1962M05",
+          "count": 1
+        },
+        {
+          "value": "1965M02",
+          "count": 1
+        },
+        {
+          "value": "1965M04",
+          "count": 1
+        },
+        {
+          "value": "1965M07",
+          "count": 1
+        },
+        {
+          "value": "1965M09",
+          "count": 1
+        },
+        {
+          "value": "1965M11",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Total Index",
+        "column_b": "Energy",
+        "correlation": 0.9955681283077723
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Non-energy **",
+        "correlation": 0.9648348099593238
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Agriculture **",
+        "correlation": 0.9463750709020721
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Beverages",
+        "correlation": 0.6936600352829757
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Food **",
+        "correlation": 0.9505939498475247
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Oils & Meals",
+        "correlation": 0.9358486871170748
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Grains",
+        "correlation": 0.9269923858516994
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Other Food **",
+        "correlation": 0.9132921420869353
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Raw Materials",
+        "correlation": 0.8815506968066973
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Timber",
+        "correlation": 0.8039339953292529
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.9098195425142837
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Fertilizers **",
+        "correlation": 0.9062837173950157
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.945962250339621
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9333769504479187
+      },
+      {
+        "column_a": "Total Index",
+        "column_b": "Precious Metals",
+        "correlation": 0.8052463158693508
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Non-energy **",
+        "correlation": 0.9358421592489757
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Agriculture **",
+        "correlation": 0.9145425877932057
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Beverages",
+        "correlation": 0.6506817187021903
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Food **",
+        "correlation": 0.9224835118648925
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Oils & Meals",
+        "correlation": 0.9090703560034141
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Grains",
+        "correlation": 0.9038497614400057
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Other Food **",
+        "correlation": 0.8811569086069023
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Raw Materials",
+        "correlation": 0.8547111825303403
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Timber",
+        "correlation": 0.7787970531104765
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.8830731855998872
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Fertilizers **",
+        "correlation": 0.8929393235229797
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9212484356429872
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9064738536138119
+      },
+      {
+        "column_a": "Energy",
+        "column_b": "Precious Metals",
+        "correlation": 0.7705555258693132
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Agriculture **",
+        "correlation": 0.9903929391515062
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Beverages",
+        "correlation": 0.78086166691125
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Food **",
+        "correlation": 0.9840055998754378
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Oils & Meals",
+        "correlation": 0.9662060004664538
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Grains",
+        "correlation": 0.947490979316828
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Other Food **",
+        "correlation": 0.9599043629480115
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Raw Materials",
+        "correlation": 0.914679306234258
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Timber",
+        "correlation": 0.8359310091014241
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.9414333609266188
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Fertilizers **",
+        "correlation": 0.9003053870336025
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9700288990876907
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9641910095956455
+      },
+      {
+        "column_a": "Non-energy **",
+        "column_b": "Precious Metals",
+        "correlation": 0.8639160486400387
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Beverages",
+        "correlation": 0.8074940321223693
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Food **",
+        "correlation": 0.9888131840111938
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Oils & Meals",
+        "correlation": 0.9703033278535576
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Grains",
+        "correlation": 0.9550521796892051
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Other Food **",
+        "correlation": 0.9626911687009648
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Raw Materials",
+        "correlation": 0.9236814934245131
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Timber",
+        "correlation": 0.8462193920253093
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.9477192353378376
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Fertilizers **",
+        "correlation": 0.879174260035714
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9286455335658205
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.922011508889314
+      },
+      {
+        "column_a": "Agriculture **",
+        "column_b": "Precious Metals",
+        "correlation": 0.8416011220592311
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Food **",
+        "correlation": 0.7454311209765341
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Oils & Meals",
+        "correlation": 0.7432829880924345
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Grains",
+        "correlation": 0.682786464560987
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Other Food **",
+        "correlation": 0.7448358308065252
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Raw Materials",
+        "correlation": 0.6508564161948691
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Timber",
+        "correlation": 0.5363353040977864
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.7552223542146974
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Fertilizers **",
+        "correlation": 0.6490260242601459
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.7055888027146027
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.714887259686426
+      },
+      {
+        "column_a": "Beverages",
+        "column_b": "Precious Metals",
+        "correlation": 0.7787037313729274
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Oils & Meals",
+        "correlation": 0.9853062978332712
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Grains",
+        "correlation": 0.978090208516794
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Other Food **",
+        "correlation": 0.9570326570004712
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Raw Materials",
+        "correlation": 0.8864539522358729
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Timber",
+        "correlation": 0.8072429537329269
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.9166161973480204
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Fertilizers **",
+        "correlation": 0.9068468844394811
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9254407442568258
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9158030841800673
+      },
+      {
+        "column_a": "Food **",
+        "column_b": "Precious Metals",
+        "correlation": 0.8281243509128929
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Grains",
+        "correlation": 0.9627413355206274
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Other Food **",
+        "correlation": 0.9059889760763199
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Raw Materials",
+        "correlation": 0.8495810191319119
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Timber",
+        "correlation": 0.761937639604711
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.8956008159130379
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Fertilizers **",
+        "correlation": 0.9024042074877031
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9078194650203447
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.8948535741087157
+      },
+      {
+        "column_a": "Oils & Meals",
+        "column_b": "Precious Metals",
+        "correlation": 0.804364687526892
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Other Food **",
+        "correlation": 0.8971683435027766
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Raw Materials",
+        "correlation": 0.8472139483391515
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Timber",
+        "correlation": 0.7668390538545868
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.8828177160712904
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Fertilizers **",
+        "correlation": 0.9037188794635435
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.8806187705935011
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.8654450853754694
+      },
+      {
+        "column_a": "Grains",
+        "column_b": "Precious Metals",
+        "correlation": 0.7619849852041999
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Raw Materials",
+        "correlation": 0.8976638583074656
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Timber",
+        "correlation": 0.8370315703419494
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.8996721841952005
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Fertilizers **",
+        "correlation": 0.840832158585637
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.9136200594891576
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9142256200485812
+      },
+      {
+        "column_a": "Other Food **",
+        "column_b": "Precious Metals",
+        "correlation": 0.8520967458707506
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Timber",
+        "correlation": 0.9733718614930272
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.9425705686200001
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Fertilizers **",
+        "correlation": 0.7462798413483043
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.8686447054115801
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.8609719260432297
+      },
+      {
+        "column_a": "Raw Materials",
+        "column_b": "Precious Metals",
+        "correlation": 0.718206573716452
+      },
+      {
+        "column_a": "Timber",
+        "column_b": "Other Raw Mat.",
+        "correlation": 0.8409100844010072
+      },
+      {
+        "column_a": "Timber",
+        "column_b": "Fertilizers **",
+        "correlation": 0.6702429846314063
+      },
+      {
+        "column_a": "Timber",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.7921949397776683
+      },
+      {
+        "column_a": "Timber",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.7863202949484054
+      },
+      {
+        "column_a": "Timber",
+        "column_b": "Precious Metals",
+        "correlation": 0.620444433501891
+      },
+      {
+        "column_a": "Other Raw Mat.",
+        "column_b": "Fertilizers **",
+        "correlation": 0.7852444352539611
+      },
+      {
+        "column_a": "Other Raw Mat.",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.8964423480381969
+      },
+      {
+        "column_a": "Other Raw Mat.",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.886896564973203
+      },
+      {
+        "column_a": "Other Raw Mat.",
+        "column_b": "Precious Metals",
+        "correlation": 0.7916334489258973
+      },
+      {
+        "column_a": "Fertilizers **",
+        "column_b": "Metals  & Minerals",
+        "correlation": 0.8633534046538757
+      },
+      {
+        "column_a": "Fertilizers **",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.8536608163265149
+      },
+      {
+        "column_a": "Fertilizers **",
+        "column_b": "Precious Metals",
+        "correlation": 0.7856506000084821
+      },
+      {
+        "column_a": "Metals  & Minerals",
+        "column_b": "Base Metals (ex. iron ore)",
+        "correlation": 0.9966260465822704
+      },
+      {
+        "column_a": "Metals  & Minerals",
+        "column_b": "Precious Metals",
+        "correlation": 0.861710044029721
+      },
+      {
+        "column_a": "Base Metals (ex. iron ore)",
+        "column_b": "Precious Metals",
+        "correlation": 0.867710468756063
+      }
+    ]
+  }
+}

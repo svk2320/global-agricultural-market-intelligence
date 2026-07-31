@@ -1,0 +1,464 @@
+{
+  "table": "raw.asti_researchers_archive",
+  "generated_at": "2026-07-07T19:15:27",
+  "dataset_summary": {
+    "row_count": 3154,
+    "column_count": 13
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 3154,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 81
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 81
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 81
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 1
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 1
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 2
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 2
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 36
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 36
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 1812
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 4,
+      "max": 276,
+      "mean": 130.05580215599238,
+      "median": 130.0,
+      "stddev": 73.90746517827029
+    },
+    "Item Code": {
+      "min": 23046,
+      "max": 23046,
+      "mean": 23046.0,
+      "median": 23046.0,
+      "stddev": 0.0
+    },
+    "Element Code": {
+      "min": 6082,
+      "max": 6086,
+      "mean": 6084.0,
+      "median": 6084.0,
+      "stddev": 2.0003171331186893
+    },
+    "Year Code": {
+      "min": 1981,
+      "max": 2016,
+      "mean": 2001.001902346227,
+      "median": 2003.0,
+      "stddev": 9.726060554635678
+    },
+    "Year": {
+      "min": 1981,
+      "max": 2016,
+      "mean": 2001.001902346227,
+      "median": 2003.0,
+      "stddev": 9.726060554635678
+    },
+    "Value": {
+      "min": 0.7,
+      "max": 13106.6,
+      "mean": 394.5151236525054,
+      "median": 65.45,
+      "stddev": 1250.2277368019322
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 60.0,
+      "q3": 195.0,
+      "lower_bound": -142.5,
+      "upper_bound": 397.5,
+      "outlier_count": 0
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 23046.0,
+      "q3": 23046.0,
+      "lower_bound": 23046.0,
+      "upper_bound": 23046.0,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6082.0,
+      "q3": 6086.0,
+      "lower_bound": 6076.0,
+      "upper_bound": 6092.0,
+      "outlier_count": 0
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1993.0,
+      "q3": 2009.0,
+      "lower_bound": 1969.0,
+      "upper_bound": 2033.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1993.0,
+      "q3": 2009.0,
+      "lower_bound": 1969.0,
+      "upper_bound": 2033.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 9.7,
+      "q3": 213.9,
+      "lower_bound": -296.6,
+      "upper_bound": 520.2,
+      "outlier_count": 427
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'450",
+          "count": 72
+        },
+        {
+          "value": "'072",
+          "count": 72
+        },
+        {
+          "value": "'716",
+          "count": 72
+        },
+        {
+          "value": "'768",
+          "count": 72
+        },
+        {
+          "value": "'384",
+          "count": 72
+        },
+        {
+          "value": "'204",
+          "count": 72
+        },
+        {
+          "value": "'231",
+          "count": 72
+        },
+        {
+          "value": "'480",
+          "count": 72
+        },
+        {
+          "value": "'466",
+          "count": 72
+        },
+        {
+          "value": "'686",
+          "count": 72
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Togo",
+          "count": 72
+        },
+        {
+          "value": "Mali",
+          "count": 72
+        },
+        {
+          "value": "Benin",
+          "count": 72
+        },
+        {
+          "value": "Mauritius",
+          "count": 72
+        },
+        {
+          "value": "Uganda",
+          "count": 72
+        },
+        {
+          "value": "C\u00f4te d'Ivoire",
+          "count": 72
+        },
+        {
+          "value": "Botswana",
+          "count": 72
+        },
+        {
+          "value": "Senegal",
+          "count": 72
+        },
+        {
+          "value": "Kenya",
+          "count": 72
+        },
+        {
+          "value": "Madagascar",
+          "count": 72
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agricultural researchers (FTE)",
+          "count": 3154
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Per 100,000 farmers",
+          "count": 1577
+        },
+        {
+          "value": "Researchers, total",
+          "count": 1577
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "",
+          "count": 3154
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "X",
+          "count": 3154
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "ASTI (Agricultural Science and Technology Indicators). 2019. ASTI database. http://www.asti.cgiar.org/data.",
+          "count": 2970
+        },
+        {
+          "value": "Includes estimates for expatriate researchers. ASTI (Agricultural Science and Technology Indicators). 2019. ASTI database. http://www.asti.cgiar.org/data.",
+          "count": 71
+        },
+        {
+          "value": "Includes degree estimates for expatriate researchers. ASTI (Agricultural Science and Technology Indicators). 2019. ASTI database. http://www.asti.cgiar.org/data.",
+          "count": 41
+        },
+        {
+          "value": "Includes age estimates for expatriate researchers. ASTI (Agricultural Science and Technology Indicators). 2019. ASTI database. http://www.asti.cgiar.org/data.",
+          "count": 36
+        },
+        {
+          "value": "Excludes higher education. ASTI (Agricultural Science and Technology Indicators). 2019. ASTI database. http://www.asti.cgiar.org/data.",
+          "count": 36
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": -1.7285716122737361e-12
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.04625365014235807
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.04625365014235807
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": -0.10287691185166241
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": NaN
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -1.0632114086422308e-13
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -1.0632114086422308e-13
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.2880436468793714
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.04223787459882769
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.04223787459882769
+      }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.asti_researchers_archive_areacodes",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 121,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 121,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 121
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 121
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 121
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 4,
+      "max": 5817,
+      "mean": 1603.7768595041323,
+      "median": 175.0,
+      "stddev": 2370.931545080974
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 100.0,
+      "q3": 5102.0,
+      "lower_bound": -7403.0,
+      "upper_bound": 12605.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'624",
+          "count": 1
+        },
+        {
+          "value": "'364",
+          "count": 1
+        },
+        {
+          "value": "'388",
+          "count": 1
+        },
+        {
+          "value": "'426",
+          "count": 1
+        },
+        {
+          "value": "'454",
+          "count": 1
+        },
+        {
+          "value": "'466",
+          "count": 1
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Americas",
+          "count": 1
+        },
+        {
+          "value": "Botswana",
+          "count": 1
+        },
+        {
+          "value": "Burkina Faso",
+          "count": 1
+        },
+        {
+          "value": "Cabo Verde",
+          "count": 1
+        },
+        {
+          "value": "Central Asia",
+          "count": 1
+        },
+        {
+          "value": "Chile",
+          "count": 1
+        },
+        {
+          "value": "Dominica",
+          "count": 1
+        },
+        {
+          "value": "Eswatini",
+          "count": 1
+        },
+        {
+          "value": "Liberia",
+          "count": 1
+        },
+        {
+          "value": "Low Income Food Deficit Countries (LIFDCs)",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,70 @@
+{
+  "table": "raw.minimum_dietary_diversity_for_women_mdd_w_food_and_diet_indicators",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 2,
+    "column_count": 2
+  },
+  "schema": {
+    " Indicator Code": "BIGINT",
+    " Indicator": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2,
+    "columns": {
+      " Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "distinct_count": 2
+    },
+    " Indicator": {
+      "column": " Indicator",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    " Indicator Code": {
+      "min": 6211,
+      "max": 6212,
+      "mean": 6211.5,
+      "median": 6211.5,
+      "stddev": 0.7071067811865476
+    }
+  },
+  "outliers": {
+    " Indicator Code": {
+      "column": " Indicator Code",
+      "q1": 6211.25,
+      "q3": 6211.75,
+      "lower_bound": 6210.5,
+      "upper_bound": 6212.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " Indicator": {
+      "column": " Indicator",
+      "top_values": [
+        {
+          "value": "Percentage of women achieving MDD-W",
+          "count": 1
+        },
+        {
+          "value": "Percentage of women consuming each food group",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.environment_livestockmanure_areacodes",
+  "generated_at": "2026-07-07T19:15:48",
+  "dataset_summary": {
+    "row_count": 281,
+    "column_count": 3
+  },
+  "schema": {
+    " Area Code": "BIGINT",
+    " M49 Code": "VARCHAR",
+    " Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 281,
+    "columns": {
+      " Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Area Code": {
+      "column": " Area Code",
+      "distinct_count": 281
+    },
+    " M49 Code": {
+      "column": " M49 Code",
+      "distinct_count": 281
+    },
+    " Area": {
+      "column": " Area",
+      "distinct_count": 281
+    }
+  },
+  "statistics": {
+    " Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 848.0355871886121,
+      "median": 156.0,
+      "stddev": 1810.3532583884285
+    }
+  },
+  "outliers": {
+    " Area Code": {
+      "column": " Area Code",
+      "q1": 81.0,
+      "q3": 227.0,
+      "lower_bound": -138.0,
+      "upper_bound": 446.0,
+      "outlier_count": 38
+    }
+  },
+  "categorical": {
+    " M49 Code": {
+      "column": " M49 Code",
+      "top_values": [
+        {
+          "value": "'016",
+          "count": 1
+        },
+        {
+          "value": "'654",
+          "count": 1
+        },
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'064",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'174",
+          "count": 1
+        },
+        {
+          "value": "'200",
+          "count": 1
+        },
+        {
+          "value": "'408",
+          "count": 1
+        }
+      ]
+    },
+    " Area": {
+      "column": " Area",
+      "top_values": [
+        {
+          "value": "Albania",
+          "count": 1
+        },
+        {
+          "value": "Andorra",
+          "count": 1
+        },
+        {
+          "value": "Antigua and Barbuda",
+          "count": 1
+        },
+        {
+          "value": "Belize",
+          "count": 1
+        },
+        {
+          "value": "Bulgaria",
+          "count": 1
+        },
+        {
+          "value": "Canada",
+          "count": 1
+        },
+        {
+          "value": "Cayman Islands",
+          "count": 1
+        },
+        {
+          "value": "Central America",
+          "count": 1
+        },
+        {
+          "value": "China",
+          "count": 1
+        },
+        {
+          "value": "China; Taiwan Province of",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

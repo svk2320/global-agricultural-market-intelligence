@@ -1,0 +1,263 @@
+{
+  "table": "raw.emdat",
+  "generated_at": "2026-07-07T18:57:02",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 27681,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 29
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 27681,
+      "columns": {
+        "DisNo.": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Historic": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Classification Key": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Disaster Group": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Disaster Subgroup": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Disaster Type": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Disaster Subtype": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "External IDs": {
+          "null_count": 22981,
+          "null_pct": 83.02
+        },
+        "Event Name": {
+          "null_count": 18840,
+          "null_pct": 68.06
+        },
+        "ISO": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Country": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Subregion": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Region": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Location": {
+          "null_count": 2484,
+          "null_pct": 8.97
+        },
+        "Origin": {
+          "null_count": 22763,
+          "null_pct": 82.23
+        },
+        "Associated Types": {
+          "null_count": 23229,
+          "null_pct": 83.92
+        },
+        "OFDA/BHA Response": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Appeal": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Declaration": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "AID Contribution ('000 US$)": {
+          "null_count": 26894,
+          "null_pct": 97.16
+        },
+        "Magnitude": {
+          "null_count": 22210,
+          "null_pct": 80.24
+        },
+        "Magnitude Scale": {
+          "null_count": 10295,
+          "null_pct": 37.19
+        },
+        "Latitude": {
+          "null_count": 24846,
+          "null_pct": 89.76
+        },
+        "Longitude": {
+          "null_count": 24846,
+          "null_pct": 89.76
+        },
+        "River Basin": {
+          "null_count": 26048,
+          "null_pct": 94.1
+        },
+        "Start Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Start Month": {
+          "null_count": 481,
+          "null_pct": 1.74
+        },
+        "Start Day": {
+          "null_count": 3930,
+          "null_pct": 14.2
+        },
+        "End Year": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "End Month": {
+          "null_count": 775,
+          "null_pct": 2.8
+        },
+        "End Day": {
+          "null_count": 3821,
+          "null_pct": 13.8
+        },
+        "Total Deaths": {
+          "null_count": 5563,
+          "null_pct": 20.1
+        },
+        "No. Injured": {
+          "null_count": 18444,
+          "null_pct": 66.63
+        },
+        "No. Affected": {
+          "null_count": 16023,
+          "null_pct": 57.88
+        },
+        "No. Homeless": {
+          "null_count": 24917,
+          "null_pct": 90.01
+        },
+        "Total Affected": {
+          "null_count": 8966,
+          "null_pct": 32.39
+        },
+        "Reconstruction Costs ('000 US$)": {
+          "null_count": 27637,
+          "null_pct": 99.84
+        },
+        "Reconstruction Costs, Adjusted ('000 US$)": {
+          "null_count": 27637,
+          "null_pct": 99.84
+        },
+        "Insured Damage ('000 US$)": {
+          "null_count": 26530,
+          "null_pct": 95.84
+        },
+        "Insured Damage, Adjusted ('000 US$)": {
+          "null_count": 26530,
+          "null_pct": 95.84
+        },
+        "Total Damage ('000 US$)": {
+          "null_count": 21640,
+          "null_pct": 78.18
+        },
+        "Total Damage, Adjusted ('000 US$)": {
+          "null_count": 21654,
+          "null_pct": 78.23
+        },
+        "CPI": {
+          "null_count": 161,
+          "null_pct": 0.58
+        },
+        "Admin Units": {
+          "null_count": 19274,
+          "null_pct": 69.63
+        },
+        "GADM Admin Units": {
+          "null_count": 19839,
+          "null_pct": 71.67
+        },
+        "Entry Date": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Last Update": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 27681,
+      "distinct_rows": 27681,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "DisNo.": "VARCHAR",
+        "Historic": "VARCHAR",
+        "Classification Key": "VARCHAR",
+        "Disaster Group": "VARCHAR",
+        "Disaster Subgroup": "VARCHAR",
+        "Disaster Type": "VARCHAR",
+        "Disaster Subtype": "VARCHAR",
+        "External IDs": "VARCHAR",
+        "Event Name": "VARCHAR",
+        "ISO": "VARCHAR",
+        "Country": "VARCHAR",
+        "Subregion": "VARCHAR",
+        "Region": "VARCHAR",
+        "Location": "VARCHAR",
+        "Origin": "VARCHAR",
+        "Associated Types": "VARCHAR",
+        "OFDA/BHA Response": "VARCHAR",
+        "Appeal": "VARCHAR",
+        "Declaration": "VARCHAR",
+        "AID Contribution ('000 US$)": "DOUBLE",
+        "Magnitude": "DOUBLE",
+        "Magnitude Scale": "VARCHAR",
+        "Latitude": "DOUBLE",
+        "Longitude": "DOUBLE",
+        "River Basin": "VARCHAR",
+        "Start Year": "BIGINT",
+        "Start Month": "DOUBLE",
+        "Start Day": "DOUBLE",
+        "End Year": "BIGINT",
+        "End Month": "DOUBLE",
+        "End Day": "DOUBLE",
+        "Total Deaths": "DOUBLE",
+        "No. Injured": "DOUBLE",
+        "No. Affected": "DOUBLE",
+        "No. Homeless": "DOUBLE",
+        "Total Affected": "DOUBLE",
+        "Reconstruction Costs ('000 US$)": "DOUBLE",
+        "Reconstruction Costs, Adjusted ('000 US$)": "DOUBLE",
+        "Insured Damage ('000 US$)": "DOUBLE",
+        "Insured Damage, Adjusted ('000 US$)": "DOUBLE",
+        "Total Damage ('000 US$)": "DOUBLE",
+        "Total Damage, Adjusted ('000 US$)": "DOUBLE",
+        "CPI": "DOUBLE",
+        "Admin Units": "VARCHAR",
+        "GADM Admin Units": "VARCHAR",
+        "Entry Date": "VARCHAR",
+        "Last Update": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

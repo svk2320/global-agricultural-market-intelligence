@@ -1,0 +1,43 @@
+{
+  "table": "raw.exchange_rate_areacodes",
+  "generated_at": "2026-07-07T18:57:05",
+  "status": "PASS",
+  "failure_reasons": [],
+  "summary": {
+    "total_rows": 266,
+    "duplicate_rows": 0,
+    "columns_with_nulls": 0
+  },
+  "checks": {
+    "missing_values": {
+      "total_rows": 266,
+      "columns": {
+        "Area Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "M49 Code": {
+          "null_count": 0,
+          "null_pct": 0.0
+        },
+        "Area": {
+          "null_count": 0,
+          "null_pct": 0.0
+        }
+      }
+    },
+    "duplicate_rows": {
+      "total_rows": 266,
+      "distinct_rows": 266,
+      "duplicate_rows": 0
+    },
+    "schema": {
+      "actual_schema": {
+        "Area Code": "BIGINT",
+        "M49 Code": "VARCHAR",
+        "Area": "VARCHAR"
+      },
+      "mismatches": {}
+    }
+  }
+}

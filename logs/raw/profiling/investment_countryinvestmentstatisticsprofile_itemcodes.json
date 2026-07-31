@@ -1,0 +1,86 @@
+{
+  "table": "raw.investment_countryinvestmentstatisticsprofile_itemcodes",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 6,
+    "column_count": 2
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 6,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 6
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 6
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 22016,
+      "max": 23131,
+      "mean": 22732.5,
+      "median": 23069.0,
+      "stddev": 550.0733587440858
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 22289.5,
+      "q3": 23077.5,
+      "lower_bound": 21107.5,
+      "upper_bound": 24259.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Value Added (Agriculture; Forestry and Fishing)",
+          "count": 1
+        },
+        {
+          "value": "Credit to Agriculture; Forestry and Fishing",
+          "count": 1
+        },
+        {
+          "value": "Gross Fixed Capital Formation (Agriculture; Forestry and Fishing)",
+          "count": 1
+        },
+        {
+          "value": "Agriculture; forestry; fishing (general government expenditure)",
+          "count": 1
+        },
+        {
+          "value": "FDI inflows to Agriculture; Forestry and Fishing",
+          "count": 1
+        },
+        {
+          "value": "DFA Disbursement to Agriculture; Forestry and Fishing",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

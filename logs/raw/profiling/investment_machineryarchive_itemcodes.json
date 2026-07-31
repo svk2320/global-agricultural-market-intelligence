@@ -1,0 +1,103 @@
+{
+  "table": "raw.investment_machineryarchive_itemcodes",
+  "generated_at": "2026-07-07T19:16:06",
+  "dataset_summary": {
+    "row_count": 7,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 7,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 7,
+        "null_pct": 100.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 7
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 0
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 7
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 1299,
+      "max": 1915,
+      "mean": 1477.142857142857,
+      "median": 1306.0,
+      "stddev": 297.7635687204579
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 1301.0,
+      "q3": 1609.0,
+      "lower_bound": 839.0,
+      "upper_bound": 2071.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": []
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agricultural Machines",
+          "count": 1
+        },
+        {
+          "value": "Milking machines",
+          "count": 1
+        },
+        {
+          "value": "Agricultural Requisites",
+          "count": 1
+        },
+        {
+          "value": "Tractors Agric Total",
+          "count": 1
+        },
+        {
+          "value": "Harvesters-Threshers",
+          "count": 1
+        },
+        {
+          "value": "Soil machinery",
+          "count": 1
+        },
+        {
+          "value": "Agr Machinery nes",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

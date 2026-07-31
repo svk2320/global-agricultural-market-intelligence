@@ -1,0 +1,115 @@
+{
+  "table": "raw.inputs_landuse_itemcodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 51,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 51,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 51,
+        "null_pct": 100.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 51
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 0
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 50
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 6600,
+      "max": 67620,
+      "mean": 13739.450980392157,
+      "median": 6666.0,
+      "stddev": 19561.114821311927
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6642.5,
+      "q3": 6715.0,
+      "lower_bound": 6533.75,
+      "upper_bound": 6823.75,
+      "outlier_count": 6
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": []
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Agriculture",
+          "count": 2
+        },
+        {
+          "value": "Cropland",
+          "count": 1
+        },
+        {
+          "value": "Coastal waters used for aquac. or holding facilities",
+          "count": 1
+        },
+        {
+          "value": "Perm. meadows & pastures - Nat. growing",
+          "count": 1
+        },
+        {
+          "value": "EEZ used for aquac. or holding facilities",
+          "count": 1
+        },
+        {
+          "value": "Irrigation",
+          "count": 1
+        },
+        {
+          "value": "Land area",
+          "count": 1
+        },
+        {
+          "value": "Temporary fallow",
+          "count": 1
+        },
+        {
+          "value": "Permanent meadows and pastures",
+          "count": 1
+        },
+        {
+          "value": "Primary Forest",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

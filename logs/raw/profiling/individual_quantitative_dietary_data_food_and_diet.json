@@ -1,0 +1,769 @@
+{
+  "table": "raw.individual_quantitative_dietary_data_food_and_diet",
+  "generated_at": "2026-07-07T19:16:02",
+  "dataset_summary": {
+    "row_count": 2191084,
+    "column_count": 18
+  },
+  "schema": {
+    "Survey Code": "VARCHAR",
+    "Survey": "VARCHAR",
+    "Geographic Level Code": "BIGINT",
+    "Geographic Level": "VARCHAR",
+    "Population Age Group Code": "VARCHAR",
+    "Population Age Group": "VARCHAR",
+    "Food Group Code": "VARCHAR",
+    "Food Group": "VARCHAR",
+    "Indicator Code": "BIGINT",
+    "Indicator": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Sex Code": "BIGINT",
+    "Sex": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "VARCHAR",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 2191084,
+    "columns": {
+      "Survey Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Survey": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Geographic Level Code": {
+        "null_count": 1950294,
+        "null_pct": 89.01
+      },
+      "Geographic Level": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Population Age Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Population Age Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Food Group": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Indicator": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Sex": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "distinct_count": 8
+    },
+    "Survey": {
+      "column": "Survey",
+      "distinct_count": 8
+    },
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "distinct_count": 3
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "distinct_count": 105
+    },
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "distinct_count": 11
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "distinct_count": 11
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "distinct_count": 21
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "distinct_count": 21
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "distinct_count": 27
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "distinct_count": 27
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 6
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 1
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "distinct_count": 3
+    },
+    "Sex": {
+      "column": "Sex",
+      "distinct_count": 3
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 6
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 48569
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 8
+    }
+  },
+  "statistics": {
+    "Geographic Level Code": {
+      "min": 10000,
+      "max": 10002,
+      "mean": 10000.964338220027,
+      "median": 10001.0,
+      "stddev": 0.8201221722972766
+    },
+    "Indicator Code": {
+      "min": 3320,
+      "max": 3348,
+      "mean": 3332.8566326074215,
+      "median": 3333.0,
+      "stddev": 7.881918936586872
+    },
+    "Element Code": {
+      "min": 6120,
+      "max": 6209,
+      "mean": 6163.188765925907,
+      "median": 6128.0,
+      "stddev": 42.90231458522368
+    },
+    "Sex Code": {
+      "min": 1,
+      "max": 3,
+      "mean": 1.9913805221525054,
+      "median": 2.0,
+      "stddev": 0.8200409085132391
+    }
+  },
+  "outliers": {
+    "Geographic Level Code": {
+      "column": "Geographic Level Code",
+      "q1": 10000.0,
+      "q3": 10002.0,
+      "lower_bound": 9997.0,
+      "upper_bound": 10005.0,
+      "outlier_count": 0
+    },
+    "Indicator Code": {
+      "column": "Indicator Code",
+      "q1": 3326.0,
+      "q3": 3339.0,
+      "lower_bound": 3306.5,
+      "upper_bound": 3358.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 6123.0,
+      "q3": 6209.0,
+      "lower_bound": 5994.0,
+      "upper_bound": 6338.0,
+      "outlier_count": 0
+    },
+    "Sex Code": {
+      "column": "Sex Code",
+      "q1": 1.0,
+      "q3": 3.0,
+      "lower_bound": -2.0,
+      "upper_bound": 6.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Survey Code": {
+      "column": "Survey Code",
+      "top_values": [
+        {
+          "value": "484_2012",
+          "count": 537000
+        },
+        {
+          "value": "484_2016",
+          "count": 431112
+        },
+        {
+          "value": "788_19961997",
+          "count": 316166
+        },
+        {
+          "value": "076_20172018",
+          "count": 306264
+        },
+        {
+          "value": "076_20082009",
+          "count": 284644
+        },
+        {
+          "value": "076_2014",
+          "count": 180076
+        },
+        {
+          "value": "659_2020",
+          "count": 82162
+        },
+        {
+          "value": "226_2004",
+          "count": 53660
+        }
+      ]
+    },
+    "Survey": {
+      "column": "Survey",
+      "top_values": [
+        {
+          "value": "Mexico - 2012",
+          "count": 537000
+        },
+        {
+          "value": "Mexico - 2016",
+          "count": 431112
+        },
+        {
+          "value": "Tunisia - 1996-1997",
+          "count": 316166
+        },
+        {
+          "value": "Brazil - 2017-2018",
+          "count": 306264
+        },
+        {
+          "value": "Brazil - 2008-2009",
+          "count": 284644
+        },
+        {
+          "value": "Brazil - 2014",
+          "count": 180076
+        },
+        {
+          "value": "Saint Kitts and Nevis - 2020",
+          "count": 82162
+        },
+        {
+          "value": "Equatorial Guinea - 2004",
+          "count": 53660
+        }
+      ]
+    },
+    "Geographic Level": {
+      "column": "Geographic Level",
+      "top_values": [
+        {
+          "value": "National",
+          "count": 85424
+        },
+        {
+          "value": "Urban",
+          "count": 78529
+        },
+        {
+          "value": "Rural",
+          "count": 76837
+        },
+        {
+          "value": "Distrito Federal",
+          "count": 54132
+        },
+        {
+          "value": "Guanajuato",
+          "count": 29568
+        },
+        {
+          "value": "Veracruz",
+          "count": 29480
+        },
+        {
+          "value": "Puebla",
+          "count": 29402
+        },
+        {
+          "value": "Mexico",
+          "count": 29302
+        },
+        {
+          "value": "Chiapas",
+          "count": 28872
+        },
+        {
+          "value": "Sonora",
+          "count": 28834
+        }
+      ]
+    },
+    "Population Age Group Code": {
+      "column": "Population Age Group Code",
+      "top_values": [
+        {
+          "value": "allages",
+          "count": 301513
+        },
+        {
+          "value": "9t18y",
+          "count": 256482
+        },
+        {
+          "value": "14t18y",
+          "count": 250280
+        },
+        {
+          "value": "9t13y",
+          "count": 249306
+        },
+        {
+          "value": "19ya",
+          "count": 237013
+        },
+        {
+          "value": "19t50y",
+          "count": 233043
+        },
+        {
+          "value": "51ya",
+          "count": 223213
+        },
+        {
+          "value": "1t8y",
+          "count": 137132
+        },
+        {
+          "value": "4t8y",
+          "count": 130120
+        },
+        {
+          "value": "1t3y",
+          "count": 126753
+        }
+      ]
+    },
+    "Population Age Group": {
+      "column": "Population Age Group",
+      "top_values": [
+        {
+          "value": "All",
+          "count": 301513
+        },
+        {
+          "value": "9-18 years",
+          "count": 256482
+        },
+        {
+          "value": "14-18 years",
+          "count": 250280
+        },
+        {
+          "value": "9-13 years",
+          "count": 249306
+        },
+        {
+          "value": "19 years +",
+          "count": 237013
+        },
+        {
+          "value": "19-50 years",
+          "count": 233043
+        },
+        {
+          "value": "51 years +",
+          "count": 223213
+        },
+        {
+          "value": "1-8 years",
+          "count": 137132
+        },
+        {
+          "value": "4-8 years",
+          "count": 130120
+        },
+        {
+          "value": "1-3 years",
+          "count": 126753
+        }
+      ]
+    },
+    "Food Group Code": {
+      "column": "Food Group Code",
+      "top_values": [
+        {
+          "value": "FG0",
+          "count": 126354
+        },
+        {
+          "value": "FGD",
+          "count": 126348
+        },
+        {
+          "value": "FG1",
+          "count": 125842
+        },
+        {
+          "value": "FG9",
+          "count": 125817
+        },
+        {
+          "value": "FG4",
+          "count": 125187
+        },
+        {
+          "value": "FG12",
+          "count": 125086
+        },
+        {
+          "value": "FG10",
+          "count": 124922
+        },
+        {
+          "value": "FG7",
+          "count": 124697
+        },
+        {
+          "value": "FG14",
+          "count": 124404
+        },
+        {
+          "value": "FG11",
+          "count": 124346
+        }
+      ]
+    },
+    "Food Group": {
+      "column": "Food Group",
+      "top_values": [
+        {
+          "value": "All food groups",
+          "count": 126354
+        },
+        {
+          "value": "All food groups (excluding beverages)",
+          "count": 126348
+        },
+        {
+          "value": "Cereals and their products",
+          "count": 125842
+        },
+        {
+          "value": "Vegetables and their products",
+          "count": 125817
+        },
+        {
+          "value": "Milk and milk products",
+          "count": 125187
+        },
+        {
+          "value": "Sweets and sugars",
+          "count": 125086
+        },
+        {
+          "value": "Fruits and their products",
+          "count": 124922
+        },
+        {
+          "value": "Meat and meat products",
+          "count": 124697
+        },
+        {
+          "value": "Beverages",
+          "count": 124404
+        },
+        {
+          "value": "Fats and oils",
+          "count": 124346
+        }
+      ]
+    },
+    "Indicator": {
+      "column": "Indicator",
+      "top_values": [
+        {
+          "value": "Vitamin B6 intake",
+          "count": 85843
+        },
+        {
+          "value": "Food consumption, all subjects",
+          "count": 85843
+        },
+        {
+          "value": "Calcium intake",
+          "count": 85843
+        },
+        {
+          "value": "Iron intake",
+          "count": 85843
+        },
+        {
+          "value": "Potassium intake",
+          "count": 85843
+        },
+        {
+          "value": "Food consumption, consumers only",
+          "count": 85843
+        },
+        {
+          "value": "Protein intake",
+          "count": 85843
+        },
+        {
+          "value": "Carbohydrate (total) intake",
+          "count": 85843
+        },
+        {
+          "value": "Energy intake",
+          "count": 85843
+        },
+        {
+          "value": "Fat intake",
+          "count": 85843
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Value",
+          "count": 2191084
+        }
+      ]
+    },
+    "Sex": {
+      "column": "Sex",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 746240
+        },
+        {
+          "value": "Female",
+          "count": 727354
+        },
+        {
+          "value": "Male",
+          "count": 717490
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "mg/cap/d",
+          "count": 858430
+        },
+        {
+          "value": "g/cap/d",
+          "count": 749591
+        },
+        {
+          "value": "",
+          "count": 234533
+        },
+        {
+          "value": "\u03bcg/cap/d",
+          "count": 176844
+        },
+        {
+          "value": "%",
+          "count": 85843
+        },
+        {
+          "value": "kcal/cap/d",
+          "count": 85843
+        }
+      ]
+    },
+    "Value": {
+      "column": "Value",
+      "top_values": [
+        {
+          "value": "0",
+          "count": 312878
+        },
+        {
+          "value": "0.1",
+          "count": 44818
+        },
+        {
+          "value": "1",
+          "count": 43687
+        },
+        {
+          "value": "0.01",
+          "count": 42034
+        },
+        {
+          "value": "0.2",
+          "count": 28935
+        },
+        {
+          "value": "0.02",
+          "count": 25844
+        },
+        {
+          "value": "2",
+          "count": 25067
+        },
+        {
+          "value": "0.3",
+          "count": 21329
+        },
+        {
+          "value": "100",
+          "count": 19777
+        },
+        {
+          "value": "0.03",
+          "count": 19117
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 2191084
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "Mexico-2012",
+          "count": 537000
+        },
+        {
+          "value": "Mexico-2016",
+          "count": 431112
+        },
+        {
+          "value": "Tunisia-1996-97",
+          "count": 316166
+        },
+        {
+          "value": "Brazil-2017-18",
+          "count": 306264
+        },
+        {
+          "value": "Brazil-2008-2009",
+          "count": 284644
+        },
+        {
+          "value": "Brazil-2014",
+          "count": 180076
+        },
+        {
+          "value": "SKN-2020",
+          "count": 82162
+        },
+        {
+          "value": "Equatorial Guinea-2004",
+          "count": 53660
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Indicator Code",
+        "correlation": -0.0014862781049427027
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Element Code",
+        "correlation": -0.00048743430601604353
+      },
+      {
+        "column_a": "Geographic Level Code",
+        "column_b": "Sex Code",
+        "correlation": -0.0007224325317078831
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Element Code",
+        "correlation": 0.8525269849545927
+      },
+      {
+        "column_a": "Indicator Code",
+        "column_b": "Sex Code",
+        "correlation": 0.0011721012309599476
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Sex Code",
+        "correlation": 0.0014787399633848983
+      }
+    ]
+  }
+}

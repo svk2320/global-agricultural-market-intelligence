@@ -1,0 +1,584 @@
+{
+  "table": "raw.emissions_land_use_fires",
+  "generated_at": "2026-07-07T19:15:40",
+  "dataset_summary": {
+    "row_count": 428963,
+    "column_count": 15
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Source Code": "BIGINT",
+    "Source": "VARCHAR",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR",
+    "Note": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 428963,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Source": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Note": {
+        "null_count": 423454,
+        "null_pct": 98.72
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 279
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 279
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 279
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 12
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 12
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 5
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 5
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 35
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 35
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "distinct_count": 2
+    },
+    "Source": {
+      "column": "Source",
+      "distinct_count": 2
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 3
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 125705
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    },
+    "Note": {
+      "column": "Note",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 861.9057144788711,
+      "median": 153.0,
+      "stddev": 1827.1470393794752
+    },
+    "Item Code": {
+      "min": 6760,
+      "max": 6993,
+      "mean": 6827.565722451587,
+      "median": 6794.0,
+      "stddev": 79.55890869064632
+    },
+    "Element Code": {
+      "min": 7225,
+      "max": 7273,
+      "mean": 7239.386075255908,
+      "median": 7245.0,
+      "stddev": 12.049549275048532
+    },
+    "Year Code": {
+      "min": 1990,
+      "max": 2024,
+      "mean": 2007.272746134282,
+      "median": 2007.0,
+      "stddev": 10.001055194884357
+    },
+    "Year": {
+      "min": 1990,
+      "max": 2024,
+      "mean": 2007.272746134282,
+      "median": 2007.0,
+      "stddev": 10.001055194884357
+    },
+    "Source Code": {
+      "min": 3050,
+      "max": 3051,
+      "mean": 3050.012842599478,
+      "median": 3050.0,
+      "stddev": 0.11259527819246479
+    },
+    "Value": {
+      "min": -42.9126,
+      "max": 2831716693.9116,
+      "mean": 5850578.785085742,
+      "median": 0.0005,
+      "stddev": 61939753.349379875
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 80.0,
+      "q3": 223.0,
+      "lower_bound": -134.5,
+      "upper_bound": 437.5,
+      "outlier_count": 59316
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6791.0,
+      "q3": 6797.0,
+      "lower_bound": 6782.0,
+      "upper_bound": 6806.0,
+      "outlier_count": 117599
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7230.0,
+      "q3": 7246.0,
+      "lower_bound": 7206.0,
+      "upper_bound": 7270.0,
+      "outlier_count": 23574
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1999.0,
+      "q3": 2016.0,
+      "lower_bound": 1973.5,
+      "upper_bound": 2041.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1999.0,
+      "q3": 2016.0,
+      "lower_bound": 1973.5,
+      "upper_bound": 2041.5,
+      "outlier_count": 0
+    },
+    "Source Code": {
+      "column": "Source Code",
+      "q1": 3050.0,
+      "q3": 3050.0,
+      "lower_bound": 3050.0,
+      "upper_bound": 3050.0,
+      "outlier_count": 5509
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.0,
+      "q3": 449.4074,
+      "lower_bound": -674.1111,
+      "upper_bound": 1123.5185,
+      "outlier_count": 98744
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'724",
+          "count": 1836
+        },
+        {
+          "value": "'620",
+          "count": 1836
+        },
+        {
+          "value": "'036",
+          "count": 1829
+        },
+        {
+          "value": "'300",
+          "count": 1805
+        },
+        {
+          "value": "'616",
+          "count": 1805
+        },
+        {
+          "value": "'528",
+          "count": 1805
+        },
+        {
+          "value": "'380",
+          "count": 1805
+        },
+        {
+          "value": "'372",
+          "count": 1805
+        },
+        {
+          "value": "'246",
+          "count": 1801
+        },
+        {
+          "value": "'840",
+          "count": 1798
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Portugal",
+          "count": 1836
+        },
+        {
+          "value": "Spain",
+          "count": 1836
+        },
+        {
+          "value": "Australia",
+          "count": 1829
+        },
+        {
+          "value": "Netherlands (Kingdom of the)",
+          "count": 1805
+        },
+        {
+          "value": "Italy",
+          "count": 1805
+        },
+        {
+          "value": "Poland",
+          "count": 1805
+        },
+        {
+          "value": "Ireland",
+          "count": 1805
+        },
+        {
+          "value": "Greece",
+          "count": 1805
+        },
+        {
+          "value": "Finland",
+          "count": 1801
+        },
+        {
+          "value": "United States of America",
+          "count": 1798
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Other forest",
+          "count": 45287
+        },
+        {
+          "value": "Forest fires",
+          "count": 43027
+        },
+        {
+          "value": "Humid tropical forest",
+          "count": 40359
+        },
+        {
+          "value": "Savanna fires",
+          "count": 39408
+        },
+        {
+          "value": "Savanna",
+          "count": 37556
+        },
+        {
+          "value": "Woody savanna",
+          "count": 37416
+        },
+        {
+          "value": "Grassland",
+          "count": 37416
+        },
+        {
+          "value": "Closed shrubland",
+          "count": 37136
+        },
+        {
+          "value": "Fires in organic soils",
+          "count": 37016
+        },
+        {
+          "value": "Open shrubland",
+          "count": 36996
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Burned Area",
+          "count": 113092
+        },
+        {
+          "value": "Burning crop residues (Biomass burned, dry matter)",
+          "count": 111828
+        },
+        {
+          "value": "Emissions (CH4)",
+          "count": 94859
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 85610
+        },
+        {
+          "value": "Emissions (CO2)",
+          "count": 23574
+        }
+      ]
+    },
+    "Source": {
+      "column": "Source",
+      "top_values": [
+        {
+          "value": "FAO TIER 1",
+          "count": 423454
+        },
+        {
+          "value": "UNFCCC",
+          "count": 5509
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "kt",
+          "count": 204043
+        },
+        {
+          "value": "ha",
+          "count": 113092
+        },
+        {
+          "value": "t",
+          "count": 111828
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 423454
+        },
+        {
+          "value": "A",
+          "count": 5509
+        }
+      ]
+    },
+    "Note": {
+      "column": "Note",
+      "top_values": [
+        {
+          "value": "NC/CRF/BUR",
+          "count": 5509
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": 0.0026899183859189855
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.010699605324835684
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.0002850161549685241
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.0002850161549684903
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Source Code",
+        "correlation": -0.045703729812416376
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.19903688814233544
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.18915070324307218
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.011179272529599073
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.011179272529599046
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Source Code",
+        "correlation": -0.03275251140578715
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": -0.0058578245414894455
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.047478749504986595
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.04747874950498677
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Source Code",
+        "correlation": -0.006895206866515033
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.044823863707583275
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999999
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Source Code",
+        "correlation": -0.022160723452770082
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": -0.003787534245715449
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Source Code",
+        "correlation": -0.02216072345277082
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": -0.003787534245715449
+      },
+      {
+        "column_a": "Source Code",
+        "column_b": "Value",
+        "correlation": -0.00851812771790113
+      }
+    ]
+  }
+}

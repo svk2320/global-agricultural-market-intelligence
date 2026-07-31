@@ -1,0 +1,137 @@
+{
+  "dataset_name": "nasa_power_data___ALL_COUNTRIES_weather",
+  "file_path": "nasa_power_data/_ALL_COUNTRIES_weather.parquet",
+  "file_size_bytes": 345767,
+  "file_size_human": "337.7KB",
+  "last_modified": "2026-07-05T14:04:17.846313+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T14:04:17.835222+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 76440,
+  "column_count": 8,
+  "columns": [
+    {
+      "name": "country_iso2",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "AD",
+        "AE",
+        "AF"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "country_name",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Andorra",
+        "United Arab Emirates",
+        "Afghanistan"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    },
+    {
+      "name": "latitude",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "42.546245",
+        "23.424076",
+        "33.93911"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "longitude",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1.601554",
+        "53.847818",
+        "67.709953"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "year",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "2000",
+        "2001",
+        "2002"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "month",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "1",
+        "2",
+        "3"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "temp_c",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "-3.52",
+        "1.0",
+        "1.15"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "precip_mm_day",
+      "type": "Float64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "0.41",
+        "1.29",
+        "1.38"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    }
+  ],
+  "error": null
+}

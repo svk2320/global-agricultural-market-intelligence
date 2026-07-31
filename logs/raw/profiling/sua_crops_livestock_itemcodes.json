@@ -1,0 +1,184 @@
+{
+  "table": "raw.sua_crops_livestock_itemcodes",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 485,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "VARCHAR",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 485,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 4,
+        "null_pct": 0.82
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 485
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 481
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 485
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "231",
+          "count": 1
+        },
+        {
+          "value": "518",
+          "count": 1
+        },
+        {
+          "value": "51",
+          "count": 1
+        },
+        {
+          "value": "66",
+          "count": 1
+        },
+        {
+          "value": "82",
+          "count": 1
+        },
+        {
+          "value": "112",
+          "count": 1
+        },
+        {
+          "value": "105",
+          "count": 1
+        },
+        {
+          "value": "216",
+          "count": 1
+        },
+        {
+          "value": "41",
+          "count": 1
+        },
+        {
+          "value": "893",
+          "count": 1
+        }
+      ]
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'01371",
+          "count": 1
+        },
+        {
+          "value": "'01341",
+          "count": 1
+        },
+        {
+          "value": "'01311",
+          "count": 1
+        },
+        {
+          "value": "'0115",
+          "count": 1
+        },
+        {
+          "value": "'23120.02",
+          "count": 1
+        },
+        {
+          "value": "'F0875",
+          "count": 1
+        },
+        {
+          "value": "'24310.04",
+          "count": 1
+        },
+        {
+          "value": "'01355.01",
+          "count": 1
+        },
+        {
+          "value": "'F0020",
+          "count": 1
+        },
+        {
+          "value": "'23140.03",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Bambara beans; dry",
+          "count": 1
+        },
+        {
+          "value": "Beer of millet; malted",
+          "count": 1
+        },
+        {
+          "value": "Bran of cereals n.e.c.",
+          "count": 1
+        },
+        {
+          "value": "Brazil nuts; shelled",
+          "count": 1
+        },
+        {
+          "value": "Buttermilk; dry",
+          "count": 1
+        },
+        {
+          "value": "Cabbages",
+          "count": 1
+        },
+        {
+          "value": "Cake of copra",
+          "count": 1
+        },
+        {
+          "value": "Cake of palm kernel",
+          "count": 1
+        },
+        {
+          "value": "Cake of safflowerseed",
+          "count": 1
+        },
+        {
+          "value": "Cake of sunflower seed",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

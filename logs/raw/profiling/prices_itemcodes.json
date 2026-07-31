@@ -1,0 +1,156 @@
+{
+  "table": "raw.prices_itemcodes",
+  "generated_at": "2026-07-07T19:16:07",
+  "dataset_summary": {
+    "row_count": 242,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "BIGINT",
+    "CPC Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 242,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 242
+    },
+    "CPC Code": {
+      "column": "CPC Code",
+      "distinct_count": 242
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 242
+    }
+  },
+  "statistics": {
+    "Item Code": {
+      "min": 15,
+      "max": 2051,
+      "mean": 673.0785123966942,
+      "median": 545.5,
+      "stddev": 483.3729327863476
+    }
+  },
+  "outliers": {
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 289.75,
+      "q3": 1016.0,
+      "lower_bound": -799.625,
+      "upper_bound": 2105.375,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "CPC Code": {
+      "column": "CPC Code",
+      "top_values": [
+        {
+          "value": "'01371",
+          "count": 1
+        },
+        {
+          "value": "'01341",
+          "count": 1
+        },
+        {
+          "value": "'01311",
+          "count": 1
+        },
+        {
+          "value": "'01312.01",
+          "count": 1
+        },
+        {
+          "value": "'0115",
+          "count": 1
+        },
+        {
+          "value": "'02960.01",
+          "count": 1
+        },
+        {
+          "value": "'01355.01",
+          "count": 1
+        },
+        {
+          "value": "'01212",
+          "count": 1
+        },
+        {
+          "value": "'01251",
+          "count": 1
+        },
+        {
+          "value": "'01199.90",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Almonds; in shell",
+          "count": 1
+        },
+        {
+          "value": "Buckwheat",
+          "count": 1
+        },
+        {
+          "value": "Cereals n.e.c.",
+          "count": 1
+        },
+        {
+          "value": "Cereals; primary",
+          "count": 1
+        },
+        {
+          "value": "Flax; processed but not spun",
+          "count": 1
+        },
+        {
+          "value": "Hazelnuts; in shell",
+          "count": 1
+        },
+        {
+          "value": "Horse meat; fresh or chilled (biological)",
+          "count": 1
+        },
+        {
+          "value": "Jute & Jute-like Fibres",
+          "count": 1
+        },
+        {
+          "value": "Lemons and limes",
+          "count": 1
+        },
+        {
+          "value": "Mangoes; guavas and mangosteens",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

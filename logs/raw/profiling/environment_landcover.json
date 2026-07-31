@@ -1,0 +1,478 @@
+{
+  "table": "raw.environment_landcover",
+  "generated_at": "2026-07-07T19:15:47",
+  "dataset_summary": {
+    "row_count": 210986,
+    "column_count": 12
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 210986,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 28780,
+        "null_pct": 13.64
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 282
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 282
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 282
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 14
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 14
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 4
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 4
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 32
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 32
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 81933
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 2
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 705.6008645123374,
+      "median": 147.0,
+      "stddev": 1639.0188179498662
+    },
+    "Item Code": {
+      "min": 6970,
+      "max": 6983,
+      "mean": 6976.43018020153,
+      "median": 6977.0,
+      "stddev": 3.9834920066685218
+    },
+    "Element Code": {
+      "min": 5006,
+      "max": 5013,
+      "mean": 5007.596712578085,
+      "median": 5008.0,
+      "stddev": 1.20703886229935
+    },
+    "Year Code": {
+      "min": 1992,
+      "max": 2023,
+      "mean": 2010.381731489293,
+      "median": 2012.0,
+      "stddev": 8.349927821373187
+    },
+    "Year": {
+      "min": 1992,
+      "max": 2023,
+      "mean": 2010.381731489293,
+      "median": 2012.0,
+      "stddev": 8.349927821373187
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 5074594.55,
+      "mean": 22197.903853824464,
+      "median": 55.41,
+      "stddev": 143784.63928387949
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 75.0,
+      "q3": 218.0,
+      "lower_bound": -139.5,
+      "upper_bound": 432.5,
+      "outlier_count": 23088
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6973.0,
+      "q3": 6980.0,
+      "lower_bound": 6962.5,
+      "upper_bound": 6990.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 5007.0,
+      "q3": 5008.0,
+      "lower_bound": 5005.5,
+      "upper_bound": 5009.5,
+      "outlier_count": 7312
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 2004.0,
+      "q3": 2018.0,
+      "lower_bound": 1983.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 2004.0,
+      "q3": 2018.0,
+      "lower_bound": 1983.0,
+      "upper_bound": 2039.0,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.52,
+      "q3": 1617.6200000000001,
+      "lower_bound": -2425.13,
+      "upper_bound": 4043.2700000000004,
+      "outlier_count": 34093
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'807",
+          "count": 792
+        },
+        {
+          "value": "'612",
+          "count": 792
+        },
+        {
+          "value": "'642",
+          "count": 792
+        },
+        {
+          "value": "'646",
+          "count": 792
+        },
+        {
+          "value": "'659",
+          "count": 792
+        },
+        {
+          "value": "'670",
+          "count": 792
+        },
+        {
+          "value": "'724",
+          "count": 792
+        },
+        {
+          "value": "'705",
+          "count": 792
+        },
+        {
+          "value": "'710",
+          "count": 792
+        },
+        {
+          "value": "'760",
+          "count": 792
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 792
+        },
+        {
+          "value": "Argentina",
+          "count": 792
+        },
+        {
+          "value": "Guam",
+          "count": 792
+        },
+        {
+          "value": "Comoros",
+          "count": 792
+        },
+        {
+          "value": "Denmark",
+          "count": 792
+        },
+        {
+          "value": "Ecuador",
+          "count": 792
+        },
+        {
+          "value": "Liechtenstein",
+          "count": 792
+        },
+        {
+          "value": "Hungary",
+          "count": 792
+        },
+        {
+          "value": "Kuwait",
+          "count": 792
+        },
+        {
+          "value": "New Zealand",
+          "count": 792
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Permanent snow and glaciers",
+          "count": 16543
+        },
+        {
+          "value": "Tree-covered areas",
+          "count": 16543
+        },
+        {
+          "value": "Inland water bodies",
+          "count": 16543
+        },
+        {
+          "value": "Shrub-covered areas",
+          "count": 16543
+        },
+        {
+          "value": "Shrubs and/or herbaceous vegetation, aquatic or regularly flooded",
+          "count": 16543
+        },
+        {
+          "value": "Terrestrial barren land",
+          "count": 16543
+        },
+        {
+          "value": "Grassland",
+          "count": 16543
+        },
+        {
+          "value": "Artificial surfaces (including urban and associated areas)",
+          "count": 16543
+        },
+        {
+          "value": "Herbaceous crops",
+          "count": 16543
+        },
+        {
+          "value": "Mangroves",
+          "count": 16388
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Area from CCI_LC",
+          "count": 100656
+        },
+        {
+          "value": "Area from MODIS",
+          "count": 84388
+        },
+        {
+          "value": "Area from CGLS",
+          "count": 18630
+        },
+        {
+          "value": "Area from WorldCover",
+          "count": 7312
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "1000 ha",
+          "count": 210986
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 182206
+        },
+        {
+          "value": "O",
+          "count": 28780
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": 0.00592477501747433
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.01666267617160606
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.018275908391334392
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.018275908391334392
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.2917420929477277
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": -0.008727588254372743
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": 0.009386374857998508
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": 0.009386374857998508
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.011926376755123246
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": -0.007321694583231513
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": -0.007321694583231513
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": -0.0045907820879233655
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 0.9999999999999998
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.0038892514040094594
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.0038892514040094594
+      }
+    ]
+  }
+}

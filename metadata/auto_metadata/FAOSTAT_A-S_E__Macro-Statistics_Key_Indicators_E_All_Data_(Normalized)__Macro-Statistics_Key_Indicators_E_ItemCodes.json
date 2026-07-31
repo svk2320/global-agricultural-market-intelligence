@@ -1,0 +1,47 @@
+{
+  "dataset_name": "FAOSTAT_A-S_E__Macro-Statistics_Key_Indicators_E_All_Data_(Normalized)__Macro-Statistics_Key_Indicators_E_ItemCodes",
+  "file_path": "FAOSTAT_A-S_E/Macro-Statistics_Key_Indicators_E_All_Data_(Normalized)/Macro-Statistics_Key_Indicators_E_ItemCodes.parquet",
+  "file_size_bytes": 1278,
+  "file_size_human": "1.2KB",
+  "last_modified": "2026-07-05T03:52:41.810357+00:00",
+  "source": null,
+  "format": "parquet",
+  "created_at": "2026-07-05T03:44:15.893067+00:00",
+  "generated_at": "2026-07-07T14:11:36.482423+00:00",
+  "generator_version": "1.1.0",
+  "row_count": 11,
+  "column_count": 2,
+  "columns": [
+    {
+      "name": "Item Code",
+      "type": "Int64",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "22008",
+        "22015",
+        "22011"
+      ],
+      "is_numeric": true,
+      "is_temporal": false,
+      "is_categorical": false
+    },
+    {
+      "name": "Item",
+      "type": "String",
+      "nullable": false,
+      "null_count": 0,
+      "null_percent": 0.0,
+      "sample_values": [
+        "Gross Domestic Product",
+        "Gross Fixed Capital Formation",
+        "Gross National Income"
+      ],
+      "is_numeric": false,
+      "is_temporal": false,
+      "is_categorical": true
+    }
+  ],
+  "error": null
+}

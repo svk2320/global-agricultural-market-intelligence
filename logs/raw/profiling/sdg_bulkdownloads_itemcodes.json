@@ -1,0 +1,184 @@
+{
+  "table": "raw.sdg_bulkdownloads_itemcodes",
+  "generated_at": "2026-07-07T19:16:10",
+  "dataset_summary": {
+    "row_count": 279,
+    "column_count": 3
+  },
+  "schema": {
+    "Item Code": "VARCHAR",
+    "SDG Code": "VARCHAR",
+    "Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 279,
+    "columns": {
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "SDG Code": {
+        "null_count": 5,
+        "null_pct": 1.79
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 279
+    },
+    "SDG Code": {
+      "column": "SDG Code",
+      "distinct_count": 274
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 279
+    }
+  },
+  "statistics": {},
+  "outliers": {},
+  "categorical": {
+    "Item Code": {
+      "column": "Item Code",
+      "top_values": [
+        {
+          "value": "24044-AGGS3002",
+          "count": 1
+        },
+        {
+          "value": "24045-AGGS3003",
+          "count": 1
+        },
+        {
+          "value": "24033",
+          "count": 1
+        },
+        {
+          "value": "24048-C02",
+          "count": 1
+        },
+        {
+          "value": "24047",
+          "count": 1
+        },
+        {
+          "value": "24047-C03_MGCI",
+          "count": 1
+        },
+        {
+          "value": "24047-C03_TBL",
+          "count": 1
+        },
+        {
+          "value": "24047-C01_ART",
+          "count": 1
+        },
+        {
+          "value": "24047-C01_SNV",
+          "count": 1
+        },
+        {
+          "value": "24047-C01_TRE",
+          "count": 1
+        }
+      ]
+    },
+    "SDG Code": {
+      "column": "SDG Code",
+      "top_values": [
+        {
+          "value": "'AG_FLS_PCT-CPC2_1_AGGS3003",
+          "count": 1
+        },
+        {
+          "value": "'AG_FLS_IDX-_T",
+          "count": 1
+        },
+        {
+          "value": "'ER_REG_UNFCIM",
+          "count": 1
+        },
+        {
+          "value": "'AG_LND_FRSTN",
+          "count": 1
+        },
+        {
+          "value": "'AG_LND_FRSTCERT",
+          "count": 1
+        },
+        {
+          "value": "'AG_LND_FRSTPRCT",
+          "count": 1
+        },
+        {
+          "value": "'ER_MTN_TOTL-C01",
+          "count": 1
+        },
+        {
+          "value": "'ER_MTN_GRNCOV-C02-LC_TBL",
+          "count": 1
+        },
+        {
+          "value": "'ER_MTN_GRNCOV-C03-LC_MGCI",
+          "count": 1
+        },
+        {
+          "value": "'ER_MTN_GRNCOV-C01-LC_SHR",
+          "count": 1
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "14.4.1 Proportion of fish stocks within biologically sustainable levels",
+          "count": 1
+        },
+        {
+          "value": "15.2.1 Forest area under an independently verified forest management certification scheme",
+          "count": 1
+        },
+        {
+          "value": "15.4.2 Mountain area: Remaining moutain area",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Alpine",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Montane",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Montane; Land Cover: Grassland",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Nival; Land Cover: Inland water bodies",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Remaining moutain area; Land Cover: Croplands",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Remaining moutain area; Land Cover: Grassland",
+          "count": 1
+        },
+        {
+          "value": "15.4.2a Mountain green cover area: Total; Land Cover: Tree-covered areas",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,82 @@
+{
+  "table": "raw.suite_of_gender_indicators_activities",
+  "generated_at": "2026-07-07T19:16:15",
+  "dataset_summary": {
+    "row_count": 5,
+    "column_count": 2
+  },
+  "schema": {
+    "Activity Code": "BIGINT",
+    "Activity": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 5,
+    "columns": {
+      "Activity Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Activity": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Activity Code": {
+      "column": "Activity Code",
+      "distinct_count": 5
+    },
+    "Activity": {
+      "column": "Activity",
+      "distinct_count": 5
+    }
+  },
+  "statistics": {
+    "Activity Code": {
+      "min": 1,
+      "max": 10,
+      "mean": 4.0,
+      "median": 3.0,
+      "stddev": 3.5355339059327378
+    }
+  },
+  "outliers": {
+    "Activity Code": {
+      "column": "Activity Code",
+      "q1": 2.0,
+      "q3": 4.0,
+      "lower_bound": -1.0,
+      "upper_bound": 7.0,
+      "outlier_count": 1
+    }
+  },
+  "categorical": {
+    "Activity": {
+      "column": "Activity",
+      "top_values": [
+        {
+          "value": "Agrifood systems",
+          "count": 1
+        },
+        {
+          "value": "Agriculture",
+          "count": 1
+        },
+        {
+          "value": "All activities",
+          "count": 1
+        },
+        {
+          "value": "Total",
+          "count": 1
+        },
+        {
+          "value": "Non-agricultural agrifood systems",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,156 @@
+{
+  "table": "raw.inputs_fertilizersproduct_itemcodes",
+  "generated_at": "2026-07-07T19:16:04",
+  "dataset_summary": {
+    "row_count": 23,
+    "column_count": 3
+  },
+  "schema": {
+    " Item Code": "BIGINT",
+    " CPC Code": "VARCHAR",
+    " Item": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 23,
+    "columns": {
+      " Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " CPC Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      " Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    " Item Code": {
+      "column": " Item Code",
+      "distinct_count": 23
+    },
+    " CPC Code": {
+      "column": " CPC Code",
+      "distinct_count": 23
+    },
+    " Item": {
+      "column": " Item",
+      "distinct_count": 23
+    }
+  },
+  "statistics": {
+    " Item Code": {
+      "min": 4001,
+      "max": 4030,
+      "mean": 4014.5652173913045,
+      "median": 4014.0,
+      "stddev": 9.00417118974483
+    }
+  },
+  "outliers": {
+    " Item Code": {
+      "column": " Item Code",
+      "q1": 4006.5,
+      "q3": 4022.5,
+      "lower_bound": 3982.5,
+      "upper_bound": 4046.5,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    " CPC Code": {
+      "column": " CPC Code",
+      "top_values": [
+        {
+          "value": "'34619",
+          "count": 1
+        },
+        {
+          "value": "'34642",
+          "count": 1
+        },
+        {
+          "value": "'34616",
+          "count": 1
+        },
+        {
+          "value": "'34621.01",
+          "count": 1
+        },
+        {
+          "value": "'34641",
+          "count": 1
+        },
+        {
+          "value": "'34645",
+          "count": 1
+        },
+        {
+          "value": "'34643",
+          "count": 1
+        },
+        {
+          "value": "'34644",
+          "count": 1
+        },
+        {
+          "value": "'34615",
+          "count": 1
+        },
+        {
+          "value": "'34150.01",
+          "count": 1
+        }
+      ]
+    },
+    " Item": {
+      "column": " Item",
+      "top_values": [
+        {
+          "value": "Other nitrogenous fertilizers; n.e.c.",
+          "count": 1
+        },
+        {
+          "value": "Other phosphatic fertilizers; n.e.c.",
+          "count": 1
+        },
+        {
+          "value": "Potassium nitrate",
+          "count": 1
+        },
+        {
+          "value": "PK compounds",
+          "count": 1
+        },
+        {
+          "value": "Fertilizers n.e.c.",
+          "count": 1
+        },
+        {
+          "value": "Calcium ammonium nitrate (CAN) and other mixtures with calcium carbonate",
+          "count": 1
+        },
+        {
+          "value": "Sodium nitrate",
+          "count": 1
+        },
+        {
+          "value": "Other NK compounds",
+          "count": 1
+        },
+        {
+          "value": "Urea and ammonium nitrate solutions (UAN)",
+          "count": 1
+        },
+        {
+          "value": "Urea",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,66 @@
+{
+  "table": "raw.asti_researchers_degrees",
+  "generated_at": "2026-07-07T19:15:28",
+  "dataset_summary": {
+    "row_count": 1,
+    "column_count": 2
+  },
+  "schema": {
+    "Degree Code": "BIGINT",
+    "Degree": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 1,
+    "columns": {
+      "Degree Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Degree": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Degree Code": {
+      "column": "Degree Code",
+      "distinct_count": 1
+    },
+    "Degree": {
+      "column": "Degree",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Degree Code": {
+      "min": 100,
+      "max": 100,
+      "mean": 100.0,
+      "median": 100.0,
+      "stddev": null
+    }
+  },
+  "outliers": {
+    "Degree Code": {
+      "column": "Degree Code",
+      "q1": 100.0,
+      "q3": 100.0,
+      "lower_bound": 100.0,
+      "upper_bound": 100.0,
+      "outlier_count": 0
+    }
+  },
+  "categorical": {
+    "Degree": {
+      "column": "Degree",
+      "top_values": [
+        {
+          "value": "Total",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

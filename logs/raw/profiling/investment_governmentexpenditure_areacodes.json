@@ -1,0 +1,156 @@
+{
+  "table": "raw.investment_governmentexpenditure_areacodes",
+  "generated_at": "2026-07-07T19:16:05",
+  "dataset_summary": {
+    "row_count": 287,
+    "column_count": 3
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "M49 Code": "VARCHAR",
+    "Area": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 287,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "M49 Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 287
+    },
+    "M49 Code": {
+      "column": "M49 Code",
+      "distinct_count": 287
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 287
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5817,
+      "mean": 864.6376306620209,
+      "median": 156.0,
+      "stddev": 1820.3503335239625
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 80.5,
+      "q3": 228.5,
+      "lower_bound": -141.5,
+      "upper_bound": 450.5,
+      "outlier_count": 40
+    }
+  },
+  "categorical": {
+    "M49 Code": {
+      "column": "M49 Code",
+      "top_values": [
+        {
+          "value": "'016",
+          "count": 1
+        },
+        {
+          "value": "'654",
+          "count": 1
+        },
+        {
+          "value": "'052",
+          "count": 1
+        },
+        {
+          "value": "'204",
+          "count": 1
+        },
+        {
+          "value": "'064",
+          "count": 1
+        },
+        {
+          "value": "'140",
+          "count": 1
+        },
+        {
+          "value": "'143",
+          "count": 1
+        },
+        {
+          "value": "'174",
+          "count": 1
+        },
+        {
+          "value": "'200",
+          "count": 1
+        },
+        {
+          "value": "'408",
+          "count": 1
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Africa",
+          "count": 1
+        },
+        {
+          "value": "Anguilla",
+          "count": 1
+        },
+        {
+          "value": "Asia",
+          "count": 1
+        },
+        {
+          "value": "Australia and New Zealand",
+          "count": 1
+        },
+        {
+          "value": "Cameroon",
+          "count": 1
+        },
+        {
+          "value": "Dominican Republic",
+          "count": 1
+        },
+        {
+          "value": "Eastern Africa",
+          "count": 1
+        },
+        {
+          "value": "Eritrea",
+          "count": 1
+        },
+        {
+          "value": "French Guiana",
+          "count": 1
+        },
+        {
+          "value": "Gabon",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "correlations": {}
+}

@@ -1,0 +1,450 @@
+{
+  "table": "raw.environment_food_waste_disposal",
+  "generated_at": "2026-07-07T19:15:46",
+  "dataset_summary": {
+    "row_count": 67264,
+    "column_count": 12
+  },
+  "schema": {
+    "Area Code": "BIGINT",
+    "Area Code (M49)": "VARCHAR",
+    "Area": "VARCHAR",
+    "Item Code": "BIGINT",
+    "Item": "VARCHAR",
+    "Element Code": "BIGINT",
+    "Element": "VARCHAR",
+    "Year Code": "BIGINT",
+    "Year": "BIGINT",
+    "Unit": "VARCHAR",
+    "Value": "DOUBLE",
+    "Flag": "VARCHAR"
+  },
+  "null_counts": {
+    "total_rows": 67264,
+    "columns": {
+      "Area Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area Code (M49)": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Area": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Item": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Element": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year Code": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Year": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Unit": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Value": {
+        "null_count": 0,
+        "null_pct": 0.0
+      },
+      "Flag": {
+        "null_count": 0,
+        "null_pct": 0.0
+      }
+    }
+  },
+  "unique_counts": {
+    "Area Code": {
+      "column": "Area Code",
+      "distinct_count": 271
+    },
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "distinct_count": 271
+    },
+    "Area": {
+      "column": "Area",
+      "distinct_count": 271
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "distinct_count": 5
+    },
+    "Item": {
+      "column": "Item",
+      "distinct_count": 5
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "distinct_count": 3
+    },
+    "Element": {
+      "column": "Element",
+      "distinct_count": 3
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "distinct_count": 30
+    },
+    "Year": {
+      "column": "Year",
+      "distinct_count": 30
+    },
+    "Unit": {
+      "column": "Unit",
+      "distinct_count": 1
+    },
+    "Value": {
+      "column": "Value",
+      "distinct_count": 49411
+    },
+    "Flag": {
+      "column": "Flag",
+      "distinct_count": 1
+    }
+  },
+  "statistics": {
+    "Area Code": {
+      "min": 1,
+      "max": 5873,
+      "mean": 910.9011952901998,
+      "median": 147.0,
+      "stddev": 1882.3797768992313
+    },
+    "Item Code": {
+      "min": 6987,
+      "max": 6991,
+      "mean": 6989.354439224548,
+      "median": 6989.0,
+      "stddev": 1.4148694703783262
+    },
+    "Element Code": {
+      "min": 7225,
+      "max": 7273,
+      "mean": 7237.169823382493,
+      "median": 7230.0,
+      "stddev": 19.067638804608514
+    },
+    "Year Code": {
+      "min": 1990,
+      "max": 2019,
+      "mean": 2004.6287464319696,
+      "median": 2005.0,
+      "stddev": 8.609921963877614
+    },
+    "Year": {
+      "min": 1990,
+      "max": 2019,
+      "mean": 2004.6287464319696,
+      "median": 2005.0,
+      "stddev": 8.609921963877614
+    },
+    "Value": {
+      "min": 0.0,
+      "max": 41626.915346,
+      "mean": 378.8667440644929,
+      "median": 1.2339245,
+      "stddev": 2173.0523840389865
+    }
+  },
+  "outliers": {
+    "Area Code": {
+      "column": "Area Code",
+      "q1": 75.0,
+      "q3": 222.0,
+      "lower_bound": -145.5,
+      "upper_bound": 442.5,
+      "outlier_count": 9972
+    },
+    "Item Code": {
+      "column": "Item Code",
+      "q1": 6988.0,
+      "q3": 6991.0,
+      "lower_bound": 6983.5,
+      "upper_bound": 6995.5,
+      "outlier_count": 0
+    },
+    "Element Code": {
+      "column": "Element Code",
+      "q1": 7225.0,
+      "q3": 7230.0,
+      "lower_bound": 7217.5,
+      "upper_bound": 7237.5,
+      "outlier_count": 14692
+    },
+    "Year Code": {
+      "column": "Year Code",
+      "q1": 1997.0,
+      "q3": 2012.0,
+      "lower_bound": 1974.5,
+      "upper_bound": 2034.5,
+      "outlier_count": 0
+    },
+    "Year": {
+      "column": "Year",
+      "q1": 1997.0,
+      "q3": 2012.0,
+      "lower_bound": 1974.5,
+      "upper_bound": 2034.5,
+      "outlier_count": 0
+    },
+    "Value": {
+      "column": "Value",
+      "q1": 0.01814775,
+      "q3": 32.502317,
+      "lower_bound": -48.708106125,
+      "upper_bound": 81.228570875,
+      "outlier_count": 11549
+    }
+  },
+  "categorical": {
+    "Area Code (M49)": {
+      "column": "Area Code (M49)",
+      "top_values": [
+        {
+          "value": "'016",
+          "count": 270
+        },
+        {
+          "value": "'140",
+          "count": 270
+        },
+        {
+          "value": "'204",
+          "count": 270
+        },
+        {
+          "value": "'052",
+          "count": 270
+        },
+        {
+          "value": "'234",
+          "count": 270
+        },
+        {
+          "value": "'174",
+          "count": 270
+        },
+        {
+          "value": "'300",
+          "count": 270
+        },
+        {
+          "value": "'064",
+          "count": 270
+        },
+        {
+          "value": "'262",
+          "count": 270
+        },
+        {
+          "value": "'624",
+          "count": 270
+        }
+      ]
+    },
+    "Area": {
+      "column": "Area",
+      "top_values": [
+        {
+          "value": "Afghanistan",
+          "count": 270
+        },
+        {
+          "value": "Argentina",
+          "count": 270
+        },
+        {
+          "value": "Comoros",
+          "count": 270
+        },
+        {
+          "value": "Denmark",
+          "count": 270
+        },
+        {
+          "value": "Ecuador",
+          "count": 270
+        },
+        {
+          "value": "Guam",
+          "count": 270
+        },
+        {
+          "value": "Hungary",
+          "count": 270
+        },
+        {
+          "value": "Kuwait",
+          "count": 270
+        },
+        {
+          "value": "Liechtenstein",
+          "count": 270
+        },
+        {
+          "value": "New Zealand",
+          "count": 270
+        }
+      ]
+    },
+    "Item": {
+      "column": "Item",
+      "top_values": [
+        {
+          "value": "Waste - agri-food systems",
+          "count": 22918
+        },
+        {
+          "value": "Industrial wastewater",
+          "count": 15030
+        },
+        {
+          "value": "Domestic wastewater",
+          "count": 14599
+        },
+        {
+          "value": "Solid food waste",
+          "count": 7371
+        },
+        {
+          "value": "Incineration",
+          "count": 7346
+        }
+      ]
+    },
+    "Element": {
+      "column": "Element",
+      "top_values": [
+        {
+          "value": "Emissions (CH4)",
+          "count": 29897
+        },
+        {
+          "value": "Emissions (N2O)",
+          "count": 22675
+        },
+        {
+          "value": "Emissions (CO2)",
+          "count": 14692
+        }
+      ]
+    },
+    "Unit": {
+      "column": "Unit",
+      "top_values": [
+        {
+          "value": "kilotonnes",
+          "count": 67264
+        }
+      ]
+    },
+    "Flag": {
+      "column": "Flag",
+      "top_values": [
+        {
+          "value": "E",
+          "count": 67264
+        }
+      ]
+    }
+  },
+  "correlations": {
+    "pairs": [
+      {
+        "column_a": "Area Code",
+        "column_b": "Item Code",
+        "correlation": -0.006104460456577372
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Element Code",
+        "correlation": 0.0033864795755337686
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year Code",
+        "correlation": -0.004222183280144677
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Year",
+        "correlation": -0.004222183280144677
+      },
+      {
+        "column_a": "Area Code",
+        "column_b": "Value",
+        "correlation": 0.31874109700342085
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Element Code",
+        "correlation": 0.4456393651110616
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year Code",
+        "correlation": -0.00019275712524906454
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Year",
+        "correlation": -0.00019275712524906454
+      },
+      {
+        "column_a": "Item Code",
+        "column_b": "Value",
+        "correlation": 0.055753136321855655
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year Code",
+        "correlation": 0.0015373000441697747
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Year",
+        "correlation": 0.0015373000441697747
+      },
+      {
+        "column_a": "Element Code",
+        "column_b": "Value",
+        "correlation": 0.09012630383931682
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Year",
+        "correlation": 1.0000000000000002
+      },
+      {
+        "column_a": "Year Code",
+        "column_b": "Value",
+        "correlation": 0.00674723789028347
+      },
+      {
+        "column_a": "Year",
+        "column_b": "Value",
+        "correlation": 0.00674723789028347
+      }
+    ]
+  }
+}
