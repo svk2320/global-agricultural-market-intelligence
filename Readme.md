@@ -1,406 +1,109 @@
-# Global Agriculture Market Intelligence Platform
+# 🌾 Global Agricultural Market Intelligence Platform
 
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![dbt](https://img.shields.io/badge/dbt-Core-orange)
-![DuckDB](https://img.shields.io/badge/DuckDB-OLAP-yellow)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Serving-blue)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
-
-An end-to-end analytics platform that transforms 20 years of global agriculture data (2001–2020) across 97M+ records into business intelligence for four critical analytical domains: **Food Security**, **Agricultural Productivity**, **Trade Intelligence**, and **Commodity Market Analysis**.
-
-The platform ingests data from FAOSTAT, NASA POWER, the World Bank Pink Sheet, and EM-DAT; validates it at every stage with automated quality checks; and serves pre-computed KPIs to a 5-page Power BI dashboard through a dedicated PostgreSQL serving layer.
+### Twenty years of global agriculture, trade, and price data — turned into country-level risk signals
 
 ---
 
-## Quick Summary
+## The Business Problem
 
-| | |
-|---|---|
-| 📊 **Dataset** | Global agriculture, commodity, climate, trade, and socioeconomic data (2001–2020) |
-| 🌍 **Scope** | 97M+ records · 369 raw tables · 100+ countries |
-| ⚙️ **Stack** | DuckDB · dbt · PostgreSQL · Power BI · Python |
-| 🧠 **Analysis** | Food security · productivity · trade dependency · commodity markets |
-| 📈 **Output** | 5-page Power BI dashboard · 16 KPI reporting models |
+Global agricultural and food-security data is scattered across multiple international sources — FAOSTAT, NASA POWER, the World Bank, EM-DAT — each with its own format, coverage window, and update cadence. Governments, agricultural ministries, international organizations, and market analysts all need a consolidated view of food security, productivity, trade dependency, and commodity prices to act quickly, but no single accessible platform pulls these domains together at country-year grain.
 
----
+Leadership framed the need like this:
 
-## Project Objective
+> _"We have twenty years of agricultural, trade, and price data sitting in disconnected exports, but nobody can quickly answer which countries are becoming food insecure, why some countries produce more than others, how exposed countries are on trade, or why commodity prices move the way they do. Build something that turns this into a usable intelligence platform."_
 
-This project transforms heterogeneous global agriculture datasets into an analytics platform that supports decision-making across food security, agricultural productivity, trade dependency, and commodity market analysis.
-
-The objective is to:
-
-- Identify countries showing changes in food security conditions
-- Analyze agricultural productivity trends and input relationships
-- Measure agricultural trade dependency and concentration risks
-- Understand commodity price movements and volatility patterns
-- Deliver validated KPIs through a production-style BI architecture
-
-The project demonstrates an end-to-end analytics engineering workflow combining data ingestion, quality engineering, dimensional modeling, KPI development, and business intelligence delivery.
-
-
-## Quick Navigation
-
-- Architecture
-- Business Problems
-- Key Insights
-- Data Quality
-- Power BI Architecture
-- Repository Structure
-- Documentation
-- Setup
+This project was built to answer that — integrating 97M+ records across 369 source tables into a validated, decision-ready platform.
 
 ---
 
-## Architecture Overview
+## Project at a Glance
 
-```mermaid
-flowchart TD
-    S1[FAOSTAT] --> R[Raw Data Layer\nCSV / Excel]
-    S2[NASA POWER] --> R
-    S3[World Bank Pink Sheet] --> R
-    S4[EM-DAT] --> R
-
-    R --> P[Parquet Conversion\nColumnar Storage]
-    P --> D[DuckDB Raw Schema\n369 Source Tables]
-    D --> Q[Raw Data Quality\nMetadata · Duplicates · Nulls · Profiling]
-
-    Q --> STG[dbt Staging\n350 Models]
-    STG --> INT[dbt Intermediate\n73 Models]
-    INT --> MART[dbt Marts\n76 Models]
-    MART --> RPT[dbt Reporting\n16 KPI Tables]
-
-    RPT --> PG[PostgreSQL\nReporting Schema]
-    PG --> PBI[Power BI\n5-Page Dashboard]
-```
-
-The architecture follows a layered analytics engineering pattern inspired by the medallion approach, where data moves through progressively refined layers. Each layer has a defined responsibility, improving data quality, lineage, and maintainability. Power BI connects exclusively to PostgreSQL — never to DuckDB or any intermediate processing layer.
+| Area              | Details                                                                      |
+| ----------------- | ---------------------------------------------------------------------------- |
+| Role              | Analytics/Data Engineer                                                      |
+| Dataset           | FAOSTAT, NASA POWER, World Bank Pink Sheet, EM-DAT — 2001–2020               |
+| Scale             | 97M+ raw records · 369 raw tables · 100+ countries                           |
+| Business Question | Which countries are moving toward risk, and where should attention go next?  |
+| Analysis Focus    | Food security, agricultural productivity, trade dependency, commodity prices |
+| Tools             | Python, DuckDB, dbt, PostgreSQL, Power BI                                    |
+| Output            | 16 validated KPI models + 5-page Power BI dashboard                          |
 
 ---
 
-## Project Scale
+## The Objective
 
-| Metric | Value |
-|---|---:|
-| Raw Source Tables | 369 |
-| Raw Records | 97M+ |
-| Staging Models | 350 |
-| Intermediate Models | 73 |
-| Mart Models | 76 |
-| Reporting Models | 16 |
-| Dashboard Pages | 5 |
-| Analysis Domains | 4 |
-| Documentation Files | 7 |
-| Data Sources | 4 |
-| Year Coverage | 2001–2020 |
+Analyze twenty years of global agricultural data to determine:
+
+- Which countries are showing declining food security indicators, and which are most at risk going forward?
+- Which countries are outperforming or underperforming on agricultural productivity, and how do input levels relate to that?
+- How dependent is each country on agricultural imports and exports, and where is trade concentration risk highest?
+- Why are commodity prices changing, and how much of local price movement comes from currency effects versus global trends?
+
+Explicitly out of scope: climate impact and supply risk as standalone modules (folded into the above as supporting context), sustainability and investment prioritization analysis (weaker data coverage, lower fit for this phase), real-time data, and causal or predictive claims — this platform identifies patterns, not proven cause-effect relationships or forecasts.
+
+_(Full scoping document: [`docs/00_requirements.md`](docs/00_requirements.md); full scope-trimming rationale: [`docs/08_scope_notes.md`](docs/08_scope_notes.md))_
 
 ---
 
-## Business Problems
+## The Approach
 
-The platform addresses analytical questions relevant to agricultural analysts, researchers, and organizations involved in food systems and commodity markets.
+Before any finding could be trusted, the data had to be validated at every stage. 369 raw source tables were profiled, quality-checked, and audited before a single transformation was applied — 366 of 369 passed cleanly, with 3 known duplicate-row issues in reference tables tracked and documented rather than silently patched.
 
-### 1. Food Security
+From there, data moved through a layered pipeline: staging (350 models) cleaned and standardized; intermediate (73 models) handled reusable joins and reshaping; marts (76 models) organized everything around the four business domains; and reporting (16 KPI models) pre-computed exactly what the dashboard needed. Power BI never touches raw data or intermediate logic — it connects only to a dedicated PostgreSQL serving layer, so every number on the dashboard traces back to a version-controlled dbt model.
 
-> Which countries are becoming food insecure?
-
-**Analytical questions supported:** Which countries show declining food security indicators? Where should analysts investigate further? Which countries are at risk next year?
-
-**Key models:** `fact_food_security__data`, `fact_socioeconomic__population`
-
-### 2. Agricultural Productivity
-
-> Why are some countries producing more than others?
-
-**Analytical questions supported:** How do productivity trends vary across countries? Which agricultural inputs correlate with production outcomes?
-
-**Key models:** `fact_production__crops_livestock`, `fact_land_resources__inputs_fertilizersnutrient`, `fact_land_resources__environment_pesticides`
-
-### 3. Trade Intelligence
-
-> How dependent is each country on imports and exports?
-
-**Analytical questions supported:** Which countries show high import dependency? How concentrated are agricultural trade relationships?
-
-**Key models:** `fact_trade__trade`, `fact_trade__matrix`
-
-### 4. Commodity Market Analysis
-
-> Why are agricultural commodity prices changing?
-
-**Analytical questions supported:** How do commodity prices change over time? Which commodities show higher volatility?
-
-**Key models:** `dim_commodity_prices__prices`, `dim_commodity_prices__indices`, `fact_prices__consumerpriceindices`, `fact_prices__rate`
+_(Full technical detail: [`docs/01_architecture_report.md`](docs/01_architecture_report.md))_
 
 ---
 
-## Key Insights
+## What the Data Actually Said
 
-The platform's analysis of available global agricultural datasets (2001–2020) identified patterns across all four business domains. These findings are analytical observations and should be interpreted alongside domain expertise and external context. These are summarized below; full details are in `docs/06_business_insights_report.md`.
+**1. Global food security improved on average — but that average hides real deterioration.**
+The population-weighted food supply adequacy indicator rose from 1.49 (2001) to 1.64 (2020). But Syria, Venezuela, Egypt, and Nigeria all show clear downward trends — some of them despite still having comfortable absolute food-security levels. Trend direction matters as much as the current number when flagging risk.
 
-**1. Food security improved on average, but country-level trends varied significantly.** The population-weighted food supply adequacy indicator increased from 1.49 (2001) to 1.64 (2020). The analysis identified countries including Syria, Venezuela, Egypt, and Nigeria among those showing notable negative trends in food security indicators. Trend direction provides additional context beyond absolute levels when identifying countries requiring further investigation.
+**2. Productivity gains are wildly uneven, and they track policy stability as much as inputs.**
+Iraq (+298%) and Kuwait (+193%) posted the largest wheat yield gains between 2001 and 2020 — both tied to post-conflict investment and targeted irrigation programs. The steepest declines (Lesotho, Angola, DPR Korea) cluster in conflict-affected or resource-constrained economies. Input access clearly matters, but policy continuity looks just as important.
 
-**2. Wheat yield trends vary substantially across countries.** Iraq (+298%) and Kuwait (+193%) recorded some of the largest increases between 2001 and 2020, while several countries experienced declining yields. These differences highlight the importance of examining country-specific factors such as agricultural investment, resource availability, climate conditions, and policy environment when interpreting productivity changes.
+**3. Trade dependency isn't one story — it's two.**
+Some countries rely almost entirely on imports for key agricultural inputs (Albania sits at 91–100% import-dependent most years). Separately, a number of smaller exporters concentrate the bulk of a given export in a single trading partner. Both are real exposure signals, but they come from different data and shouldn't be blended into one "trade risk" number.
 
-**3. Agricultural trade dependency varies significantly across countries.** The analysis identified differences in import dependency for agricultural inputs, with some countries showing consistently high reliance on imports. Export concentration patterns also highlight countries where trade exposure is concentrated among fewer markets, providing useful signals for diversification analysis.
+**4. Fertilizer prices rose faster than every other tracked commodity index.**
++114% between 2001 and 2020, versus +91% for food and +85% for agriculture overall. That has a direct knock-on effect for productivity: if input costs outpace output prices, it constrains which countries can actually afford input-intensive yield improvements.
 
-**4. Fertilizer prices showed the strongest increase among tracked commodity indices.** Fertilizer prices increased by approximately +114% between 2001 and 2020, compared with food (+91%) and overall agriculture (+85%) indices. The analysis highlights how input price movements can influence agricultural production economics. Wheat price volatility peaked at 11.8% in 2010, with additional periods of elevated volatility during the 2007–2008 global food price crisis.
-
----
-
-## Data Layers
-
-### Raw Layer
-
-The raw layer acts as the platform's ingestion layer. Source datasets from FAOSTAT, NASA POWER, the World Bank, and EM-DAT are stored in their original CSV and Excel formats under `data/raw`, then converted to Parquet for efficient columnar storage and loaded into DuckDB's `raw` schema. No business transformations are applied at this stage — the raw layer preserves the exact structure and content received from each source, providing a complete, auditable record of what the platform ingested.
-
-After ingestion, three automated validation steps establish baseline quality: metadata generation (`make auto-metadata`), data quality checks (`make quality-checks-raw`), and profiling (`make profiling-raw`). Results are stored in the DuckDB `audit` schema and in JSON files under `logs/raw/`.
-
-### Staging Layer
-
-The staging layer cleans and standardizes raw data into a consistent, analysis-ready format without introducing business logic. The staging layer contains models that clean and standardize source data into a consistent analytical format. Most source tables have corresponding staging models, while specialized transformations handle datasets requiring deduplication or reshaping. that handles column name standardization (converting source-specific naming into consistent snake_case), data type preparation (casting VARCHAR columns to correct numeric or date types), and basic cleaning operations. The staging layer also includes specialized sub-layers: `_dedup` for tables with known duplicate records, and `_unpivot` for wide-format datasets where years are represented as columns (e.g., trade matrix, commodity prices) that need to be converted to long analytical format.
-
-### Intermediate Layer
-
-The intermediate layer contains 73 reusable transformation models that prevent duplicated logic across the mart layer. These models handle complex joins across multiple staging models (e.g., joining production data with population data for per-capita calculations), shared data reshaping operations, and preparation logic that multiple downstream marts depend on. Intermediate models are not organized around business questions — they exist as technical building blocks.
-
-### Mart Layer
-
-The mart layer contains 76 business-oriented analytical models organized around the platform's core domains and supporting subject areas:
-
-| Domain | Sub-Directory | Key Models |
-|---|---|---|
-| Food Security | `marts/food_security` | `fact_food_security__data`, `fact_food_security__foodbalancesheets` |
-| Production | `marts/production` | `fact_production__crops_livestock`, `fact_production__indices` |
-| Land Resources | `marts/land_resources` | `fact_land_resources__inputs_fertilizersnutrient`, `fact_land_resources__environment_pesticides` |
-| Trade | `marts/trade` | `fact_trade__trade`, `fact_trade__matrix` |
-| Prices | `marts/prices` | `fact_prices__consumerpriceindices`, `fact_prices__rate` |
-| Commodity Prices | `marts/commodity_prices` | `dim_commodity_prices__prices`, `dim_commodity_prices__indices` |
-| Weather | `marts/weather` | `dim_weather` |
-| Disasters | `marts/disasters` | `dim_disasters` |
-| Socioeconomic | `marts/socioeconomic` | `fact_socioeconomic__population`, `fact_socioeconomic__indicators` |
-| Country Reference | `marts/country_reference` | `dim_country_reference` |
-
-Mart models are the "analysis-ready" version of the data — joined, filtered, and organized around business entities such as country, year, commodity, and indicator.
-
-### Reporting Layer
-
-The reporting layer produces 16 dashboard-ready KPI tables that Power BI consumes. These tables are pre-aggregated, lightweight datasets (max ~4,400 rows each) containing exactly the data needed for each dashboard visual:
-
-| Domain | Reporting Models |
-|---|---|
-| Food Security | `kpi_food_security_adequacy_ratio`, `kpi_food_security_below_threshold`, `kpi_food_security_risk_trend`, `kpi_food_security_undernourishment` |
-| Productivity | `kpi_productivity_wheat_yield`, `kpi_productivity_yield_trend`, `kpi_productivity_fertilizer_intensity`, `kpi_productivity_pesticide_intensity` |
-| Trade | `kpi_trade_import_dependency`, `kpi_trade_export_concentration`, `kpi_trade_import_diversification`, `kpi_trade_dependency_trend` |
-| Commodity | `kpi_prices_volatility`, `kpi_prices_index`, `kpi_prices_cpi_passthrough`, `kpi_prices_fx_effect` |
-
-All KPI calculations, aggregations, rankings, and trend computations are performed in dbt before reaching Power BI. The dashboard's role is strictly visualization and interaction — not computation.
+**5. Price volatility spikes line up exactly with the crises you'd expect.**
+Wheat price volatility peaked at 11.8% in 2010, with a second spike during the 2007–2008 global food price crisis (9.0–9.7%) — useful reference points for stress-testing buy/sell and price-intervention timing.
 
 ---
 
-## Data Quality
+## So What Should the Business Actually Do?
 
-Data quality validation is implemented at two distinct layers using different mechanisms appropriate to each.
-
-### Raw Layer Validation
-
-Python audit scripts run against the DuckDB `raw` schema after ingestion, before any transformation begins:
-
-| Check | Description |
-|---|---|
-| Row count validation | Confirms each table has expected record volumes |
-| Duplicate detection | Identifies fully or partially duplicated rows |
-| Null analysis | Measures columns with NULL values and their prevalence |
-| Profiling statistics | Captures column counts, data types, and distribution characteristics |
-| Outlier detection | Flags numeric columns with statistically unusual values |
-| Constant column detection | Flags columns where every value is identical |
-
-**Current status:** 366 of 369 raw tables passed their latest quality run (99.2% pass rate). 3 tables failed due to duplicate rows in reference tables (`foodbalancesheets_areacodes`, `foodbalancesheetshistoric_areacodes`, `forestry_trade_flows_areacodes`). These failures are documented and handled through dedicated cleaning models where required.
-
-### Transformation Layer Validation
-
-dbt tests are applied at every transformation layer — staging, intermediate, and marts:
-
-| Test Type | What It Validates |
-|---|---|
-| `not_null` | Critical columns (area_code, year, item_code) contain no NULLs |
-| `unique` | Primary key columns have no duplicate values |
-| `relationships` | Foreign key relationships between fact and dimension tables are valid |
-| `accepted_values` | Categorical columns contain only expected values |
-| `dbt_utils.accepted_range` | Numeric values fall within expected ranges |
-
-### Reporting Layer Validation
-
-KPI notebooks validate that reporting models produce correct results by confirming item/element string matches and expected year coverage, raising explicit errors if required data returns zero rows, logging row counts and distinct-country counts at each step, and spot-checking aggregations against manual calculations.
+1. **Prioritize food-assistance monitoring for Syria, Venezuela, Egypt, and Nigeria.** These show the clearest downward food-security trend in the dataset, even where absolute levels remain above the minimum threshold.
+2. **Target productivity investment at stability, not just inputs.** The clearest yield gains came from countries undergoing agricultural modernization or post-conflict recovery — policy continuity and infrastructure investment may deliver returns as large as fertilizer or pesticide access alone.
+3. **Flag single-partner trade exposure as a diversification priority.** Countries with one dominant export or import partner should be first in line for supplier or market diversification support.
+4. **Treat fertilizer cost trends as an early-warning signal for productivity policy.** Since fertilizer prices are outpacing food and agriculture prices overall, rising input costs are a leading risk factor specifically for producers in lower-income countries.
+5. **Use 2007–2008 and 2010 as reference case studies** when stress-testing buy/sell and government price-intervention strategies — these are the clearest historical examples of extreme volatility in the dataset.
 
 ---
 
-## Dashboard Preview
+## A Note on Open Items
 
-The Power BI dashboard contains 5 analytical pages:
+Two things surfaced during documentation review that haven't been fully reconciled yet:
 
-### 01 — Executive Overview
-![Executive Overview](dashboard/images/01_overview.png)
+- **Wheat productivity country coverage** is cited as 159 countries in one document but the actual reporting tables suggest a country count closer to 121–124. Worth confirming against the source notebook before quoting either figure externally.
+- **Country Benchmarking** appears as a planned module in early scoping but doesn't currently have a corresponding Power BI dashboard page. Status (cut vs. pending) is still unconfirmed.
 
-### 02 — Food Security
-![Food Security](dashboard/images/02_food_security.png)
-
-### 03 — Agricultural Productivity
-![Agricultural Productivity](dashboard/images/03_agricultural_productivity.png)
-
-### 04 — Trade Intelligence
-![Trade Intelligence](dashboard/images/04_trade_intelligence.png)
-
-### 05 — Commodity Prices
-![Commodity Prices](dashboard/images/05_commodity_prices.png)
-
-Dashboard documentation:
-`docs/05_powerbi_explanation.md`
+Neither affects the core findings above, but both are worth resolving before presenting specific numbers in an interview or portfolio walkthrough.
 
 ---
 
-## Power BI Architecture
+## See It for Yourself
 
-Power BI does **not** directly connect to raw data, DuckDB analytical tables, or any dbt staging/intermediate/mart model. It connects exclusively to a dedicated PostgreSQL serving database.
-
-```
-dbt Reporting Models (16 KPI Tables)
-        ↓
-    make export (DuckDB → PostgreSQL)
-        ↓
-    PostgreSQL reporting schema
-        ↓
-    Power BI Import Mode
-```
-
-**Why this separation matters:**
-
-- **Better dashboard performance** — Reporting tables are pre-aggregated, lightweight datasets that Power BI can load quickly. No heavy analytical queries run at dashboard refresh time.
-- **Centralized business logic** — All KPI calculations live in dbt, version-controlled in the codebase. Power BI's role is strictly visualization, preventing inconsistent metric definitions across visuals.
-- **Stable BI serving layer** — PostgreSQL provides a fixed contract between the analytical platform and the BI layer. The reporting schema only changes when dbt reporting models are intentionally updated.
-- **Separation of analytics and visualization** — The analytical engine (DuckDB + dbt) and the visualization tool (Power BI) are fully independent. Changes to analytical logic do not require dashboard modifications, and vice versa.
+📊 **5-page Power BI dashboard** — Overview, Food Security, Agricultural Productivity, Trade Intelligence, Commodity Market Analysis. Powered entirely by pre-aggregated PostgreSQL reporting tables — no computation happens inside Power BI itself.
 
 ---
 
-## Notebook Architecture
+## Quick Start
 
-Jupyter notebooks serve as an exploratory and validation layer — they are **not** part of the production pipeline and do not directly feed Power BI.
-
-### Exploration Notebooks (01–05)
-
-Used after raw data preparation to understand dataset structures, available indicators, data coverage, quality issues, and initial relationships between variables.
-
-| Notebook | Purpose |
-|---|---|
-| `01_dataset_metadata_review` | Review auto-generated metadata for all raw tables |
-| `02_data_quality_review` | Analyze data quality check results |
-| `03_data_profiling_review` | Review profiling statistics and outlier detection |
-| `04_raw_data_exploration` | Direct exploration of raw datasets |
-| `05_data_cleaning_plan` | Document cleaning requirements for staging |
-
-### Analysis Notebooks (11–42)
-
-Used with dbt analytical models to validate business metrics, investigate KPIs, and prepare insights for the Business Insights Report.
-
-| Notebook | Purpose |
-|---|---|
-| `11_food_security_analysis` | Food security business question investigation |
-| `12_food_security_analysis_kpi` | Food security KPI calculation and validation |
-| `21_productivity_analysis` | Agricultural productivity investigation |
-| `22_productivity_analysis_kpi` | Productivity KPI validation |
-| `31_trade_intelligence_analysis` | Trade intelligence investigation |
-| `32_trade_intelligence_analysis_kpi` | Trade KPI validation |
-| `41_commodity_market_analysis` | Commodity market investigation |
-| `42_commodity_market_analysis_kpi` | Commodity KPI validation |
-
-Validated analytical logic from notebooks is translated into dbt reporting models where required for production reporting. for production use, ensuring reproducibility and consistency.
-
----
-
-## Technology Stack
-
-| Layer | Technology | Why |
-|---|---|---|
-| Analytical Database | DuckDB | Serverless columnar engine with native Parquet support; zero-configuration embedded execution ideal for analytical workloads at this scale |
-| Transformation | dbt Core + dbt-duckdb | Version-controlled, testable SQL transformations with automatic DAG dependency management; dbt-duckdb adapter for direct DuckDB execution |
-| Programming | Python | Data acquisition, ingestion, quality checks, profiling, and model generation scripts |
-| Data Processing | Parquet | Columnar storage with better compression and faster analytical reads than CSV/Excel |
-| Serving Database | PostgreSQL | Production-grade serving layer that decouples Power BI from the analytical engine; native Power BI connector support |
-| Visualization | Power BI | Pre-aggregated Import mode dashboard with 5 pages covering all four business domains |
-| Pipeline Execution | Makefile | Declarative, dependency-aware command orchestration with clear documentation of all pipeline steps |
-| Analysis | Jupyter Notebook | Exploratory analysis and KPI validation during development; not part of production pipeline |
-
----
-
-## Repository Structure
-
-```
-global-agricultural-market-intelligence-pvt/
-├── data/
-│   └── raw/                              # Source data files (CSV, Excel)
-├── src/
-│   ├── ingest/                           # Data ingestion loaders (FAOSTAT, NASA, EM-DAT, etc.)
-│   ├── data_quality/                     # Raw data quality checking
-│   │   └── checks/                       # Individual check modules (duplicates, missing, schema, values)
-│   ├── profiling/                        # Raw data profiling
-│   │   └── checks/                       # Profiling modules (categorical, correlations, distributions, outliers, statistics)
-│   ├── export/                           # PostgreSQL export logic
-│   ├── extract/                          # External data download (NASA POWER)
-│   ├── generate/                         # Data generation (holiday calendars)
-│   ├── audit/                            # Audit and cleanup management
-│   ├── database/                         # DuckDB connection and discovery
-│   ├── tests/                            # Connection and integration tests
-│   └── utils/                            # Utility scripts (Parquet conversion, model generators, metadata)
-├── dbt/
-│   └── agriculture/
-│       └── models/
-│           ├── staging/                  # 350 staging models
-│           ├── intermediate/             # 73 intermediate models
-│           ├── marts/                    # 76 mart models (domain sub-directories)
-│           └── reporting/                # 16 KPI reporting models
-├── notebook/                             # Jupyter notebooks (exploration + analysis)
-├── dashboards/                           # Power BI dashboard files
-├── docs/                                 # Project documentation (7 files)
-├── metadata/
-│   ├── auto_metadata/                    # Auto-generated table metadata (JSON)
-│   ├── data_dictionary/                  # Auto-generated data dictionary (Markdown)
-│   └── manual_metadata/                  # Manually maintained metadata
-├── logs/
-│   └── raw/
-│       ├── data_quality/                 # Quality check results (JSON)
-│       └── profiling/                    # Profiling results (JSON)
-├── Makefile                              # Pipeline orchestration
-├── environment.yml                       # Conda environment specification
-└── requirements.txt                      # Python package dependencies
-```
-
----
-
-## Documentation
-
-| Document | Purpose |
-|---|---|
-| [01_architecture_report.md](docs/01_architecture_report.md) | Complete technical architecture explanation |
-| [02_data_dictionary.md](docs/02_data_dictionary.md) | Auto-generated documentation covering raw tables and transformed models |
-| [03_data_quality_report.md](docs/03_data_quality_report.md) | Raw data quality validation results and recommendations |
-| [04_data_pipeline_workflow.md](docs/04_data_pipeline_workflow.md) | Step-by-step pipeline execution workflow |
-| [05_powerbi_explanation.md](docs/05_powerbi_explanation.md) | Power BI dashboard architecture, KPI definitions, and page descriptions |
-| [06_business_insights_report.md](docs/06_business_insights_report.md) | Business findings and recommendations across all four domains |
-| [07_analysis_assumptions_and_limitations.md](docs/07_analysis_assumptions_and_limitations.md) | Data limitations, known issues, and validation methodology |
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.11
-- Conda (Miniconda or Anaconda)
-- PostgreSQL (for BI serving layer)
-- Power BI Desktop (for dashboard)
-- dbt Core 1.8.0
-
-### Environment Setup
+**Prerequisites:** Python 3.11, Conda (Miniconda or Anaconda), PostgreSQL, Power BI Desktop, dbt Core 1.8.0
 
 ```bash
 # Clone the repository
@@ -415,117 +118,68 @@ conda activate global-agricultural-market-intelligence
 pip install -r requirements.txt
 ```
 
-### Pipeline Execution
-
-```bash
-# 1. Place source data files in data/raw/
-
-# 2. Generate additional datasets
-make generate-holidays
-make download-weather
-
-# 3. Convert source files to Parquet
-make convert
-
-# 4. Ingest into DuckDB
-make ingest
-
-# 5. Generate raw metadata and validate quality
-make auto-metadata
-make quality-checks-raw
-make profiling-raw
-
-# 6. Generate dbt models
-generate_all_staging_models
-make generate-dedup-models TABLES="foodbalancesheets_areacodes foodbalancesheetshistoric_areacodes forestry_trade_flows_areacodes"
-generate_unpivot_models
-make generate-sources-yml
-
-# 7. Configure dbt profile
-# Update ~/.dbt/profiles.yml with your DuckDB connection settings
-
-# 8. Run dbt transformations
-dbt deps
-dbt run
-dbt test
-
-# 9. Generate intermediate models
-make generate-intermediate-models
-
-# 10. Run dbt layer by layer
-dbt run --select staging
-dbt test --select staging
-dbt run --select intermediate
-dbt test --select intermediate
-dbt run --select marts
-dbt test --select marts
-dbt run --select reporting
-
-# 11. Export reporting tables to PostgreSQL
-make export
-
-# 12. Connect Power BI to PostgreSQL reporting schema
-```
-
-### Power BI Connection
-
-1. Install the [PostgreSQL ODBC connector](https://www.postgresql.org/ftp/odbc/versions/msi/)
-2. In Power BI Desktop: **Get Data → PostgreSQL database**
-3. Set server to `localhost:5432`, select **Import** mode
-4. Load all 16 tables from the `reporting` schema
+From there, the pipeline runs through a sequence of `make` and `dbt` commands — see [`docs/04_data_pipeline_workflow.md`](docs/04_data_pipeline_workflow.md) for the full step-by-step execution order, from raw ingestion through to the PostgreSQL export that feeds Power BI.
 
 ---
 
 ## Skills Demonstrated
 
-| Skill | How This Project Demonstrates It |
-|---|---|
-| End-to-end analytics engineering | Full pipeline from raw CSV ingestion to Power BI dashboard delivery |
-| DuckDB analytical architecture | 369-table raw schema, multi-layer transformation, audit schema for quality tracking |
-| Data quality engineering | Multi-layer validation: Python audit scripts for raw data, dbt tests for transformations, notebook validation for KPIs |
-| Metadata automation | Auto-generated metadata, data dictionary, and quality reports from DuckDB schema inspection |
-| KPI engineering | 16 business KPIs computed in dbt, validated in notebooks, served through PostgreSQL |
-| BI serving architecture | Dedicated PostgreSQL serving layer that decouples Power BI from the analytical engine |
-| Business analytics | Four business domains with decision-support KPIs, trend analysis, and country-level rankings |
-| dbt transformation modeling | 515 SQL models organized across staging, intermediate, marts, and reporting layers with testing and dependency management |
+| Skill                            | How This Project Demonstrates It                                                                                          |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| End-to-end analytics engineering | Full pipeline from raw CSV ingestion to Power BI dashboard delivery                                                       |
+| DuckDB analytical architecture   | 369-table raw schema, multi-layer transformation, audit schema for quality tracking                                       |
+| Data quality engineering         | Multi-layer validation: Python audit scripts for raw data, dbt tests for transformations, notebook validation for KPIs    |
+| Metadata automation              | Auto-generated metadata, data dictionary, and quality reports from DuckDB schema inspection                               |
+| KPI engineering                  | 16 business KPIs computed in dbt, validated in notebooks, served through PostgreSQL                                       |
+| BI serving architecture          | Dedicated PostgreSQL serving layer that decouples Power BI from the analytical engine                                     |
+| Business analytics               | Four business domains with decision-support KPIs, trend analysis, and country-level rankings                              |
+| dbt transformation modeling      | 515 SQL models organized across staging, intermediate, marts, and reporting layers with testing and dependency management |
 
 ---
 
 ## Lessons Learned
 
-**Separating the analytical and BI layers is worth the extra step.** Initially, connecting Power BI directly to DuckDB seemed simpler. In practice, exporting reporting tables to PostgreSQL provided a stable, predictable serving layer that insulated the dashboard from analytical schema changes and eliminated performance concerns during dashboard refresh. The PostgreSQL `reporting` schema acts as a fixed contract between the data platform and the BI layer.
+**Separating the analytical and BI layers is worth the extra step.** Initially, connecting Power BI directly to DuckDB seemed simpler. In practice, exporting reporting tables to PostgreSQL provided a stable, predictable serving layer that insulated the dashboard from analytical schema changes and eliminated performance concerns during dashboard refresh.
 
-**KPI logic is better maintained in dbt rather than embedded only in Power BI.** Early in the project, some metric calculations were prototyped as DAX measures inside Power BI. This made them invisible to version control, untestable, and difficult to debug. Moving all KPI logic into dbt reporting models meant every metric was version-controlled, testable, and independently auditable. Power BI's role became strictly visualization — any metric shown on the dashboard is traceable to a specific dbt model.
+**KPI logic is better maintained in dbt rather than embedded only in Power BI.** Early in the project, some metric calculations were prototyped as DAX measures inside Power BI. This made them invisible to version control, untestable, and difficult to debug. Moving all KPI logic into dbt reporting models meant every metric was version-controlled, testable, and independently auditable.
 
-**Automated metadata generation scales where manual documentation cannot.** With 369 raw tables and 515 dbt models, maintaining a data dictionary by hand is impractical. The `make auto-metadata` command generates metadata directly from the DuckDB schema, and the data dictionary is produced programmatically from that metadata. This ensures documentation stays in sync with the actual database state, even as tables are added or modified.
+**Automated metadata generation scales where manual documentation cannot.** With 369 raw tables and 515 dbt models, maintaining a data dictionary by hand is impractical. The `make auto-metadata` command generates metadata directly from the DuckDB schema, keeping documentation in sync with the actual database state as tables are added or modified.
 
-**Validation before consumption prevents downstream errors from compounding.** The multi-layer validation approach (raw quality checks → dbt staging tests → intermediate tests → mart tests → KPI notebook validation) catches issues early. The 3 duplicate-row failures detected in raw reference tables were caught before they could propagate into staging models, and the KPI notebooks' guard checks prevent silent failures where a required item/element combination returns zero rows.
+**Validation before consumption prevents downstream errors from compounding.** The multi-layer validation approach (raw quality checks → dbt staging tests → intermediate tests → mart tests → KPI notebook validation) catches issues early. The 3 duplicate-row failures in raw reference tables were caught before they could propagate into staging models.
 
 **Wide-format source data requires early unpivoting.** Several FAOSTAT datasets provide years as columns (Y2001, Y2002, ...), which is incompatible with analytical queries and joins. Handling this in a dedicated `_unpivot` staging sub-layer, rather than in each downstream model individually, kept the transformation logic clean and prevented duplicated unpivot operations across the mart layer.
 
 ---
 
-## Data Sources
+## Project Documentation
 
-| Source | Data Type | Access |
-|---|---|---|
-| FAOSTAT | Agricultural production, trade, food balance, land use, emissions, prices | Web download |
-| NASA POWER | Rainfall and temperature time series | API (no key required) |
-| World Bank Pink Sheet | Commodity and fuel prices | Excel download |
-| EM-DAT | Natural disaster records | Bulk export (registration required) |
+This README tells the business story. The complete technical process and supporting evidence are documented below.
+
+| Document                                                                              | What's Inside                                                                      |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Requirements & Scope](docs/00_requirements.md)                                       | Stakeholder problem, business questions, and finalized project scope               |
+| [Architecture Report](docs/01_architecture_report.md)                                 | Full technical architecture, data layers, dbt design, and pipeline execution       |
+| [Data Dictionary](docs/02_data_dictionary.md)                                         | Column-level definitions for all raw and transformed tables                        |
+| [Data Quality Report](docs/03_data_quality_report.md)                                 | Raw-layer validation results, profiling, and known issues                          |
+| [Pipeline Workflow](docs/04_data_pipeline_workflow.md)                                | Step-by-step execution workflow, command by command                                |
+| [Power BI Explanation](docs/05_powerbi_explanation.md)                                | Dashboard architecture, KPI definitions, and page-by-page detail                   |
+| [Business Insights Report](docs/06_business_insights_report.md)                       | Full findings and recommendations across all four domains                          |
+| [Analysis Assumptions & Limitations](docs/07_analysis_assumptions_and_limitations.md) | KPI-level assumptions, known data issues, and validation methodology               |
+| [Scope Trimming Notes](docs/08_scope_notes.md)                                        | Historical record of the original 8-problem/11-module scope and why it was trimmed |
+| [Technical Overview](docs/09_technical_overview.md)                                   | Quick-reference technical summary, skills demonstrated, and lessons learned        |
 
 ---
 
-## License
+## Business Value
 
-This project is for educational and portfolio demonstration purposes. Data sourced from FAOSTAT, NASA, the World Bank, and EM-DAT is subject to their respective terms of use.
+This project demonstrates an end-to-end analytics engineering workflow:
+
+**Business Problem → Requirements → Layered Data Validation → dbt Transformation → KPI Engineering → BI Delivery → Documented Findings**
+
+Rather than treating this as a dashboard exercise, the platform is built around answering a practical policy and market question:
+
+> _Which countries are moving toward risk, and where should attention and resources go next?_
 
 ---
 
-## Full Project Availability
-
-This repository showcases the core architecture, methodology, and selected outputs of the project.
-
-The complete implementation is maintained in a private repository because it contains proprietary work, large datasets, or materials that cannot be shared publicly.
-
-Recruiters and hiring managers interested in reviewing the full project may contact me via LinkedIn or email to arrange access or a walkthrough.
+_Built as a portfolio project simulating a real agricultural intelligence and policy-analytics engagement — from stakeholder problem definition through data validation, dimensional modeling, KPI engineering, and data-backed recommendations._

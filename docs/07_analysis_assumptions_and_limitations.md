@@ -1,8 +1,8 @@
-# Data Quality Report
+# Analysis Assumptions and Limitations
 
 **Project:** Global Agricultural Market Intelligence Platform
 **Scope:** 2001–2020, `marts` schema (DuckDB), FAOSTAT-derived data
-**Companion document to:** `business_insights_report.md`
+**Companion document to:** [`06_business_insights_report.md`](06_business_insights_report.md)
 
 This document records data limitations, known issues, validation checks, and assumptions underlying the KPIs used in the Business Insights Report. It is intended for analysts, data engineers, and anyone extending or maintaining this analysis — not for a business stakeholder audience.
 
@@ -27,7 +27,7 @@ No single FAOSTAT indicator is both a direct hunger measure *and* has full 2001�
 
 ### Agricultural Productivity
 
-KPIs are built on a single representative crop, **Wheat**, chosen for full 2001–2020 coverage across 159 countries. Extending to other crops or an all-crop aggregate is a straightforward follow-up (same query pattern, different `item` filter) but was not done in this deliverable.
+KPIs are built on a single representative crop, **Wheat**, chosen for full 2001–2020 coverage. **Note:** this document states 159 countries, but the `kpi_productivity_yield_trend` reporting table contains 121 rows (one per country) and `kpi_productivity_wheat_yield` (2,481 rows / 20 years ≈ 124 countries) both suggest a country count closer to 121–124. This discrepancy has not been reconciled — confirm the true count against the source notebook before quoting either figure externally. Extending to other crops or an all-crop aggregate is a straightforward follow-up (same query pattern, different `item` filter) but was not done in this deliverable.
 
 FAOSTAT's raw `Yield` element is commonly reported in hectograms per hectare (hg/ha), not tonnes/ha directly. This has not yet been confirmed against the `unit` column in `marts` — a raw hg/ha value divided by 10,000 gives tonnes/ha, and mislabeling the axis in a dashboard would mislead a policy audience. **Action item: confirm unit before this reaches Power BI.**
 
